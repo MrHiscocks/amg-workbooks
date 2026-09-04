@@ -1,0 +1,3 @@
+A01,Climbing,12.00,8
+A02,Kayaking,18.50,6
+A03,Coding Club,7.00,20
