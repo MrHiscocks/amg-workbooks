@@ -1,2 +1,4 @@
-# amg-workbooks
-ICT &amp; CS Department HTML Workbooks &amp; Exercises
+# AMG Workbooks
+
+ICT and Computer Science HTML workbooks and exercises.
+
