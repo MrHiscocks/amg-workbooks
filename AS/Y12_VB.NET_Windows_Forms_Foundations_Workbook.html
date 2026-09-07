@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Y12 VB.NET Windows Forms Foundations Workbook</title>
+<style>
+  :root{
+    --bg:#0b1220;
+    --panel:#111a2e;
+    --panel2:#17233b;
+    --ink:#eef4ff;
+    --muted:#aebbd1;
+    --accent:#57d3c5;
+    --accent2:#8fb5ff;
+    --warn:#f3c969;
+    --good:#7fe1a0;
+    --danger:#ff9a9a;
+    --paper:#f7f9fc;
+    --paperink:#182233;
+    --line:#2a3a58;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0;
+    font-family:Inter,Segoe UI,Arial,sans-serif;
+    background:linear-gradient(180deg,#08101d 0%,#0d1627 100%);
+    color:var(--ink);
+    line-height:1.55;
+  }
+  .topbar{
+    position:sticky;top:0;z-index:30;
+    display:flex;align-items:center;justify-content:space-between;
+    padding:10px 18px;
+    background:rgba(8,16,29,.94);
+    border-bottom:1px solid var(--line);
+    backdrop-filter:blur(10px);
+  }
+  .brand{font-weight:800;letter-spacing:.2px}
+  .brand span{color:var(--accent)}
+  .save-state{font-size:.9rem;color:var(--muted)}
+  .save-state strong{color:var(--warn)}
+  .top-actions{display:flex;gap:8px;align-items:center}
+  button,.btn{
+    border:0;border-radius:10px;padding:9px 13px;
+    font-weight:700;cursor:pointer;
+    background:var(--accent);color:#071317;
+  }
+  button.secondary,.btn.secondary{background:#23314d;color:var(--ink)}
+  button.ghost{background:transparent;border:1px solid var(--line);color:var(--ink)}
+  .layout{display:grid;grid-template-columns:270px 1fr;min-height:100vh}
+  aside{
+    position:sticky;top:58px;height:calc(100vh - 58px);
+    padding:22px 18px;border-right:1px solid var(--line);
+    background:#0a1322;overflow:auto;
+  }
+  .nav-title{font-size:.78rem;text-transform:uppercase;letter-spacing:1.6px;color:var(--muted);margin-bottom:10px}
+  .nav a{
+    display:block;color:#dce7fb;text-decoration:none;padding:9px 10px;border-radius:8px;margin:4px 0;
+  }
+  .nav a:hover{background:#17233b}
+  .progress-wrap{margin-top:22px}
+  .progressbar{height:8px;background:#1c2940;border-radius:99px;overflow:hidden}
+  .progressbar > div{height:100%;width:0;background:var(--accent)}
+  .progress-text{font-size:.82rem;color:var(--muted);margin-top:7px}
+  main{max-width:1080px;width:100%;margin:0 auto;padding:34px 40px 80px}
+  .hero{
+    border:1px solid var(--line);
+    background:
+      radial-gradient(circle at 85% 15%,rgba(87,211,197,.18),transparent 26%),
+      linear-gradient(135deg,#111b30,#0e1729);
+    border-radius:22px;padding:42px;margin-bottom:28px;overflow:hidden;position:relative;
+  }
+  .eyebrow{color:var(--accent);font-weight:800;text-transform:uppercase;letter-spacing:1.4px;font-size:.78rem}
+  h1{font-size:clamp(2rem,5vw,4rem);line-height:1.02;margin:9px 0 16px;max-width:780px}
+  .hero p{max-width:760px;color:#c2cee1;font-size:1.08rem}
+  .pill-row{display:flex;gap:9px;flex-wrap:wrap;margin-top:18px}
+  .pill{background:#1a2740;border:1px solid #31466a;color:#dfe8f8;border-radius:999px;padding:7px 11px;font-size:.86rem}
+  section{
+    background:rgba(17,26,46,.82);
+    border:1px solid var(--line);
+    border-radius:18px;padding:30px;margin:24px 0;
+  }
+  h2{font-size:1.8rem;margin:0 0 8px}
+  h3{font-size:1.2rem;margin:24px 0 8px;color:#f1f6ff}
+  p.lead{color:#c4d0e3;margin-top:4px}
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  .card{
+    background:#0d1728;border:1px solid #263854;border-radius:14px;padding:18px;
+  }
+  .card h3{margin-top:0}
+  .objective{border-left:4px solid var(--accent);padding-left:16px}
+  .checklist label{display:flex;gap:10px;align-items:flex-start;margin:8px 0}
+  .checklist input{margin-top:5px;transform:scale(1.15)}
+  .code{
+    position:relative;
+    background:#07101b;border:1px solid #263854;border-radius:12px;
+    padding:17px 18px 16px;margin:12px 0;color:#e9f4ff;
+    font-family:Consolas,Monaco,monospace;font-size:.94rem;white-space:pre-wrap;
+  }
+  .code .kw{color:#8fb5ff}.code .str{color:#7fe1a0}.code .com{color:#8393ab}
+  .code-label{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:.72rem;text-transform:uppercase;letter-spacing:1.2px;color:#8da0bd;margin-bottom:7px}
+  .task{
+    background:linear-gradient(180deg,#f8fbff,#f2f6fb);
+    color:var(--paperink);
+    border-radius:14px;padding:20px;margin:15px 0;border:1px solid #d9e1ec;
+  }
+  .task h3{margin:0 0 8px;color:#172133}
+  .task .tag{
+    display:inline-block;background:#e6edf7;color:#34445f;border-radius:999px;
+    font-size:.75rem;font-weight:800;padding:4px 8px;margin-bottom:9px;text-transform:uppercase;
+  }
+  .task ol,.task ul{padding-left:22px}
+  textarea,input[type=text]{
+    width:100%;border:1px solid #b9c6d8;border-radius:9px;background:white;color:#1a2535;
+    font:inherit;padding:10px 11px;margin-top:8px;
+  }
+  textarea.codebox{font-family:Consolas,monospace;min-height:170px;line-height:1.45}
+  .short{min-height:88px}
+  .trace-table{width:100%;border-collapse:collapse;margin:10px 0;background:white;color:#1f2a3a}
+  .trace-table th,.trace-table td{border:1px solid #cbd5e3;padding:8px;text-align:left}
+  .trace-table input{margin:0;border:0;border-radius:0;padding:5px;background:#f9fbfd}
+  details{
+    margin:12px 0;border:1px solid #d3dceb;border-radius:10px;background:#fff;
+  }
+  summary{cursor:pointer;font-weight:800;padding:11px 13px;color:#25344b}
+  details > div{padding:0 13px 13px;color:#2a394e}
+  .concept{
+    display:grid;grid-template-columns:50px 1fr;gap:14px;align-items:start;margin:15px 0;
+  }
+  .concept .num{
+    width:44px;height:44px;border-radius:12px;background:#19314a;color:var(--accent);
+    display:grid;place-items:center;font-weight:900;font-size:1.15rem;
+  }
+  .callout{border:1px solid #344a6e;background:#101e34;border-radius:12px;padding:15px;margin:14px 0}
+  .callout strong{color:var(--accent)}
+  .challenge{border-color:#715f2b;background:linear-gradient(180deg,#2a2314,#191811)}
+  .challenge h2{color:#ffe6a3}
+  .challenge .task{background:#fffaf0;border-color:#ead7a2}
+  .mini-badge{display:inline-block;margin-right:6px;padding:4px 8px;border-radius:7px;background:#21324f;color:#dce7f8;font-size:.78rem}
+  .footer{text-align:center;color:#8fa0ba;font-size:.85rem;margin-top:30px}
+  .print-note{display:none}
+  @media (max-width:900px){
+    .layout{grid-template-columns:1fr}
+    aside{display:none}
+    main{padding:22px 14px 60px}
+    .grid2{grid-template-columns:1fr}
+    .hero{padding:28px}
+  }
+  @media print{
+    body{background:white;color:#111}
+    .topbar,aside,.no-print{display:none!important}
+    .layout{display:block}
+    main{max-width:none;padding:0}
+    .hero,section{break-inside:avoid;background:white;color:#111;border:1px solid #bbb}
+    .hero p,.lead{color:#333!important}
+    .code{background:#f5f5f5;color:#111;border:1px solid #ccc}
+    .task{break-inside:avoid}
+    textarea,input[type=text]{border:1px solid #999}
+    .print-note{display:block}
+  }
+</style>
+</head>
+<body>
+<div class="topbar">
+  <div class="brand">Y12 <span>VB.NET</span> Windows Forms</div>
+  <div class="top-actions">
+    <div class="save-state" id="saveState">Changes <strong>not saved</strong></div>
+    <button class="secondary" onclick="saveWork()">Save progress</button>
+    <button class="ghost" onclick="window.print()">Print / PDF</button>
+  </div>
+</div>
+
+<div class="layout">
+  <aside>
+    <div class="nav-title">Workbook map</div>
+    <nav class="nav">
+      <a href="#start">Start here</a>
+      <a href="#workflow">1. Programming workflow</a>
+      <a href="#variables">2. Variables & values</a>
+      <a href="#inputoutput">3. Forms input & output</a>
+      <a href="#selection">4. Selection</a>
+      <a href="#iteration">5. Iteration</a>
+      <a href="#combine">6. Putting it together</a>
+      <a href="#challenge">Final challenge</a>
+      <a href="#review">Review</a>
+    </nav>
+    <div class="progress-wrap">
+      <div class="nav-title">Task progress</div>
+      <div class="progressbar"><div id="progressFill"></div></div>
+      <div class="progress-text" id="progressText">0% complete</div>
+    </div>
+  </aside>
+
+  <main>
+    <div class="hero" id="start">
+      <div class="eyebrow">A Level Computer Science • VB.NET Windows Forms</div>
+      <h1>VB.NET Forms: from user input to useful output</h1>
+      <p>This workbook focuses on the programming pattern you will use repeatedly in Windows Forms applications: declare variables, assign values from interface controls, process or calculate those values, then display the result.</p>
+      <div class="pill-row">
+        <span class="pill">TextBox input</span>
+        <span class="pill">Variables</span>
+        <span class="pill">Processing</span>
+        <span class="pill">Labels & MessageBoxes</span>
+        <span class="pill">Selection</span>
+        <span class="pill">Iteration</span>
+      </div>
+    </div>
+
+    <section>
+      <h2>Before you begin</h2>
+      <div class="grid2">
+        <div class="card objective">
+          <h3>By the end, you should be able to</h3>
+          <div class="checklist">
+            <label><input type="checkbox" class="taskcheck"> declare suitable variables using <code>Dim</code>.</label>
+            <label><input type="checkbox" class="taskcheck"> assign values from form controls such as <code>TextBox</code> and <code>NumericUpDown</code>.</label>
+            <label><input type="checkbox" class="taskcheck"> process values using arithmetic and expressions.</label>
+            <label><input type="checkbox" class="taskcheck"> display results using labels, textboxes and message boxes.</label>
+            <label><input type="checkbox" class="taskcheck"> use selection and iteration inside button click events.</label>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Think in events</h3>
+          <p>In a Forms application, code usually runs because something happens. Most of the examples in this workbook sit inside a button's <code>Click</code> event.</p>
+          <div class="callout"><strong>Typical pattern:</strong> the user enters data → clicks a button → your code runs → the form displays a result.</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="workflow">
+      <div class="eyebrow">1 • Core programming workflow</div>
+      <h2>Declare → assign → process → output</h2>
+      <p class="lead">This is the main pattern to recognise and practise. Most small programs can be broken down into these four stages.</p>
+
+      <div class="concept">
+        <div class="num">1</div>
+        <div><strong>Declare variables</strong><br>Create named storage locations with suitable data types.</div>
+      </div>
+      <div class="concept">
+        <div class="num">2</div>
+        <div><strong>Assign values</strong><br>Read values from form controls and store them in variables.</div>
+      </div>
+      <div class="concept">
+        <div class="num">3</div>
+        <div><strong>Process</strong><br>Use arithmetic, expressions, selection or loops to manipulate the data.</div>
+      </div>
+      <div class="concept">
+        <div class="num">4</div>
+        <div><strong>Output</strong><br>Display the result using a label, textbox or message box.</div>
+      </div>
+
+      <div class="code"><div class="code-label">Worked example • btnCalculate_Click</div><span class="kw">Private Sub</span> btnCalculate_Click(sender <span class="kw">As Object</span>, e <span class="kw">As EventArgs</span>) <span class="kw">Handles</span> btnCalculate.Click
+
+    <span class="com">' 1. Declare variables</span>
+    <span class="kw">Dim</span> price <span class="kw">As Double</span>
+    <span class="kw">Dim</span> quantity <span class="kw">As Integer</span>
+    <span class="kw">Dim</span> total <span class="kw">As Double</span>
+
+    <span class="com">' 2. Assign values from the form</span>
+    price = Convert.ToDouble(txtPrice.Text)
+    quantity = Convert.ToInt32(txtQuantity.Text)
+
+    <span class="com">' 3. Process</span>
+    total = price * quantity
+
+    <span class="com">' 4. Output</span>
+    lblTotal.Text = <span class="str">"Total: £"</span> & total.ToString(<span class="str">"0.00"</span>)
+
+<span class="kw">End Sub</span></div>
+
+      <div class="task">
+        <div class="tag">Task 1A • Identify</div>
+        <h3>Find the four stages</h3>
+        <p>Using the worked example above, explain what happens at each stage.</p>
+        <textarea class="persist" placeholder="1. Declare..."></textarea>
+        <textarea class="persist" placeholder="2. Assign..."></textarea>
+        <textarea class="persist" placeholder="3. Process..."></textarea>
+        <textarea class="persist" placeholder="4. Output..."></textarea>
+        <label><input type="checkbox" class="taskcheck"> I have completed Task 1A.</label>
+      </div>
+
+      <div class="task">
+        <div class="tag">Task 1B • Sequence</div>
+        <h3>Why does the order matter?</h3>
+        <p>Explain why the program cannot calculate <code>total</code> before assigning values to <code>price</code> and <code>quantity</code>.</p>
+        <textarea class="short persist" placeholder="Explain the dependency between the stages..."></textarea>
+        <label><input type="checkbox" class="taskcheck"> I have completed Task 1B.</label>
+      </div>
+    </section>
+
+    <section id="variables">
+      <div class="eyebrow">2 • Variables & values</div>
+      <h2>Declaring and assigning variables</h2>
+      <p class="lead">A variable stores a value while the program runs. Choosing the correct type makes code clearer and reduces errors.</p>
+
+      <div class="grid2">
+        <div class="card">
+          <h3>Common data types</h3>
+          <p><span class="mini-badge">Integer</span> whole numbers, e.g. 17</p>
+          <p><span class="mini-badge">Double</span> decimal numbers, e.g. 3.75</p>
+          <p><span class="mini-badge">String</span> text, e.g. "Cardiff"</p>
+          <p><span class="mini-badge">Boolean</span> <code>True</code> or <code>False</code></p>
+        </div>
+        <div class="card">
+          <h3>Declaration and assignment</h3>
+          <div class="code"><span class="com">' Declare</span>
+<span class="kw">Dim</span> score <span class="kw">As Integer</span>
+<span class="kw">Dim</span> name <span class="kw">As String</span>
+
+<span class="com">' Assign</span>
+score = 72
+name = txtName.Text</div>
+        </div>
+      </div>
+
+      <div class="callout"><strong>Useful distinction:</strong> declaration creates the variable. Assignment puts a value into it. You can do both on one line, but you should understand them as separate ideas.</div>
+
+      <div class="task">
+        <div class="tag">Task 2A • Choose</div>
+        <h3>Select the best data type</h3>
+        <table class="trace-table">
+          <tr><th>Value</th><th>Best type</th><th>Why?</th></tr>
+          <tr><td>Student surname</td><td><input class="persist" type="text"></td><td><input class="persist" type="text"></td></tr>
+          <tr><td>Number of goals scored</td><td><input class="persist" type="text"></td><td><input class="persist" type="text"></td></tr>
+          <tr><td>Average temperature</td><td><input class="persist" type="text"></td><td><input class="persist" type="text"></td></tr>
+          <tr><td>Whether a login is valid</td><td><input class="persist" type="text"></td><td><input class="persist" type="text"></td></tr>
+        </table>
+        <label><input type="checkbox" class="taskcheck"> I have completed Task 2A.</label>
+      </div>
+
+      <div class="task">
+        <div class="tag">Task 2B • Write</div>
+        <h3>Declare these variables</h3>
+        <p>Write suitable VB.NET declarations for: <strong>studentName</strong>, <strong>testScore</strong>, <strong>averageMark</strong> and <strong>isComplete</strong>.</p>
+        <textarea class="codebox persist" spellcheck="false" placeholder="Dim studentName As ..."></textarea>
+        <label><input type="checkbox" class="taskcheck"> I have completed Task 2B.</label>
+      </div>
+
+      <div class="task">
+        <div class="tag">Task 2C • Read from controls</div>
+        <h3>Assign values from the interface</h3>
+        <p>Assume the form contains <code>txtName</code>, <code>txtAge</code> and <code>txtHeight</code>. Write code to assign their values to correctly typed variables.</p>
+        <textarea class="codebox persist" spellcheck="false" placeholder="name = txtName.Text&#10;age = Convert.ToInt32(...)"></textarea>
+        <label><input type="checkbox" class="taskcheck"> I have completed Task 2C.</label>
+      </div>
+    </section>
+
+    <section id="inputoutput">
+      <div class="eyebrow">3 • Forms input & output</div>
+      <h2>Working with interface controls</h2>
+      <p class="lead">Forms applications usually get input from controls and send output back to controls.</p>
+
+      <div class="grid2">
+        <div class="card">
+          <h3>Common inputs</h3>
+          <p><code>txtName.Text</code> → text from a TextBox</p>
+          <p><code>nudQuantity.Value</code> → value from a NumericUpDown</p>
+          <p><code>chkMember.Checked</code> → True or False from a CheckBox</p>
+          <p><code>cmbCourse.Text</code> → selected text from a ComboBox</p>
+        </div>
+        <div class="card">
+          <h3>Common outputs</h3>
+          <p><code>lblResult.Text = ...</code></p>
+          <p><code>txtOutput.Text = ...</code></p>
+          <p><code>MessageBox.Show(...)</code></p>
+          <p><code>lstResults.Items.Add(...)</code></p>
+        </div>
+      </div>
+
+      <h3>Example: calculate a rectangle area</h3>
+      <div class="code"><span class="kw">Private Sub</span> btnArea_Click(sender <span class="kw">As Object</span>, e <span class="kw">As EventArgs</span>) <span class="kw">Handles</span> btnArea.Click
+
+    <span class="kw">Dim</span> width <span class="kw">As Double</span>
+    <span class="kw">Dim</span> height <span class="kw">As Double</span>
+    <span class="kw">Dim</span> area <span class="kw">As Double</span>
+
+    width = Convert.ToDouble(txtWidth.Text)
+    height = Convert.ToDouble(txtHeight.Text)
+
+    area = width * height
+
+    lblArea.Text = area.ToString()
+
+<span class="kw">End Sub</span></div>
+
+      <div class="task">
+        <div class="tag">Task 3A • Rewrite</div>
+        <h3>Change the output method</h3>
+        <p>Rewrite only the final output line so the result appears in a message box instead of <code>lblArea</code>.</p>
+        <textarea class="short persist" placeholder="MessageBox.Show(...)"></textarea>
+        <label><input type="checkbox" class="taskcheck"> I have completed Task 3A.</label>
+      </div>
+
+      <div class="task">
+        <div class="tag">Task 3B • Build</div>
+        <h3>Simple wage calculator</h3>
+        <p>Your form has:</p>
+        <ul>
+          <li><code>txtHours</code></li>
+          <li><code>txtRate</code></li>
+          <li><code>btnCalculate</code></li>
+          <li><code>lblPay</code></li>
+        </ul>
+        <p>Write the button click code to declare variables, assign values, calculate pay and display the result.</p>
+        <textarea class="codebox persist" spellcheck="false" placeholder="Private Sub btnCalculate_Click..."></textarea>
+        <label><input type="checkbox" class="taskcheck"> I have completed Task 3B.</label>
+      </div>
+
+      <div class="task">
+        <div class="tag">Task 3C • Format</div>
+        <h3>Make the output user-friendly</h3>
+        <p>Change your wage calculator so the label displays a message such as <strong>Your pay is £84.50</strong>.</p>
+        <textarea class="short persist" placeholder='lblPay.Text = "Your pay is £" & ...'></textarea>
+        <label><input type="checkbox" class="taskcheck"> I have completed Task 3C.</label>
+      </div>
+    </section>
+
+    <section id="selection">
+      <div class="eyebrow">4 • Selection</div>
+      <h2>Making decisions from form input</h2>
+      <p class="lead">Selection lets a Forms application display different outputs depending on the data entered.</p>
+
+      <div class="code"><div class="code-label">Example • grade classifier</div><span class="kw">Private Sub</span> btnCheck_Click(sender <span class="kw">As Object</span>, e <span class="kw">As EventArgs</span>) <span class="kw">Handles</span> btnCheck.Click
+
+    <span class="kw">Dim</span> mark <span class="kw">As Integer</span>
+    mark = Convert.ToInt32(txtMark.Text)
+
+    <span class="kw">If</span> mark >= 70 <span class="kw">Then</span>
+        lblResult.Text = <span class="str">"Distinction"</span>
+    <span class="kw">ElseIf</span> mark >= 50 <span class="kw">Then</span>
+        lblResult.Text = <span class="str">"Pass"</span>
+    <span class="kw">Else</span>
+        lblResult.Text = <span class="str">"Not yet passed"</span>
+    <span class="kw">End If</span>
+
+<span class="kw">End Sub</span></div>
+
+      <div class="task">
+        <div class="tag">Task 4A • Trace</div>
+        <h3>Predict the label output</h3>
+        <table class="trace-table">
+          <tr><th>txtMark.Text</th><th>lblResult.Text becomes</th></tr>
+          <tr><td>85</td><td><input class="persist" type="text"></td></tr>
+          <tr><td>70</td><td><input class="persist" type="text"></td></tr>
+          <tr><td>62</td><td><input class="persist" type="text"></td></tr>
+          <tr><td>49</td><td><input class="persist" type="text"></td></tr>
+        </table>
+        <label><input type="checkbox" class="taskcheck"> I have completed Task 4A.</label>
+      </div>
+
+      <div class="task">
+        <div class="tag">Task 4B • Write</div>
+        <h3>Age category form</h3>
+        <p>Use <code>txtAge</code>, <code>btnCheckAge</code> and <code>lblCategory</code>. Display:</p>
+        <ul>
+          <li><strong>Child</strong> if under 16</li>
+          <li><strong>Adult</strong> if 16 to 64 inclusive</li>
+          <li><strong>Senior</strong> if 65 or over</li>
+        </ul>
+        <textarea class="codebox persist" spellcheck="false"></textarea>
+        <label><input type="checkbox" class="taskcheck"> I have completed Task 4B.</label>
+      </div>
+
+      <div class="task">
+        <div class="tag">Task 4C • Compound conditions</div>
+        <h3>Login check</h3>
+        <p>Assume the form has <code>txtUsername</code> and <code>txtPassword</code>. Display <strong>Access granted</strong> only if the username is <code>admin</code> <strong>and</strong> the password is <code>vb123</code>.</p>
+        <textarea class="codebox persist" spellcheck="false"></textarea>
+        <label><input type="checkbox" class="taskcheck"> I have completed Task 4C.</label>
+      </div>
+    </section>
+
+    <section id="iteration">
+      <div class="eyebrow">5 • Iteration</div>
+      <h2>Repeating code in Forms applications</h2>
+      <p class="lead">Loops can generate repeated output, process several values or keep checking a condition.</p>
+
+      <div class="grid2">
+        <div class="card">
+          <h3>For loop</h3>
+          <div class="code"><span class="kw">For</span> i <span class="kw">As Integer</span> = 1 <span class="kw">To</span> 10
+    lstOutput.Items.Add(i)
+<span class="kw">Next</span></div>
+          <p>This adds the numbers 1 to 10 to a ListBox.</p>
+        </div>
+        <div class="card">
+          <h3>While loop</h3>
+          <div class="code"><span class="kw">Dim</span> number <span class="kw">As Integer</span> = 1
+
+<span class="kw">While</span> number <= 5
+    lstOutput.Items.Add(number)
+    number += 1
+<span class="kw">End While</span></div>
+          <p>This continues while the condition remains true.</p>
+        </div>
+      </div>
+
+      <div class="task">
+        <div class="tag">Task 5A • Predict</div>
+        <h3>What is added to the ListBox?</h3>
+        <div class="code"><span class="kw">For</span> i <span class="kw">As Integer</span> = 2 <span class="kw">To</span> 10 <span class="kw">Step</span> 2
+    lstNumbers.Items.Add(i)
+<span class="kw">Next</span></div>
+        <textarea class="short persist" placeholder="List the values in order..."></textarea>
+        <label><input type="checkbox" class="taskcheck"> I have completed Task 5A.</label>
+      </div>
+
+      <div class="task">
+        <div class="tag">Task 5B • Multiplication table</div>
+        <h3>Generate repeated output</h3>
+        <p>Use <code>txtNumber</code>, <code>btnGenerate</code> and <code>lstTable</code>. Read the number once, then use a <code>For</code> loop to add the ×1 to ×12 results to the ListBox.</p>
+        <textarea class="codebox persist" spellcheck="false"></textarea>
+        <label><input type="checkbox" class="taskcheck"> I have completed Task 5B.</label>
+      </div>
+
+      <div class="task">
+        <div class="tag">Task 5C • Running total</div>
+        <h3>Process values inside a loop</h3>
+        <p>Write code that adds the numbers 1 to 10 together using a variable called <code>total</code>, then displays the final result in <code>lblTotal</code>.</p>
+        <textarea class="codebox persist" spellcheck="false"></textarea>
+        <label><input type="checkbox" class="taskcheck"> I have completed Task 5C.</label>
+      </div>
+
+      <div class="task">
+        <div class="tag">Task 5D • Debug</div>
+        <h3>Spot the problem</h3>
+        <div class="code"><span class="kw">Dim</span> count <span class="kw">As Integer</span> = 1
+
+<span class="kw">While</span> count <= 5
+    lstOutput.Items.Add(count)
+<span class="kw">End While</span></div>
+        <textarea class="short persist" placeholder="Why will this loop never finish?"></textarea>
+        <label><input type="checkbox" class="taskcheck"> I have completed Task 5D.</label>
+      </div>
+    </section>
+
+    <section id="combine">
+      <div class="eyebrow">6 • Putting it together</div>
+      <h2>One button, several programming constructs</h2>
+      <p class="lead">The strongest habit is to keep your thinking structured, even as the program gets more complex.</p>
+
+      <div class="code"><div class="code-label">Example • order calculator</div><span class="kw">Private Sub</span> btnOrder_Click(sender <span class="kw">As Object</span>, e <span class="kw">As EventArgs</span>) <span class="kw">Handles</span> btnOrder.Click
+
+    <span class="com">' Declare</span>
+    <span class="kw">Dim</span> quantity <span class="kw">As Integer</span>
+    <span class="kw">Dim</span> price <span class="kw">As Double</span>
+    <span class="kw">Dim</span> total <span class="kw">As Double</span>
+
+    <span class="com">' Assign</span>
+    quantity = Convert.ToInt32(txtQuantity.Text)
+    price = Convert.ToDouble(txtPrice.Text)
+
+    <span class="com">' Process</span>
+    total = quantity * price
+
+    <span class="kw">If</span> quantity >= 10 <span class="kw">Then</span>
+        total = total * 0.9
+    <span class="kw">End If</span>
+
+    <span class="com">' Output</span>
+    lblTotal.Text = <span class="str">"£"</span> & total.ToString(<span class="str">"0.00"</span>)
+
+<span class="kw">End Sub</span></div>
+
+      <div class="task">
+        <div class="tag">Task 6A • Analyse</div>
+        <h3>Break the code down</h3>
+        <p>Explain the purpose of each stage and identify where selection has been added to the normal four-stage workflow.</p>
+        <textarea class="persist" placeholder="Declare..."></textarea>
+        <textarea class="persist" placeholder="Assign..."></textarea>
+        <textarea class="persist" placeholder="Process..."></textarea>
+        <textarea class="persist" placeholder="Selection..."></textarea>
+        <textarea class="persist" placeholder="Output..."></textarea>
+        <label><input type="checkbox" class="taskcheck"> I have completed Task 6A.</label>
+      </div>
+
+      <div class="task">
+        <div class="tag">Task 6B • Improve</div>
+        <h3>Add another decision</h3>
+        <p>Change the program so an extra £5 delivery charge is added if the final total is less than £25.</p>
+        <textarea class="codebox persist" spellcheck="false"></textarea>
+        <label><input type="checkbox" class="taskcheck"> I have completed Task 6B.</label>
+      </div>
+    </section>
+
+    <section id="challenge" class="challenge">
+      <div class="eyebrow">Final challenge</div>
+      <h2>Student Results Form</h2>
+      <p class="lead">Design the event code for a small Windows Forms application that combines variables, processing, output, selection and iteration.</p>
+
+      <div class="task">
+        <div class="tag">Suggested interface</div>
+        <h3>Your form could contain</h3>
+        <ul>
+          <li><code>txtStudentName</code></li>
+          <li><code>txtScore1</code>, <code>txtScore2</code>, <code>txtScore3</code></li>
+          <li><code>btnCalculate</code></li>
+          <li><code>lblAverage</code></li>
+          <li><code>lblOutcome</code></li>
+          <li><code>lstSummary</code></li>
+        </ul>
+      </div>
+
+      <div class="task">
+        <div class="tag">Core brief</div>
+        <h3>Your button click code must</h3>
+        <ol>
+          <li>Declare variables for the student name, three scores, total and average.</li>
+          <li>Assign the values from the form controls.</li>
+          <li>Calculate the total and average.</li>
+          <li>Display the average in <code>lblAverage</code>.</li>
+          <li>Use selection to display:
+            <ul>
+              <li><strong>Excellent</strong> for 80 or above</li>
+              <li><strong>Secure</strong> for 60 to 79.99</li>
+              <li><strong>Developing</strong> for 40 to 59.99</li>
+              <li><strong>Intervention required</strong> below 40</li>
+            </ul>
+          </li>
+          <li>Use a loop to add a short numbered summary from 1 to 3 into <code>lstSummary</code>.</li>
+        </ol>
+        <textarea class="codebox persist" style="min-height:360px" spellcheck="false" placeholder="Write your complete btnCalculate_Click code here..."></textarea>
+        <label><input type="checkbox" class="taskcheck"> I have completed the core challenge.</label>
+      </div>
+
+      <div class="task">
+        <div class="tag">Extension</div>
+        <h3>Improve the application</h3>
+        <p>Add at least two of the following:</p>
+        <ul>
+          <li>clear old ListBox results before adding new ones;</li>
+          <li>display the student's name in the result message;</li>
+          <li>show a <code>MessageBox</code> if any score is outside 0 to 100;</li>
+          <li>display the highest score;</li>
+          <li>add a Clear button to reset all controls;</li>
+          <li>use a loop with an array of scores instead of three separate calculations.</li>
+        </ul>
+        <textarea class="persist" placeholder="Which extensions did you add and how do they work?"></textarea>
+        <label><input type="checkbox" class="taskcheck"> I have attempted at least two extensions.</label>
+      </div>
+    </section>
+
+    <section id="review">
+      <div class="eyebrow">Review</div>
+      <h2>Check your understanding</h2>
+
+      <div class="task">
+        <div class="tag">Exit check</div>
+        <h3>Answer without looking back</h3>
+
+        <p><strong>1.</strong> What is the difference between declaring a variable and assigning a value?</p>
+        <textarea class="short persist"></textarea>
+
+        <p><strong>2.</strong> Why do values read from <code>txtAge.Text</code> often need converting?</p>
+        <textarea class="short persist"></textarea>
+
+        <p><strong>3.</strong> Give three different ways a Forms application can display output.</p>
+        <textarea class="short persist"></textarea>
+
+        <p><strong>4.</strong> Describe the four-stage workflow used throughout this workbook.</p>
+        <textarea class="short persist"></textarea>
+
+        <p><strong>5.</strong> When would a loop be useful in a Forms application?</p>
+        <textarea class="short persist"></textarea>
+
+        <label><input type="checkbox" class="taskcheck"> I have completed the exit check.</label>
+      </div>
+
+      <div class="grid2">
+        <div class="card">
+          <h3>Confidence</h3>
+          <p>Which stage is currently weakest: declare, assign, process or output?</p>
+          <textarea class="short persist" placeholder="Be specific..."></textarea>
+        </div>
+        <div class="card">
+          <h3>Next step</h3>
+          <p>Write one programming target for your next Forms task.</p>
+          <textarea class="short persist" placeholder="My next target is..."></textarea>
+        </div>
+      </div>
+      <p class="print-note">Student name: ________________________________ &nbsp;&nbsp; Date: __________________</p>
+    </section>
+
+    <div class="footer">Y12 Computer Science • VB.NET Windows Forms • Student workbook</div>
+  </main>
+</div>
+
+<script>
+(function(){
+  const fields=[...document.querySelectorAll('.persist')];
+  const checks=[...document.querySelectorAll('.taskcheck')];
+  let dirty=false;
+
+  fields.forEach((el,i)=>{
+    el.dataset.key='field_'+i;
+    const saved=localStorage.getItem('vb12_'+el.dataset.key);
+    if(saved!==null) el.value=saved;
+    el.addEventListener('input', markDirty);
+  });
+
+  checks.forEach((el,i)=>{
+    el.dataset.key='check_'+i;
+    el.checked=localStorage.getItem('vb12_'+el.dataset.key)==='true';
+    el.addEventListener('change', ()=>{markDirty();updateProgress();});
+  });
+
+  function markDirty(){
+    dirty=true;
+    const s=document.getElementById('saveState');
+    s.innerHTML='Changes <strong>not saved</strong>';
+  }
+
+  window.saveWork=function(){
+    fields.forEach(el=>localStorage.setItem('vb12_'+el.dataset.key,el.value));
+    checks.forEach(el=>localStorage.setItem('vb12_'+el.dataset.key,el.checked));
+    dirty=false;
+    const s=document.getElementById('saveState');
+    s.innerHTML='Progress <strong style="color:var(--good)">saved on this device</strong>';
+    alert('Progress saved in this browser. Remember to keep your work in your normal Computer Science folder as directed by your teacher.');
+  }
+
+  function updateProgress(){
+    const done=checks.filter(c=>c.checked).length;
+    const total=checks.length || 1;
+    const pct=Math.round(done/total*100);
+    document.getElementById('progressFill').style.width=pct+'%';
+    document.getElementById('progressText').textContent=pct+'% complete ('+done+'/'+total+' checks)';
+  }
+  updateProgress();
+
+  window.addEventListener('beforeunload',e=>{
+    if(dirty){
+      e.preventDefault();
+      e.returnValue='';
+    }
+  });
+})();
+</script>
+</body>
+</html>
