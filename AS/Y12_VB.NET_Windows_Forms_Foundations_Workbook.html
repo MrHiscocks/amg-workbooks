@@ -160,14 +160,48 @@
     textarea,input[type=text]{border:1px solid #999}
     .print-note{display:block}
   }
+
+  .save-modal-backdrop{
+    position:fixed;inset:0;z-index:9999;
+    background:rgba(3,8,15,.82);
+    display:flex;align-items:center;justify-content:center;
+    padding:20px;
+  }
+  .save-modal{
+    width:min(560px,100%);
+    background:#111a2e;
+    border:1px solid #334766;
+    border-radius:20px;
+    padding:28px;
+    box-shadow:0 24px 70px rgba(0,0,0,.45);
+  }
+  .save-modal h2{margin:0 0 10px}
+  .save-modal p{color:#c7d2e3}
+  .save-modal .modal-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+  .save-modal .small-note{font-size:.85rem;color:#92a3bc;margin-top:12px}
+
 </style>
 </head>
 <body>
+
+<div class="save-modal-backdrop" id="saveModal">
+  <div class="save-modal">
+    <div class="eyebrow">Before you begin</div>
+    <h2>Save your workbook first</h2>
+    <p>Save a copy of this workbook into your <strong>Documents → Computer Science</strong> folder before starting. This means your answers stay with the file and can be uploaded later.</p>
+    <div class="modal-actions">
+      <button onclick="saveWorkbookFile(true)">Save workbook</button>
+      <button class="secondary" onclick="dismissSaveModal()">I have already saved it</button>
+    </div>
+    <div class="small-note">Use a sensible filename that includes your name if your teacher asks you to.</div>
+  </div>
+</div>
+
 <div class="topbar">
   <div class="brand">Y12 <span>VB.NET</span> Windows Forms</div>
   <div class="top-actions">
-    <div class="save-state" id="saveState">Changes <strong>not saved</strong></div>
-    <button class="secondary" onclick="saveWork()">Save progress</button>
+    <div class="save-state" id="saveState">Workbook <strong>not yet saved as a file</strong></div>
+    <button class="secondary" onclick="saveWorkbookFile(false)">Save workbook</button>
     <button class="ghost" onclick="window.print()">Print / PDF</button>
   </div>
 </div>
@@ -709,16 +743,88 @@ name = txtName.Text</div>
   function markDirty(){
     dirty=true;
     const s=document.getElementById('saveState');
-    s.innerHTML='Changes <strong>not saved</strong>';
+    s.innerHTML='Changes <strong>not saved to file</strong>';
   }
 
-  window.saveWork=function(){
+  function cacheWork(){
     fields.forEach(el=>localStorage.setItem('vb12_'+el.dataset.key,el.value));
     checks.forEach(el=>localStorage.setItem('vb12_'+el.dataset.key,el.checked));
-    dirty=false;
-    const s=document.getElementById('saveState');
-    s.innerHTML='Progress <strong style="color:var(--good)">saved on this device</strong>';
-    alert('Progress saved in this browser. Remember to keep your work in your normal Computer Science folder as directed by your teacher.');
+  }
+
+  function buildSavedHtml(){
+    const clone=document.documentElement.cloneNode(true);
+
+    // Put current answers/check states into the saved HTML itself.
+    const cloneFields=[...clone.querySelectorAll('.persist')];
+    fields.forEach((el,i)=>{
+      const c=cloneFields[i];
+      if(!c) return;
+      if(c.tagName==='TEXTAREA'){
+        c.textContent=el.value;
+      }else if(c.tagName==='INPUT'){
+        c.setAttribute('value',el.value);
+      }
+    });
+
+    const cloneChecks=[...clone.querySelectorAll('.taskcheck')];
+    checks.forEach((el,i)=>{
+      const c=cloneChecks[i];
+      if(!c) return;
+      if(el.checked){ c.setAttribute('checked','checked'); }
+      else { c.removeAttribute('checked'); }
+    });
+
+    // Saved copy should not force the startup prompt again.
+    const modal=clone.querySelector('#saveModal');
+    if(modal) modal.remove();
+
+    return '<!DOCTYPE html>\n'+clone.outerHTML;
+  }
+
+  window.dismissSaveModal=function(){
+    const modal=document.getElementById('saveModal');
+    if(modal) modal.remove();
+  }
+
+  window.saveWorkbookFile=async function(fromStartup){
+    cacheWork();
+    const content=buildSavedHtml();
+    const suggested='Y12_VB.NET_Windows_Forms_Foundations_Workbook.html';
+
+    try{
+      if('showSaveFilePicker' in window){
+        const handle=await window.showSaveFilePicker({
+          suggestedName:suggested,
+          types:[{
+            description:'HTML workbook',
+            accept:{'text/html':['.html']}
+          }]
+        });
+        const writable=await handle.createWritable();
+        await writable.write(content);
+        await writable.close();
+      }else{
+        const blob=new Blob([content],{type:'text/html;charset=utf-8'});
+        const url=URL.createObjectURL(blob);
+        const a=document.createElement('a');
+        a.href=url;
+        a.download=suggested;
+        document.body.appendChild(a);
+        a.click();
+        a.remove();
+        setTimeout(()=>URL.revokeObjectURL(url),1500);
+      }
+
+      dirty=false;
+      const s=document.getElementById('saveState');
+      s.innerHTML='Workbook <strong style="color:var(--good)">saved as a file</strong>';
+      if(fromStartup) dismissSaveModal();
+    }catch(err){
+      // User cancelled picker: leave workbook open and keep prompt visible.
+      if(err && err.name!=='AbortError'){
+        alert('The workbook could not be saved automatically. Please try the Save progress button again.');
+      }
+    }
   }
 
   function updateProgress(){
