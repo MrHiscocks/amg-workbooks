@@ -64,7 +64,7 @@
   .progressbar{height:8px;background:#1c2940;border-radius:99px;overflow:hidden}
   .progressbar > div{height:100%;width:0;background:var(--accent)}
   .progress-text{font-size:.82rem;color:var(--muted);margin-top:7px}
-  main{max-width:1080px;width:100%;margin:0 auto;padding:34px 40px 80px}
+  main{min-width:0;max-width:1080px;width:100%;margin:0 auto;padding:34px 40px 80px}
   .hero{
     border:1px solid var(--line);
     background:
@@ -86,6 +86,7 @@
   h3{font-size:1.2rem;margin:24px 0 8px;color:#f1f6ff}
   p.lead{color:#c4d0e3;margin-top:4px}
   .grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  .grid2 > *{min-width:0;overflow-wrap:anywhere}
   .card{
     background:#0d1728;border:1px solid #263854;border-radius:14px;padding:18px;
   }
@@ -118,7 +119,7 @@
   }
   textarea.codebox{font-family:Consolas,monospace;min-height:170px;line-height:1.45}
   .short{min-height:88px}
-  .trace-table{width:100%;border-collapse:collapse;margin:10px 0;background:white;color:#1f2a3a}
+  .trace-table{display:block;overflow-x:auto;width:100%;border-collapse:collapse;margin:10px 0;background:white;color:#1f2a3a}
   .trace-table th,.trace-table td{border:1px solid #cbd5e3;padding:8px;text-align:left}
   .trace-table input{margin:0;border:0;border-radius:0;padding:5px;background:#f9fbfd}
   details{
@@ -794,28 +795,34 @@ name = txtName.Text</div>
     const content=buildSavedHtml();
     const suggested='Y12_VB.NET_Windows_Forms_Foundations_Workbook.html';
 
+    function downloadCopy(){
+      const blob=new Blob([content],{type:'text/html;charset=utf-8'});
+      const url=URL.createObjectURL(blob);
+      const a=document.createElement('a');
+      a.href=url;
+      a.download=suggested;
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      setTimeout(()=>URL.revokeObjectURL(url),1500);
+    }
+
     try{
       if('showSaveFilePicker' in window){
-        const handle=await window.showSaveFilePicker({
-          suggestedName:suggested,
-          types:[{
-            description:'HTML workbook',
-            accept:{'text/html':['.html']}
-          }]
-        });
-        const writable=await handle.createWritable();
-        await writable.write(content);
-        await writable.close();
+        try{
+          const handle=await window.showSaveFilePicker({
+            suggestedName:suggested,
+            types:[{description:'HTML workbook',accept:{'text/html':['.html']}}]
+          });
+          const writable=await handle.createWritable();
+          await writable.write(content);
+          await writable.close();
+        }catch(err){
+          if(err && err.name==='AbortError') throw err;
+          downloadCopy();
+        }
       }else{
-        const blob=new Blob([content],{type:'text/html;charset=utf-8'});
-        const url=URL.createObjectURL(blob);
-        const a=document.createElement('a');
-        a.href=url;
-        a.download=suggested;
-        document.body.appendChild(a);
-        a.click();
-        a.remove();
-        setTimeout(()=>URL.revokeObjectURL(url),1500);
+        downloadCopy();
       }
 
       dirty=false;
