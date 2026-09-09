@@ -1205,7 +1205,7 @@ function downloadWorkbook(){
  try{localStorage.setItem(storageKey,JSON.stringify(state))}catch{}
  const stateEl=$('#saved-state'),old=stateEl.textContent;stateEl.textContent=JSON.stringify(state).replace(/</g,'\\u003c');
  document.body.dataset.manualSavedAt=state.savedAt;
- const html='<!doctype html>\\n'+document.documentElement.outerHTML;
+ const html='<!doctype html>\n'+document.documentElement.outerHTML;
  stateEl.textContent=old;
  const blob=new Blob([html],{type:'text/html;charset=utf-8'}),url=URL.createObjectURL(blob),a=document.createElement('a');
  a.href=url;a.download=`y7-wb01-welcome-to-basecamp-${safeFile(person.name)}-${safeFile(person.form,'form')}.html`;document.body.appendChild(a);a.click();a.remove();
