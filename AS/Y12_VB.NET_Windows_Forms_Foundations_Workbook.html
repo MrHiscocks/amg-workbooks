@@ -730,13 +730,14 @@ name = txtName.Text</div>
   fields.forEach((el,i)=>{
     el.dataset.key='field_'+i;
     const saved=localStorage.getItem('vb12_'+el.dataset.key);
-    if(saved!==null) el.value=saved;
+    if(!document.documentElement.dataset.workbookSaved && saved!==null) el.value=saved;
     el.addEventListener('input', markDirty);
   });
 
   checks.forEach((el,i)=>{
     el.dataset.key='check_'+i;
-    el.checked=localStorage.getItem('vb12_'+el.dataset.key)==='true';
+    const saved=localStorage.getItem('vb12_'+el.dataset.key);
+    if(!document.documentElement.dataset.workbookSaved && saved!==null) el.checked=saved==='true';
     el.addEventListener('change', ()=>{markDirty();updateProgress();});
   });
 
@@ -753,6 +754,8 @@ name = txtName.Text</div>
 
   function buildSavedHtml(){
     const clone=document.documentElement.cloneNode(true);
+    clone.dataset.workbookSaved='true';
+    clone.querySelector('#saveState').textContent='Workbook saved as a file';
 
     // Put current answers/check states into the saved HTML itself.
     const cloneFields=[...clone.querySelectorAll('.persist')];
