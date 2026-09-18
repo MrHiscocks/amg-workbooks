@@ -34,6 +34,28 @@
 .save-location-actions .button.secondary{background:#e7edeb;border-color:#ced9d7;color:#233e44}
 .save-location-actions .button.secondary:hover{background:#dbe5e2}
 @media(max-width:720px){.save-location-modal{padding:12px}.save-location-head,.save-location-body{padding:20px}.save-location-head h2{font-size:22px}.save-location-actions{display:grid;grid-template-columns:1fr}.save-location-actions .button{width:100%}}
+</style>
+<style id="workbook-mobile-identity-fix">
+@media(max-width:820px){
+ :root{--top-h:132px}
+ .topbar{height:132px;align-items:flex-start;padding-top:12px;gap:12px}
+ .topbar .brand{min-height:44px}
+ .topbar>.button{min-height:44px}
+ .topbar .student-box,.topbar .identity{display:flex!important;position:absolute;left:14px;right:14px;top:76px;margin:0;gap:10px;align-items:center}
+ .topbar .student-box input,.topbar .identity input{display:block;width:100%!important;min-width:0;height:40px}
+ .topbar .student-box #studentName{flex:2;width:60%!important}
+ .topbar .student-box #studentId{flex:1;width:30%!important}
+ .topbar .identity label{display:block;min-width:0;flex:1}
+ .topbar .identity label:first-child{flex:2}
+ .identity-message{position:absolute;top:40px;left:0;font-size:11px}
+ .rail{top:132px}
+}
+</style>
+<style id="unit6-layout-fix">
+.identity #studentName{width:210px;text-transform:none}
+.hero{column-gap:24px}.hero-copy{min-width:0}.hero-art{width:100%;max-width:100%}
+.hero .objective-list{grid-template-columns:1fr}
+@media(max-width:820px){body{padding-top:132px}.rail{top:132px}.topbar .identity #studentName{width:100%}}
 </style></head>
 <body data-workbook-id="pl-u6-30"><header class="topbar"><div class="brand"><div class="brand-mark"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m8 9-4 3 4 3m8-6 4 3-4 3m-3-9-2 12"/></svg></div><div><b>PYTHON LAB</b><small>Unit 6 · Software Development</small></div></div><div class="identity"><label><span hidden>Student name</span><input id="studentName" type="text" placeholder="Enter your name" autocomplete="name"></label><label><span hidden>Student ID</span><input id="studentId" type="text" placeholder="ENTER ID" maxlength="12" autocomplete="off"></label></div><button class="button primary save-action" id="saveWorkbook" type="button"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h13l3 3v13H4z"/><path d="M8 4v6h8V4M8 20v-6h8v6"/></svg><span class="save-button-copy"><span>Save Workbook</span><small class="save-state-line" id="saveStatus" data-state="dirty" role="status" aria-live="polite">Not saved</small></span></button></header>
 <aside class="rail"><div class="rail-number">30</div><nav><button type="button" data-page="overview" class="active"><span>01</span>Overview</button><button type="button" data-page="learn" class=""><span>02</span>Building a Tkinter interface</button><button type="button" data-page="check" class=""><span>03</span>Knowledge check</button><button type="button" data-page="debug" class=""><span>04</span>Debug lab</button><button type="button" data-page="idle" class=""><span>05</span>IDLE Workspace</button><button type="button" data-page="notes" class=""><span>06</span>Lab notes</button></nav><div class="support-plate"><b>Support &amp; examples</b><span>Concepts, syntax and development evidence</span></div><div class="rail-progress"><span>Workbook progress</span><div class="progress-track"><i id="progressBar"></i></div><b id="progressText">0%</b></div></aside>
@@ -123,7 +145,7 @@ window.mainloop()</textarea></div><div class="debug-brief"><span class="mini-ind
   function showPage(id){pages.forEach(p=>p.classList.toggle('active',p.id===id));nav.forEach(n=>n.classList.toggle('active',n.dataset.page===id));window.scrollTo({top:0,behavior:'smooth'});}
   nav.forEach(n=>n.addEventListener('click',()=>showPage(n.dataset.page)));
   $('.start-action')?.addEventListener('click',()=>showPage(pages[1]?.id||'overview'));
-  pages.forEach((page,index)=>{const row=document.createElement('div');row.className='page-nav';if(index>0){const b=document.createElement('button');b.type='button';b.className='button secondary';b.textContent='‹ Previous';b.addEventListener('click',()=>showPage(pages[index-1].id));row.appendChild(b)}else row.appendChild(document.createElement('span'));if(index<pages.length-1){const b=document.createElement('button');b.type='button';b.className='button primary';b.textContent='Next ›';b.addEventListener('click',()=>showPage(pages[index+1].id));row.appendChild(b)}page.appendChild(row)});
+  pages.forEach((page,index)=>{page.querySelectorAll(':scope > .page-nav').forEach(row=>row.remove());const row=document.createElement('div');row.className='page-nav';if(index>0){const b=document.createElement('button');b.type='button';b.className='button secondary';b.textContent='‹ Previous';b.addEventListener('click',()=>showPage(pages[index-1].id));row.appendChild(b)}else row.appendChild(document.createElement('span'));if(index<pages.length-1){const b=document.createElement('button');b.type='button';b.className='button primary';b.textContent='Next ›';b.addEventListener('click',()=>showPage(pages[index+1].id));row.appendChild(b)}page.appendChild(row)});
   $$('.model-toggle').forEach(b=>b.addEventListener('click',()=>{const model=b.nextElementSibling;model.hidden=!model.hidden;b.textContent=model.hidden?'Reveal model response':'Hide model response'}));
   $$('.check-answers').forEach(button=>button.addEventListener('click',()=>{const section=button.closest('.page');let correct=0,total=0;$$('.question[data-answer]',section).forEach(q=>{total++;const selected=$('input[type=radio]:checked',q);q.classList.remove('correct','incorrect');const ok=selected&&Number(selected.value)===Number(q.dataset.answer);q.classList.add(ok?'correct':'incorrect');$('.feedback',q).textContent=ok?'Correct':(selected?'Check this answer again':'Choose an answer');if(ok)correct++});$('.score-box',section).textContent=correct+' / '+total+' objective answers correct'}));
   function collect(){let state={};try{state=JSON.parse(localStorage.getItem(storeKey)||'{}')}catch{}state.studentName=$('#studentName').value;state.studentId=$('#studentId').value;$$('[data-save]').forEach(el=>{const key=el.dataset.save;if(el.type==='radio'){if(el.checked)state[key]=el.value}else if(el.type==='checkbox')state[key]=el.checked;else state[key]=el.value});return state}
