@@ -1,0 +1,801 @@
+﻿visitor_id,date_of_birth,home_local_authority,distance_km,ticket_type,group_type,favourite_attraction,booking_channel,marketing_source,main_barrier,satisfaction_score_5,value_for_money_score_5,spend_per_person_gbp,visits_Jan,visits_Feb,visits_Mar,visits_Apr,visits_May,visits_Jun,visits_Jul,visits_Aug,visits_Sep,visits_Oct,visits_Nov,visits_Dec
+TS0275,07/06/2000,Bridgend,4.3,Family Ticket,Family,Lazy River,Mobile App,Social Media,Price,4,3,29.87,0,0,0,0,0,0,1,0,0,0,0,0
+TS0529,07/10/2007,Rhondda Cynon Taf,37.4,Student Ticket,Family,Speed Slides,Website,Social Media,Transport,4,3,20.62,0,0,0,0,0,1,0,0,0,0,0,0
+TS0508,19/03/1984,Bridgend,16.5,Day Ticket,School/Club,Splash Zone,Mobile App,Friend/Family,Weather,4,3,31.68,0,0,1,0,0,0,0,0,1,0,0,0
+TS0698,14/04/1965,Cardiff,23.3,Day Ticket,Friends,Speed Slides,Website,Social Media,Queues,3,4,39.56,0,0,1,0,0,0,0,0,0,0,0,0
+TS0414,11/03/1984,Cardiff,22.6,Day Ticket,Solo,Lazy River,Website,Friend/Family,Weather,4,3,38.99,0,0,0,0,0,0,0,0,0,0,1,0
+TS0544,05/04/2016,Rhondda Cynon Taf,30.7,Student Ticket,Couple,Speed Slides,Mobile App,School/Club,Time,4,4,11.94,0,0,0,0,1,0,0,1,0,0,0,0
+TS0352,20/10/2001,Cardiff,30.2,Day Ticket,Couple,Aqua Play,Website,Friend/Family,Queues,3,4,39.44,0,0,0,1,1,1,0,1,0,0,0,0
+TS0327,28/06/1972,Rhondda Cynon Taf,39.6,Day Ticket,School/Club,Splash Zone,Mobile App,Friend/Family,Price,4,3,37.42,0,1,0,0,0,1,0,0,0,0,0,0
+TS0727,17/06/1990,Vale of Glamorgan,33.3,Season Pass,School/Club,Splash Zone,Mobile App,Search Engine,Transport,5,4,31.98,0,2,0,0,1,3,1,1,0,0,0,0
+TS0393,03/08/1986,Rhondda Cynon Taf,33.6,Day Ticket,Friends,Wave Pool,Website,Search Engine,Distance,3,4,26.6,0,0,0,1,0,0,0,0,0,0,0,0
+TS0688,07/05/1998,Rhondda Cynon Taf,30.1,Family Ticket,Family,Wave Pool,On-site,Friend/Family,Weather,4,3,38.11,0,0,0,0,0,1,1,0,0,0,0,0
+TS0161,06/03/1989,Merthyr Tydfil,42.5,Day Ticket,Family,Family Slides,Website,Friend/Family,Queues,3,4,31.1,0,0,0,0,0,0,1,1,0,0,0,0
+TS0408,02/05/1988,Cardiff,30.1,Day Ticket,Friends,Wave Pool,Website,Social Media,Distance,4,3,31.38,0,0,0,0,0,0,0,0,0,0,0,0
+TS0506,01/02/1982,Rhondda Cynon Taf,23.7,Day Ticket,Solo,Wave Pool,Website,Social Media,Weather,3,4,£36.19,0,0,0,0,0,0,0,0,0,0,0,0
+TS0133,09/10/1977,Merthyr Tydfil,53.6,Day Ticket,Couple,Speed Slides,Website,Social Media,Price,0,2,31.98,0,0,0,1,0,1,0,0,0,0,0,0
+TS0029,16/08/2009,Neath Port Talbot,27.2,Student Ticket,Family,Lazy River,Website,Search Engine,Queues,3,4,32.54,1,0,1,0,1,0,0,1,0,0,0,0
+TS0173,25/06/1985,Cardiff,44.1,Season Pass,Friends,Speed Slides,On-site,Social Media,Distance,4,5,7.01,0,0,1,0,0,0,0,1,2,1,0,1
+TS0624,11/09/2010,Neath Port Talbot,43.5,Day Ticket,Solo,Splash Zone,Mobile App,Friend/Family,Price,4,3,22.61,0,0,0,0,0,2,0,1,0,2,0,0
+TS0697,14/06/2011,Caerphilly,40.0,Day Ticket,Friends,Wave Pool,Website,School/Club,Price,5,2,29.53,0,0,0,0,1,0,0,0,0,0,0,0
+TS0487,15/09/1982,Rhondda Cynon Taf,33.9,Day Ticket,Couple,Speed Slides,Mobile App,Search Engine,Time,4,3,33.85,0,0,0,0,0,0,0,0,0,0,0,0
+TS0079,12/10/2007,Bridgend,6.2,Student Ticket,Family,Lazy River,Website,Search Engine,Queues,4,3,26.78,0,0,0,0,0,0,2,1,0,0,1,0
+TS0396,15/01/2001,Bridgend,3.0,Day Ticket,Friends,Speed Slides,Phone,Search Engine,Weather,4,4,26.03,0,0,0,0,0,0,2,1,1,0,0,0
+TS0104,24/03/2016,Cardiff,26.4,Day Ticket,Couple,Lazy River,Mobile App,School/Club,Transport,5,4,30.37,0,0,0,0,0,0,0,0,0,0,0,0
+TS0515,22/04/2016,Bridgend,7.1,Student Ticket,Couple,Wave Pool,Mobile App,Social Media,Price,4,4,20.8,0,0,0,0,0,1,1,0,0,0,0,0
+TS0503,01/07/1988,Vale of Glamorgan,26.6,Family Ticket,Family,Family Slides,Mobile App,Social Media,Price,4,4,47.17,0,0,0,0,0,0,1,0,0,0,1,0
+TS0166,24/08/1998,Bridgend,9.4,Family Ticket,Family,Lazy River,Phone,Outdoor Poster,Weather,4,4,36.95,0,0,0,1,0,0,0,2,0,0,0,0
+TS0269,19/12/2005,Carmarthenshire,66.6,Student Ticket,Couple,Family Slides,Website,Social Media,Price,3,3,999.0,0,0,0,0,0,1,0,0,0,0,1,0
+TS0212,01/05/1982,Cardiff,30.2,Day Ticket,School/Club,Lazy River,Mobile App,Email,Queues,3,4,39.92,0,0,1,1,0,0,2,1,1,0,0,0
+TS0582,23/04/1960,Bridgend,15.2,Day Ticket,Friends,Wave Pool,Mobile App,Friend/Family,Weather,5,3,39.08,0,0,1,0,0,0,1,0,0,0,0,0
+TS0229,26/08/1979,Merthyr Tydfil,46.6,Day Ticket,Solo,Speed Slides,Mobile App,Friend/Family,Time,4,4,20.62,1,0,0,0,0,1,1,0,0,0,0,0
+TS0427,23/06/2000,Rhondda Cynon Taf,29.4,Day Ticket,Friends,Lazy River,Mobile App,Search Engine,Queues,3,3,24.8,0,0,0,2,1,0,0,0,0,1,0,0
+TS0250,26/07/1972,Rhondda Cynon Taf,33.1,Day Ticket,Family,Splash Zone,On-site,School/Club,Weather,3,3,43.01,0,0,0,1,0,0,0,0,1,0,0,0
+TS0022,02/04/1975,Bridgend,7.2,Day Ticket,Couple,Lazy River,Website,Search Engine,Distance,5,4,29.27,0,0,0,0,0,0,0,0,0,0,0,0
+TS0516,09/12/2014,Cardiff,29.2,Student Ticket,Family,Aqua Play,Website,Search Engine,Price,4,3,23.14,0,1,0,0,0,1,0,1,0,0,0,0
+TS0461,17/12/1984,Cardiff,22.6,Day Ticket,Family,Lazy River,Mobile App,Search Engine,Transport,4,3,30.46,0,0,0,0,0,0,1,0,0,0,0,0
+TS0614,10/07/1976,Newport,45.4,Family Ticket,Family,Family Slides,Website,Friend/Family,Distance,5,4,54.25,0,0,0,0,0,0,0,0,0,0,0,0
+TS0082,05/03/2006,Caerphilly,42.8,Student Ticket,Family,Wave Pool,Mobile App,Social Media,Queues,3,4,10.42,0,0,0,0,1,1,0,0,0,0,0,0
+TS0178,15/08/1987,Bridgend,8.2,Day Ticket,Friends,SplashZone,Website,Social Media,Queues,3,3,44.22,0,0,0,1,0,1,1,0,0,1,0,0
+TS0325,13/10/1995,Newport,43.1,Day Ticket,School/Club,Family Slides,On-site,Outdoor Poster,Time,4,5,56.66,0,0,0,0,0,0,0,0,0,1,0,0
+TS0152,07/12/2016,Carmarthenshire,62.3,Student Ticket,Couple,Wave Pool,Mobile App,Social Media,Price,4,3,4.31,0,0,0,0,0,0,2,1,0,0,0,0
+TS0237,20/12/1996,Newport,54.2,Day Ticket,Couple,Lazy River,On-site,Social Media,Time,5,3,48.24,0,0,0,1,0,0,0,0,0,0,0,0
+TS0687,18/05/2014,Swansea,57.1,Student Ticket,Couple,Wave Pool,Mobile App,Search Engine,Weather,3,3,35.49,0,0,0,0,0,0,0,0,0,0,0,0
+TS0121,15/09/1980,Neath Port Talbot,34.5,Day Ticket,Solo,Aqua Play,On-site,Search Engine,Price,5,4,35.07,0,0,0,0,1,0,2,1,0,0,0,0
+TS0559,21/05/2006,Cardiff,30.1,Day Ticket,Family,Splash Zone,Website,Social Media,Price,3,3,34.02,0,0,0,0,0,0,0,2,0,0,0,0
+TS0299,08/03/1990,Swansea,36.2,Season Pass,School/Club,Speed Slides,On-site,Friend/Family,Distance,3,3,29.0,0,0,0,0,0,0,0,1,0,0,1,1
+TS0307,01/11/1948,Swansea,56.5,Day Ticket,Family,Wave Pool,Website,School/Club,Price,3,3,33.97,0,0,0,0,0,0,0,0,0,0,0,0
+TS0387,06/02/1990,Merthyr Tydfil,42.6,Day Ticket,Friends,Lazy River,Website,Search Engine,Queues,3,4,41.54,0,0,0,0,0,0,0,1,0,0,0,0
+TS0677,25/12/1999,Rhondda Cynon Taf,34.0,Day Ticket,Friends,Speed Slides,Website,School/Club,Queues,3,3,22.76,0,0,0,0,0,0,0,1,0,0,0,0
+TS0234,11/11/1971,Cardiff,40.7,Twilight Ticket,Solo,Family Slides,Website,Friend/Family,Price,4,3,21.72,0,0,0,0,1,0,0,0,0,0,0,0
+TS0714,19/02/1984,Caerphilly,57.1,Family Ticket,Family,Splash Zone,Website,Social Media,Transport,3,4,37.41,0,0,0,0,0,1,1,0,1,0,0,0
+TS0642,04/06/1983,Rhondda Cynon Taf,41.5,Day Ticket,Friends,Splash Zone,Website,Social Media,Queues,4,4,44.67,0,0,0,0,1,0,0,0,0,0,0,0
+TS0602,28/05/1990,Cardiff,40.9,Twilight Ticket,Friends,Speed Slides,Mobile App,Outdoor Poster,Price,4,3,15.44,1,0,0,0,0,0,0,0,0,0,0,0
+TS0416,11/11/1990,Bridgend,17.0,Twilight Ticket,Friends,Speed Slides,Website,Friend/Family,Price,5,3,18.21,0,0,0,1,0,0,0,1,1,0,0,0
+TS0123,05/06/1992,Swansea,42.2,Day Ticket,Family,Lazy River,Website,Friend/Family,Queues,4,3,29.49,0,0,0,0,0,1,0,1,0,0,0,1
+TS0655,25/03/1963,Bridgend,17.4,Day Ticket,School/Club,Wave Pool,Phone,Social Media,Weather,3,3,30.5,0,0,0,0,0,1,0,0,0,0,0,0
+TS0472,10/02/1993,Carmarthenshire,82.4,Season Pass,Friends,Wave Pool,Mobile App,Friend/Family,Queues,4,4,36.75,0,0,0,0,1,0,1,0,0,0,0,0
+TS0311,20/03/1996,Bridgend,16.7,Day Ticket,Solo,Family Slides,On-site,Social Media,Transport,4,3,43.34,0,0,0,0,0,0,2,0,0,0,0,0
+TS0496,24/10/1982,Neath Port Talbot,43.9,Day Ticket,School/Club,Speed Slides,Website,Friend/Family,None,4,4,40.01,0,0,0,0,0,1,0,0,0,0,0,0
+TS0312,03/07/1998,Newport,49.3,Family Ticket,Family,Family Slides,Website,Outdoor Poster,Distance,5,4,48.76,0,0,0,0,0,1,0,0,0,0,0,0
+TS0493,22/03/1984,Caerphilly,57.0,Day Ticket,Friends,Speed Slides,Website,Search Engine,Price,4,4,39.38,0,0,0,0,0,0,0,0,0,1,0,0
+TS0170,01/10/2016,Caerphilly,34.8,Day Ticket,Friends,Speed Slides,Website,Friend/Family,Queues,4,4,33.69,0,0,0,0,0,0,0,1,0,0,0,0
+TS0405,25/01/1992,Rhondda Cynon Taf,28.8,Family Ticket,Family,Splash Zone,On-site,Outdoor Poster,Price,5,3,44.18,0,0,0,0,0,1,0,0,0,0,0,0
+TS0392,25/08/1979,Vale of Glamorgan,19.0,Day Ticket,Family,Lazy River,Website,Social Media,Queues,4,4,31.35,0,0,0,0,0,0,1,1,0,0,180,0
+TS0162,17/07/1959,Swansea,999.0,Day Ticket,Friends,Speed Slides,On-site,Social Media,Distance,3,4,27.25,0,0,0,0,0,3,0,0,0,0,0,0
+TS0774,10/02/2008,Vale of Glamorgan,17.6,Day Ticket,Family,Lazy River,Mobile App,Social Media,Price,5,2,25.8,0,0,0,0,0,0,0,0,0,0,0,0
+TS0134,15/05/1977,Caerphilly,30.7,Day Ticket,School/Club,Speed Slides,Website,Outdoor Poster,None,4,3,29.46,0,0,0,0,0,0,0,1,2,0,0,0
+TS0402,08/09/1985,Caerphilly,38.9,Day Ticket,Friends,Speed Slides,Mobile App,Email,Price,4,2,41.39,0,0,0,0,1,1,0,0,1,0,0,0
+TS0253,16/10/1980,Rhondda Cynon Taf,18.8,Day Ticket,Family,Speed Slides,On-site,Outdoor Poster,Price,4,3,32.0,0,0,1,0,0,0,0,0,0,0,0,0
+TS0206,26/12/2002,Caerphilly,39.8,Day Ticket,Couple,Splash Zone,Mobile App,Search Engine,Price,4,3,22.45,0,0,0,0,0,0,0,0,0,0,0,0
+TS0759,04/07/1968,Rhondda Cynon Taf,-8.5,Day Ticket,Family,Lazy River,Website,Social Media,Price,3,3,37.67,0,0,0,0,0,0,1,0,0,1,0,0
+TS0483,13/09/1976,Bridgend,8.8,Day Ticket,Friends,Wave Pool,On-site,Social Media,Queues,3,4,17.53,0,0,1,0,0,0,0,3,0,1,0,0
+TS0067,28/12/2004,Rhondda Cynon Taf,39.6,Student Ticket,Family,Wave Pool,Mobile App,Outdoor Poster,Queues,4,3,22.76,0,0,0,0,0,0,0,1,0,0,0,0
+TS0520,20/10/1970,Rhondda Cynon Taf,23.6,Day Ticket,Couple,Splash Zone,Website,Friend/Family,Time,5,3,34.08,1,0,0,0,1,0,0,0,0,0,0,0
+TS0754,06/08/1984,Rhondda Cynon Taf,30.0,Day Ticket,Friends,Wave Pool,Mobile App,School/Club,Weather,4,3,34.42,0,0,0,0,0,0,1,0,0,0,0,0
+TS0059,20/05/2006,Neath Port Talbot,22.6,Family Ticket,Family,Lazy River,Phone,Search Engine,Queues,3,4,62.16,0,0,0,0,0,0,0,1,0,0,0,1
+TS0678,19/10/2003,Neath Port Talbot,38.1,Student Ticket,School/Club,Splash Zone,Website,Friend/Family,Queues,3,4,33.11,0,0,0,0,0,0,1,0,1,0,0,0
+TS0717,07/03/2005,Neath Port Talbot,29.5,Day Ticket,Couple,Family Slides,Website,Search Engine,Queues,4,4,20.36,0,0,2,0,0,0,1,1,0,0,0,0
+TS0384,26/11/2016,Carmarthenshire,89.5,Student Ticket,Friends,Speed Slides,On-site,Email,Weather,4,4,14.66,0,0,0,0,0,0,0,0,0,0,0,0
+TS0106,15/07/1994,Caerphilly,49.6,Day Ticket,Family,Wave Pool,On-site,School/Club,Queues,3,4,41.03,0,0,0,0,0,0,1,0,0,2,0,0
+TS0548,28/02/1949,Rhondda Cynon Taf,37.0,Family Ticket,Family,Family Slides,Phone,Search Engine,Queues,3,4,25.6,0,0,0,0,0,0,0,0,0,0,1,0
+TS0115,09/09/1998,Swansea,40.1,Day Ticket,Friends,Speed Slides,Website,Email,Price,4,3,24.07,0,0,0,0,0,2,0,0,0,0,1,0
+TS0280,08/04/1979,Neath Port Talbot,23.4,Day Ticket,Family,Lazy River,Website,Outdoor Poster,Queues,4,3,28.16,0,0,0,1,0,0,0,0,0,0,0,0
+TS0415,25/03/2015,Rhondda Cynon Taf,41.3,Day Ticket,Family,Wave Pool,Website,Email,Transport,4,4,16.46,0,0,0,0,0,0,0,0,0,0,0,0
+TS0252,14/05/1975,Vale of Glamorgan,31.0,Day Ticket,Friends,Lazy River,Mobile App,Email,Distance,5,5,44.44,0,0,0,0,0,0,0,0,0,0,0,0
+TS0021,04/05/1978,Swansea,58.8,Day Ticket,Couple,Lazy River,On-site,Social Media,Time,4,4,37.56,0,0,0,0,0,0,1,1,2,0,0,0
+TS0055,26/04/1991,Cardiff,24.8,Twilight Ticket,Friends,Speed Slides,Website,Friend/Family,Queues,3,4,23.42,0,0,0,0,0,0,0,0,0,0,0,0
+TS0041,02/03/1994,Neath Port Talbot,24.4,Twilight Ticket,Couple,Speed Slides,Mobile App,Social Media,Queues,4,4,27.94,0,0,0,1,0,0,0,0,0,0,0,0
+TS0221,19/10/2006,Swansea,57.9,Student Ticket,Couple,Lazy River,Mobile App,Friend/Family,Transport,5,3,35.74,0,0,0,0,1,1,0,1,0,0,0,0
+TS0107,02/05/1994,Neath Port Talbot,34.2,Day Ticket,Friends,Lazy River,Website,Outdoor Poster,Price,4,3,35.12,0,0,0,0,0,0,0,0,0,0,0,0
+TS0165,26/05/2009,Caerphilly,41.0,Student Ticket,Couple,Wave Pool,On-site,Social Media,Price,4,2,30.07,0,0,0,0,0,0,0,1,0,0,0,0
+TS0303,03/02/2016,Rhondda Cynon Taf,37.3,Day Ticket,Family,Wave Pool,Website,School/Club,Price,4,3,36.97,0,0,0,0,0,0,0,0,0,1,1,0
+TS0337,20/05/2002,Bridgend,13.7,Family Ticket,Family,Aqua Play,On-site,Social Media,Price,4,4,53.82,0,0,1,0,1,1,0,1,0,0,0,0
+TS0129,19/02/1980,Vale of Glamorgan,32.7,Day Ticket,Solo,Splash Zone,Mobile App,Friend/Family,Weather,4,4,28.27,0,0,1,0,0,0,0,1,1,0,0,0
+TS0201,17/12/1972,Swansea,56.4,Day Ticket,Friends,Speed Slides,Mobile App,School/Club,Queues,3,4,31.98,0,0,0,1,0,0,1,1,0,0,0,0
+TS0779,11/02/2001,Bridgend,7.3,Day Ticket,Family,Splash Zone,Mobile App,Social Media,Price,3,2,35.82,-1,0,0,0,0,0,0,1,0,0,0,0
+TS0504,02/08/2001,Neath Port Talbot,45.9,Day Ticket,Family,Aqua Play,On-site,Social Media,Price,4,4,35.92,0,0,0,1,0,0,0,0,0,0,0,0
+TS0365,07/03/1995,Bridgend,16.4,Day Ticket,School/Club,Speed Slides,Phone,Friend/Family,Price,4,3,32.67,1,0,0,0,0,1,1,0,1,0,0,1
+TS0077,18/10/1981,Rhondda Cynon Taf,22.9,Day Ticket,Family,Family Slides,Website,Social Media,Distance,3,4,29.61,0,0,0,0,0,0,0,0,0,0,0,0
+TS0294,22/12/1988,Rhondda Cynon Taf,20.9,Day Ticket,Family,Family Slides,Website,Friend/Family,Queues,3,4,32.0,0,0,0,0,0,0,0,0,0,1,1,0
+TS0222,09/07/1983,Neath Port Talbot,43.1,Family Ticket,Family,Lazy River,On-site,Social Media,Weather,4,4,41.16,0,0,0,1,0,0,0,0,0,0,0,0
+TS0589,09/12/1979,Neath Port Talbot,34.4,Day Ticket,Friends,Wave Pool,Website,Friend/Family,Queues,2,4,37.8,0,0,0,0,0,0,0,0,0,0,0,0
+TS0432,12/02/2005,Bridgend,13.1,Day Ticket,Friends,Speed Slides,Mobile App,Social Media,Queues,4,4,39.44,0,0,0,0,1,0,1,0,1,0,0,0
+TS0434,02/11/2004,Rhondda Cynon Taf,34.0,Student Ticket,Friends,Speed Slides,Mobile App,Search Engine,Price,4,4,28.22,0,0,-3,0,0,1,0,0,0,0,0,0
+TS0608,18/10/2008,Neath Port Talbot,28.9,Day Ticket,Family,Lazy River,Website,Social Media,Transport,4,3,43.1,0,0,0,0,1,0,0,1,0,0,0,0
+TS0561,24/07/2001,Neath Port Talbot,25.0,Season Pass,Solo,Splash Zone,Website,Search Engine,Price,4,3,22.75,0,0,1,1,0,1,1,1,1,0,1,0
+TS0512,22/08/1981,Bridgend,14.0,Twilight Ticket,Solo,Wave Pool,Mobile App,Friend/Family,Distance,4,3,34.11,0,0,0,0,1,0,0,0,0,1,0,0
+TS0219,12/12/1998,Rhondda Cynon Taf,33.0,Day Ticket,Family,Lazy River,Phone,Social Media,Queues,3,3,30.03,0,0,1,0,1,0,0,0,0,0,0,0
+TS0003,19/06/1998,Caerphilly,32.3,Day Ticket,School/Club,Speed Slides,Mobile App,Search Engine,Price,4,3,26.79,0,0,0,0,0,0,0,1,0,0,0,0
+TS0556,11/05/1968,Rhondda Cynon Taf,26.8,Day Ticket,Solo,Wave Pool,Website,Email,Distance,5,4,24.48,0,0,0,0,0,0,0,0,0,0,0,0
+TS0628,17/03/1990,Carmarthenshire,68.7,Family Ticket,Family,Splash Zone,On-site,Friend/Family,Queues,4,3,48.61,0,0,0,0,0,1,0,0,0,0,0,0
+TS0090,28/09/1983,Cardiff,28.7,Day Ticket,Friends,Wave Pool,Website,Search Engine,Distance,4,4,50.13,0,0,1,0,0,2,0,1,0,1,0,0
+TS0433,17/08/2003,Bridgend,9.3,Family Ticket,Family,Aqua Play,Website,Social Media,None,4,4,28.66,0,0,0,0,1,0,0,0,0,0,0,0
+TS0188,15/09/2012,Cardiff,32.8,Day Ticket,Couple,Lazy River,Website,Friend/Family,Queues,4,4,29.45,0,0,0,0,0,0,1,0,0,0,0,0
+TS0713,01/04/1983,Swansea,45.1,Twilight Ticket,Couple,Lazy River,Website,Social Media,Distance,3,3,20.87,0,0,0,0,0,0,0,0,0,0,0,0
+TS0264,12/12/2006,Caerphilly,33.7,Day Ticket,School/Club,Wave Pool,Website,Social Media,Time,5,5,33.53,0,1,0,0,0,1,0,1,0,0,0,0
+TS0586,21/06/2014,Cardiff,31.7,Student Ticket,Solo,Splash Zone,Phone,Email,Queues,3,5,23.95,0,0,0,0,0,0,0,2,0,0,0,0
+TS0227,05/08/1974,Carmarthenshire,89.8,Season Pass,Friends,Speed Slides,Website,Email,Price,4,4,24.63,0,0,0,0,2,1,0,1,1,0,0,0
+TS0375,01/04/2013,Cardiff,24.3,Day Ticket,Family,Family Slides,On-site,Social Media,Weather,4,3,37.8,0,0,0,0,0,0,0,1,0,0,0,0
+TS0242,24/04/1994,Neath Port Talbot,45.3,Day Ticket,Family,Lazy River,Phone,Email,Distance,3,5,29.75,0,0,0,0,2,0,0,0,0,0,0,0
+TS0755,12/11/2011,Bridgend,12.4,Student Ticket,Family,Lazy River,Mobile App,School/Club,Queues,3,3,25.62,0,0,0,0,1,0,0,0,0,1,0,0
+TS0075,06/03/1990,Cardiff,30.4,Family Ticket,Family,Family Slides,On-site,Social Media,Price,4,4,35.93,0,0,0,0,0,0,0,0,0,0,0,0
+TS0484,14/04/1998,Cardiff,27.2,Season Pass,Friends,Aqua Play,Mobile App,Search Engine,Transport,4,4,27.5,0,0,2,0,1,2,0,0,1,1,0,0
+TS0409,14/07/1984,Caerphilly,31.2,Family Ticket,Family,Family Slides,Website,Email,Queues,3,4,36.16,0,0,0,0,0,1,0,0,0,0,0,0
+TS0535,14/08/1980,Vale of Glamorgan,34.8,Day Ticket,Friends,Wave Pool,Website,Search Engine,Price,3,3,41.18,0,0,0,0,0,1,0,0,0,0,1,0
+TS0205,19/08/1986,Cardiff,31.1,Twilight Ticket,Friends,Wave Pool,Phone,School/Club,Transport,4,5,11.08,0,0,0,0,0,0,0,0,0,0,0,0
+TS0037,21/12/1996,Neath Port Talbot,41.1,Day Ticket,Family,Family Slides,On-site,Search Engine,Distance,4,4,44.9,0,0,0,0,1,0,0,1,0,0,0,0
+TS0495,07/06/1988,Cardiff,23.4,Day Ticket,Friends,Speed Slides,Mobile App,Social Media,Transport,4,4,34.92,0,0,0,0,1,0,0,0,0,0,0,0
+TS0116,22/03/1981,Cardiff,24.5,Day Ticket,Family,Aqua Play,Mobile App,School/Club,Queues,3,4,44.4,0,0,0,0,0,0,0,0,0,0,0,0
+TS0440,06/01/1971,Swansea,55.6,Season Pass,School/Club,Speed Slides,Mobile App,School club,Time,4,5,30.06,0,0,0,1,0,1,0,1,0,1,0,0
+TS0436,28/01/1987,Cardiff,34.4,Day Ticket,Couple,Family Slides,Website,Social Media,Weather,5,4,22.52,0,0,0,0,0,0,0,0,0,0,0,0
+TS0411,28/09/1962,Neath Port Talbot,31.8,Student,Friends,Wave Pool,Website,Outdoor Poster,Distance,4,4,32.64,0,0,0,0,0,0,0,0,0,0,1,0
+TS0217,08/11/2001,Rhondda Cynon Taf,19.1,Day Ticket,Family,Lazy River,Website,social media,Transport,4,4,31.24,0,0,0,0,0,1,0,2,0,0,0,0
+TS0482,23/12/1968,Newport,46.1,Day Ticket,Couple,Wave Pool,On-site,Friend/Family,Price,5,3,21.67,0,0,0,0,0,0,0,0,0,0,0,0
+TS0200,12/12/1993,Swansea,38.4,Day Ticket,Friends,Speed Slides,Website,Google search,Queues,4,5,31.92,0,0,0,1,0,0,0,1,0,0,0,0
+TS0018,24/06/1984,Caerphilly,32.5,Season Pass,Couple,Speed Slides,On-site,Search Engine,Time,5,4,29.33,0,0,1,0,0,0,3,2,1,2,0,0
+TS0471,05/01/1970,Cardiff,44.1,Twilight Ticket,Friends,Aqua Play,Mobile App,Search Engine,Queues,3,5,29.6,0,0,0,0,0,0,0,0,0,0,0,0
+TS0314,14/09/1980,Ceredigion,144.1,Family Ticket,Family,Wave Pool,Website,Search Engine,Queues,3,4,42.05,0,0,0,0,0,1,0,0,0,0,0,0
+TS0136,07/07/1996,Bridgend,15.9,Day Ticket,Family,Splash Zone,Website,Email,Price,5,3,48.05,0,0,0,0,0,0,0,0,1,0,0,0
+TS0599,16/09/1999,Merthyr Tydfil,50.0,Day Ticket,Family,Wave Pool,Mobile App,Search Engine,Time,4,4,29.68,0,0,0,0,1,1,1,0,0,0,0,0
+TS0008,27/04/2016,Caerphilly,49.7,Day Ticket,Couple,Wave Pool,Mobile App,Friend/Family,Queues,3,4,16.51,0,0,0,0,0,0,0,0,0,0,0,0
+TS0109,18/01/1994,Caerphilly,31.0,Family Ticket,Family,Splash Zone,Website,Social Media,Distance,4,5,47.58,0,0,0,0,0,0,1,0,0,0,0,0
+TS0282,14/02/1978,Cardiff,39.2,Day Ticket,Solo,Splash Zone,On-site,Social Media,Queues,4,3,27.35,0,0,0,0,1,0,1,1,0,0,0,0
+TS0238,06/06/1990,Cardiff,42.2,Day Ticket,Family,Lazy River,Mobile App,Social Media,Queues,3,4,39.3,0,0,0,0,0,1,1,0,1,0,0,0
+TS0045,06/03/2008,Vale of Glamorgan,35.0,Day Ticket,Solo,Splash Zone,On-site,Email,Time,5,4,37.58,0,0,0,0,0,0,0,0,0,1,0,0
+TS0259,22/06/2009,Swansea,40.5,Day Ticket,School/Club,Aqua Play,Mobile App,Friend/Family,Price,4,2,37.32,0,0,0,0,0,0,0,0,1,0,0,1
+TS0647,08/01/1983,Vale of Glamorgan,32.8,Day Ticket,Family,Speed Slides,Website,Search Engine,Price,4,3,36.89,0,0,0,0,0,1,0,0,0,0,0,0
+TS0764,17/05/1966,Bridgend,8.0,Season Pass,Friends,Speed Slides,Mobile App,Friend/Family,Price,3,3,31.88,0,2,0,0,2,3,2,2,0,0,0,2
+TS0630,18/02/1989,Cardiff,33.6,Season Pass,Friends,Speed Slides,Mobile App,Social Media,Weather,4,3,37.29,1,0,0,0,0,1,1,1,0,1,0,0
+TS0729,12/11/2001,Rhondda Cynon Taf,26.8,Family Ticket,Family,Lazy River,Mobile App,Search Engine,Weather,4,3,45.13,0,0,0,0,1,0,0,0,0,0,0,0
+TS0767,26/07/1978,Bridgend,11.2,Season Pass,School/Club,Lazy River,On-site,Friend & Family,Queues,3,4,38.27,0,0,0,1,3,2,1,0,1,1,0,1
+TS0279,05/07/1988,Neath Port Talbot,46.2,Day Ticket,School/Club,Lazy River,On-site,Social Media,Time,4,4,45.82,0,1,0,0,0,0,0,0,0,0,0,0
+TS0388,11/07/1968,Neath Port Talbot,34.5,Day Ticket,Couple,Speed Slides,On-site,Social Media,Weather,4,3,38.49,0,0,0,0,0,0,0,2,0,0,0,0
+TS0117,16/09/1996,Bridgend,16.6,Day Ticket,Couple,Family Slides,Website,Search Engine,Queues,3,4,35.76,0,0,0,0,0,0,0,0,1,0,0,0
+TS0074,10/07/1986,Cardiff,35.2,Day Ticket,Family,Speed Slides,On-site,Search Engine,Price,5,3,53.7,0,0,0,1,0,0,0,0,0,0,1,0
+TS0015,18/04/2015,Bridgend,17.4,Day Ticket,Couple,Speed Slides,On-site,Search Engine,Queues,3,3,18.95,0,0,0,0,0,0,0,0,0,0,0,1
+TS0425,25/07/1995,Vale of Glamorgan,19.2,Day Ticket,School/Club,Aqua Play,Mobile App,Social Media,Queues,3,4,23.62,0,0,0,0,0,0,1,0,1,0,0,0
+TS0579,26/12/1984,Bridgend,8.6,Day Ticket,Friends,Speed Slides,Website,Search Engine,Transport,4,5,36.63,0,0,0,0,3,0,0,0,0,0,0,0
+TS0547,09/02/1990,Rhondda Cynon Taf,35.7,Day Ticket,Couple,Speed Slides,On-site,Search Engine,Price,4,2,34.17,0,0,0,0,0,0,1,0,1,1,1,0
+TS0061,05/09/1981,Swansea,38.8,Day Ticket,School/Club,Splash Zone,Website,Search Engine,Time,5,4,40.4,0,0,0,0,0,0,0,0,0,1,0,0
+TS0681,01/06/1983,Vale of Glamorgan,27.2,Family Ticket,Family,Family Slides,Website,Search Engine,Queues,4,4,35.8,0,0,0,0,0,0,0,1,1,0,0,0
+TS0364,13/06/1989,Rhondda Cynon Taf,38.0,Day Ticket,Friends,Family Slides,Website,Search Engine,Price,4,2,26.99,0,0,1,0,0,0,1,1,0,1,0,0
+TS0540,04/06/1974,Swansea,49.9,Family Ticket,Family,Aqua Play,Website,Friend/Family,Distance,4,4,23.72,0,0,0,0,1,1,0,1,0,0,0,0
+TS0646,06/09/1982,Neath Port Talbot,30.9,Twilight Ticket,Friends,Wave Pool,Phone,Friend/Family,Queues,3,3,39.87,1,0,0,0,0,0,0,0,0,0,0,0
+TS0537,10/04/1976,Cardiff,25.7,Day Ticket,Friends,Splash Zone,On-site,School/Club,Price,4,3,36.11,0,1,0,0,0,1,0,1,0,1,0,0
+TS0532,10/10/1994,Swansea,47.0,Season Pass,Solo,Speed Slides,Mobile App,Friend/Family,Price,4,2,499.99,0,0,0,1,0,0,1,1,1,0,0,1
+TS0550,21/08/1973,Bridgend,10.2,Day Ticket,Friends,Speed Slides,Mobile App,Social Media,Time,5,5,29.6,0,0,0,0,1,0,0,1,0,0,0,0
+TS0291,01/11/1986,Bridgend,17.9,Family Ticket,Family,Wave Pool,Website,Social Media,Weather,4,5,35.31,0,1,0,0,0,0,0,0,0,0,0,0
+TS0268,04/02/1989,Swansea,45.3,Twilight Ticket,Couple,Family Slides,Mobile App,Outdoor Poster,Queues,4,5,27.29,0,0,0,0,0,0,0,0,0,0,0,0
+TS0401,23/11/1982,Bridgend,16.7,Season Pass,Couple,Speed Slides,On-site,Search Engine,Queues,5,5,18.36,0,0,0,2,0,2,0,1,0,0,0,0
+TS0261,24/03/2003,Cardiff,42.6,Student Ticket,School/Club,Lazy River,Mobile App,Friend/Family,Price,4,3,27.62,0,0,0,0,0,1,2,0,0,0,0,0
+TS0265,05/09/2001,Carmarthenshire,56.7,Season Pass,Friends,Family Slides,Website,Search Engine,Transport,5,4,46.05,0,0,0,0,0,1,2,2,0,0,0,0
+TS0527,10/12/1988,Neath Port Talbot,36.2,Day Ticket,Friends,Aqua Play,Mobile App,School/Club,Queues,4,4,19.93,0,0,0,1,0,0,0,0,0,0,0,1
+TS0663,05/02/1988,Vale of Glamorgan,31.8,Family Ticket,Family,Speed Slides,Website,Email,Queues,4,4,29.28,0,0,0,0,0,0,1,1,0,0,0,1
+TS0656,16/01/1986,Rhondda Cynon Taf,39.3,Twilight Ticket,Couple,Family Slides,Website,Search Engine,Queues,4,4,20.32,0,0,0,0,0,0,0,1,0,0,0,0
+TS0284,10/04/1972,Bridgend,16.2,Season Pass,Couple,Lazy River,Mobile App,Search Engine,Time,4,5,29.17,0,0,0,0,0,0,2,3,1,0,0,0
+TS0609,12/02/1977,Bridgend,12.5,Day Ticket,Family,Family Slides,Website,Email,Queues,4,4,33.85,0,0,0,2,0,1,0,0,0,0,0,0
+TS0257,28/06/1978,Bridgend,6.9,Family Ticket,Family,Wave Pool,Website,Email,Price,4,3,38.77,0,0,0,0,0,0,1,0,0,0,0,0
+TS0073,14/03/1997,Vale of Glamorgan,24.5,Family Ticket,Family,Family Slides,On-site,Friend/Family,Price,5,4,33.69,0,0,1,0,0,0,0,0,1,0,0,0
+TS0139,05/07/1984,Swansea,55.0,Twilight Ticket,Friends,Family Slides,Website,Friend/Family,Distance,4,4,28.18,0,0,0,0,0,0,0,0,0,0,0,0
+TS0430,05/12/2000,Bridgend,5.6,Day Ticket,Friends,Splash Zone,Phone,Friend/Family,Price,4,4,42.67,0,0,0,0,0,0,0,0,0,0,0,0
+TS0023,08/11/2012,Caerphilly,36.5,Student Ticket,Couple,Speed Slides,Mobile App,Friend/Family,Queues,4,5,21.49,0,0,0,0,0,0,0,1,1,0,1,0
+TS0648,14/10/2010,Bridgend,16.0,Day Ticket,School/Club,Splash Zone,Website,Social Media,Time,4,5,19.85,0,0,0,0,0,0,0,0,0,0,0,0
+TS0296,05/12/1981,Caerphilly,51.8,Day Ticket,Family,Wave Pool,Website,Social Media,Weather,4,5,38.61,0,0,0,0,0,0,0,0,0,0,0,0
+TS0752,02/11/2006,Bridgend,16.6,Day Ticket,School/Club,Speed Slides,Website,Social Media,Price,4,3,24.17,0,0,0,0,0,0,0,0,1,0,0,0
+TS0024,23/02/2012,Bridgend,14.0,Day Ticket,Family,Lazy River,Mobile App,Social Media,Weather,4,4,30.85,0,0,0,0,0,0,0,1,0,0,0,0
+TS0676,01/03/1979,Bridgend,12.8,Family Ticket,Family,Family Slides,Website,Friend/Family,None,4,5,44.67,0,1,0,0,1,1,1,0,0,0,0,0
+TS0235,10/08/1985,Rhondda Cynon Taf,,Day Ticket,Friends,Speed Slides,Website,Friend/Family,Queues,4,3,33.7,0,0,0,0,0,1,0,0,0,0,0,0
+TS0089,06/08/1994,Rhondda Cynon Taf,18.2,Day Ticket,Family,Lazy River,Website,Search Engine,Weather,5,4,55.38,0,0,0,1,0,0,0,0,0,0,0,0
+TS0737,04/09/1989,Merthyr Tydfil,41.4,Day Ticket,Family,Lazy River,Mobile App,Friend/Family,Queues,3,4,39.65,0,0,0,0,0,1,1,1,0,0,0,0
+TS0794,24/08/1997,Merthyr Tydfil,48.4,Day Ticket,Friends,Wave Pool,Website,Search Engine,Weather,4,3,19.88,1,0,0,0,0,0,0,0,0,0,0,0
+TS0403,07/11/1984,Swansea,50.9,Season Pass,Couple,Aqua Play,Website,Social Media,Distance,3,4,36.79,0,0,0,0,3,1,1,1,1,0,0,0
+TS0288,06/07/1990,Rhondda Cynon Taf,41.8,Day Ticket,Family,Family Slides,Website,Social Media,Distance,3,3,21.87,0,0,0,0,0,0,0,1,0,1,0,0
+TS0732,05/04/1986,Bridgend,13.2,Day Ticket,Couple,Family Slides,Mobile App,Email,Queues,4,3,18.28,0,0,0,0,0,0,1,0,1,0,0,0
+TS0421,27/12/1996,Rhondda Cynon Taf,35.6,Day Ticket,Friends,Family Slides,Website,Social Media,Time,3,4,40.39,0,0,0,0,0,0,1,0,0,0,0,0
+TS0154,21/05/1968,Bridgend,5.2,Day Ticket,Family,Splash Zone,Mobile App,Social Media,None,4,4,31.66,1,0,0,0,0,0,0,0,0,0,0,0
+TS0286,13/11/1982,Bridgend,16.8,Season Pass,Friends,Speed Slides,Website,Social Media,Weather,4,5,27.66,2,0,1,0,1,0,2,4,1,0,0,0
+TS0525,07/11/1966,Neath Port Talbot,33.8,Day Ticket,Couple,Speed Slides,Website,Social Media,Weather,4,4,33.36,0,0,0,0,0,1,1,0,0,0,0,0
+TS0270,25/04/1999,Rhondda Cynon Taf,30.9,Day Ticket,Friends,Wave Pool,Mobile App,School/Club,Price,5,3,46.38,0,0,0,0,0,0,0,1,0,0,0,0
+TS0790,06/05/1999,Cardiff,27.1,Day Ticket,School/Club,Wave Pool,Mobile App,Social Media,Price,4,3,39.23,0,0,0,0,0,0,1,0,1,0,0,0
+TS0567,16/07/1980,Caerphilly,48.4,Family Ticket,Family,Family Slides,On-site,Search Engine,Time,4,5,25.42,1,0,0,0,0,0,1,0,0,0,0,0
+TS0147,28/12/1977,Bridgend,5.3,Day Ticket,Friends,Lazy River,Website,Social Media,Price,4,4,39.55,0,0,0,0,1,1,0,0,0,0,0,0
+TS0592,13/06/1965,Vale of Glamorgan,24.4,Day Ticket,Couple,Lazy River,Phone,Search Engine,Distance,4,4,30.06,0,0,0,0,0,0,0,1,0,0,0,0
+TS0203,03/10/2005,Neath Port Talbot,32.5,Family Ticket,Family,Lazy River,Phone,Friend/Family,Price,4,2,31.42,0,0,0,1,0,0,0,0,0,0,0,0
+TS0267,18/07/2016,Cardiff,33.8,Family Ticket,Family,Wave Pool,On-site,Friend/Family,Distance,4,4,34.67,0,0,0,0,0,0,0,0,0,1,1,0
+TS0588,04/05/1997,Rhondda Cynon Taf,26.3,Day Ticket,Family,Lazy River,Mobile App,Friend/Family,Distance,4,4,16.03,0,0,0,0,0,1,1,0,0,0,1,0
+TS0297,02/06/1973,Newport,44.4,Family Ticket,Family,Wave Pool,Mobile App,Friend/Family,Queues,4,4,50.17,0,0,0,0,0,0,0,2,0,0,1,0
+TS0610,01/06/1990,Cardiff,27.1,Family Ticket,Family,Lazy River,Website,Friend/Family,Queues,4,4,49.51,0,0,0,1,0,0,1,0,0,0,0,0
+TS0760,27/02/1978,Vale of Glamorgan,33.7,Day Ticket,Friends,Speed Slides,Website,Social Media,Weather,3,4,26.45,0,0,0,1,0,1,0,1,0,0,0,0
+TS0765,15/01/2011,Neath Port Talbot,46.3,Student Ticket,Family,Wave Pool,Mobile App,Social Media,Price,5,2,41.29,0,0,0,0,0,0,0,0,0,0,0,0
+TS0660,17/12/1973,Newport,72.9,Season Pass,Solo,Family Slides,Mobile App,School/Club,Time,5,4,27.34,0,0,0,1,0,1,1,0,0,1,0,0
+TS0359,15/03/1995,Neath Port Talbot,25.5,Day Ticket,Friends,Speed Slides,Mobile App,Social Media,Queues,4,4,28.02,0,0,0,0,0,0,0,0,0,0,0,0
+TS0431,18/06/1994,Merthyr Tydfil,54.0,Day Ticket,Couple,Speed Slides,Website,Search Engine,Queues,3,3,35.42,0,0,0,0,0,0,0,2,0,0,0,0
+TS0531,14/12/1974,Bridgend,11.0,Day Ticket,Couple,Wave Pool,Website,Social Media,Price,4,3,35.97,0,0,0,0,0,0,0,1,0,1,0,0
+TS0072,22/08/2006,Cardiff,43.1,Student Ticket,Solo,Speed Slides,Website,Social Media,Queues,4,4,28.68,0,0,2,0,0,0,0,0,0,1,0,0
+TS0320,03/07/1998,Cardiff,28.3,Family Ticket,Family,Speed Slides,Website,Outdoor Poster,Price,4,2,30.93,0,1,0,1,0,1,0,0,0,0,0,0
+TS0641,10/06/2006,Newport,60.2,Student Ticket,Friends,Speed Slides,Phone,Social Media,Weather,3,4,-15.0,0,0,0,0,0,0,0,1,2,0,0,0
+TS0672,21/05/2016,Cardiff,22.6,Student Ticket,Couple,Lazy River,On-site,Email,Queues,4,4,36.88,0,0,0,0,2,1,1,0,0,0,0,0
+TS0272,17/08/1986,Vale of Glamorgan,23.1,Season Pass,Solo,Wave Pool,Mobile App,School/Club,Price,3,3,£5.72,0,0,1,1,0,0,1,1,0,0,1,0
+TS0412,15/03/1999,Neath Port Talbot,36.2,Season Pass,Friends,Wave Pool,Mobile App,Search Engine,Price,4,2,17.43,0,0,0,1,0,3,3,0,0,0,1,0
+TS0486,28/01/1995,Swansea,54.6,Day Ticket,Couple,Wave Pool,Website,Search Engine,Time,4,4,29.02,0,0,0,0,1,0,0,0,0,0,0,0
+TS0096,24/10/1990,Caerphilly,37.7,Day Ticket,Friends,Speed Slides,Website,Outdoor Poster,Price,4,2,43.3,0,0,1,0,0,0,1,0,0,0,0,0
+TS0247,08/05/1980,Neath Port Talbot,33.9,Family Ticket,Family,Wave Pool,Website,Friend/Family,Queues,3,5,39.1,0,0,0,0,0,0,2,0,0,0,0,0
+TS0776,02/09/1968,Swansea,42.8,Day Ticket,Friends,Speed Slides,Phone,Social Media,Queues,4,4,38.97,0,0,0,0,0,1,0,1,0,0,0,0
+TS0046,15/02/1979,Cardiff,,Day Ticket,Solo,Splash Zone,Phone,Social Media,Price,3,3,18.1,0,0,0,0,1,0,0,0,0,0,0,0
+TS0669,16/06/1996,Neath Port Talbot,38.2,Day Ticket,Couple,Family Slides,Website,Search Engine,Weather,5,4,36.02,0,2,0,0,0,1,1,1,0,0,0,0
+TS0552,15/10/1982,Rhondda Cynon Taf,41.4,Family Ticket ,Family,Splash Zone,On-site,Social Media,Distance,4,3,31.2,0,0,0,0,0,0,0,1,0,0,0,0
+TS0336,13/03/1993,Swansea,47.6,Day Ticket,Solo,Splash Zone,Website,Search Engine,Queues,4,4,20.21,0,0,0,0,1,1,0,0,0,0,0,0
+TS0216,23/10/2016,Bridgend,14.9,Day Ticket,Friends,Aqua Play,Phone,Friend/Family,Weather,5,4,45.34,0,0,0,0,0,0,0,0,0,0,0,0
+TS0652,27/07/1982,Neath Port Talbot,23.7,Day Ticket,Family,Wave Pool,On-site,Outdoor Poster,None,5,4,36.04,0,0,0,1,0,0,0,1,0,0,0,0
+TS0305,12/02/1981,Carmarthenshire,89.8,Family Ticket,Family,Wave Pool,On-site,Social Media,Transport,5,4,41.28,0,0,0,0,0,0,0,0,0,1,0,0
+TS0255,27/03/1984,Cardiff,43.7,Day Ticket,Couple,Aqua Play,Website,Social Media,Time,4,4,33.85,0,0,0,0,0,1,0,1,1,0,0,0
+TS0518,02/10/1968,Newport,50.2,Day Ticket,Couple,Lazy River,Mobile App,Email,Distance,4,4,32.59,0,0,0,0,0,1,0,0,2,1,0,0
+TS0108,23/01/1998,Vale of Glamorgan,16.3,Day Ticket,Friends,Speed slide,On-site,Social Media,Queues,3,4,49.76,0,0,0,0,0,2,0,0,0,0,0,0
+TS0413,15/05/2002,Neath Port Talbot,38.1,Day Ticket,Couple,Aqua Play,On-site,Social Media,Distance,4,5,36.7,0,0,0,1,0,0,0,0,0,0,0,0
+TS0318,26/09/2011,Vale of Glamorgan,15.3,Student Ticket,Family,Lazy River,Mobile App,Friend/Family,Price,3,5,£31.49,0,0,0,1,0,0,0,1,1,0,0,0
+TS0002,04/08/2010,Bridgend,13.2,Day Ticket,Friends,Speed Slides,Website,Friend/Family,Price,4,3,31.15,0,0,0,0,1,0,1,0,0,0,0,0
+TS0623,27/11/1960,Cardiff,38.8,Senior Ticket,Family,Wave Pool,Website,Friend/Family,Transport,5,4,41.77,1,0,0,0,0,1,0,0,0,0,0,0
+TS0343,22/10/1987,Caerphilly,45.8,Family Ticket,Family,Lazy River,Website,Search Engine,Distance,5,4,30.79,0,0,0,1,1,0,0,0,0,0,0,0
+TS0310,01/07/2005,Neath Port Talbot,24.9,Day Ticket,Couple,Wave Pool,Website,Social Media,Price,4,2,44.92,0,0,0,0,0,1,2,0,0,1,0,0
+TS0423,16/03/1982,Swansea,60.5,Family Ticket,Family,Lazy River,Mobile App,Search Engine,Queues,3,4,50.11,0,0,0,0,0,0,0,0,0,0,0,0
+TS0190,11/05/1979,Merthyr Tydfil,64.7,Day Ticket,Family,Splash Zone,Mobile App,Friend/Family,Distance,3,5,53.43,0,0,0,0,0,0,0,0,0,0,0,0
+TS0191,26/03/1969,Cardiff,25.3,Family Ticket,Family,Family Slides,Mobile App,Outdoor Poster,Price,5,1,43.86,0,0,0,0,0,0,0,0,0,0,0,0
+TS0407,28/05/1971,Cardiff,35.1,Day Ticket,Solo,Wave Pool,Website,SOCIAL MEDIA,Queues,3,4,21.61,0,0,0,0,1,0,0,0,1,0,0,0
+TS0062,10/04/1985,Caerphilly,40.7,Day Ticket,Friends,Wave Pool,Website,School/Club,Time,4,5,22.55,0,0,0,0,0,1,0,0,1,0,0,0
+TS0277,07/09/2000,Newport,48.9,Family Ticket,Family,Wave Pool,On-site,Friend/Family,Queues,3,4,35.03,0,0,1,0,1,0,1,0,0,0,0,0
+TS0510,26/07/2003,Swansea,55.7,Day Ticket,Family,Family Slides,Mobile App,Email,Time,5,3,36.89,0,0,0,0,0,0,0,1,0,0,0,0
+TS0010,22/11/1980,Swansea,60.4,Day Ticket,Solo,Lazy River,Website,Search Engine,Weather,4,3,32.04,0,0,0,0,0,0,0,1,0,0,0,0
+TS0128,11/05/2001,Bridgend,9.5,Family Ticket,Family,Lazy River,Website,Friend/Family,Price,4,2,52.73,0,0,0,0,0,0,0,1,0,0,0,0
+TS0570,07/05/1988,Rhondda Cynon Taf,32.5,Day Ticket,Friends,Aqua Play,Website,Social Media,Distance,4,4,30.9,0,0,0,0,0,0,0,0,1,0,0,0
+TS0192,06/04/1989,Bridgend,16.5,Family Ticket,Family,Wave Pool,Mobile App,Search Engine,Price,5,3,31.08,0,0,0,0,0,0,0,0,0,0,0,0
+TS0748,12/01/1985,Swansea,37.3,Day Ticket,Friends,Speed Slides,Mobile App,Friend/Family,Weather,4,4,37.3,0,0,0,0,0,0,0,0,0,0,0,0
+TS0302,19/07/2014,Bridgend,13.3,Student Ticket,Solo,Lazy River,Website,Friend/Family,Distance,4,4,29.83,0,0,1,1,0,0,3,0,0,0,0,0
+TS0204,04/06/2003,Swansea,47.3,Student Ticket,Family,Aqua Play,On-site,School/Club,Weather,4,5,27.28,0,0,0,0,1,1,0,1,0,0,0,0
+TS0044,28/11/2002,Swansea,61.0,Family Ticket,Family,Aqua Play,Mobile App,Social Media,Time,5,4,37.0,0,0,0,1,0,0,0,0,1,0,0,0
+TS0575,11/07/1961,Cardiff,36.7,Day Ticket,Friends,Lazy River,Website,School/Club,Price,4,3,22.44,0,0,0,0,1,1,0,1,0,0,0,0
+TS0239,17/05/1994,Caerphilly,50.2,Twilight Ticket,School/Club,Wave Pool,On-site,Search Engine,Price,3,3,28.02,0,0,0,0,0,0,0,0,0,0,0,0
+TS0333,25/03/1992,Vale of Glamorgan,20.4,Day Ticket,Friends,Speed Slides,Mobile App,Social Media,Price,3,3,32.5,0,0,0,0,0,2,0,0,1,0,0,0
+TS0349,13/08/1994,Cardiff,36.5,Season Pass,School/Club,Splash Zone,Mobile App,School/Club,Time,4,5,22.99,0,0,0,1,0,0,0,2,0,1,0,0
+TS0406,06/03/2016,Neath Port Talbot,24.4,Day Ticket,School/Club,Splash Zone,Mobile App,Search Engine,None,5,4,39.67,0,0,0,0,0,1,0,0,0,0,1,1
+TS0769,03/01/2001,Vale of Glamorgan,30.9,Family Ticket,Family,Splash Zone,Phone,Social Media,Price,4,3,45.55,0,0,0,0,0,0,0,0,0,0,0,0
+TS0144,19/10/1990,Ceredigion,112.6,Family Ticket,Family,Lazy River,Website,School/Club,Queues,3,3,38.66,0,0,0,1,0,0,0,0,0,0,0,0
+TS0551,08/07/1995,Rhondda Cynon Taf,27.7,Day Ticket,Couple,Lazy River,Website,School/Club,Weather,5,4,25.74,0,0,0,0,0,1,0,1,0,0,0,0
+TS0513,19/11/1998,Swansea,52.3,Day Ticket,Friends,Speed Slides,Mobile App,Social Media,Queues,4,4,38.97,0,0,0,0,0,0,0,0,1,0,0,0
+TS0763,13/02/1995,Vale of Glamorgan,33.7,Day Ticket,Family,Aqua Play,Mobile App,School/Club,Weather,4,3,35.55,0,0,0,0,0,0,0,1,1,0,0,0
+TS0598,11/06/1998,Rhondda Cynon Taf,25.7,Day Ticket,School/Club,Speed Slides,Mobile App,Email,Time,5,3,25.49,0,0,0,0,1,0,0,0,0,0,0,0
+TS0722,19/01/1991,Rhondda Cynon Taf,40.0,Day Ticket,Couple,Lazy River,On-site,Friend/Family,Distance,5,5,13.72,0,0,0,0,0,0,0,1,0,0,0,0
+TS0600,13/01/1978,Newport,53.5,Day Ticket,School/Club,Aqua Play,Website,Social Media,Transport,4,4,39.12,0,0,0,0,0,1,0,0,0,1,0,0
+TS0781,07/08/2008,Neath Port Talbot,31.1,Day Ticket,Family,Aqua Play,Website,Search Engine,Time,4,4,34.75,0,0,0,0,1,0,1,1,0,0,0,0
+TS0458,19/08/1999,Newport,62.5,Day Ticket,Friends,Wave Pool,Website,Social Media,Price,4,3,26.34,0,0,0,0,0,0,0,0,0,0,0,0
+TS0524,24/02/1997,Rhondda Cynon Taf,38.1,Season Pass,Friends,Speed Slides,Mobile App,Friend/Family,Weather,3,4,37.85,0,0,0,0,1,1,2,1,1,1,0,0
+TS0350,04/06/2012,Swansea,60.5,Student Ticket,Friends,Speed Slides,Website,Search Engine,Distance,4,3,12.91,0,0,0,1,0,0,1,0,0,0,0,0
+TS0306,04/04/1995,Bridgend,16.6,Day Ticket,Couple,Speed Slides,Website,Search Engine,Price,5,2,29.9,0,0,0,0,0,1,0,0,0,0,0,1
+TS0783,26/09/2000,Bridgend,15.2,Day Ticket,Family,Wave Pool,On-site,Social Media,Price,5,4,36.6,0,0,0,1,0,0,0,0,0,0,0,0
+TS0773,01/02/1997,Caerphilly,54.3,Day Ticket,Solo,Family Slides,Website,Friend/Family,Distance,4,3,36.51,0,0,0,0,0,0,0,0,1,0,0,0
+TS0786,16/12/1986,Swansea,36.4,Family Ticket,Family,Speed Slides,Mobile App,Social Media,Distance,4,4,33.0,0,0,0,0,0,0,0,0,0,0,0,0
+TS0696,11/08/1987,Swansea,39.2,Day Ticket,Friends,Speed Slides,Website,Search Engine,Queues,3,3,22.81,0,0,0,0,0,1,0,0,0,0,0,0
+TS0711,11/07/1996,Rhondda Cynon Taf,39.2,Day Ticket,Friends,Wave Pool,Mobile App,Social Media,Price,4,3,31.09,0,0,0,0,0,0,0,1,0,0,0,0
+TS0587,01/10/1975,Newport,46.2,Day Ticket,Family,Lazy River,Website,Search Engine,Price,4,4,36.35,0,0,0,1,0,0,0,0,1,0,0,0
+TS0485,02/09/1989,Swansea,42.5,Family Ticket,Family,Splash Zone,Website,Email,Weather,4,4,36.79,0,0,0,0,0,0,2,0,0,0,0,0
+TS0395,03/03/1991,Vale of Glamorgan,18.1,Family Ticket,Family,Lazy River,Website,Email,Transport,4,4,35.8,0,0,0,0,0,1,0,0,0,0,0,0
+TS0620,20/03/2011,Rhondda Cynon Taf,25.3,Family Ticket,Family,Speed Slides,Website,Friend/Family,Queues,2,4,28.7,0,0,0,0,0,0,0,1,0,0,0,0
+TS0418,07/12/1977,Bridgend,5.6,Family Ticket,Family,Aqua Play,Mobile App,Social Media,Price,4,3,26.79,0,0,0,0,1,1,1,1,0,0,0,0
+TS0456,14/09/1985,Newport,71.4,Day Ticket,Family,Wave Pool,Phone,Search Engine,Distance,4,4,33.82,0,0,0,0,1,1,0,2,0,0,0,0
+TS0635,21/04/1993,Newport,,Season Pass,Friends,Family Slides,Website,Social Media,Distance,5,4,41.12,0,0,0,0,2,2,2,1,1,0,0,1
+TS0597,17/03/1970,Bridgend,10.2,Day Ticket,Family,Wave Pool,Website,Social Media,None,4,4,45.33,0,0,0,0,0,0,0,1,0,0,0,0
+TS0177,16/03/1980,Cardiff,40.0,Family Ticket,Family,Splash Zone,Website,Email,Time,3,3,36.13,0,0,0,0,0,1,0,0,0,0,0,0
+TS0351,19/04/2003,Vale of Glamorgan,,Student Ticket,Friends,Aqua Play,On-site,Friend/Family,Weather,4,3,17.93,1,0,0,0,0,1,2,0,0,0,0,0
+TS0682,01/02/1977,Bridgend,10.8,Family Ticket,Family,Family Slides,Mobile App,Friend/Family,Price,4,3,35.33,0,0,0,0,0,0,2,0,0,0,0,0
+TS0030,18/11/1962,Caerphilly,39.2,Day Ticket,Friends,Family Slides,Website,Outdoor Poster,Time,4,5,35.89,0,0,0,0,0,0,0,0,0,0,1,0
+TS0659,27/09/1967,Carmarthenshire,74.7,Season Pass,Couple,Wave Pool,Website,Friend/Family,Weather,3,4,28.59,0,0,1,2,0,2,0,1,0,1,0,0
+TS0618,21/01/2034,Merthyr Tydfil,58.3,Family Ticket,Family,Lazy River,On-site,Social Media,Queues,4,4,46.21,0,0,0,2,0,0,0,0,1,0,0,0
+TS0446,09/07/1992,Carmarthenshire,79.0,Day Ticket,Family,Lazy River,Website,Search Engine,Time,4,3,25.27,0,0,0,0,0,0,0,1,0,0,0,0
+TS0274,17/05/1997,Caerphilly,53.7,Day Ticket,Solo,Speed Slides,Website,Social Media,Weather,5,5,20.35,0,1,0,0,0,1,1,0,0,0,0,0
+TS0453,16/04/1984,Newport,56.2,Day Ticket,Friends,Speed Slides,Mobile App,Search Engine,Weather,4,5,25.99,0,0,0,0,1,0,0,1,0,0,0,0
+TS0026,26/09/1972,Vale of Glamorgan,23.3,Family Ticket,Family,Lazy River,Phone,School/Club,Distance,5,5,45.81,0,0,0,1,0,0,0,0,0,0,0,0
+TS0389,12/11/2001,Carmarthenshire,72.3,Day Ticket,Family,Lazy River,Website,Search engine,Distance,5,4,30.73,0,1,0,0,0,0,2,0,0,0,1,0
+TS0468,03/12/1981,Merthyr Tydfil,54.7,Family Ticket,Family,Splash Zone,On-site,Friend/Family,Transport,4,4,59.2,0,0,0,0,0,0,1,0,0,0,0,0
+TS0666,16/10/1983,Carmarthenshire,69.1,Day Ticket,Friends,Speed Slides,On-site,Social Media,Transport,4,3,25.4,0,0,0,0,0,0,0,0,0,0,0,0
+TS0686,20/03/1984,Carmarthenshire,82.0,Day Ticket,Family,Speed Slides,Website,Search Engine,Transport,5,3,50.03,0,0,0,0,0,0,0,0,0,0,0,0
+TS0795,15/07/1978,Rhondda Cynon Taf,33.2,Day Ticket,School/Club,Speed Slides,Website,Search Engine,Time,5,3,44.92,0,0,0,0,0,0,0,0,0,0,0,0
+TS0761,05/02/1996,Rhondda Cynon Taf,18.0,Family Ticket,Family,Wave Pool,Website,School/Club,Queues,4,4,47.97,0,0,1,0,0,0,0,0,0,0,0,0
+TS0391,20/01/1979,Caerphilly,54.8,Day Ticket,Friends,Family Slides,Website,School/Club,Weather,4,4,15.93,0,0,0,0,0,0,0,0,0,0,0,0
+TS0740,10/06/2003,Bridgend,7.1,Day Ticket,Family,Aqua Play,Mobile App,Social Media,Price,4,2,44.92,0,0,0,0,0,1,0,1,0,0,0,0
+TS0442,30/02/1985,Bridgend,16.3,Day Ticket,Friends,Speed Slides,Website,Social Media,Queues,4,4,18.37,0,0,0,0,1,0,0,1,0,0,0,0
+TS0497,26/01/1971,Neath Port Talbot,44.8,Family Ticket,Family,Family Slides,Website,Social Media,Transport,3,5,53.43,0,0,0,0,1,0,3,0,0,0,0,0
+TS0243,07/06/1983,Merthyr Tydfil,62.7,Day Ticket,Couple,Speed Slides,Mobile App,Friend/Family,Weather,4,4,18.08,0,0,0,0,0,0,0,1,0,0,0,0
+TS0766,22/07/1976,Cardiff,24.9,Day Ticket,Friends,Wave Pool,On-site,Social Media,Queues,3,4,22.37,0,0,1,1,0,0,0,0,0,0,0,0
+TS0700,15/10/2006,Caerphilly,35.8,Student Ticket,Friends,Speed Slides,Phone,Social Media,Queues,2,4,30.4,0,0,0,0,1,0,0,0,0,0,0,0
+TS0699,22/12/1980,Bridgend,7.7,Day Ticket,Couple,Speed Slides,Website,Social Media,Price,4,3,34.82,0,0,0,1,2,0,1,1,0,1,0,0
+TS0086,10/10/1988,Newport,45.2,Day Ticket,Couple,Lazy River,Website,Search Engine,Distance,4,5,34.61,0,0,0,0,0,0,0,0,0,0,0,0
+TS0199,19/04/1984,Cardiff,37.7,Day Ticket,Couple,Splash Zone,Website,Search Engine,None,4,5,33.27,0,0,0,2,0,0,1,1,0,0,0,0
+TS0158,18/04/2006,Merthyr Tydfil,59.9,Day Ticket,Family,Aqua Play,Website,Search Engine,Distance,4,3,29.28,0,0,0,0,0,0,0,0,1,0,0,0
+TS0114,11/07/2013,Cardiff,32.2,Student Ticket,Solo,Family Slides,Website,Friend/Family,Time,4,5,42.66,0,0,0,0,0,0,0,1,0,0,1,0
+TS0341,04/12/1990,Bridgend,6.4,Season Pass,Friends,Family Slides,Mobile App,Search Engine,Price,4,4,22.98,1,0,2,0,1,3,0,2,0,1,0,0
+TS0612,21/01/1995,Bridgend,9.8,Day Ticket,Friends,Lazy River,Website,Search Engine,Weather,5,4,20.38,0,0,1,0,0,1,0,1,0,0,0,0
+TS0220,11/10/2016,Cardiff,22.7,Student Ticket,Couple,Family Slides,Mobile App,Outdoor Poster,Price,5,3,11.27,0,0,1,1,0,0,0,2,0,0,1,0
+TS0271,15/11/1988,Rhondda Cynon Taf,37.0,Season Pass,Friends,Family Slides,On-site,Search Engine,Price,4,3,32.85,0,1,0,0,0,1,2,1,0,0,0,1
+TS0054,15/10/1990,Bridgend,8.4,Twilight Ticket,Friends,Splash Zone,Website,Email,Queues,4,4,32.85,0,0,0,0,0,0,0,0,0,0,0,0
+TS0338,11/10/2000,Cardiff,31.5,Day Ticket,Solo,Splash Zone,Website,Social Media,Price,5,2,25.61,0,0,0,0,0,0,1,0,0,0,0,0
+TS0009,22/07/1990,Swansea,54.2,Family Ticket,Family,Wave Pool,Website,Friend/Family,Distance,4,3,29.99,1,0,0,0,0,0,0,1,0,1,0,0
+TS0703,13/01/1987,Newport,46.8,Twilight Ticket,Couple,Lazy River,Website,Friend/Family,Distance,4,4,19.77,0,0,0,0,1,0,0,0,0,0,0,0
+TS0653,22/12/1985,Neath Port Talbot,35.5,Family Ticket,Family,Lazy River,Mobile App,Social Media,Transport,4,5,45.33,0,0,0,0,1,1,1,1,0,0,0,0
+TS0457,10/06/2000,Cardiff,41.3,Day Ticket,Family,Wave Pool,Mobile App,Social Media,Queues,3,4,46.61,0,0,0,0,1,1,0,0,1,0,0,0
+TS0358,23/01/2001,Rhondda Cynon Taf,24.3,Twilight Ticket,Solo,Splash Zone,Website,Search Engine,Queues,3,4,30.86,0,0,0,0,0,0,0,0,0,0,0,0
+TS0747,17/03/1978,Newport,45.8,Season Pass,Couple,Family Slides,On-site,Social Media,Price,4,3,26.41,0,0,0,0,2,1,2,1,2,1,0,0
+TS0084,20/05/2000,Cardiff,44.0,Day Ticket,Family,Wave Pool,On-site,Email,Time,4,3,31.82,0,0,1,0,0,1,0,0,0,0,0,0
+TS0157,15/06/1987,Vale of Glamorgan,20.4,Day Ticket,School/Club,Aqua Play,On-site,Outdoor Poster,Queues,2,4,25.06,0,0,0,0,0,0,0,1,0,1,0,0
+TS0777,02/06/1965,Bridgend,9.6,Family Ticket,Family,Splash Zone,Mobile App,School/Club,Distance,3,4,35.41,0,0,0,0,0,0,1,0,0,1,0,0
+TS0742,11/04/1978,Cardiff,28.8,Day Ticket,Friends,Family Slides,On-site,Friend/Family,Queues,3,4,27.96,0,0,0,0,0,0,0,0,0,0,0,0
+TS0437,13/09/1967,Bridgend,12.6,Day Ticket,Family,Family Slides,Website,Social Media,Queues,4,4,34.44,0,0,0,0,1,0,1,1,0,0,0,0
+TS0174,24/08/1967,Neath Port Talbot,26.7,Day Ticket,Solo,Aqua Play,Website,Social Media,Queues,4,4,32.59,1,0,0,0,0,1,0,0,0,0,0,0
+TS0503,01/07/1988,Vale of Glamorgan,26.6,Family Ticket,Family,Family Slides,Mobile App,Social Media,Price,4,4,47.17,0,0,0,0,0,0,1,0,0,0,1,0
+TS0081,28/08/2008,Bridgend,3.1,Day Ticket,Family,Wave Pool,Mobile App,Search Engine,Weather,4,3,32.18,0,0,0,0,0,3,1,0,1,0,0,0
+TS0193,07/11/1985,Bridgend,17.8,Day Ticket,Family,Aqua Play,Website,Social Media,Queues,4,4,26.38,0,0,0,0,0,0,0,0,0,0,0,0
+TS0197,17/04/1991,Caerphilly,39.1,Family Ticket,Family,Wave Pool,On-site,Friend/Family,Transport,4,5,32.73,0,0,0,1,1,0,1,1,1,0,0,0
+TS0131,22/06/1989,Vale of Glamorgan,28.3,Season Pass,Friends,Aqua Play,Mobile App,Search Engine,Queues,5,5,28.37,1,0,0,1,0,0,0,0,0,2,0,0
+TS0445,10/12/1972,Bridgend,14.8,Day Ticket,Friends,Family Slides,Website,School/Club,Weather,3,3,38.98,1,1,0,0,0,0,0,0,0,0,1,0
+TS0448,12/07/1964,Neath Port Talbot,31.2,Day Ticket,Solo,Lazy River,Website,Email,None,4,3,12.67,0,0,0,0,0,0,1,0,1,0,0,0
+TS0262,27/10/1981,Swansea,45.6,Twilight Ticket,Friends,Wave Pool,Mobile App,Search Engine,Queues,2,4,33.13,0,0,0,0,0,0,0,1,0,0,0,0
+TS0636,31/06/1999,Vale of Glamorgan,22.6,Season Pass,Friends,Lazy River,Mobile App,Social Media,Distance,5,4,43.86,0,0,1,1,0,3,0,0,1,0,1,1
+TS0695,17/08/1996,Swansea,50.1,Day Ticket,Family,Aqua Play,Website,Search Engine,Weather,4,4,55.19,0,0,0,0,0,0,1,1,0,0,0,0
+TS0226,15/11/1992,Swansea,37.8,Day Ticket,School/Club,Aqua Play,Website,Email,Transport,5,3,34.41,0,0,0,0,0,0,0,0,0,0,0,0
+TS0734,08/02/1999,Merthyr Tydfil,38.0,Day Ticket,Family,Family Slides,Website,Friend/Family,Price,4,3,30.44,0,0,0,0,0,0,0,0,0,0,0,0
+TS0323,04/05/1988,Vale of Glamorgan,16.6,Family Ticket,Family,Splash Zone,Mobile App,Search Engine,Weather,4,4,38.8,0,0,1,0,1,0,0,0,0,0,0,0
+TS0639,10/04/2012,Cardiff,36.2,Senior,School/Club,Wave Pool,Website,Email,Queues,4,4,35.11,0,0,0,0,0,0,0,0,0,1,0,0
+TS0370,25/01/1977,Cardiff,28.1,Season Pass,School/Club,Splash Zone,Mobile App,Search Engine,Queues,4,4,35.95,0,0,2,3,1,2,0,1,0,0,0,0
+TS0167,18/06/1981,Bridgend,8.1,Family Ticket,Family,Speed Slides,Website,Search Engine,Transport,4,4,36.05,0,0,0,0,0,0,0,0,0,0,0,0
+TS0708,06/07/1997,Caerphilly,53.2,Day Ticket,School/Club,Family Slides,On-site,Social Media,Price,3,2,11.02,0,0,0,0,0,0,0,1,0,0,0,0
+TS0052,20/08/2003,Newport,71.9,Day Ticket,Couple,Splash Zone,Website,Search Engine,Distance,3,4,33.48,0,0,0,0,0,0,0,1,0,0,0,0
+TS0036,03/03/1993,Vale of Glamorgan,23.8,Day Ticket,Couple,Lazy River,Website,E-mail,Price,3,2,26.29,0,0,0,0,0,0,0,0,0,0,0,0
+TS0758,25/02/1976,Carmarthenshire,70.8,Day Ticket,Couple,Lazy River,Website,Search Engine,Distance,4,3,36.54,0,0,0,0,0,0,1,-6,0,0,0,0
+TS0156,14/05/2007,Vale of Glamorgan,23.3,Day Ticket,Friends,Wave Pool,Phone,Search Engine,Time,4,4,40.31,0,0,0,0,0,0,0,0,0,1,0,0
+TS0112,28/02/1985,Neath Port Talbot,30.4,Family Ticket,Family,Wave Pool,Phone,Friend/Family,None,4,4,46.65,0,0,0,1,0,0,1,0,0,0,0,0
+TS0569,25/12/1979,Bridgend,17.7,Season Pass,Friends,Family Slides,On-site,Social Media,Queues,4,4,£30.91,0,1,1,1,0,0,4,1,0,1,1,0
+TS0215,12/07/1966,Bridgend,12.1,Season Pass,Couple,Aqua Play,Phone,Social Media,Price,4,3,40.22,0,0,0,0,0,2,0,1,0,3,1,0
+TS0373,07/02/1995,Swansea,38.3,Day Ticket,Friends,Family Slides,Website,Search Engine,Price,4,2,37.86,1,0,0,0,0,0,0,0,0,1,0,0
+TS0071,27/01/1983,Rhondda Cynon Taf,38.5,Family Ticket,Family,Family Slides,Mobile App,Email,Distance,5,5,45.96,0,0,0,0,1,0,1,1,1,0,0,0
+TS0517,17/12/2010,Neath Port Talbot,31.4,Student Ticket,Family,Splash Zone,Website,Search Engine,Queues,3,5,29.02,0,0,1,1,1,0,0,0,0,0,0,0
+TS0775,18/01/1991,Ceredigion,91.3,Day Ticket,School/Club,Wave Pool,On-site,Search Engine,Time,5,4,14.24,0,0,0,0,0,0,0,0,0,0,0,1
+TS0042,13/06/2015,Swansea,52.0,Day Ticket,Friends,Speed Slides,Mobile App,Email,None,4,4,30.11,0,0,0,2,1,0,0,0,0,0,0,0
+TS0151,02/02/1974,Rhondda Cynon Taf,35.0,Day Ticket,Solo,Family Slides,Mobile App,School/Club,Price,4,2,29.98,0,0,0,1,0,0,0,0,0,0,0,0
+TS0240,20/03/2010,Rhondda Cynon Taf,28.2,Student Ticket,Family,Aqua Play,Mobile App,Social Media,Queues,4,4,29.0,0,0,0,0,0,0,1,0,0,0,0,0
+TS0542,15/04/1989,Rhondda Cynon Taf,25.8,Family Ticket,Family,Family Slides,Mobile App,Social Media,Queues,3,3,32.71,0,0,0,0,0,0,1,1,0,0,0,0
+TS0340,25/07/1961,Rhondda Cynon Taf,36.7,Senior Ticket,Family,Lazy River,On-site,School/Club,Price,9,2,28.46,1,0,0,0,0,0,1,2,0,0,0,0
+TS0579,26/12/1984,Bridgend,8.6,Day Ticket,Friends,Speed Slides,Website,Search Engine,Transport,4,5,36.63,0,0,0,0,3,0,0,0,0,0,0,0
+TS0328,28/10/1977,Swansea,42.0,Family Ticket,Family,Wave Pool,Mobile App,Search Engine,Price,3,3,51.08,0,0,0,0,0,0,0,0,1,0,0,0
+TS0332,21/11/1989,Ceredigion,105.5,Day Ticket,Friends,Lazy River,Website,Email,Price,3,3,29.27,0,0,0,0,0,0,0,1,0,0,0,0
+TS0617,10/11/2003,Bridgend,6.2,Day Ticket,Couple,Wave Pool,Website,Friend/Family,Distance,4,4,35.07,0,0,0,2,0,1,0,1,1,0,0,0
+TS0210,25/03/2016,Rhondda Cynon Taf,34.5,Student Ticket,Family,Splash Zone,Website,Social Media,Queues,3,5,24.78,0,0,0,0,0,1,0,0,0,0,0,0
+TS0357,05/08/2016,Carmarthenshire,70.8,Student Ticket,School/Club,Speed Slides,On-site,Social Media,Distance,4,4,25.08,0,0,0,0,0,0,0,0,1,0,0,0
+TS0753,08/10/1970,Cardiff,35.9,Family Ticket,Family,Family Slides,Mobile App,Friend/Family,Price,4,3,46.19,0,0,0,0,0,0,0,1,2,0,0,0
+TS0362,28/11/1993,Swansea,58.6,Day Ticket,School/Club,Splash Zone,On-site,Search Engine,Time,3,4,29.44,0,0,0,0,0,0,0,0,2,0,0,0
+TS0321,18/05/2002,Carmarthenshire,82.6,Family Ticket,Family,Family Slides,On-site,Search Engine,Distance,4,3,34.99,0,0,0,0,0,0,0,0,0,0,0,0
+TS0476,17/06/1972,Bridgend,10.9,Season Pass,School/Club,Speed Slides,On-site,Outdoor Poster,Weather,5,4,40.43,0,0,0,0,0,0,5,0,0,0,0,0
+TS0254,18/11/2001,Vale of Glamorgan,18.8,Day Ticket,Family,Wave Pool,Website,School/Club,Price,4,2,32.17,0,0,0,0,0,0,0,1,0,0,0,0
+TS0470,20/06/1985,Rhondda Cynon Taf,34.8,Day Ticket,Couple,Family Slides,Mobile App,Friend/Family,Price,3,3,24.51,0,0,0,1,0,0,0,0,0,0,0,0
+TS0334,27/04/1995,Rhondda Cynon Taf,38.9,Day Ticket,Solo,Lazy River,Website,Friend/Family,Weather,4,4,21.51,0,0,0,0,0,1,0,0,0,0,0,0
+TS0701,16/09/1988,Cardiff,35.5,Day Ticket,School/Club,Speed Slides,Website,Social Media,Price,4,3,31.69,0,0,0,0,1,2,2,1,1,0,0,0
+TS0377,21/01/1982,Swansea,61.4,Day Ticket,Friends,Splash Zone,Website,Search Engine,Time,4,4,27.18,0,0,0,0,1,0,0,0,0,0,0,0
+TS0500,04/01/1990,Swansea,54.8,Season Pass,Couple,Speed Slides,On-site,School/Club,Queues,3,4,31.67,0,1,1,0,0,0,2,1,0,0,0,1
+TS0380,25/05/1986,Bridgend,9.1,Day Ticket,Family,Wave Pool,Website,Social Media,None,4,4,35.0,0,0,0,0,0,0,0,0,0,0,0,0
+TS0301,16/05/2006,Newport,54.4,Student Ticket,School/Club,Lazy River,Mobile App,Friend/Family,Distance,4,4,13.39,0,0,0,0,0,1,0,2,0,0,0,0
+TS0183,23/08/2010,Bridgend,6.6,Student Ticket,Friends,Splash Zone,Website,Social Media,None,5,4,19.0,0,0,0,1,1,0,2,0,1,0,0,1
+TS0605,20/12/1994,Neath Port Talbot,23.1,Season Pass,Friends,Speed Slides,Mobile App,Social Media,Transport,5,5,22.34,1,1,0,1,0,2,1,2,1,1,0,0
+TS0514,17/08/1986,Caerphilly,54.0,Family Ticket,Family,Aqua Play,Website,Friend/Family,Distance,4,4,31.97,0,0,0,0,0,0,1,0,0,1,1,0
+TS0353,11/08/1993,Carmarthenshire,83.8,Day Ticket,School/Club,Family Slides,Mobile App,Social Media,Queues,4,4,23.23,0,0,0,0,0,1,0,2,1,0,0,0
+TS0398,04/02/2015,Bridgend,6.2,Student Ticket,School/Club,Speed Slides,On-site,Social Media,Distance,3,3,24.92,1,0,0,0,0,0,1,0,0,1,0,0
+TS0005,28/03/1997,Swansea,48.0,Family Ticket,Family,Splash Zone,Website,Search Engine,Queues,3,4,50.04,0,0,0,0,0,0,1,1,1,0,0,0
+TS0778,20/02/2002,Rhondda Cynon Taf,20.1,Season Pass,Friends,Speed Slides,On-site,Friend/Family,Price,4,3,32.88,0,0,0,1,0,2,1,2,1,1,1,0
+TS0439,28/01/2002,Cardiff,31.1,Day Ticket,Couple,Speed Slides,Website,Social Media,Queues,3,5,31.02,0,0,1,0,1,0,1,1,0,0,0,1
+TS0444,20/11/1990,Vale of Glamorgan,32.9,Family Ticket,Family,Lazy River,On-site,Social Media,Price,4,4,28.82,0,0,0,0,2,0,0,0,0,1,0,0
+TS0281,28/11/1974,Carmarthenshire,79.1,Day Ticket,School/Club,Speed Slides,Website,Social Media,Weather,4,3,19.3,0,0,0,0,0,0,0,0,0,0,0,0
+TS0607,05/11/2002,Bridgend,14.8,Family Ticket,Family,Family Slides,On-site,Social Media,Queues,4,4,41.29,0,0,0,0,2,2,0,0,0,0,2,0
+TS0739,18/12/2001,Bridgend,4.5,Twilight Ticket,Solo,Lazy River,Website,Friend/Family,None,4,5,20.92,0,0,0,0,0,0,0,0,0,1,0,0
+TS0064,03/12/2006,Merthyr Tydfil,60.3,Family Ticket,Family,Splash Zone,On-site,Email,Weather,5,5,€47.86,0,0,0,0,0,1,0,1,1,0,0,0
+TS0705,01/09/1997,Vale of Glamorgan,25.3,Day Ticket,Couple,Family Slides,Mobile App,Search Engine,Price,4,3,26.25,0,0,0,0,0,0,0,0,0,0,0,0
+TS0278,23/07/1986,Carmarthenshire,65.1,Day Ticket,Solo,Speed Slides,Phone,Email,Queues,3,4,32.64,0,0,0,1,0,0,0,0,0,0,0,0
+TS0175,14/11/2007,Bridgend,3.1,Day Ticket,Couple,Wave Pool,Website,Search Engine,Queues,3,3,40.47,0,0,0,0,0,0,0,0,0,1,0,0
+TS0169,24/02/1991,Carmarthenshire,81.3,Day Ticket,Couple,Wave Pool,Website,Email,Distance,3,4,30.67,0,0,0,0,0,0,0,0,0,0,0,0
+TS0069,08/08/1979,Rhondda Cynon Taf,40.4,Day Ticket,Family,Aqua Play,Mobile App,Social Media,Distance,4,5,47.68,0,0,0,0,0,1,0,0,0,0,0,0
+TS0226,15/11/1992,Swansea,37.8,Day Ticket,School/Club,Aqua Play,Website,Email,Transport,5,3,34.41,0,0,0,0,0,0,0,0,0,0,0,0
+TS0111,11/05/2000,Bridgend,13.0,Day Ticket,Friends,Aqua Play,Mobile App,Social Media,Distance,4,4,33.99,0,0,0,0,0,0,0,1,2,0,0,0
+TS0782,25/05/1975,Neath Port Talbot,24.9,Day Ticket,School/Club,Speed Slides,On-site,Search Engine,Transport,4,3,250.0,0,0,0,0,0,0,0,1,0,0,0,0
+TS0492,13/05/1991,Swansea,47.4,Twilight Ticket,Couple,Splash Zone,Mobile App,Friend/Family,Price,4,3,20.07,0,0,0,0,0,0,0,0,0,0,0,0
+TS0541,18/01/1972,Carmarthenshire,57.9,Season Pass,School/Club,Speed Slides,Mobile App,School/Club,Distance,5,4,25.45,0,1,0,0,2,1,1,3,0,0,0,0
+TS0014,21/06/1968,Bridgend,8.2,Day Ticket,Family,Aqua Play,Website,Search Engine,Queues,4,5,29.2,0,0,0,0,0,0,1,0,0,0,0,0
+TS0083,17/08/1988,Swansea,49.1,Twilight Ticket,Couple,Speed Slides,Website,Social Media,Price,4,2,24.06,0,0,0,0,1,0,0,1,1,0,0,1
+TS0702,17/12/1990,Carmarthenshire,69.3,Twilight Ticket,Friends,Family Slides,Mobile App,Friend/Family,Queues,4,4,29.43,0,0,0,0,0,0,0,0,0,0,0,0
+TS0019,15/12/1976,Rhondda Cynon Taf,30.5,Day Ticket,Couple,Wave Pool,On-site,Email,Price,4,3,20.46,0,0,0,1,0,0,1,1,0,1,0,0
+TS0451,23/08/2012,Bridgend,14.7,Day Ticket,Friends,Splash Zone,Mobile App,Social Media,Price,4,3,19.07,0,0,0,0,0,1,0,2,0,0,0,0
+TS0088,10/06/2004,Swansea,39.9,Student Ticket,Family,Lazy River,Mobile App,Friend/Family,Price,4,2,16.72,0,0,0,0,0,1,2,2,0,0,0,0
+TS0033,27/10/1976,Swansea,46.3,Day Ticket,Solo,Family Slides,Mobile app,Search Engine,Distance,4,4,39.19,0,0,0,1,0,0,0,0,0,0,0,0
+TS0208,13/01/1998,Caerphilly,50.4,Season Pass,Solo,Lazy River,On-site,Friend/Family,Price,4,4,20.7,0,1,1,1,0,0,2,1,0,0,0,0
+TS0488,23/08/1987,Cardiff,33.9,Day Ticket,Friends,Wave Pool,Website,Friend/Family,Weather,4,4,14.18,0,0,0,0,0,1,0,0,0,0,0,0
+TS0693,01/11/1970,Cardiff,22.7,Day Ticket,Family,Wave Pool,Website,Friend/Family,Transport,4,4,51.85,0,1,0,0,1,1,1,1,0,0,0,0
+TS0290,25/05/1979,Bridgend,3.6,Season Pass,Friends,Speed Slides,Mobile App,Friend/Family,Price,4,4,42.66,0,0,0,1,1,1,2,1,1,0,0,0
+TS0012,12/04/1962,Cardiff,40.2,Day Ticket,School/Club,Aqua Play,Website,Email,Price,5,2,36.0,0,0,0,0,0,0,0,0,0,0,0,0
+TS0342,21/03/1973,Neath Port Talbot,22.2,Day Ticket,Couple,Speed Slides,Website,Email,Time,5,4,26.22,0,0,0,0,0,0,1,0,0,0,0,0
+TS0070,25/02/1967,Rhondda Cynon Taf,26.2,Day Ticket,Solo,Speed Slides,Website,Social Media,Weather,4,4,20.54,0,0,0,0,1,0,0,0,0,0,0,0
+TS0209,12/07/2016,Caerphilly,45.3,Student Ticket,Family,Family Slides,On-site,Search Engine,Queues,4,4,35.83,0,0,0,0,1,0,0,0,0,1,0,0
+TS0092,21/12/1984,Bridgend,14.2,Family Ticket,Family,Family Slides,Website,Friend/Family,Distance,5,4,29.3,1,0,35,0,0,1,1,0,0,0,0,0
+TS0501,28/05/1969,Carmarthenshire,83.0,Day Ticket,Friends,Splash Zone,Phone,Social Media,Price,4,2,39.8,0,0,0,0,0,0,1,0,0,0,0,0
+TS0604,20/09/2011,Newport,51.7,Day Ticket,School/Club,Family Slides,On-site,Search Engine,Distance,4,4,32.96,0,1,0,0,0,1,0,0,0,0,0,0
+TS0233,02/03/1997,Bridgend,11.2,Day Ticket,Couple,Family Slides,Mobile App,Social Media,Price,4,2,25.39,0,0,0,1,0,0,0,0,0,0,0,0
+TS0422,13/04/1962,Swansea,36.1,Twilight Ticket,Friends,Speed Slides,Website,Social Media,Queues,4,5,35.91,0,0,0,0,1,0,1,0,0,0,0,0
+TS0441,28/02/1982,Rhondda Cynon Taf,20.5,Day Ticket,Family,Lazy River,Website,Social Media,Price,3,3,48.76,0,0,0,2,0,0,1,0,0,0,0,0
+TS0545,21/07/1989,Newport,56.3,Season Pass,Friends,Speed Slides,Website,Search Engine,Weather,4,5,23.31,0,0,0,1,0,0,1,1,0,0,0,1
+TS0091,12/04/1974,Bridgend,16.1,Day Ticket,Couple,Family Slides,On-site,Social Media,Distance,4,3,28.86,0,0,0,0,0,1,0,2,1,0,0,0
+TS0066,25/04/1990,Cardiff,35.5,Family Ticket,Family,Splash Zone,Website,Social Media,Distance,3,4,34.56,0,1,0,0,0,0,0,0,0,0,0,0
+TS0331,28/10/1989,Cardiff,23.2,Season Pass,Couple,Lazy River,Mobile App,Friend/Family,None,5,4,39.58,0,0,0,2,0,2,0,3,1,1,0,0
+TS0189,17/05/1967,Swansea,45.3,Day Ticket,Family,Family Slides,Website,School/Club,Price,4,4,41.35,0,0,0,0,0,0,0,0,1,0,0,0
+TS0394,31/04/2003,Cardiff,39.9,Season Pass,Friends,Aqua Play,Mobile App,Friend/Family,Weather,4,4,13.12,0,1,0,0,0,1,1,1,0,0,1,0
+TS0251,24/12/1988,Vale of Glamorgan,15.5,Season Pass,Friends,Family Slides,Website,Social Media,Weather,3,4,29.66,1,1,0,0,2,1,1,1,0,1,0,0
+TS0744,03/07/1979,Bridgend,13.0,Day Ticket,Solo,Speed Slides,Phone,Search Engine,Transport,4,4,40.24,0,0,0,0,0,0,1,2,0,0,1,0
+TS0120,07/03/1983,Cardiff,23.9,Day Ticket,Family,Lazy River,Phone,Search Engine,Price,4,3,53.06,0,0,0,0,1,0,1,0,0,0,0,0
+TS0035,06/07/1973,Swansea,52.1,Day Ticket,School/Club,Family Slides,Mobile App,Outdoor Poster,Transport,4,4,39.42,0,0,1,0,0,1,0,0,0,0,0,0
+TS0355,28/05/2016,Swansea,37.1,Day Ticket,Family,Lazy River,Website,Search Engine,Price,4,3,29.9,0,0,0,0,1,0,0,0,0,0,0,0
+TS0168,06/11/2002,Rhondda Cynon Taf,28.7,Day Ticket,School/Club,Aqua Play,Website,Social Media,None,4,5,46.23,0,0,0,0,0,0,0,1,0,0,0,0
+TS0198,15/04/1979,Ceredigion,85.9,Day Ticket,Friends,Speed Slides,Website,Social Media,None,4,6,39.21,0,0,0,0,0,0,0,0,0,0,0,0
+TS0526,22/11/2005,Caerphilly,31.9,Day Ticket,Friends,Speed Slides,On-site,School/Club,Price,4,5,28.29,0,0,0,0,0,0,0,1,0,0,0,0
+TS0094,17/04/2002,Swansea,53.5,Season Pass,School/Club,Speed Slides,Mobile App,Social Media,Distance,4,4,25.22,0,1,0,0,0,0,2,1,0,0,0,0
+TS0298,12/09/1989,Cardiff,35.7,Day Ticket,Couple,Wave Pool,Website,Friend/Family,Price,4,3,25.29,0,0,0,0,0,0,0,0,0,0,0,0
+TS0565,26/10/2006,Bridgend,13.6,Student Ticket,Family,Family Slides,Mobile App,Friend/Family,Queues,3,4,29.59,0,0,0,0,1,0,0,0,0,0,1,0
+TS0625,16/08/1976,Neath Port Talbot,32.4,Season Pass,School/Club,Splash Zone,Website,Social Media,Transport,5,4,19.22,0,0,0,2,1,1,0,1,0,1,0,0
+TS0102,15/08/2006,Merthyr Tydfil,39.2,Day Ticket,Friends,Speed Slides,Mobile App,Social Media,Queues,3,4,40.6,1,0,0,1,1,0,2,0,1,0,0,0
+TS0694,18/05/1968,Rhondda Cynon Taf,18.5,Season Pass,Couple,Lazy River,Mobile App,Social Media,Transport,5,3,10.44,0,0,0,0,0,0,1,2,0,1,0,0
+TS0027,12/06/2001,Cardiff,42.0,Day Ticket,Solo,Family Slides,On-site,Social Media,Queues,2,4,25.0,0,0,1,0,0,0,1,0,0,0,0,0
+TS0007,26/05/1992,Cardiff,41.1,Day Ticket,School/Club,Lazy River,Website,Outdoor Poster,Queues,2,3,37.46,0,0,0,0,0,0,0,0,0,0,0,0
+TS0691,27/09/1990,Bridgend,10.4,Day Ticket,Solo,Lazy River,Mobile App,Friend/Family,Time,4,5,24.04,0,0,0,0,0,1,0,0,0,0,0,0
+TS0574,25/05/1969,Vale of Glamorgan,34.0,Day Ticket,Solo,Family Slides,On-site,Outdoor Poster,Price,4,4,34.1,1,0,0,0,0,0,0,1,0,0,0,0
+TS0549,01/02/1986,Vale of Glamorgan,15.3,Day Ticket,Friends,Wave Pool,Mobile App,Social Media,Transport,5,3,42.95,0,0,0,0,0,0,0,1,0,0,0,0
+TS0149,03/03/1988,Neath Port Talbot,32.8,Day Ticket,School/Club,Speed Slides,Phone,Friend/Family,Queues,4,3,33.22,0,0,0,1,0,0,1,1,0,0,0,0
+TS0632,12/08/1973,Cardiff,37.4,Season Pass,School/Club,Family Slides,Website,Friend/Family,Transport,4,5,24.24,0,1,0,0,0,1,2,1,1,1,0,0
+TS0459,06/02/1981,Cardiff,36.6,Family Ticket,Family,Speed Slides,Website,Friend/Family,Weather,3,3,47.58,0,0,0,0,0,0,0,1,0,0,0,0
+TS0502,08/11/2000,Caerphilly,47.1,Season Pass,Solo,Family Slides,Mobile App,Social Media,Weather,4,4,14.99,0,0,0,0,2,0,0,1,0,0,0,0
+TS0762,11/03/2000,Neath Port Talbot,47.7,Day Ticket,Friends,Wave Pool,On-site,School/Club,Price,4,4,19.03,0,0,0,0,0,0,0,0,0,0,0,0
+TS0125,21/10/1982,Bridgend,15.4,Day Ticket,Couple,Speed Slides,Mobile App,Friend/Family,Time,4,4,37.91,0,0,0,0,0,1,0,0,0,0,0,0
+TS0153,17/07/1901,Swansea,47.6,Day Ticket,Friends,Aqua Play,Mobile App,Social Media,Price,4,3,39.31,0,0,0,0,0,0,0,0,0,0,0,0
+TS0560,03/01/1997,Caerphilly,37.5,Day Ticket,Couple,Wave Pool,Website,Search Engine,Distance,4,4,20.71,0,0,0,1,0,0,0,0,0,0,0,0
+TS0736,17/09/1991,Bridgend,10.6,Season Pass,Friends,Splash Zone,Mobile App,Social Media,Transport,4,4,12.58,1,0,0,1,0,1,4,0,2,0,0,1
+TS0481,01/12/1962,Rhondda Cynon Taf,34.7,Twilight Ticket,Friends,Wave Pool,On-site,Search Engine,Price,4,3,27.62,0,0,0,0,0,0,0,0,0,0,0,0
+TS0138,26/10/1965,Bridgend,10.9,Twilight Ticket,Friends,Wave Pool,Website,Email,Distance,4,4,22.35,0,0,0,0,1,1,0,0,0,1,0,0
+TS0509,05/05/1982,Cardiff,27.2,Day Ticket,Couple,Lazy River,Mobile App,Social Media,Price,5,4,20.71,0,0,0,0,1,0,1,0,0,0,0,0
+TS0276,05/05/1976,Bridgend,13.6,Day Ticket,Friends,Speed Slides,Phone,Social Media,Transport,4,4,17.86,0,0,0,0,0,0,0,0,1,0,0,0
+TS0344,22/12/2016,Carmarthenshire,71.2,Day Ticket,Couple,Aqua Play,Website,Search Engine,Price,3,2,26.05,0,0,0,0,0,0,0,0,0,0,0,0
+TS0124,11/06/1973,Swansea,52.4,Day Ticket,Couple,Speed Slides,Website,Social Media,Transport,4,3,19.95,0,0,0,0,0,0,0,0,0,0,0,0
+TS0613,24/04/1985,Bridgend,12.6,Day Ticket,Solo,Speed Slides,Phone,Email,None,4,4,24.64,0,0,0,0,1,0,0,0,0,0,0,0
+TS0562,02/02/1997,Bridgend,17.3,Day Ticket,School/Club,Family Slides,On-site,School/Club,Weather,4,5,30.03,0,1,0,0,0,0,0,0,1,1,0,0
+TS0728,26/06/1986,Cardiff,33.7,Family Ticket,Family,Lazy River,Website,Email,None,4,4,39.34,0,0,1,0,1,0,1,1,1,0,0,0
+TS0202,18/09/2010,Bridgend,6.9,Day Ticket,Friends,Splash Zone,Mobile App,Social Media,Price,5,3,33.77,0,0,0,0,1,0,1,1,0,0,0,0
+TS0568,07/10/1977,Caerphilly,52.8,Day Ticket,Couple,Wave Pool,On-site,School/Club,Weather,4,3,43.12,0,1,0,0,0,1,0,0,0,0,0,0
+TS0095,23/05/1998,Carmarthenshire,94.2,Day Ticket,Family,Lazy River,On-site,Friend/Family,Distance,4,4,19.21,0,0,0,0,0,0,1,0,0,0,0,0
+TS0293,24/10/1988,Merthyr Tydfil,64.0,Day Ticket,Friends,Wave Pool,On-site,Outdoor Poster,Price,4,2,45.93,0,1,0,0,0,0,0,0,0,1,0,0
+TS0490,02/12/1981,Swansea,57.4,Season Pass,Couple,Wave Pool,Mobile App,School/Club,Queues,5,4,23.22,0,1,0,1,0,1,1,1,0,0,0,0
+TS0626,26/01/2016,Rhondda Cynon Taf,22.1,Day Ticket,Solo,Family Slides,Mobile App,Friend/Family,Queues,4,4,41.51,0,0,0,1,0,2,0,1,0,2,0,0
+TS0040,20/09/1992,Rhondda Cynon Taf,40.7,Day Ticket,School/Club,Wave Pool,Mobile App,Social Media,Price,4,2,24.49,0,0,0,0,0,1,0,0,0,0,0,0
+TS0363,22/09/2002,Neath Port Talbot,25.3,Day Ticket,Friends,Speed Slides,Mobile App,Social Media,Transport,4,4,16.69,0,0,0,0,0,1,0,2,0,0,0,0
+TS0477,21/03/2003,Cardiff,37.9,Day Ticket,School/Club,Lazy River,On-site,Friend/Family,Price,4,4,26.45,0,0,0,0,0,0,0,2,0,0,0,0
+TS0150,03/07/2004,Newport,66.1,Student Ticket,School/Club,Wave Pool,Mobile App,Email,Distance,5,4,$16.59,0,0,0,0,0,0,1,0,1,0,0,0
+TS0103,20/11/1989,Caerphilly,54.5,Day Ticket,School/Club,Speed Slides,Mobile App,Social Media,Transport,4,4,18.99,0,0,0,0,0,0,0,0,1,1,0,0
+TS0645,26/09/1992,Bridgend,3.2,Season Pass,Friends,Splash Zone,web site,Social Media,Time,5,3,11.57,0,0,0,0,1,3,0,1,0,0,0,0
+TS0049,02/03/1994,Bridgend,5.2,Day Ticket,School/Club,Family Slides,Mobile App,Friend/Family,Price,4,4,37.54,0,0,1,1,0,0,1,1,0,0,0,0
+TS0185,17/12/2004,Merthyr Tydfil,45.5,Day Ticket,School/Club,Family Slides,On-site,Search Engine,Time,4,3,42.21,0,0,0,0,0,0,0,1,0,0,0,0
+TS0581,12/02/2011,Newport,48.4,Day Ticket,Solo,Speed Slides,Website,Social Media,Price,5,3,43.77,0,0,1,0,1,1,0,1,0,0,0,0
+TS0649,01/07/2014,Swansea,46.2,Day Ticket,Solo,Aqua Play,On-site,Social Media,Price,5,3,27.75,0,0,0,0,0,1,0,0,0,0,0,0
+TS0330,22/06/1981,Vale of Glamorgan,19.5,Day Ticket,Friends,Wave Pool,Website,Outdoor Poster,Queues,4,4,38.32,0,0,0,0,0,0,0,0,1,0,0,0
+TS0039,10/12/2003,Rhondda Cynon Taf,33.5,Student Ticket,Couple,Lazy River,Website,Email,Price,5,5,24.59,0,0,1,0,0,1,1,0,1,0,0,0
+TS0051,01/05/1988,Rhondda Cynon Taf,35.4,Day Ticket,Family,Aqua Play,Mobile App,Friend/Family,Price,4,3,27.4,0,0,1,0,0,0,0,0,0,0,0,0
+TS0420,19/09/1984,Merthyr Tydfil,57.4,Day Ticket,Solo,Wave Pool,Mobile App,Search Engine,Queues,3,3,38.05,0,0,0,0,0,0,0,1,0,0,0,0
+TS0130,11/04/1988,Swansea,37.6,Day Ticket,Friends,Speed Slides,Website,Email,Price,4,3,39.14,0,0,0,1,0,0,0,0,0,0,0,1
+TS0426,09/02/1983,Merthyr Tydfil,52.0,Twilight Ticket,Couple,Speed Slides,Phone,Friend/Family,Transport,5,4,13.65,0,0,0,1,0,1,0,0,0,0,0,0
+TS0553,03/09/1995,Carmarthenshire,89.0,Day Ticket,Couple,Speed Slides,Website,Search Engine,Queues,4,5,37.1,0,1,0,0,0,0,0,0,0,0,0,0
+TS0043,25/03/1992,Swansea,57.3,Season Pass,Couple,Aqua Play,Mobile App,Outdoor Poster,Weather,3,4,41.7,0,0,0,0,0,2,2,3,0,0,0,0
+TS0231,27/11/2016,Bridgend,15.6,Student Ticket,Couple,Speed Slides,Website,School/Club,Weather,5,4,25.23,0,0,0,1,0,0,0,0,0,0,0,0
+TS0025,17/03/1981,Carmarthenshire,79.8,Family Ticket,Family,Speed Slides,Website,Social Media,Distance,4,3,46.16,0,0,0,0,1,0,0,1,0,0,0,0
+TS0180,09/05/1976,Cardiff,37.7,Day Ticket,Friends,Splash Zone,Website,School/Club,Time,4,3,23.37,0,0,0,0,0,0,1,1,0,0,0,0
+TS0692,16/05/2007,Cardiff,24.6,Day Ticket,School/Club,Splash Zone,Website,Email,Time,4,5,38.77,0,0,0,0,0,0,0,1,0,0,0,0
+TS0462,10/01/1990,Vale of Glamorgan,24.4,Day Ticket,Friends,Family Slides,Website,Friend/Family,Queues,4,4,26.43,0,0,0,0,0,0,1,0,0,0,0,0
+TS0400,18/11/2013,Swansea,43.9,Day Ticket,Solo,Speed Slides,Website,Friend/Family,Queues,3,4,25.8,0,0,0,0,0,0,1,2,0,0,0,0
+TS0100,09/02/1976,Neath Port Talbot,22.3,Day Ticket,Friends,Family Slides,Mobile App,School/Club,Price,4,3,25.63,0,0,0,0,1,0,1,0,1,0,0,0
+TS0308,16/02/1988,Neath Port Talbot,,Day Ticket,Solo,Family Slides,Mobile App,Social Media,Weather,3,3,33.04,0,0,0,0,0,0,2,0,0,0,0,0
+TS0704,29/02/2001,Caerphilly,38.4,Day Ticket,School/Club,Splash Zone,Mobile App,Social Media,Weather,4,5,52.23,0,0,0,0,0,0,0,0,0,0,0,0
+TS0065,17/11/2005,Bridgend,9.3,Day Ticket,Solo,Wave Pool,Mobile App,Search Engine,Time,4,4,27.21,0,0,0,0,1,0,0,1,2,0,0,0
+TS0443,17/06/1983,Caerphilly,33.1,Day Ticket,Couple,Family Slides,Mobile App,Outdoor Poster,Weather,5,4,31.15,0,0,0,0,0,0,0,0,0,1,1,0
+TS0741,11/03/2004,Rhondda Cynon Taf,38.0,Student Ticket,Couple,Speed Slides,Website,Search Engine,Price,4,2,10.56,0,0,0,0,0,0,0,0,1,0,0,0
+TS0245,02/12/1993,Carmarthenshire,91.9,Season Pass,Friends,Speed Slides,Mobile App,Friend/Family,Price,4,4,19.6,0,0,0,1,3,0,0,0,0,0,0,0
+TS0218,28/12/1969,Newport,60.6,Family Ticket,Family,Aqua Play,Website,Search Engine,Time,3,4,34.17,0,0,0,0,1,1,0,0,1,0,0,0
+TS0530,03/09/2031,Neath Port Talbot,44.0,Day Ticket,Couple,Lazy River,Mobile App,Social Media,Weather,4,4,31.03,0,0,0,0,0,0,0,0,1,0,0,1
+TS0241,03/05/1989,Rhondda Cynon Taf,29.0,Day Ticket,School/Club,Speed Slides,Mobile App,Search Engine,Price,3,3,19.03,0,0,0,0,1,0,0,1,0,0,0,0
+TS0374,05/04/1986,Caerphilly,40.2,Day Ticket,Friends,Lazy River,Website,School/Club,Queues,3,4,32.55,0,0,0,0,0,0,0,0,0,0,0,0
+TS0214,10/08/1950,Bridgend,8.0,Senior Ticket,Couple,Speed Slides,Website,Friend/Family,Price,3,3,15.9,0,0,1,0,0,0,0,0,0,0,0,0
+TS0723,03/03/1980,Rhondda Cynon Taf,41.0,Season Pass,Couple,Wave pool,Mobile App,Search Engine,Price,5,3,25.36,0,0,0,1,1,2,2,1,1,1,0,0
+TS0738,20/04/1984,Carmarthenshire,79.4,Family Ticket,Family,Splash Zone,On-site,School/Club,Distance,4,4,36.74,0,0,0,0,0,0,0,0,0,0,0,0
+TS0295,08/01/1979,Bridgend,17.0,Family Ticket,Family,Aqua Play,On-site,Email,Time,4,4,48.97,0,0,0,0,0,0,0,0,0,0,0,0
+TS0616,23/08/2016,Carmarthenshire,72.8,Day Ticket,Couple,Lazy River,Website,Outdoor Poster,Distance,4,4,36.16,0,0,0,0,0,0,1,2,0,0,0,0
+TS0038,02/05/1982,Newport,65.1,Day Ticket,Solo,Lazy River,On-site,School/Club,Price,4,2,29.21,0,0,0,0,0,0,0,0,0,0,0,0
+TS0576,12/12/1996,Newport,62.1,Day Ticket,Couple,Wave Pool,Website,Outdoor Poster,Weather,3,2,24.49,0,0,0,0,0,1,0,0,1,0,0,0
+TS0381,17/06/1998,Carmarthenshire,81.5,Season Pass,Friends,Family Slides,Mobile App,Outdoor Poster,Weather,5,5,39.21,0,0,1,0,1,3,0,3,1,0,0,0
+TS0013,25/06/1994,Swansea,36.0,Twilight Ticket,Friends,Speed Slides,Mobile App,Social Media,Weather,4,4,18.56,0,0,0,0,0,0,0,0,0,1,0,0
+TS0511,24/11/1999,Swansea,45.5,Day Ticket,Couple,Lazy River,Website,Email,Distance,4,3,19.25,0,0,0,1,0,0,0,1,0,0,0,0
+TS0745,04/01/1976,Bridgend,8.7,Family Ticket,Family,Lazy River,Phone,Social Media,Weather,4,5,37.29,0,0,0,0,0,0,0,0,1,0,0,0
+TS0292,10/11/1987,Rhondda Cynon Taf,34.2,Family Ticket,Family,Aqua Play,Mobile App,Outdoor poster,Price,4,4,38.98,0,0,0,2,0,1,1,1,0,1,0,0
+TS0316,08/02/1997,Vale of Glamorgan,19.3,Day Ticket,Solo,Aqua Play,Website,Social Media,Weather,4,4,43.4,0,0,0,0,1,0,1,0,0,0,0,0
+TS0594,24/01/2004,Caerphilly,31.8,Day Ticket,Family,Speed Slides,Mobile App,Friend/Family,Weather,4,4,42.78,1,0,0,0,2,0,1,0,0,0,0,0
+TS0792,12/05/1987,Vale of Glamorgan,30.1,Day Ticket,Couple,Wave Pool,On-site,School/Club,Weather,3,4,19.67,0,0,0,0,1,0,0,0,0,1,0,0
+TS0122,12/04/1986,Neath Port Talbot,39.9,Season Pass,School/Club,Speed Slides,Website,Social Media,Price,4,3,24.31,0,1,1,1,1,1,1,1,2,0,1,1
+TS0719,11/09/2011,Swansea,61.7,Student Ticket,School/Club,Splash Zone,On-site,Social Media,Price,4,3,20.9,0,0,0,1,0,0,1,2,0,1,0,0
+TS0651,10/02/1989,Bridgend,5.7,Season Pass,Solo,Speed Slides,On-site,Search Engine,Queues,4,4,10.68,2,0,0,1,2,4,0,0,0,1,2,0
+TS0615,12/03/1992,Swansea,57.1,Day Ticket,Friends,Wave Pool,Website,Email,Distance,4,3,28.98,0,0,0,0,0,0,0,1,1,0,0,0
+TS0533,10/05/2008,Rhondda Cynon Taf,35.2,Student Ticket,Family,Splash Zone,Website,Friend/Family,Queues,4,4,28.54,0,0,0,0,0,0,0,1,1,1,0,0
+TS0428,21/10/1971,Rhondda Cynon Taf,38.9,Day Ticket,Friends,Wave Pool,On-site,Search Engine,None,4,4,15.82,0,0,0,0,0,0,0,0,0,0,0,0
+TS0182,28/02/1999,Carmarthenshire,67.9,Day Ticket,Friends,Lazy River,On-site,School/Club,Distance,5,3,33.86,0,0,0,0,0,0,1,0,0,0,0,0
+TS0186,06/11/1977,Neath Port Talbot,24.1,Day Ticket,Solo,Wave Pool,Website,Friend/Family,Queues,4,3,31.46,0,0,1,0,0,0,0,0,0,0,1,0
+TS0634,13/08/2001,Swansea,55.8,Family Ticket,Family,Lazy River,Mobile App,Search Engine,Price,4,3,28.67,0,0,0,0,0,1,1,0,1,0,0,0
+TS0670,17/05/1973,Ceredigion,138.9,Day Ticket,Friends,Speed Slides,Website,Outdoor Poster,Transport,4,4,19.82,0,0,0,0,0,0,0,1,0,0,0,0
+TS0662,19/02/1973,Bridgend,11.2,Season Pass,Solo,Speed Slides,Mobile App,Friend/Family,Queues,3,4,9.58,0,0,1,0,0,1,1,1,4,2,2,0
+TS0489,10/10/1973,Caerphilly,43.4,Day Ticket,Friends,Wave Pool,Website,Friend/Family,Weather,4,4,20.75,0,0,0,0,0,0,0,0,0,0,0,0
+TS0583,06/07/1988,Cardiff,41.7,Day Ticket,Couple,Aqua Play,Website,Friend/Family,Time,4,4,41.19,0,0,0,0,0,0,0,0,0,0,0,0
+TS0780,01/10/1997,Cardiff,23.6,Twilight Ticket,Friends,Lazy River,Phone,Search Engine,Weather,4,4,50.1,0,0,0,0,0,0,0,1,0,0,0,0
+TS0521,23/01/1992,Cardiff,23.9,Day Ticket,Couple,Wave Pool,Website,Social Media,Distance,4,4,29.83,0,0,0,0,0,0,0,0,0,0,0,0
+TS0673,25/04/1976,Carmarthenshire,93.7,Family Ticket,Family,Family Slides,Mobile App,Social Media,Distance,4,4,38.4,0,1,0,0,0,0,0,1,0,0,0,0
+TS0793,19/11/1991,Bridgend,7.7,Family Ticket,Family,Aqua Play,Website,Friend/Family,Price,4,3,47.8,0,0,0,0,1,0,1,0,1,0,0,0
+TS0593,02/12/2001,Swansea,54.3,Family Ticket,Family,Wave Pool,Phone,Friend/Family,Weather,5,5,40.47,0,0,0,0,0,1,1,0,0,0,0,0
+TS0494,14/02/1973,Rhondda Cynon Taf,19.3,Day Ticket,Solo,Lazy River,Website,Outdoor Poster,Weather,4,3,27.92,0,0,0,0,1,0,0,2,0,0,0,0
+TS0557,20/06/1989,Cardiff,39.3,Day Ticket,Friends,Wave Pool,Website,Friend/Family,Price,4,3,38.78,0,0,0,0,0,0,0,0,0,0,0,0
+TS0360,27/02/1994,Vale of Glamorgan,26.5,Day Ticket,Couple,Speed Slides,On-site,Search Engine,Weather,4,3,33.78,0,1,0,0,0,0,1,0,0,0,0,0
+TS0119,23/07/1989,Rhondda Cynon Taf,36.7,Day Ticket,Friends,Splash Zone,Website,Email,Queues,4,3,49.88,0,0,0,0,0,0,0,0,0,1,0,0
+TS0455,06/04/2009,Bridgend,13.3,Day Ticket,Couple,Splash Zone,Website,Friend/Family,Price,5,3,27.92,0,0,0,0,0,0,1,0,0,0,0,0
+TS0056,15/01/1987,Swansea,38.4,Family Ticket,Family,Wave Pool,Website,Outdoor Poster,Queues,4,4,37.37,0,0,0,1,0,0,0,1,1,0,0,0
+TS0580,17/03/1983,Rhondda Cynon Taf,21.2,Day Ticket,Friends,Speed Slides,Mobile App,Social Media,Queues,3,4,22.17,0,0,0,0,0,0,1,0,0,0,0,0
+TS0110,14/11/1976,Bridgend,13.6,Season Pass,Friends,Wave Pool,Website,Friend/Family,Price,3,4,26.64,1,0,0,0,0,3,4,1,1,0,0,0
+TS0757,26/08/2006,Swansea,52.1,Day Ticket,Family,Lazy River,Mobile App,Friend/Family,Price,4,3,32.75,0,0,0,0,0,0,0,1,0,1,0,0
+TS0097,09/12/2005,Newport,45.3,Student Ticket,Friends,Speed Slides,On-site,Social Media,Distance,3,5,26.73,0,1,0,0,0,0,0,0,0,0,1,0
+TS0749,12/04/1989,Vale of Glamorgan,15.6,Season Pass,School/Club,Family Slides,Mobile App,Friend/Family,Time,5,3,23.34,0,0,1,0,1,1,2,0,1,0,0,0
+TS0289,22/12/1975,Neath Port Talbot,42.1,Day Ticket,Friends,Speed Slides,On-site,Friend/Family,Queues,4,4,35.32,0,0,0,0,0,0,0,0,0,0,0,0
+TS0706,02/01/1973,Rhondda Cynon Taf,40.0,Twilight Ticket,Couple,Speed Slides,Mobile App,Social Media,Price,3,3,31.89,0,0,0,0,1,1,0,1,0,0,0,0
+TS0181,22/10/1995,Bridgend,3.6,Day Ticket,Couple,Family Slides,Mobile App,Friend/Family,Price,3,3,34.03,0,0,0,0,0,0,0,1,0,0,0,0
+TS0076,06/08/1976,Caerphilly,43.3,Family Ticket,Family,Aqua Play,Website,School/Club,Time,4,4,42.64,0,0,0,0,1,3,1,0,0,0,0,0
+TS0132,10/04/1968,Caerphilly,36.3,Twilight Ticket,Solo,Splash Zone,Website,Social Media,None,4,4,23.62,0,0,0,0,0,0,1,0,0,0,0,0
+TS0135,01/06/2009,Neath Port Talbot,33.8,Student Ticket,Couple,Family Slides,Mobile App,Email,Transport,5,3,20.14,0,0,0,0,0,0,0,0,0,0,0,0
+TS0596,18/05/2016,Caerphilly,49.0,Day Ticket,Couple,Lazy River,Phone,Search Engine,Transport,4,3,48.45,0,0,0,0,0,0,0,1,0,0,0,0
+TS0499,24/08/1995,Neath Port Talbot,,Season Pass,Couple,Lazy River,Mobile App,Search Engine,Price,5,4,27.58,0,0,0,1,1,0,1,2,0,0,0,1
+TS0629,09/11/1995,Vale of Glamorgan,33.2,Day Ticket,Couple,Splash Zone,Website,Search Engine,Queues,3,4,34.26,0,0,0,0,0,1,0,0,1,0,0,0
+TS0419,11/09/1993,Caerphilly,54.8,Family Ticket,Family,Family Slides,Website,Search Engine,Price,4,4,32.44,0,0,0,0,0,0,0,0,0,0,0,0
+TS0011,26/03/1980,Cardiff,29.1,Day Ticket,School/Club,Lazy River,Mobile App,Social Media,Price,4,4,36.26,0,0,0,1,1,1,0,0,0,0,0,0
+TS0771,17/05/1997,Vale of Glamorgan,17.8,Day Ticket,School/Club,Splash Zone,Phone,Social Media,Weather,4,4,29.56,0,0,0,0,0,0,0,0,0,0,0,0
+TS0143,04/08/2016,Ceredigion,121.0,Day Ticket,Couple,Wave Pool,On-site,Friend/Family,Distance,5,4,54.59,0,0,1,0,0,0,0,0,0,0,0,0
+TS0619,01/07/2006,Newport,51.3,Family Ticket,Family,Wave Pool,Website,Friend/Family,Weather,4,4,32.17,0,0,1,0,0,0,0,0,0,0,0,0
+TS0721,13/09/1983,Swansea,47.7,Day Ticket,Family,Lazy River,On-site,Search Engine,Distance,4,4,30.7,0,0,0,1,0,0,0,1,0,0,0,0
+TS0244,15/11/1988,Cardiff,28.2,Day Ticket,Family,Wave Pool,Mobile App,Social Media,Price,4,3,30.49,0,0,0,0,0,0,0,0,0,2,0,0
+TS0491,20/04/2003,Ceredigion,121.5,Student Ticket,Friends,Speed Slides,Website,Email,Distance,4,5,15.07,0,0,0,0,0,0,0,0,0,0,0,0
+TS0309,24/09/2013,Carmarthenshire,88.4,Day Ticket,Family,Wave Pool,Mobile App,Social Media,Queues,4,4,38.18,0,0,0,0,0,0,0,0,0,0,0,0
+TS0643,05/02/1974,Swansea,47.6,Day Ticket,Friends,Wave Pool,Mobile App,Email,Weather,5,4,36.64,0,0,0,0,0,1,1,0,0,0,0,0
+TS0627,03/09/1996,Vale of Glamorgan,28.7,Season Pass,Friends,Splash Zone,Mobile App,Friend/Family,Transport,4,3,12.61,0,0,0,0,0,0,1,1,1,1,0,1
+TS0463,04/06/1961,Newport,55.1,Day Ticket,Friends,Speed Slides,Website,Social Media,Queues,4,5,33.13,0,0,0,0,0,1,0,0,0,0,0,0
+TS0447,16/06/2000,Cardiff,40.8,Day Ticket,Solo,Family Slides,Website,Search Engine,Transport,5,3,35.83,0,0,0,0,0,1,0,1,0,0,0,0
+TS0354,16/11/1984,Merthyr Tydfil,54.8,Family Ticket,Family,Aqua Play,Phone,Search Engine,Weather,5,3,42.45,0,0,0,0,0,0,1,0,0,0,0,0
+TS0637,12/07/1981,Vale of Glamorgan,32.1,Family Ticket,Family,Lazy River,Website,Search Engine,Transport,4,4,32.8,0,0,0,0,0,0,0,1,0,0,0,0
+TS0689,22/12/1978,Rhondda Cynon Taf,35.4,Twilight Ticket,Friends,Splash Zone,On-site,Outdoor Poster,Price,3,2,15.43,0,0,0,0,0,0,0,0,0,1,0,0
+TS0787,04/03/1979,Cardiff,36.7,Day Ticket,Couple,Wave Pool,Mobile App,Search Engine,Transport,4,3,42.06,0,0,0,0,0,0,1,0,0,0,0,0
+TS0756,19/02/1974,Caerphilly,34.9,Day Ticket,Friends,Wave Pool,Website,Search Engine,Queues,3,5,33.97,0,0,0,0,0,0,0,1,0,0,0,0
+TS0273,25/06/2016,Bridgend,15.3,Day Ticket,Friends,Splash Zone,Website,Search Engine,Price,4,4,15.81,0,0,0,0,0,0,1,2,0,0,0,0
+TS0460,17/12/2008,Vale of Glamorgan,15.1,Day Ticket,Family,Speed Slides,Website,Search Engine,Weather,4,5,30.28,0,0,0,0,1,0,1,0,0,0,1,0
+TS0006,05/10/2004,Merthyr Tydfil,45.6,Day Ticket,Couple,Lazy River,Mobile App,Social Media,Price,4,3,40.69,0,0,0,0,0,0,0,0,0,0,0,0
+TS0622,04/11/1989,Newport,71.3,Family Ticket,Family,Lazy River,Website,Social Media,None,5,3,40.65,0,0,0,0,0,1,0,0,0,0,0,0
+TS0633,25/12/1992,Newport,72.4,Day Ticket,Couple,Speed Slides,On-site,Search Engine,Distance,5,3,38.12,0,0,0,0,0,0,0,0,0,0,0,0
+TS0536,01/01/1993,Merthyr Tydfil,39.1,Family Ticket,Family,Wave Pool,Mobile App,Social Media,Time,5,3,48.13,0,0,0,0,0,0,1,0,0,0,0,0
+TS0213,28/11/2011,Caerphilly,41.0,Day Ticket,School/Club,Family Slides,Website,Social Media,Price,5,2,38.95,0,0,0,0,0,1,0,1,2,0,0,1
+TS0160,12/08/1984,Cardiff,31.2,Family Ticket,Family,Splash Zone,Website,Friend/Family,Price,3,3,39.03,0,0,1,0,0,0,0,1,0,0,0,0
+TS0230,03/06/2000,Cardiff,32.7,Day Ticket,Family,Splash Zone,Mobile App,Social Media,Weather,3,4,51.99,0,0,0,0,0,0,0,1,1,0,0,1
+TS0770,19/10/2002,Cardiff,35.4,Family Ticket,Family,Wave Pool,On-site,Social Media,None,5,4,47.67,0,0,0,0,0,0,0,0,0,0,0,0
+TS0452,05/09/1989,Merthyr Tydfil,38.0,Day Ticket,Solo,Speed Slides,Website,Outdoor Poster,Price,4,4,25.75,0,0,0,0,0,0,0,0,0,0,0,0
+TS0249,02/12/1988,Cardiff,26.5,Family Ticket,Family,Lazy River,On-site,Social Media,Queues,4,4,47.19,0,0,0,0,0,0,1,0,0,0,0,0
+TS0410,17/01/1973,Caerphilly,45.4,Day Ticket,School/Club,Wave Pool,Mobile App,Social Media,Distance,3,3,14.25,0,0,0,0,1,0,0,1,0,0,0,0
+TS0345,03/04/1962,Swansea,49.8,Twilight Ticket,Friends,Wave Pool,Website,Social Media,Price,4,4,31.34,0,0,0,0,0,0,0,2,0,0,1,0
+TS0674,07/09/1977,Rhondda Cynon Taf,30.4,Day Ticket,School/Club,Aqua Play,On-site,Social Media,Price,4,3,39.67,0,0,0,0,0,0,0,0,0,0,0,0
+TS0004,06/04/2000,Vale of Glamorgan,22.0,Day Ticket,School/Club,LazyRiver,On-site,Social Media,Price,3,3,35.07,0,0,0,0,0,1,2,1,1,0,0,0
+TS0060,14/11/1976,Bridgend,13.7,Day Ticket,Friends,Lazy River,Website,Friend/Family,Price,4,2,26.4,0,0,1,0,0,0,0,0,0,0,0,0
+TS0572,28/08/1988,Cardiff,39.1,Season Pass,School/Club,Wave Pool,Website,Search Engine,Price,3,3,19.39,0,1,0,0,1,1,0,0,2,0,0,0
+TS0424,20/11/1973,Bridgend,10.9,Family Ticket,Family,Family Slides,Website,School/Club,Time,5,4,38.24,0,0,0,0,0,0,0,0,0,0,0,0
+TS0709,18/10/1984,Merthyr Tydfil,43.4,Season Pass,Friends,Splash Zone,Website,Search Engine,Transport,4,4,28.59,0,0,0,0,1,2,3,4,1,0,0,0
+TS0016,10/01/1975,Bridgend,9.3,Family Ticket,Family,Lazy River,Website,Social Media,Price,4,2,25.48,1,0,0,0,0,2,0,0,0,0,0,1
+TS0658,04/04/1998,Cardiff,29.0,Day Ticket,Friends,Speed Slides,Website,Outdoor Poster,Queues,3,4,51.08,0,0,0,0,0,0,0,1,0,1,0,0
+TS0207,21/05/1982,Cardiff,44.5,Day Ticket,Family,Splash Zone,Website,Social Media,Distance,4,4,45.46,0,0,0,0,1,0,0,0,0,0,0,0
+TS0534,03/10/1963,Carmarthenshire,72.6,Day Ticket,Couple,Wave Pool,On-site,Search Engine,Transport,4,3,27.51,0,0,0,0,0,0,1,0,0,0,0,0
+TS0539,23/04/1967,Neath Port Talbot,38.8,Family Ticket,Family,Wave Pool,Website,Search Engine,Queues,3,4,34.08,0,0,0,0,0,0,0,0,0,0,0,0
+TS0519,05/09/1982,Caerphilly,37.8,Day Ticket,Couple,Wave Pool,Mobile App,Outdoor Poster,None,4,3,29.41,0,0,0,0,0,0,1,1,0,0,0,0
+TS0716,18/03/1991,Vale of Glamorgan,18.0,Family Ticket,Family,Wave Pool,On-site,Friend/Family,Price,4,2,40.66,0,0,1,0,1,0,0,0,0,0,0,0
+TS0554,21/11/1993,Merthyr Tydfil,56.9,Family Ticket,Family,Wave Pool,Website,Social Media,Transport,4,4,46.21,0,0,0,0,1,0,0,0,1,2,0,0
+TS0731,19/01/2008,Merthyr Tydfil,55.5,Day Ticket,Friends,Lazy River,Website,School/Club,Queues,3,4,24.9,0,0,0,0,0,0,0,0,0,1,0,0
+TS0228,16/04/2016,Vale of Glamorgan,29.8,Day Ticket,Couple,Lazy River,Website,Social Media,Price,4,3,31.11,0,0,0,0,0,1,0,1,0,0,0,0
+TS0101,25/04/2006,Vale of Glamorgan,22.7,Student Ticket,Solo,Speed Slides,Website,Social Media,Weather,5,3,21.92,0,0,0,0,0,1,2,0,0,0,0,0
+TS0621,03/02/2015,Bridgend,12.9,Student Ticket,Friends,Speed Slides,Mobile App,Social Media,Queues,4,4,15.92,0,0,1,0,0,0,0,1,0,0,0,0
+TS0707,28/10/1992,Newport,43.9,Twilight Ticket,Friends,Speed Slides,Website,School/Club,Queues,3,4,32.92,0,0,0,0,0,0,0,0,0,1,0,0
+TS0164,11/08/1973,Cardiff,26.7,Family Ticket,Family,Splash Zone,Website,Email,Price,4,3,47.59,1,0,0,0,0,0,0,0,0,0,0,0
+TS0145,01/02/2016,Caerphilly,34.6,Student Ticket,School/Club,Speed Slides,Website,Friend/Family,None,4,4,21.58,0,0,0,0,0,0,2,0,0,0,1,0
+TS0371,26/02/1987,Swansea,61.1,Day Ticket,Couple,Speed Slides,Phone,Email,Transport,4,4,18.12,0,0,0,0,0,0,1,0,0,0,1,0
+TS0399,28/06/1992,Newport,72.7,Day Ticket,Friends,Speed Slides,On-site,Friend/Family,Distance,4,4,33.3,0,0,0,0,0,0,0,0,0,0,0,0
+TS0585,07/10/2016,Swansea,60.1,Student Ticket,Friends,Lazy River,Mobile App,Social Media,Transport,3,4,22.93,0,0,0,0,0,0,0,0,0,0,0,1
+TS0507,20/09/2011,Merthyr Tydfil,41.6,Student Ticket,Solo,Lazy River,Website,Friend/Family,Queues,3,3,20.92,0,0,0,0,0,3,1,2,0,0,0,0
+TS0479,06/10/2005,Caerphilly,48.9,Day Ticket,Couple,Lazy River,Mobile App,Social Media,Price,4,3,29.69,0,0,0,0,0,0,0,0,0,1000,0,0
+TS0248,05/02/1977,Rhondda Cynon Taf,19.6,Day Ticket,School/Club,Family Slides,Phone,Friend/Family,Price,3,1,27.0,0,1,0,0,0,1,1,0,1,0,0,0
+TS0522,17/09/1956,Cardiff,44.4,Senior Ticket,School/Club,Family Slides,Website,Search Engine,Price,5,3,25.04,0,0,0,0,0,0,1,0,0,0,0,0
+TS0266,08/04/1993,Caerphilly,47.6,Day Ticket,Friends,Splash Zone,Website,Friend/Family,Price,4,3,37.68,0,0,0,0,0,1,0,4,0,0,0,0
+TS0080,09/11/1999,Bridgend,3.7,Day Ticket,School/Club,Wave Pool,Mobile App,Email,Price,5,2,54.48,0,0,0,0,0,0,0,0,0,0,0,0
+TS0087,24/09/1979,Neath Port Talbot,47.1,Twilight Ticket,Couple,Lazy River,Telephone,Email,Transport,4,4,24.49,0,0,0,0,0,0,0,0,0,0,0,0
+TS0146,10/08/1998,Rhondda Cynon Taf,32.9,Day Ticket,Couple,Family Slides,Phone,Social Media,Price,4,3,350.0,0,0,0,0,0,0,0,0,0,0,0,0
+TS0313,17/06/1967,Bridgend,7.2,Family Ticket,Family,Wave Pool,Mobile App,Search Engine,Weather,5,4,56.31,0,0,0,0,0,2,0,0,0,0,0,0
+TS0068,23/01/1993,Swansea,41.2,Season Pass,Solo,Speed Slides,Mobile App,Search Engine,Transport,4,5,24.97,0,0,0,0,1,0,1,0,0,0,0,0
+TS0225,07/01/2016,Neath Port Talbot,35.0,Day Ticket,Friends,Wave Pool,On-site,Outdoor Poster,Weather,4,4,35.3,0,0,0,1,1,0,1,0,0,0,0,0
+TS0155,14/02/2009,Swansea,43.8,Student Ticket,Family,Lazy River,On-site,Friend/Family,Price,4,4,34.13,0,0,0,0,0,1,1,0,0,0,0,0
+TS0099,06/04/1985,Merthyr Tydfil,61.2,Season Pass,Couple,Splash Zone,Website,Social Media,Price,4,4,17.24,0,1,0,0,3,2,0,1,1,0,0,1
+TS0788,26/07/1967,Bridgend,7.3,Day Ticket,Family,Lazy River,On-site,Email,Price,3,4,36.64,0,0,0,0,0,0,2,0,0,1,0,0
+TS0720,23/01/1987,Cardiff,23.0,Family Ticket,Family,Splash Zone,Mobile App,Social Media,Distance,4,4,32.59,0,0,0,1,0,1,1,1,1,0,0,0
+TS0644,24/05/2000,Vale of Glamorgan,32.3,Season Pass,School/Club,Family Slides,Website,Social Media,Transport,4,4,33.64,0,1,0,0,0,0,0,0,0,1,0,0
+TS0772,17/02/1977,Neath Port Talbot,39.7,Day Ticket,Family,Wave Pool,Website,Social Media,Time,4,5,25.98,0,0,0,0,0,0,0,1,0,0,0,0
+TS0137,21/05/2016,Cardiff,38.1,Student Ticket,Friends,Aqua Play,On-site,Friend/Family,Weather,4,4,15.25,0,1,0,0,0,0,1,1,0,0,0,0
+TS0283,20/01/1990,Vale of Glamorgan,21.8,Season pass,Friends,Lazy River,On-site,Friend/Family,Time,4,4,33.65,0,1,0,0,2,0,0,1,1,0,1,0
+TS0712,16/10/1980,Cardiff,36.5,Day Ticket,Solo,Wave Pool,Website,Friend/Family,Time,5,3,26.11,1,0,0,0,0,0,1,0,0,0,0,0
+TS0285,18/01/1990,Caerphilly,32.1,Day Ticket,Family,Wave Pool,Website,Search Engine,Queues,4,4,25.49,0,0,0,1,0,1,0,0,0,0,0,0
+TS0113,14/10/1999,Neath Port Talbot,32.7,Family Ticket,Family,Wave Pool,Website,Friend/Family,Transport,4,4,40.11,0,0,1,0,0,0,1,0,0,0,0,0
+TS0684,28/05/1974,Cardiff,28.2,Family Ticket,Family,Splash Zone,Website,Friend/Family,Weather,4,4,19.13,0,0,0,0,2,0,1,3,0,0,0,0
+TS0417,17/12/2003,Caerphilly,46.2,Day Ticket,School/Club,Aqua Play,Mobile App,Search Engine,Weather,4,3,46.01,0,0,0,0,0,0,0,0,0,0,0,0
+TS0367,28/05/1984,Bridgend,8.7,Family Ticket,Family,Lazy River,Website,Social Media,Distance,4,3,36.41,0,0,0,0,0,1,0,0,0,0,0,0
+TS0467,06/09/1987,Cardiff,25.4,Family Ticket,Family,Wave Pool,Website,Friend/Family,Time,5,5,35.32,0,0,0,0,0,0,1,0,0,0,0,0
+TS0194,04/12/1977,Cardiff,27.7,Day Ticket,Friends,Lazy River,Website,Friend/Family,Queues,4,3,18.41,0,0,0,1,0,0,0,0,0,0,0,0
+TS0372,16/07/2015,Rhondda Cynon Taf,28.2,Family Ticket,Family,Splash Zone,Website,Social Media,None,4,5,45.51,0,0,0,0,1,0,0,0,0,0,0,0
+TS0657,10/12/1986,Bridgend,8.3,Day Ticket,School/Club,Splash Zone,Website,Friend/Family,Price,3,3,26.55,0,0,0,0,0,1,1,2,2,1,0,0
+TS0148,12/12/1985,Vale of Glamorgan,31.6,Family Ticket,Family,Splash Zone,Website,Search Engine,Price,4,2,28.26,0,0,0,1,1,0,2,0,0,1,0,0
+TS0725,01/09/2005,Vale of Glamorgan,22.8,Student Ticket,Friends,Speed Slides,Website,Outdoor Poster,Queues,3,3,25.83,0,0,0,0,1,1,1,0,0,0,0,0
+TS0715,09/11/2009,Cardiff,33.3,Student Ticket,Family,Lazy River,Website,School/Club,Queues,4,5,15.68,0,0,0,0,0,0,0,0,0,0,0,0
+TS0668,18/12/1982,Carmarthenshire,88.7,Season Pass,Friends,Speed Slides,Website,Friend/Family,Price,3,4,19.34,0,0,0,0,1,2,1,0,0,0,0,0
+TS0258,04/07/1999,Newport,71.6,Season Pass,Friends,Lazy River,On-site,Search Engine,Distance,4,3,25.04,0,0,1,0,0,0,0,2,1,0,0,0
+TS0469,02/04/1985,Rhondda Cynon Taf,18.5,Day Ticket,Family,Wave Pool,Website,Outdoor Poster,Time,4,5,26.84,0,0,0,0,0,0,1,0,0,1,0,0
+TS0304,22/02/1992,Carmarthenshire,66.7,Family Ticket,Family,Wave Pool,Website,Search Engine,Time,5,4,39.42,0,0,0,0,0,0,0,0,0,0,0,0
+TS0050,18/08/1977,Bridgend,7.8,Season Pass,Friends,Speed Slides,On-site,School/Club,Price,4,4,17.01,0,0,0,1,2,1,1,0,2,0,1,0
+TS0595,14/10/1975,Newport,44.8,Family Ticket,Family,Lazy River,On-site,Friend/Family,Transport,4,3,40.12,0,0,0,0,0,1,0,0,0,0,0,0
+TS0465,12/12/2005,Swansea,59.6,Day Ticket,Couple,Speed Slides,On site,Social Media,Weather,4,4,36.57,0,0,0,0,0,0,0,0,0,0,0,0
+TS0690,05/07/2011,Neath Port Talbot,31.3,Student Ticket,School/Club,Wave Pool,Website,Friend/Family,Weather,3,4,9.71,0,0,0,0,0,0,0,1,0,1,0,1
+TS0638,03/04/1990,Ceredigion,140.4,Day Ticket,Family,Splash Zone,Website,Search Engine,Weather,3,4,32.48,0,0,0,0,0,0,0,0,0,0,0,0
+TS0263,12/05/1987,Swansea,38.9,Day Ticket,Friends,Speed Slides,Mobile App,Social Media,Queues,4,4,6.65,0,0,0,0,0,0,0,0,0,0,0,0
+TS0053,01/09/2016,Cardiff,26.3,Day Ticket,School/Club,Lazy River,On-site,Social Media,Weather,2,5,27.59,0,0,0,0,0,1,0,0,0,0,0,0
+TS0246,26/05/1993,Cardiff,30.8,Family Ticket,Family,Wave Pool,Mobile App,Outdoor Poster,Weather,3,5,34.48,0,0,0,0,1,0,0,0,0,0,0,0
+TS0710,11/01/1997,Neath Port Talbot,30.2,Family Ticket,Family,Family Slides,Website,Social Media,Distance,5,4,28.44,0,0,0,1,0,0,1,0,0,0,0,0
+TS0435,27/06/1994,Vale of Glamorgan,15.5,Day Ticket,Friends,Speed Slides,Website,Outdoor Poster,Price,4,3,29.31,0,0,0,0,0,0,0,0,0,0,0,0
+TS0032,05/03/1958,Merthyr Tydfil,55.9,Senior Ticket,Solo,Wave Pool,Website,Friend/Family,Distance,4,3,13.44,0,0,0,0,0,0,1,0,0,0,0,0
+TS0347,17/07/2016,Vale of Glamorgan,34.6,Student Ticket,Family,Wave Pool,Website,Social Media,Queues,3,5,13.75,0,0,0,0,0,0,1,0,0,0,0,0
+TS0159,06/05/2007,Rhondda Cynon Taf,25.6,Student Ticket,Friends,Speed Slides,Mobile App,Friend/Family,Weather,3,3,29.67,0,0,0,0,0,0,0,0,0,0,0,0
+TS0498,01/02/1992,Newport,69.3,Day Ticket,School/Club,Speed Slides,Mobile App,Search Engine,Price,4,10,26.15,0,0,0,1,0,0,0,0,1,0,0,0
+TS0454,14/01/2001,Neath Port Talbot,36.0,Day Ticket,Friends,Speed Slides,Phone,Social Media,Price,4,3,33.75,0,0,0,0,0,0,0,1,0,0,0,0
+TS0172,12/09/1975,Neath Port Talbot,28.8,Family Ticket,Family,Family Slides,Website,Friend/Family,Weather,7,4,34.84,0,1,0,0,1,1,1,0,1,0,0,0
+TS0346,28/01/2002,Cardiff,37.5,Day Ticket,Couple,Splash Zone,Mobile App,Social Media,Price,4,2,33.31,0,0,0,0,0,0,0,1,0,0,0,0
+TS0730,05/04/1987,Rhondda Cynon Taf,39.5,Day Ticket,Couple,Speed Slides,Website,Social Media,Time,3,4,46.58,0,0,0,0,0,1,1,0,0,0,0,0
+TS0034,01/03/1986,Bridgend,17.1,Day Ticket,Couple,Wave Pool,Website,Friend/Family,Weather,4,4,35.56,0,1,0,0,0,0,1,0,0,0,0,0
+TS0474,09/09/1990,Neath Port Talbot,37.2,Twilight Ticket,Friends,Speed Slides,Website,Social Media,Transport,4,4,31.65,0,0,0,0,0,0,0,1,0,0,0,0
+TS0324,25/08/1996,Newport,43.4,Day Ticket,School/Club,Lazy River,Website,Outdoor Poster,Weather,4,5,43.42,0,0,0,0,0,0,1,0,0,0,0,0
+TS0675,06/10/1994,Cardiff,29.0,Day Ticket,Couple,Wave Pool,Website,Social Media,Queues,3,4,11.67,0,0,0,1,1,0,0,0,0,0,0,0
+TS0335,27/01/1984,Rhondda Cynon Taf,41.5,Day Ticket,School/Club,Wave Pool,Website,Social Media,Queues,5,4,40.72,0,0,0,0,0,0,0,0,0,0,0,0
+TS0098,09/04/2006,Swansea,44.0,Student Ticket,Family,Wave Pool,Website,Friend/Family,Price,4,3,13.92,0,1,0,0,1,1,1,0,1,0,0,0
+TS0546,22/02/1998,Bridgend,5.5,Twilight Ticket,Couple,Lazy River,Website,Friend/Family,Distance,4,3,30.51,0,0,0,0,0,0,0,0,0,0,0,0
+TS0348,04/01/2003,Cardiff,,Student Ticket,Family,Lazy River,On-site,Email,Price,3,3,22.36,0,0,0,0,0,1,0,0,0,1,0,0
+TS0386,21/06/1984,Cardiff,33.4,Day Ticket,Family,Aqua Play,Mobile App,Social Media,Queues,3,4,32.77,0,0,0,0,0,0,1,0,0,0,0,0
+TS0369,14/04/1988,Neath Port Talbot,24.7,Day Ticket,School/Club,Aqua Play,Mobile App,Social Media,Price,4,2,31.01,0,0,0,0,0,0,0,0,0,0,0,0
+TS0654,19/03/1972,Cardiff,34.1,Twilight Ticket,School/Club,Family Slides,Website,Search Engine,Distance,5,4,23.9,0,0,0,0,0,0,0,1,0,0,0,0
+TS0429,26/01/1997,Rhondda Cynon Taf,19.4,Day Ticket,Friends,Family Slides,Mobile App,Email,Price,4,3,47.85,0,0,0,0,0,0,0,0,0,0,0,0
+TS0671,06/12/2013,Cardiff,36.6,Student Ticket,Family,Wave Pool,Website,Social Media,Price,4,3,30.64,0,0,0,0,1,1,1,1,0,1,0,0
+TS0211,07/12/1980,Caerphilly,46.7,Family Ticket,Family,Family Slides,Mobile App,Social Media,Weather,4,3,31.78,0,0,0,0,0,0,0,1,0,0,0,0
+TS0640,17/06/1950,Bridgend,6.6,Senior Ticket,Family,Wave Pool,Mobile App,Social Media,Price,4,4,13.06,0,1,0,0,0,0,0,0,0,0,0,0
+TS0017,02/11/1997,Vale of Glamorgan,21.9,Day Ticket,Couple,Wave Pool,On-site,Friend/Family,Transport,4,5,31.68,0,0,0,0,0,0,0,1,0,0,0,0
+TS0031,10/07/1963,Cardiff,39.4,Day Ticket,School/Club,Splash Zone,Mobile App,Social Media,Weather,4,3,25.29,0,0,0,0,0,0,0,1,0,0,0,0
+TS0661,02/05/1992,Caerphilly,53.4,Twilight Ticket,Couple,Family Slides,Mobile App,Social Media,Distance,5,5,21.56,0,0,0,0,1,0,0,0,0,0,0,0
+TS0791,25/06/1995,Neath Port Talbot,26.1,Day Ticket,School/Club,Speed Slides,Website,Friend/Family,Price,5,4,39.38,0,0,0,0,0,0,0,99,0,0,0,0
+TS0746,15/02/1980,Bridgend,10.0,Twilight Ticket,Friends,Family Slides,Mobile App,Social Media,Queues,3,4,29.3,0,0,0,0,0,0,0,0,0,0,0,0
+TS0223,10/12/2009,Neath Port Talbot,34.0,Day Ticket,Family,Wave Pool,Website,Search Engine,Transport,4,3,35.3,0,0,0,0,0,0,0,0,0,0,0,0
+TS0784,26/08/2012,Cardiff,27.7,Day Ticket,Friends,Splash Zone,Mobile App,School/Club,Time,4,3,43.51,0,0,0,0,0,0,2,0,0,0,0,0
+TS0179,01/08/2016,Bridgend,16.7,Day Ticket,Solo,Family Slides,Mobile App,Social Media,Price,4,3,37.07,0,0,0,0,1,0,0,0,0,0,0,0
+TS0751,24/07/2006,Merthyr Tydfil,41.3,Day Ticket,Friends,Speed Slides,Website,Email,Distance,5,4,20.62,0,0,0,1,0,0,1,0,1,1,0,0
+TS0724,08/06/1983,Vale of Glamorgan,18.0,Family Ticket,Family,Wave Pool,Mobile App,Outdoor Poster,Time,3,3,33.43,0,0,0,0,0,1,0,0,0,0,0,0
+TS0317,09/05/1989,Rhondda Cynon Taf,18.3,Family Ticket,Family,Family Slides,On-site,Email,Distance,4,4,22.14,0,0,0,0,0,0,2,0,0,0,0,0
+TS0063,01/08/1982,Neath Port Talbot,24.7,Day Ticket,Couple,Splash Zone,Mobile App,Social Media,Queues,3,4,29.33,0,0,0,0,0,1,0,1,0,0,0,1
+TS0093,08/08/1985,Cardiff,35.0,Family Ticket,Family,Family Slides,On-site,Friend/Family,Time,4,4,18.91,0,0,0,0,0,0,1,0,0,1,0,0
+TS0236,03/03/1994,Swansea,39.3,Day Ticket,Couple,Splash Zone,On-site,Friend/Family,Queues,4,-1,30.45,0,0,0,0,0,0,0,0,0,0,0,0
+TS0563,19/07/2010,Carmarthenshire,69.8,Family Ticket,Family,family slides,Website,Email,Queues,4,4,19.9,0,0,0,0,0,1,0,0,0,0,0,0
+TS0590,07/09/1977,Carmarthenshire,88.7,Day Ticket,Solo,Splash Zone,On-site,Search Engine,Distance,5,4,26.01,1,0,0,0,0,0,0,0,0,0,0,0
+TS0450,19/08/1974,Neath Port Talbot,43.8,Family Ticket,Family,Lazy River,Website,Friend/Family,Price,4,3,45.36,0,0,0,0,0,0,0,1,0,0,0,0
+TS0260,07/12/2000,Vale of Glamorgan,25.6,Day Ticket,Couple,Splash Zone,Mobile App,Friend/Family,Time,4,3,33.93,0,0,0,0,0,1,0,1,0,2,0,0
+TS0743,27/12/1992,Bridgend,7.7,Season Pass,Couple,Lazy River,Website,Social Media,Transport,5,5,46.89,1,0,0,0,1,0,3,2,0,2,0,0
+TS0356,16/01/1975,Bridgend,12.6,Day Ticket,Family,Family Slides,Mobile App,Friend/Family,Price,4,3,31.52,0,0,0,1,1,0,0,0,0,0,0,0
+TS0141,15/07/1959,Cardiff,42.1,Day Ticket,Family,Speed Slides,Website,School/Club,Queues,3,4,27.68,0,0,0,0,0,0,1,0,0,0,0,0
+TS0001,19/09/1990,Swansea,45.6,Season Pass,Solo,Wave Pool,Mobile App,Social Media,Price,5,4,18.71,0,0,1,0,1,0,0,2,0,0,0,0
+TS0171,18/11/1985,Cardiff,44.5,Day Ticket,Friends,Wave Pool,Mobile App,Social Media,Weather,4,5,15.28,0,0,0,0,0,0,2,0,0,0,0,0
+TS0733,25/06/2000,Neath Port Talbot,35.6,Day Ticket,Couple,Aqua Play,Website,Social Media,Distance,4,4,26.95,0,0,0,0,0,0,1,0,0,0,0,0
+TS0735,24/01/1986,Cardiff,25.1,Day Ticket,Family,Family Slides,Website,School/Club,Time,3,4,50.45,1,0,1,0,2,1,0,0,1,0,0,0
+TS0047,03/05/1986,Caerphilly,41.6,Day Ticket,Friends,Speed Slides,On-site,Social Media,Queues,3,3,27.14,0,0,0,0,0,0,0,0,0,0,0,0
+TS0555,10/10/2004,Bridgend,15.9,Day Ticket,Family,Family Slides,Mobile App,Social Media,Price,4,3,34.28,0,0,0,0,1,1,0,1,0,0,0,1
+TS0726,10/02/1968,Neath Port Talbot,42.3,Day Ticket,Solo,Speed Slides,Phone,Email,Price,4,2,22.15,0,0,0,0,0,1,0,0,0,0,0,0
+TS0564,09/10/1985,Neath Port Talbot,34.5,Day Ticket,Solo,Splash Zone,Website,Social Media,Queues,3,5,25.16,0,0,0,0,0,0,1,2,1,1,0,0
+TS0339,06/05/1986,Neath Port Talbot,41.5,Family Ticket,Family,Family Slides,On-site,Social Media,Queues,2,4,30.34,0,0,0,0,1,1,2,1,0,0,0,0
+TS0438,11/11/1993,Ceredigion,94.6,Season Pass,Friends,Splash Zone,On-site,Friend/Family,Distance,5,4,25.08,0,0,0,0,2,2,0,3,1,1,0,0
+TS0256,02/02/1972,Swansea,49.2,Season Pass,Solo,Wave Pool,Mobile App,Social Media,Weather,4,4,25.98,0,0,0,1,0,2,1,1,0,1,0,0
+TS0584,12/05/1888,Ceredigion,90.7,Day Ticket,Couple,Family Slides,Mobile App,Social Media,Transport,3,4,17.22,0,0,0,0,0,0,0,0,0,0,0,0
+TS0028,03/08/2016,Cardiff,33.7,Student Ticket,Solo,Wave Pool,Phone,Social Media,Price,4,4,21.95,0,0,0,0,0,0,0,1,0,0,0,0
+TS0361,28/08/1992,Cardiff,32.0,Season Pass,Friends,Family Slides,Mobile App,Search Engine,Distance,5,4,18.37,0,0,1,0,0,1,1,2,0,0,0,0
+TS0680,20/11/1998,Cardiff,42.4,Day Ticket,Family,Lazy River,On-site,Social Media,Transport,5,3,33.15,0,0,0,0,0,0,0,0,0,0,0,0
+TS0390,13/02/1986,Swansea,43.8,Twilight Ticket,Friends,Lazy River,Mobile App,Search Engine,Time,4,4,26.67,0,0,1,0,1,0,1,0,0,1,0,0
+TS0057,22/05/1974,Merthyr Tydfil,49.3,Family Ticket,Family,Family Slides,Website,Search Engine,Distance,4,4,44.97,0,0,0,0,0,0,1,0,0,0,0,0
+TS0591,14/05/1990,Swansea,45.9,Day Ticket,Solo,Lazy River,Mobile App,Social Media,Queues,4,5,29.11,0,0,1,0,0,1,2,0,0,0,0,0
+TS0315,17/01/2011,Bridgend,14.3,Day Ticket,Friends,Splash Zone,On-site,Search Engine,Distance,5,4,17.42,0,0,0,0,0,0,2,0,1,0,0,0
+TS0300,19/09/1993,Bridgend,12.3,Day Ticket,Family,Wave Pool,Website,Social Media,Price,4,4,31.21,0,0,0,0,0,0,1,0,0,0,0,0
+TS0523,08/06/1999,Merthyr Tydfil,47.8,Family Ticket,Family,Family Slides,Mobile App,Social Media,Distance,5,4,46.8,0,0,0,0,0,0,0,2,0,0,0,0
+TS0385,26/03/1998,Bridgend,4.1,Day Ticket,Solo,Speed Slides,Phone,Social Media,Price,3,4,45.03,0,0,1,0,0,0,1,0,0,0,0,0
+TS0187,21/06/1985,Neath Port Talbot,47.8,Day Ticket,Friends,Splash Zone,Mobile App,Search Engine,Time,3,3,34.44,0,0,0,0,0,1,0,0,0,0,0,0
+TS0789,19/06/1966,Swansea,49.4,Day Ticket,Solo,Lazy River,Mobile App,Search Engine,Queues,5,3,24.64,0,0,0,0,0,0,0,0,1,0,0,1
+TS0573,28/08/2016,Bridgend,4.5,Day Ticket,Family,Lazy River,Website,Search Engine,Time,3,4,42.86,0,0,0,0,0,0,0,1,0,0,0,0
+TS0685,06/10/1977,Vale of Glamorgan,17.7,Twilight Ticket,Couple,Splash Zone,On-site,Outdoor Poster,Weather,4,4,20.72,0,0,0,0,1,0,0,0,0,0,0,0
+TS0664,22/06/2011,Vale of Glamorgan,27.3,Day Ticket,Friends,Speed Slides,Website,School/Club,None,4,3,37.55,1,0,0,0,0,0,0,2,0,0,0,0
+TS0528,09/04/1994,Vale of Glamorgan,24.4,Day Ticket,Friends,Speed Slides,Website,Search Engine,Time,5,3,23.91,0,0,0,0,0,0,0,0,0,0,0,0
+TS0366,18/11/1978,Vale of Glamorgan,20.5,Family Ticket,Family,Wave Pool,Mobile App,Email,Distance,4,4,44.97,0,0,0,0,0,0,1,0,0,0,0,0
+TS0543,28/10/1988,Rhondda Cynon Taf,41.1,Season Pass,Couple,Wave Pool,Website,Search Engine,None,5,5,23.84,0,0,1,0,0,0,2,2,0,0,1,1
+TS0578,05/06/1974,Cardiff,24.2,Day Ticket,Couple,Lazy River,Website,Email,Transport,5,3,21.27,1,0,0,0,0,1,0,0,0,0,0,1
+TS0601,14/03/1993,Neath Port Talbot,37.4,Day Ticket,School/Club,Splash Zone,Website,Search Engine,Distance,5,4,22.27,0,0,0,0,0,0,0,2,0,0,0,0
+TS0667,19/05/2016,Vale of Glamorgan,23.8,Student Ticket,Family,Splash Zone,Mobile App,Social Media,Transport,4,4,18.17,0,0,0,0,0,0,1,0,0,0,0,0
+TS0078,23/09/1996,Cardiff,25.4,Day Ticket,Friends,Family Slides,Phone,Email,Queues,3,3,23.55,1,0,0,0,1,0,0,0,0,0,0,0
+TS0785,14/06/1978,Neath Port Talbot,30.0,Family Ticket,Family,Lazy River,Mobile App,Social Media,Price,4,3,13.38,0,0,0,0,1,0,0,1,0,0,0,0
+TS0606,10/10/1964,Caerphilly,36.3,Day Ticket,Friends,Speed Slides,Website,Friend/Family,None,4,4,30.71,0,0,0,0,0,0,0,1,0,0,0,0
+TS0650,01/11/1974,Caerphilly,52.0,Day Ticket,School/Club,Speed Slides,Mobile App,Friend/Family,Distance,3,4,32.58,0,0,0,0,0,0,1,0,0,0,0,0
+TS0176,26/01/1996,Rhondda Cynon Taf,41.7,Day Ticket,Friends,Speed Slides,Website,Search Engine,Distance,3,4,33.07,0,0,0,0,0,0,1,0,1,0,0,0
+TS0329,17/09/1969,Neath Port Talbot,34.4,Day Ticket,Family,Wave Pool,Website,Social Media,Distance,4,4,$45.26,0,0,0,0,0,1,1,1,1,0,0,0
+TS0382,23/07/1995,Rhondda Cynon Taf,30.6,Day Ticket,Friends,Lazy River,Website,Email,Queues,3,3,51.09,0,0,0,0,0,0,0,0,0,0,0,0
+TS0118,17/09/1991,Neath Port Talbot,39.9,Day Ticket,Family,Wave Pool,Website,Social Media,Time,3,5,39.38,1,0,0,0,0,0,0,0,1,0,0,0
+TS0480,05/11/2000,Neath Port Talbot,28.5,Day Ticket,Solo,Wave Pool,On-site,Social Media,Transport,3,2,37.71,0,0,0,0,0,0,0,0,1,0,1,0
+TS0140,06/09/2016,Vale of Glamorgan,30.5,Day Ticket,Friends,Speed Slides,Mobile App,Search Engine,Transport,4,4,39.84,0,0,0,1,1,0,0,0,0,0,0,0
+TS0195,08/03/1999,Caerphilly,37.2,Day Ticket,Couple,Speed Slides,Website,Email,Distance,4,4,20.3,0,0,1,1,0,0,0,0,1,1,1,0
+TS0163,06/01/2000,Vale of Glamorgan,20.5,Season Pass,Couple,Speed Slides,Phone,Social Media,Price,4,3,36.77,0,0,0,0,0,1,0,1,2,0,0,0
+TS0571,07/09/1994,Swansea,55.6,Family Ticket,Family,Lazy River,Website,Friend/Family,Weather,4,4,35.35,0,0,1,0,0,0,0,1,2,0,0,0
+TS0611,12/12/2007,Rhondda Cynon Taf,20.8,Student Ticket,School/Club,Speed Slides,Website,Email,Time,4,3,8.61,1,1,0,0,0,0,1,0,0,0,0,0
+TS0383,26/08/1991,Bridgend,8.8,Twilight Ticket,Friends,Speed Slides,Website,Friend/Family,None,4,4,40.29,0,0,0,0,0,0,0,1,0,0,0,0
+TS0322,18/11/1989,Vale of Glamorgan,25.5,Day Ticket,Friends,Speed Slides,On-site,School/Club,Price,4,3,34.13,0,0,0,0,1,0,1,1,0,0,0,0
+TS0565,26/10/2006,Bridgend,13.6,Student Ticket,Family,Family Slides,Mobile App,Friend/Family,Queues,3,4,29.59,0,0,0,0,1,0,0,0,0,0,1,0
+TS0505,19/09/1980,Bridgend,3.9,Day Ticket,Solo,Family Slides,Website,Email,Weather,4,4,38.52,0,0,0,1,0,0,1,0,1,0,0,0
+TS0126,04/04/1981,Rhondda Cynon Taf,25.0,Day Ticket,Family,Lazy River,Website,Outdoor Poster,Queues,4,4,33.57,0,0,0,0,0,0,1,1,0,0,0,0
+TS0058,05/01/2005,Bridgend,16.9,Day Ticket,Family,Splash Zone,On-site,Social Media,Queues,3,5,29.33,0,0,1,0,0,0,0,0,0,0,0,0
+TS0048,16/06/2016,Caerphilly,37.6,Family Ticket,Family,Family Slides,Website,Social Media,Price,4,3,30.7,0,0,0,0,0,0,0,0,0,0,0,0
+TS0232,09/03/2015,Rhondda Cynon Taf,41.3,Day Ticket,Family,Lazy River,Mobile App,Social Media,Transport,4,5,33.89,0,0,0,0,0,1,0,0,0,0,0,0
+TS0475,02/11/1982,Vale of Glamorgan,15.4,Day Ticket,Friends,Speed Slides,Mobile App,Friend/Family,Price,4,2,32.24,0,0,0,1,0,0,0,0,0,0,0,0
+TS0478,22/06/1986,Merthyr Tydfil,42.2,Day Ticket,Solo,Wave Pool,Website,Friend/Family,Time,4,3,21.39,0,0,0,0,0,0,2,1,0,0,0,0
+TS0566,16/04/1993,Caerphilly,52.9,Day Ticket,Friends,Wave Pool,Mobile App,Search Engine,Distance,4,3,22.83,0,0,0,0,0,0,0,0,0,0,0,0
+TS0736,17/09/1991,Bridgend,10.6,Season Pass,Friends,Splash Zone,Mobile App,Social Media,Transport,4,4,12.58,1,0,0,1,0,1,4,0,2,0,0,1
+TS0196,10/09/1997,Rhondda Cynon Taf,41.7,Season Pass,Couple,Speed Slides,Website,Search Engine,Price,4,4,16.68,0,1,0,0,0,3,2,3,0,0,0,0
+TS0127,26/02/1977,Rhondda Cynon Taf,27.7,Day Ticket,Couple,Family Slides,Website,Social Media,Price,4,4,30.77,1,0,0,0,0,0,0,0,0,0,0,0
+TS0397,18/09/2006,Swansea,51.9,Day Ticket,Couple,Lazy River,On-site,Social Media,Distance,4,4,39.35,0,0,0,0,1,0,0,0,0,0,0,0
+TS0142,09/06/1982,Cardiff,33.3,day ticket,Couple,Lazy River,Website,Social Media,Distance,4,4,20.27,0,0,1,0,1,0,0,1,2,0,0,0
+TS0718,16/06/1976,Vale of Glamorgan,34.5,Day Ticket,Friends,Splash Zone,Mobile App,Search Engine,Time,4,4,37.12,0,0,0,0,0,0,0,0,0,0,0,0
+TS0287,21/04/2001,Bridgend,13.5,Season Pass,Friends,Family Slides,Mobile App,Search Engine,Weather,4,5,17.63,0,1,0,0,1,2,1,1,1,0,0,0
+TS0473,07/11/2007,Vale of Glamorgan,16.9,Student Ticket,Solo,Family Slides,On-site,Search Engine,Price,4,2,9.81,0,1,0,0,0,1,0,1,1,0,0,1
+TS0378,21/12/1994,Rhondda Cynon Taf,31.9,Day Ticket,Family,Splash Zone,Phone,Friend/Family,Queues,3,4,31.57,0,0,2,0,2,0,0,0,0,1,0,0
+TS0750,07/03/1990,Swansea,36.3,Day Ticket,Couple,Family Slides,Website,Email,Price,5,3,35.12,0,0,0,0,0,0,0,1,0,0,1,0
+TS0679,09/09/1994,Bridgend,4.6,Day Ticket,Friends,Family Slides,Mobile App,Social Media,Price,2,3,26.14,0,0,0,0,0,0,1,1,0,0,0,0
+TS0326,11/05/1976,Swansea,48.1,Twilight ticket,Couple,Family Slides,Mobile App,Email,Queues,3,4,25.36,0,1,1,0,0,0,0,0,0,0,0,0
+TS0768,12/09/1979,Cardiff,41.8,Season Pass,Couple,Speed Slides,On-site,Social Media,Price,4,4,35.15,0,0,0,1,0,0,1,1,0,1,1,0
+TS0085,18/03/1986,Vale of Glamorgan,26.8,Family Ticket,Family,Lazy River,Website,Search Engine,Time,5,4,24.8,0,0,0,0,0,1,0,0,0,0,0,0
+TS0538,21/06/2011,Caerphilly,41.1,Day Ticket,Friends,Aqua play,On-site,Friend/Family,Time,5,4,28.78,0,0,0,1,0,1,0,1,2,0,0,0
+TS0020,15/06/1961,Bridgend,14.8,Senior Ticket,Couple,Lazy River,Website,Social Media,None,4,3,5.19,0,0,0,0,0,0,2,1,0,0,0,0
+TS0464,06/05/2004,Bridgend,16.9,Student Ticket,Family,Family Slides,On-site,Search Engine,Weather,4,5,26.77,0,0,0,0,0,1,0,0,0,0,0,0
+TS0577,26/11/1978,Ceredigion,135.5,Family Ticket,Family,Speed Slides,Mobile App,Social Media,Time,3,4,47.34,0,0,0,0,0,0,0,0,0,0,0,0
+TS0631,06/12/1995,Ceredigion,88.5,Day Ticket,Friends,Wave Pool,Mobile App,Social Media,Distance,4,4,24.12,0,0,0,0,0,0,0,0,0,0,0,0
+TS0224,05/04/2001,Rhondda Cynon Taf,22.7,Day Ticket,Solo,Speed Slides,On-site,Friend/Family,Transport,5,3,17.24,0,0,0,1,0,1,0,0,0,0,0,0
+TS0665,05/09/1998,Vale of Glamorgan,29.6,Day Ticket,School/Club,Aqua Play,Website,Social Media,Price,4,2,20.87,0,0,0,0,0,1,0,0,0,0,0,1
+TS0184,08/04/1973,Carmarthenshire,88.6,Day Ticket,Friends,Lazy River,Website,Search Engine,Time,4,4,44.06,0,0,1,0,0,0,1,0,0,0,0,0
+TS0404,25/04/1981,Caerphilly,39.4,Day Ticket,Friends,Speed Slides,Website,Search Engine,Queues,4,4,28.75,0,0,0,0,0,0,0,0,1,0,0,0
+TS0683,19/06/1994,Bridgend,14.8,Season Pass,Friends,Family Slides,On-site,Friend/Family,Weather,4,3,28.67,1,0,1,1,0,1,0,3,1,0,0,1
+TS0376,17/07/1968,Cardiff,41.6,Season Pass,School/Club,Wave Pool,Mobile App,Friend/Family,Transport,5,4,25.87,0,0,1,0,1,2,2,1,0,0,0,0
+TS0379,14/03/1978,Rhondda Cynon Taf,29.6,Day Ticket,Solo,Speed Slides,Mobile App,Email,Transport,4,4,32.71,0,0,0,0,0,0,0,1,0,0,0,0
+TS0466,08/10/2003,Rhondda Cynon Taf,37.4,Student Ticket,Family,Aqua Play,Website,School/Club,Queues,4,3,46.72,0,1,0,0,1,0,1,0,0,0,0,0
+TS0558,13/08/1976,Cardiff,,Day Ticket,Couple,Speed Slides,On-site,Friend/Family,Price,4,2,46.32,0,0,0,0,0,0,0,2,0,0,0,0
+TS0603,28/06/1990,Rhondda Cynon Taf,28.1,Family Ticket,Family,Aqua Play,Mobile App,Outdoor Poster,Queues,4,4,36.89,0,0,0,0,0,0,1,0,0,0,0,0
+TS0449,08/01/1994,Cardiff,42.3,Family Ticket,Family,Lazy River,Website,Email,Time,5,3,33.18,0,0,0,0,0,0,0,0,0,1,0,0
+TS0368,04/03/1981,Newport,57.0,Day Ticket,Friends,Splash Zone,Website,Search Engine,Queues,4,4,33.75,0,0,0,1,0,0,0,0,0,0,0,0
+TS0105,17/07/1982,Rhondda Cynon Taf,33.8,Day Ticket,Family,Splash Zone,Website,Social Media,Price,4,4,37.33,0,0,0,0,0,0,0,0,0,0,0,0
+TS0319,05/02/2016,Neath Port Talbot,34.8,Day Ticket,Friends,Wave Pool,Website,Social Media,Price,4,2,28.85,0,0,0,0,0,0,1,0,1,0,0,0
