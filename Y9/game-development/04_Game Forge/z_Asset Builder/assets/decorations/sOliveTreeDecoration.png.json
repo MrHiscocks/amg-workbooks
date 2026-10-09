@@ -1,0 +1,24 @@
+{
+  "id": "DE323",
+  "title": "Olive tree",
+  "tags": "Mediterranean, dry summer, scrubland, environment expansion",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 8,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_08/assets/decorations/sOliveTreeDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_08.zip",
+  "sourceSha256": "4541663ec8b373bc96c1cd40fa8af85fd12579044edf42df7a378220a3a28fb7",
+  "frames": 1
+}

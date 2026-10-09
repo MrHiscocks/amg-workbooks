@@ -1,0 +1,30 @@
+{
+  "id": "GR158",
+  "title": "Mangrove mud-bank surface",
+  "tags": "tropical coast, mangrove, brackish wetland, environment expansion",
+  "category": "ground",
+  "variant": "primary",
+  "batch": 14,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": {
+    "type": "Rectangle",
+    "left": 0,
+    "top": 0,
+    "right": 63,
+    "bottom": 63
+  },
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_14/assets/ground/sMangroveMudBankSurfaceBatch14.png",
+  "sourceBatch": "Game_Forge_Batch_14.zip",
+  "sourceSha256": "f41c4a660e3a5dc7177193d05ed70657bbd91ea7a9da7b42cecd32f43c20e6ed",
+  "frames": 1
+}

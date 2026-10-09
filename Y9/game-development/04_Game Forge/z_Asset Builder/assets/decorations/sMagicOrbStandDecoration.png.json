@@ -1,0 +1,24 @@
+{
+  "id": "DE218",
+  "title": "Magic orb stand",
+  "tags": "fantasy, books, breadth expansion",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 9,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_09/assets/decorations/sMagicOrbStandDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_09.zip",
+  "sourceSha256": "ef2cfbaaf47ce9034719d3ab3b1cb45c42d2b25cee59b245996a5f974d33936d",
+  "frames": 1
+}

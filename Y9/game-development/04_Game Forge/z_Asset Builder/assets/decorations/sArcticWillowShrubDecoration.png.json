@@ -1,0 +1,24 @@
+{
+  "id": "DE308",
+  "title": "Arctic willow shrub",
+  "tags": "polar, tundra, environment expansion",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 8,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_08/assets/decorations/sArcticWillowShrubDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_08.zip",
+  "sourceSha256": "ebfc83409f4136b313267ca5eb4feeaa9213c6ac577bc383dbde33bbc0ed5d6e",
+  "frames": 1
+}

@@ -1,0 +1,24 @@
+{
+  "id": "DE294",
+  "title": "Volcanic fumarole",
+  "tags": "volcanic, geological landscape, environment expansion",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 13,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative scenery only. No solid collision or damage by default.",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_13/assets/decorations/sVolcanicFumaroleBatch13.png",
+  "sourceBatch": "Game_Forge_Batch_13.zip",
+  "sourceSha256": "927f0182e91d2d669e6e77be0a52504d7c86dba2f1941513bb94f95fa005cc04",
+  "frames": 1
+}

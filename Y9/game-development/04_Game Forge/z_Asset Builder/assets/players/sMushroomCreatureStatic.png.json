@@ -1,0 +1,31 @@
+{
+  "id": "PL021",
+  "title": "Mushroom creature",
+  "tags": "fantasy, adaptable",
+  "category": "players",
+  "variant": "static",
+  "batch": 20,
+  "origin": [
+    32,
+    96
+  ],
+  "mask": {
+    "left": 18,
+    "top": 47,
+    "right": 45,
+    "bottom": 95
+  },
+  "fps": 6,
+  "placement": "Use one fixed rectangular mask for every animation frame. PNG does not store origin, playback speed or mask metadata.",
+  "repeatHorizontal": false,
+  "form": "walk",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_20/assets/players/sMushroomCreatureStatic.png",
+  "sourceBatch": "Game_Forge_Batch_20.zip",
+  "sourceSha256": "1ce4ab01eea3b9c1240020a9b6d30d597e97db5c12a9b383330e99b981f191c5",
+  "frameWidth": 64,
+  "frameHeight": 96,
+  "frames": 1
+}

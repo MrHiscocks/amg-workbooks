@@ -1,0 +1,24 @@
+{
+  "id": "DE330",
+  "title": "Mangrove sapling",
+  "tags": "tropical coast, mangrove, brackish wetland, environment expansion",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 8,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_08/assets/decorations/sMangroveSaplingDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_08.zip",
+  "sourceSha256": "84f9d80d67aa7b4cb88862e61e90392329858e9d53e80b11faf4c3177965ff6f",
+  "frames": 1
+}

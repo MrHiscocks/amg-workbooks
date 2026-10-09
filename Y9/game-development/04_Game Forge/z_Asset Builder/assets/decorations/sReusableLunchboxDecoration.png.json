@@ -1,0 +1,24 @@
+{
+  "id": "DE146",
+  "title": "Reusable lunchbox",
+  "tags": "climate action, repair, food, reuse, scenario review",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 11,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_11/assets/decorations/sReusableLunchboxDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_11.zip",
+  "sourceSha256": "c798d4459ec318c353efa2c6612bfa066be52953d2bd2613c300bfa9bf10b5e9",
+  "frames": 1
+}

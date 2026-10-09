@@ -1,0 +1,24 @@
+{
+  "id": "CO107",
+  "title": "Discarded cord",
+  "tags": "outdoor learning, wilderness, preparation, environment, scenario review",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 11,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_11/assets/collectables/sDiscardedCordCollectable.png",
+  "sourceBatch": "Game_Forge_Batch_11.zip",
+  "sourceSha256": "448e59c2c9c6ee81e5c9086ea1e6ca8f3ddd3b1907642b8ed4ab6581b0b48539",
+  "frames": 1
+}

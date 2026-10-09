@@ -1,0 +1,30 @@
+{
+  "id": "GR056",
+  "title": "Ice slab platform",
+  "tags": "moving-platform, compatible",
+  "category": "ground",
+  "variant": "primary",
+  "batch": 14,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": {
+    "type": "Rectangle",
+    "left": 0,
+    "top": 0,
+    "right": 127,
+    "bottom": 63
+  },
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_14/assets/ground/sIceSlabPlatformBatch14.png",
+  "sourceBatch": "Game_Forge_Batch_14.zip",
+  "sourceSha256": "f03030c4335b6f30f0ea8a0012b0f97aa7f71598dd00682f70278d9d5ef83bff",
+  "frames": 1
+}

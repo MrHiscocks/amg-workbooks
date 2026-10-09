@@ -1,0 +1,23 @@
+{
+  "id": "BG146",
+  "title": "Digital message world",
+  "tags": "digital, wildlife, coastal, science, resources, breadth expansion",
+  "category": "backgrounds",
+  "variant": "primary",
+  "batch": 21,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": null,
+  "fps": 6,
+  "placement": "Background layer; horizontal repeat only; decorative, no collision.",
+  "repeatHorizontal": true,
+  "form": "",
+  "loop": "",
+  "duration": "",
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_21/assets/backgrounds/sBackgroundDigitalMessageWorld.png",
+  "sourceBatch": "Game_Forge_Batch_21.zip",
+  "sourceSha256": "fdf400d38a72e3d7d88c5a2e87ea7fea04e3c7299b19ab4ef0e9ea591e99e3f5"
+}

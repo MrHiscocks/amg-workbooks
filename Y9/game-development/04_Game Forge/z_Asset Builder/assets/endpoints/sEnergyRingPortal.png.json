@@ -1,0 +1,24 @@
+{
+  "id": "EX022",
+  "title": "Energy-ring portal",
+  "tags": "exit, goal",
+  "category": "endpoints",
+  "variant": "primary",
+  "batch": 12,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Goal artwork; add your own overlap event. No solid collision required.",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_12/assets/endpoints/sEnergyRingPortal.png",
+  "sourceBatch": "Game_Forge_Batch_12.zip",
+  "sourceSha256": "8655a3e522a026280b862bd4af783d2b768ae2adb65eb51a4ab22be9d71e1380",
+  "frames": 1
+}

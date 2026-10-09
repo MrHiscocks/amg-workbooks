@@ -1,0 +1,24 @@
+{
+  "id": "CO030",
+  "title": "Fuel capsule",
+  "tags": "technology, resources",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 9,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_09/assets/collectables/sFuelCapsuleCollectable.png",
+  "sourceBatch": "Game_Forge_Batch_09.zip",
+  "sourceSha256": "2afa6e3e7e62a4b737809032d8ca970409fe173543ea336f2b3d9788870f253f",
+  "frames": 1
+}

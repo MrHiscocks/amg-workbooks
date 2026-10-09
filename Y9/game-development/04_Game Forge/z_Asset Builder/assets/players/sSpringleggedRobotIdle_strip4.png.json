@@ -1,0 +1,31 @@
+{
+  "id": "PL013",
+  "title": "Spring-legged robot",
+  "tags": "technology, space",
+  "category": "players",
+  "variant": "idle",
+  "batch": 15,
+  "origin": [
+    32,
+    96
+  ],
+  "mask": {
+    "left": 20,
+    "top": 28,
+    "right": 43,
+    "bottom": 95
+  },
+  "fps": 4,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_15/assets/players/sSpringleggedRobotIdle_strip4.png",
+  "sourceBatch": "Game_Forge_Batch_15.zip",
+  "sourceSha256": "0d052d76d2736b206b24a99dc5eeb7447e6c12a720e72a2088d9c39bea065e4c",
+  "frameWidth": 64,
+  "frameHeight": 96,
+  "frames": 4
+}

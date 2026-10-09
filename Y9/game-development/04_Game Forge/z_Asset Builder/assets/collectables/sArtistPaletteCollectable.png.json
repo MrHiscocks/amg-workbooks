@@ -1,0 +1,24 @@
+{
+  "id": "CO197",
+  "title": "Artist palette",
+  "tags": "wellbeing, arts, positive habits, breadth expansion",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 7,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_07/assets/collectables/sArtistPaletteCollectable.png",
+  "sourceBatch": "Game_Forge_Batch_07.zip",
+  "sourceSha256": "88dd08989bbb615a6f4a5b5da872698e4988a11093162cc3e3b370a12a86b841",
+  "frames": 1
+}

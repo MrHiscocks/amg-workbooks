@@ -1,0 +1,24 @@
+{
+  "id": "DE259",
+  "title": "Server cabinet",
+  "tags": "digital wellbeing, online safety, breadth expansion",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 7,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_07/assets/decorations/sServerCabinetDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_07.zip",
+  "sourceSha256": "1457d6c9c006b7ca6673bab10f695eec96c8056c4d1d39db191aa870b4321aac",
+  "frames": 1
+}

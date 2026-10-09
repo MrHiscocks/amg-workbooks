@@ -1,0 +1,24 @@
+{
+  "id": "CO009",
+  "title": "Ancient medallion",
+  "tags": "reward, treasure",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 9,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_09/assets/collectables/sAncientMedallionCollectable.png",
+  "sourceBatch": "Game_Forge_Batch_09.zip",
+  "sourceSha256": "22eab149512c074d28488882c4c7f873cdb5b018c5f356911c9705e0ab5193e6",
+  "frames": 1
+}

@@ -1,0 +1,24 @@
+{
+  "id": "BG002",
+  "title": "Deep forest",
+  "tags": "woodland",
+  "category": "backgrounds",
+  "variant": "primary",
+  "batch": 16,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": null,
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": true,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_16/assets/backgrounds/sBackgroundDeepForest.png",
+  "sourceBatch": "Game_Forge_Batch_16.zip",
+  "sourceSha256": "9b16d17f989c26f752f4e2b328512c3ca4ded2f2e07c11f6d5f8387669f02488",
+  "frames": 1
+}

@@ -1,0 +1,24 @@
+{
+  "id": "BG023",
+  "title": "Alien plain",
+  "tags": "space",
+  "category": "backgrounds",
+  "variant": "primary",
+  "batch": 19,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": null,
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": true,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_19/assets/backgrounds/sBackgroundAlienPlain.png",
+  "sourceBatch": "Game_Forge_Batch_19.zip",
+  "sourceSha256": "2049e4bc7770dfc66e98e5276026cc025cc6235c1955e3883b4a66702196d96d",
+  "frames": 1
+}

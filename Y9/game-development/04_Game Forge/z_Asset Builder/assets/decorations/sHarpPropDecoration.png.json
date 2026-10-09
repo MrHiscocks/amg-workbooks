@@ -1,0 +1,24 @@
+{
+  "id": "DE199",
+  "title": "Harp prop",
+  "tags": "Wales, heritage, culture, breadth expansion",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 7,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_07/assets/decorations/sHarpPropDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_07.zip",
+  "sourceSha256": "2037485413a13002d919db09e40ff2e274fedd18ad62a4a37b7c0115995a8c17",
+  "frames": 1
+}

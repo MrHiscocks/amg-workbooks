@@ -1,0 +1,24 @@
+{
+  "id": "DE198",
+  "title": "Leek planter",
+  "tags": "Wales, heritage, culture, breadth expansion",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 11,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_11/assets/decorations/sLeekPlanterDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_11.zip",
+  "sourceSha256": "99eaaec8500a04dec27604df29584552d0cf87b5de6fc487d9db6b6b950ddd8b",
+  "frames": 1
+}

@@ -1,0 +1,24 @@
+{
+  "id": "DE261",
+  "title": "Digital padlock prop",
+  "tags": "digital wellbeing, online safety, breadth expansion",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 10,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_10/assets/decorations/sDigitalPadlockPropDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_10.zip",
+  "sourceSha256": "e626b0edfa58a4456e5c79a3821f19f504b5bbe39d6d90d134c7a153b422f7fa",
+  "frames": 1
+}

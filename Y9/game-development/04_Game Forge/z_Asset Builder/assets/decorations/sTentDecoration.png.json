@@ -1,0 +1,24 @@
+{
+  "id": "DE083",
+  "title": "Tent",
+  "tags": "travel, everyday, stories",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 5,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": null,
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_05/assets/decorations/sTentDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_05.zip",
+  "sourceSha256": "4711919e1e60db0e048450f5169ee8a733c2b9cba76360e35776d460bd66dac0",
+  "frames": 1
+}

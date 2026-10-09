@@ -1,0 +1,24 @@
+{
+  "id": "DE139",
+  "title": "Repaired bicycle",
+  "tags": "climate action, repair, food, reuse, scenario review",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 11,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_11/assets/decorations/sRepairedBicycleDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_11.zip",
+  "sourceSha256": "1f5b3f3375f2ed4d64179ee8063b3ea55b14e0c408aecd4f3ca203c453b326ad",
+  "frames": 1
+}

@@ -1,0 +1,24 @@
+{
+  "id": "PR015",
+  "title": "Wind puff",
+  "tags": "elemental",
+  "category": "projectiles",
+  "variant": "primary",
+  "batch": 6,
+  "origin": [
+    16,
+    16
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_06/assets/projectiles/sWindPuffProjectile.png",
+  "sourceBatch": "Game_Forge_Batch_06.zip",
+  "sourceSha256": "4c4ad20eb7e83b6d23c20da0c083202706a779f3bbf9f80636082c1c1f1cb173",
+  "frames": 1
+}

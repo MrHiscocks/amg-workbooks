@@ -1,0 +1,24 @@
+{
+  "id": "DE170",
+  "title": "Accessible entrance sign",
+  "tags": "swimming, access, participation, aquatic fantasy, scenario review",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 11,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_11/assets/decorations/sAccessibleEntranceSignDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_11.zip",
+  "sourceSha256": "97d9c39b3053793c3ebc3cac1538d906a4c96f03c49cebcd429d91f865c7f411",
+  "frames": 1
+}

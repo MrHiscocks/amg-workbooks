@@ -1,0 +1,31 @@
+{
+  "id": "PL070",
+  "title": "Walking suit of enchanted armour",
+  "tags": "fantasy, non-human, breadth expansion",
+  "category": "players",
+  "variant": "static",
+  "batch": 17,
+  "origin": [
+    32,
+    96
+  ],
+  "mask": {
+    "left": 20,
+    "top": 30,
+    "right": 43,
+    "bottom": 95
+  },
+  "fps": 8,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_17/assets/players/sWalkingSuitOfEnchantedArmourStatic.png",
+  "sourceBatch": "Game_Forge_Batch_17.zip",
+  "sourceSha256": "bb97bc47971dbe942bcec14c0d06f56c852a83488640a69c14d0e04d39a7bf16",
+  "frameWidth": 64,
+  "frameHeight": 96,
+  "frames": 1
+}

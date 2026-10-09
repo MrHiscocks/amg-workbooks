@@ -1,0 +1,24 @@
+{
+  "id": "BG168",
+  "title": "Glacier valley",
+  "tags": "alpine, highland, environment expansion",
+  "category": "backgrounds",
+  "variant": "primary",
+  "batch": 16,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": null,
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": true,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_16/assets/backgrounds/sBackgroundGlacierValley.png",
+  "sourceBatch": "Game_Forge_Batch_16.zip",
+  "sourceSha256": "91421edf557fb08ee847ed7c7a3c019c0d3c2b3db7cc0e7773fef1cdace8a174",
+  "frames": 1
+}

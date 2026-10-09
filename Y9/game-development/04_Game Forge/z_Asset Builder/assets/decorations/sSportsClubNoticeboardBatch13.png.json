@@ -1,0 +1,24 @@
+{
+  "id": "DE246",
+  "title": "Sports-club noticeboard",
+  "tags": "physical activity, sport, breadth expansion",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 13,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative scenery only. No solid collision or damage by default.",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_13/assets/decorations/sSportsClubNoticeboardBatch13.png",
+  "sourceBatch": "Game_Forge_Batch_13.zip",
+  "sourceSha256": "6ec0e093bd08707a24e9f865b8f72964ddd345235ac65b8a3fa10f0ec6b95187",
+  "frames": 1
+}

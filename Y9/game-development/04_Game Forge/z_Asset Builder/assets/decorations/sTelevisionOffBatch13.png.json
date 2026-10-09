@@ -1,0 +1,24 @@
+{
+  "id": "DE132",
+  "title": "Television, off",
+  "tags": "climate action, household, energy, scenario review",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 13,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative scenery only. No solid collision or damage by default.",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_13/assets/decorations/sTelevisionOffBatch13.png",
+  "sourceBatch": "Game_Forge_Batch_13.zip",
+  "sourceSha256": "f7608cfcfef6950fcb72474a5d7b216475aed95c3bdbbb64fc0cd6cf95e553ab",
+  "frames": 1
+}

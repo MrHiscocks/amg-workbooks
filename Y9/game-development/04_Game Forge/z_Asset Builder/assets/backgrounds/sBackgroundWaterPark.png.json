@@ -1,0 +1,23 @@
+{
+  "id": "BG030",
+  "title": "Water park",
+  "tags": "swimming, sport",
+  "category": "backgrounds",
+  "variant": "primary",
+  "batch": 21,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": null,
+  "fps": 6,
+  "placement": "Background layer; horizontal repeat only; decorative, no collision.",
+  "repeatHorizontal": true,
+  "form": "",
+  "loop": "",
+  "duration": "",
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_21/assets/backgrounds/sBackgroundWaterPark.png",
+  "sourceBatch": "Game_Forge_Batch_21.zip",
+  "sourceSha256": "b01f472bd666788c1265acafdc212163843c02d5e18721501b7122c8293ccc0c"
+}

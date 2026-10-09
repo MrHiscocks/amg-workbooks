@@ -1,0 +1,24 @@
+{
+  "id": "CO103",
+  "title": "Whistle",
+  "tags": "outdoor learning, wilderness, preparation, environment, scenario review",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 4,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_04/assets/collectables/sWhistleCollectable.png",
+  "sourceBatch": "Game_Forge_Batch_04.zip",
+  "sourceSha256": "74fe295e9c01f33bcf8fe8ef0e4c669edffb797710b27e875c2b582b657e81db",
+  "frames": 1
+}

@@ -1,0 +1,24 @@
+{
+  "id": "DE236",
+  "title": "Rain barrel",
+  "tags": "healthy eating, food, market, breadth expansion",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 9,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_09/assets/decorations/sRainBarrelDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_09.zip",
+  "sourceSha256": "dc6eca90786c754227222a72762546bc95dfc8d3d10b09ddbfb2204757a958ff",
+  "frames": 1
+}

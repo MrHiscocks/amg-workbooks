@@ -1,0 +1,24 @@
+{
+  "id": "DE288",
+  "title": "Science magnet prop",
+  "tags": "music, arts, events, science, breadth expansion",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 9,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_09/assets/decorations/sScienceMagnetPropDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_09.zip",
+  "sourceSha256": "9295f77c2b827ba4b402f98779971d89abd77a2a4965d817170098256efd1f6a",
+  "frames": 1
+}

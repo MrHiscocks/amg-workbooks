@@ -1,0 +1,24 @@
+{
+  "id": "UI011",
+  "title": "Rounded button base",
+  "tags": "button, blank-base",
+  "category": "interface",
+  "variant": "primary",
+  "batch": 13,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Interface artwork; draw in GUI space, no room collision.",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_13/assets/interface/sRoundedButtonBaseBatch13.png",
+  "sourceBatch": "Game_Forge_Batch_13.zip",
+  "sourceSha256": "a0737eea65a5eaac1e108811d78ec939bdf3fe28339263cb89664fd5db019b01",
+  "frames": 1
+}

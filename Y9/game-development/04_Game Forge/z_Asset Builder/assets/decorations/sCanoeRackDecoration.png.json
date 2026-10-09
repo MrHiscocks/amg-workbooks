@@ -1,0 +1,24 @@
+{
+  "id": "DE106",
+  "title": "Canoe rack",
+  "tags": "outdoor activity, climbing, paddling, scenario review",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 10,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_10/assets/decorations/sCanoeRackDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_10.zip",
+  "sourceSha256": "05c4ea4b7ccbff42783babb0e2ad4a0f36e3b56dd2d192574faad65c72f59a45",
+  "frames": 1
+}

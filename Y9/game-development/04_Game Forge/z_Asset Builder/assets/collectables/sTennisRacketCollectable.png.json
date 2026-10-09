@@ -1,0 +1,24 @@
+{
+  "id": "CO182",
+  "title": "Tennis racket",
+  "tags": "physical activity, sport, breadth expansion",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 4,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_04/assets/collectables/sTennisRacketCollectable.png",
+  "sourceBatch": "Game_Forge_Batch_04.zip",
+  "sourceSha256": "9316b3ed262850fda2d420ad7e7e0665d2b7d6aa4d59525b018ea853ac3f7888",
+  "frames": 1
+}

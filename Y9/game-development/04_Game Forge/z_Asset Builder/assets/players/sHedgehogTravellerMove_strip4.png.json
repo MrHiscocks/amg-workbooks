@@ -1,0 +1,31 @@
+{
+  "id": "PL006",
+  "title": "Hedgehog traveller",
+  "tags": "nature, woodland",
+  "category": "players",
+  "variant": "movement",
+  "batch": 15,
+  "origin": [
+    32,
+    96
+  ],
+  "mask": {
+    "left": 20,
+    "top": 26,
+    "right": 43,
+    "bottom": 95
+  },
+  "fps": 8,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_15/assets/players/sHedgehogTravellerMove_strip4.png",
+  "sourceBatch": "Game_Forge_Batch_15.zip",
+  "sourceSha256": "14f428c38f8777945152e69b86a2f766240a7fd4d4e145814600020d6fb00d87",
+  "frameWidth": 64,
+  "frameHeight": 96,
+  "frames": 4
+}

@@ -1,0 +1,24 @@
+{
+  "id": "CO192",
+  "title": "Rest token",
+  "tags": "wellbeing, arts, positive habits, breadth expansion",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 10,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_10/assets/collectables/sRestTokenCollectable.png",
+  "sourceBatch": "Game_Forge_Batch_10.zip",
+  "sourceSha256": "91533a43b2aa386208b34c3079e6a32b21e9bd778f80a83dfee141db9af532db",
+  "frames": 1
+}

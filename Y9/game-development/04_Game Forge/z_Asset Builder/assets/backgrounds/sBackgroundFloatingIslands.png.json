@@ -1,0 +1,24 @@
+{
+  "id": "BG018",
+  "title": "Floating islands",
+  "tags": "castle, fantasy",
+  "category": "backgrounds",
+  "variant": "primary",
+  "batch": 19,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": null,
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": true,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_19/assets/backgrounds/sBackgroundFloatingIslands.png",
+  "sourceBatch": "Game_Forge_Batch_19.zip",
+  "sourceSha256": "ab3d8fc6301a33f6a59d40230beb2f884a41c74e73605af90815a6517c5b507a",
+  "frames": 1
+}

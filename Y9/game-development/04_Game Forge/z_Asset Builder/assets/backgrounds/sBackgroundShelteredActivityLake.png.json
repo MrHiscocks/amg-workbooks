@@ -1,0 +1,24 @@
+{
+  "id": "BG039",
+  "title": "Sheltered activity lake",
+  "tags": "outdoor activity, climbing, paddling, scenario review",
+  "category": "backgrounds",
+  "variant": "primary",
+  "batch": 19,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": null,
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": true,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_19/assets/backgrounds/sBackgroundShelteredActivityLake.png",
+  "sourceBatch": "Game_Forge_Batch_19.zip",
+  "sourceSha256": "69ca3f14c524fd3b44ed57d4a3ce214af430cc698c4319350351ef934738a8e5",
+  "frames": 1
+}

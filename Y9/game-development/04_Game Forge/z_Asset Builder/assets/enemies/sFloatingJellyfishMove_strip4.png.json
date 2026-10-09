@@ -1,0 +1,31 @@
+{
+  "id": "EN029",
+  "title": "Floating jellyfish",
+  "tags": "flying, floating",
+  "category": "enemies",
+  "variant": "movement",
+  "batch": 20,
+  "origin": [
+    32,
+    32
+  ],
+  "mask": {
+    "left": 14,
+    "top": 13,
+    "right": 49,
+    "bottom": 38
+  },
+  "fps": 6,
+  "placement": "Use one fixed rectangular mask for every animation frame. PNG does not store origin, playback speed or mask metadata.",
+  "repeatHorizontal": false,
+  "form": "float",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_20/assets/enemies/sFloatingJellyfishMove_strip4.png",
+  "sourceBatch": "Game_Forge_Batch_20.zip",
+  "sourceSha256": "2dfc4dd6d13415f3fe9f7654d0c5b04d028fd54d66bd8b2df388268bfc8517da",
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 4
+}

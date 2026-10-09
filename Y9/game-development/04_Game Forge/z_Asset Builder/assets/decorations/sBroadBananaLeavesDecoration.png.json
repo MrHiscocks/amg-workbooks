@@ -1,0 +1,24 @@
+{
+  "id": "DE318",
+  "title": "Broad banana leaves",
+  "tags": "tropical wet, rainforest, environment expansion",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 8,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_08/assets/decorations/sBroadBananaLeavesDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_08.zip",
+  "sourceSha256": "a90e2ad0a2635d6eaba0b6929ca344e21705c9526a0f44eed1e589e6e3f4d90d",
+  "frames": 1
+}

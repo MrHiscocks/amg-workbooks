@@ -1,0 +1,24 @@
+{
+  "id": "EX072",
+  "title": "Heritage railway station entrance",
+  "tags": "door, heritage, Wales, breadth expansion",
+  "category": "endpoints",
+  "variant": "primary",
+  "batch": 12,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Goal artwork; add your own overlap event. No solid collision required.",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_12/assets/endpoints/sHeritageRailwayStationEntrance.png",
+  "sourceBatch": "Game_Forge_Batch_12.zip",
+  "sourceSha256": "2dcab2571dfd9821ad21c72d0ac9ac66a4bc832b1c966bbc7d0a882649a3832c",
+  "frames": 1
+}

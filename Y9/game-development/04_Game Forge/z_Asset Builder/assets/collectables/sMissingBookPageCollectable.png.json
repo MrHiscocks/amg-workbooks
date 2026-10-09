@@ -1,0 +1,24 @@
+{
+  "id": "CO158",
+  "title": "Missing book page",
+  "tags": "fantasy, reading, learning, breadth expansion",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 7,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_07/assets/collectables/sMissingBookPageCollectable.png",
+  "sourceBatch": "Game_Forge_Batch_07.zip",
+  "sourceSha256": "5ff1d8fd6dd6d57133ac03180b412cc39f4297cf7f6f3ca8c90b6523e0bb15b4",
+  "frames": 1
+}

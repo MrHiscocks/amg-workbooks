@@ -1,0 +1,31 @@
+{
+  "id": "PL017",
+  "title": "Alien scout",
+  "tags": "technology, space",
+  "category": "players",
+  "variant": "idle",
+  "batch": 15,
+  "origin": [
+    32,
+    96
+  ],
+  "mask": {
+    "left": 20,
+    "top": 16,
+    "right": 43,
+    "bottom": 95
+  },
+  "fps": 4,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_15/assets/players/sAlienScoutIdle_strip4.png",
+  "sourceBatch": "Game_Forge_Batch_15.zip",
+  "sourceSha256": "2e48ced0835fe0327c30c7ca56dee67d7dab84f4e5c39aa6d123f1ceaaf5ec8b",
+  "frameWidth": 64,
+  "frameHeight": 96,
+  "frames": 4
+}

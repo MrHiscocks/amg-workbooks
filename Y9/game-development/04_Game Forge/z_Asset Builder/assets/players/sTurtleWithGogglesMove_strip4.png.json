@@ -1,0 +1,31 @@
+{
+  "id": "PL053",
+  "title": "Turtle with goggles",
+  "tags": "swimming, participation, confidence, scenario review, quadruped, movement-only",
+  "category": "players",
+  "variant": "movement",
+  "batch": 18,
+  "origin": [
+    32,
+    96
+  ],
+  "mask": {
+    "left": 20,
+    "top": 61,
+    "right": 43,
+    "bottom": 95
+  },
+  "fps": 6,
+  "placement": "Fixed mask excludes changing tails/wings; bottom 95 is the virtual platform contact for hovering sprites. Does not supply free-flight physics.",
+  "repeatHorizontal": false,
+  "form": "quadruped",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_18/assets/players/sTurtleWithGogglesMove_strip4.png",
+  "sourceBatch": "Game_Forge_Batch_18.zip",
+  "sourceSha256": "65a747a3634eaec5be48a596f9703a47fae48bc3910c2ade1dc74553d94fc37f",
+  "frameWidth": 64,
+  "frameHeight": 96,
+  "frames": 4
+}

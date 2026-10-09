@@ -1,0 +1,24 @@
+{
+  "id": "PU013",
+  "title": "Rocket booster",
+  "tags": "speed",
+  "category": "powerups",
+  "variant": "primary",
+  "batch": 6,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_06/assets/powerups/sRocketBoosterPowerUp.png",
+  "sourceBatch": "Game_Forge_Batch_06.zip",
+  "sourceSha256": "ce884ffc2ed66049a8b1b9f9993ae18e50fa87c12789b2ac934ed2191cc46218",
+  "frames": 1
+}

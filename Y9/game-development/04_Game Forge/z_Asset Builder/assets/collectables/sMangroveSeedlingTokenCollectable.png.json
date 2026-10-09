@@ -1,0 +1,24 @@
+{
+  "id": "CO246",
+  "title": "Mangrove seedling token",
+  "tags": "tropical coast, mangrove, brackish wetland, environment expansion",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 10,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_10/assets/collectables/sMangroveSeedlingTokenCollectable.png",
+  "sourceBatch": "Game_Forge_Batch_10.zip",
+  "sourceSha256": "d321d7f3305ea4bfb84dcd7791559e96e7c6d9c1b0e436eba6c87dfe20dd32d7",
+  "frames": 1
+}

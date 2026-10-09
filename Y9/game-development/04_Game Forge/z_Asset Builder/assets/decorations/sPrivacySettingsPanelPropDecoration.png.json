@@ -1,0 +1,24 @@
+{
+  "id": "DE264",
+  "title": "Privacy-settings panel prop",
+  "tags": "digital wellbeing, online safety, breadth expansion",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 10,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_10/assets/decorations/sPrivacySettingsPanelPropDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_10.zip",
+  "sourceSha256": "18c905a390b400a7f60f3fc3399767a27b17bee9d617b5af5eb9c5c60974768e",
+  "frames": 1
+}

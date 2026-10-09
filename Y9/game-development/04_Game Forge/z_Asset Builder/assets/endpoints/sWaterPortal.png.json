@@ -1,0 +1,24 @@
+{
+  "id": "EX025",
+  "title": "Water portal",
+  "tags": "exit, goal",
+  "category": "endpoints",
+  "variant": "primary",
+  "batch": 3,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork; endpoint trigger, not solid ground",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_03/assets/portals/sWaterPortal.png",
+  "sourceBatch": "Game_Forge_Batch_03.zip",
+  "sourceSha256": "a2d8d2470428d4bf4af1705d636796178ab9c649e5392d8a618e934fc4bcbb83",
+  "frames": 1
+}

@@ -1,0 +1,24 @@
+{
+  "id": "CO133",
+  "title": "Mosaic fragment",
+  "tags": "historical-inspired, medieval, heritage, breadth expansion",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 9,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_09/assets/collectables/sMosaicFragmentCollectable.png",
+  "sourceBatch": "Game_Forge_Batch_09.zip",
+  "sourceSha256": "28b31e77f17ca8afa816eb90c69054e629174f4c15d3688720512f1e9fb2fd10",
+  "frames": 1
+}

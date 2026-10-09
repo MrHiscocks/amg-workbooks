@@ -1,0 +1,31 @@
+{
+  "id": "EN011",
+  "title": "Patrol robot",
+  "tags": "walking, technology, fantasy",
+  "category": "enemies",
+  "variant": "static",
+  "batch": 20,
+  "origin": [
+    32,
+    64
+  ],
+  "mask": {
+    "left": 14,
+    "top": 13,
+    "right": 49,
+    "bottom": 63
+  },
+  "fps": 6,
+  "placement": "Use one fixed rectangular mask for every animation frame. PNG does not store origin, playback speed or mask metadata.",
+  "repeatHorizontal": false,
+  "form": "walk",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_20/assets/enemies/sPatrolRobotStatic.png",
+  "sourceBatch": "Game_Forge_Batch_20.zip",
+  "sourceSha256": "5ada0e7ed0d57f46778126b8deee0216ed8cbc53c9dee0fbfac1ea7c64622ef1",
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 1
+}

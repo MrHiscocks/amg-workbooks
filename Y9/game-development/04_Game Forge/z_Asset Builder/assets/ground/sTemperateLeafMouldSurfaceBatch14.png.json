@@ -1,0 +1,30 @@
+{
+  "id": "GR143",
+  "title": "Temperate leaf-mould surface",
+  "tags": "temperate oceanic, woodland, moorland, environment expansion",
+  "category": "ground",
+  "variant": "primary",
+  "batch": 14,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": {
+    "type": "Rectangle",
+    "left": 0,
+    "top": 0,
+    "right": 63,
+    "bottom": 63
+  },
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_14/assets/ground/sTemperateLeafMouldSurfaceBatch14.png",
+  "sourceBatch": "Game_Forge_Batch_14.zip",
+  "sourceSha256": "458f48d9c7d0075ae1d293694563ecb03eb2fd65ce7e6f5623d57daced40bd15",
+  "frames": 1
+}

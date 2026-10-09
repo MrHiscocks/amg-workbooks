@@ -1,0 +1,24 @@
+{
+  "id": "BG015",
+  "title": "Desert ruins",
+  "tags": "desert, ruins",
+  "category": "backgrounds",
+  "variant": "primary",
+  "batch": 16,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": null,
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": true,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_16/assets/backgrounds/sBackgroundDesertRuins.png",
+  "sourceBatch": "Game_Forge_Batch_16.zip",
+  "sourceSha256": "1a83c8850563886f0972d8dd0e2286128b5de58a7727a1b2b07126cc792adc84",
+  "frames": 1
+}

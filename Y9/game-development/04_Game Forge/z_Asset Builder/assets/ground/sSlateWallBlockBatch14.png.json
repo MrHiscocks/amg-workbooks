@@ -1,0 +1,30 @@
+{
+  "id": "GR091",
+  "title": "Slate wall block",
+  "tags": "historical-inspired, castle, Wales, breadth expansion",
+  "category": "ground",
+  "variant": "primary",
+  "batch": 14,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": {
+    "type": "Rectangle",
+    "left": 0,
+    "top": 0,
+    "right": 63,
+    "bottom": 63
+  },
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_14/assets/ground/sSlateWallBlockBatch14.png",
+  "sourceBatch": "Game_Forge_Batch_14.zip",
+  "sourceSha256": "5b417e6c83e395b0048707ee3d436ed7e8424a0b6a87967f5fc84dc0e204583c",
+  "frames": 1
+}

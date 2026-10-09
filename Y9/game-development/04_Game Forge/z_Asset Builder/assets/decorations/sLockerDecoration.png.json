@@ -1,0 +1,24 @@
+{
+  "id": "DE162",
+  "title": "Locker",
+  "tags": "swimming, access, participation, aquatic fantasy, scenario review",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 9,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_09/assets/decorations/sLockerDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_09.zip",
+  "sourceSha256": "26da1ada588a66d8f3a8386b7e18fca5e11dc121efa696bdc094f196c09ae87b",
+  "frames": 1
+}

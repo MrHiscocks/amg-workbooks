@@ -1,0 +1,24 @@
+{
+  "id": "DE278",
+  "title": "Leak marker",
+  "tags": "wildlife, coastal, resources, breadth expansion",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 13,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative scenery only. No solid collision or damage by default.",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_13/assets/decorations/sLeakMarkerBatch13.png",
+  "sourceBatch": "Game_Forge_Batch_13.zip",
+  "sourceSha256": "08e5d309e716aef8ca7870a544568c2f5ccccfe6da534f98d6f224878fe7ce8d",
+  "frames": 1
+}

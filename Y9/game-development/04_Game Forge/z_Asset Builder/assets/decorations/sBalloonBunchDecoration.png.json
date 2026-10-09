@@ -1,0 +1,24 @@
+{
+  "id": "DE096",
+  "title": "Balloon bunch",
+  "tags": "playful, food, events",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 10,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_10/assets/decorations/sBalloonBunchDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_10.zip",
+  "sourceSha256": "170fec5ad69944f782a6d37b75ed4a796422eccb15f9424604961452b12a4fa2",
+  "frames": 1
+}

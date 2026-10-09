@@ -1,0 +1,24 @@
+{
+  "id": "DE045",
+  "title": "Pipe straight section",
+  "tags": "industrial, repair",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 9,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_09/assets/decorations/sPipeStraightSectionDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_09.zip",
+  "sourceSha256": "22774f944173d889b10342e7b5da42eadd71b876a00155c764e9045478ad4856",
+  "frames": 1
+}

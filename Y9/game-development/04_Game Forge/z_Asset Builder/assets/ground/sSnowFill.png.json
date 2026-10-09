@@ -1,0 +1,29 @@
+{
+  "id": "GR022",
+  "title": "Frozen rock fill",
+  "tags": "snow, cave, volcanic",
+  "category": "ground",
+  "variant": "primary",
+  "batch": 1,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": {
+    "type": "Rectangle",
+    "left": 0,
+    "top": 0,
+    "right": 63,
+    "bottom": 63
+  },
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_01/assets/sSnowFill.png",
+  "sourceBatch": "Game_Forge_Batch_01.zip",
+  "sourceSha256": "cb653d5d6b8a5de4705381622a5ad73f730e1b77e500afcaef48961900885472"
+}

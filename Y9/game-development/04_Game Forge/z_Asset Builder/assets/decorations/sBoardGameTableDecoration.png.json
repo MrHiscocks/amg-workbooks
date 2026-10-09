@@ -1,0 +1,24 @@
+{
+  "id": "DE252",
+  "title": "Board-game table",
+  "tags": "wellbeing, creativity, community, breadth expansion",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 10,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_10/assets/decorations/sBoardGameTableDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_10.zip",
+  "sourceSha256": "a4ce2b8e34a820c6773f5ee08ebdfe54ef13399364b29d8985055025be44c834",
+  "frames": 1
+}

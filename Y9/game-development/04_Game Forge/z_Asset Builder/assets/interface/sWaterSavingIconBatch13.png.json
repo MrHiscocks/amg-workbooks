@@ -1,0 +1,24 @@
+{
+  "id": "UI041",
+  "title": "Water-saving icon",
+  "tags": "interface, accessible symbols, categories, breadth expansion",
+  "category": "interface",
+  "variant": "primary",
+  "batch": 13,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Interface artwork; draw in GUI space, no room collision.",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_13/assets/interface/sWaterSavingIconBatch13.png",
+  "sourceBatch": "Game_Forge_Batch_13.zip",
+  "sourceSha256": "75a03034bf1daea50cdcbdfba9787f37f4372ed6e5aa8076399dd9d342b14f10",
+  "frames": 1
+}

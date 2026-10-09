@@ -1,0 +1,24 @@
+{
+  "id": "PU011",
+  "title": "Winged boot",
+  "tags": "speed",
+  "category": "powerups",
+  "variant": "primary",
+  "batch": 6,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_06/assets/powerups/sWingedBootPowerUp.png",
+  "sourceBatch": "Game_Forge_Batch_06.zip",
+  "sourceSha256": "d760b40c955b5d6d393038fbd87190f7dbad154e8b22d9f48491cc3279e8c909",
+  "frames": 1
+}

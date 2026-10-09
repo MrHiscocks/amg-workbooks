@@ -1,0 +1,31 @@
+{
+  "id": "HZ007",
+  "title": "Broken glass",
+  "tags": "sharp, static",
+  "category": "hazards",
+  "variant": "primary",
+  "batch": 20,
+  "origin": [
+    32,
+    64
+  ],
+  "mask": {
+    "left": 1,
+    "top": 23,
+    "right": 62,
+    "bottom": 63
+  },
+  "fps": 0,
+  "placement": "Use one fixed rectangular mask for every animation frame. PNG does not store origin, playback speed or mask metadata.",
+  "repeatHorizontal": false,
+  "form": "ground",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_20/assets/hazards/sBrokenGlass.png",
+  "sourceBatch": "Game_Forge_Batch_20.zip",
+  "sourceSha256": "0d216a69294dc9e81c49ae73b06e9d7c4b09ca005a222c910ea0453224f4f0ad",
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 1
+}

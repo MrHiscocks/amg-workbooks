@@ -1,0 +1,24 @@
+{
+  "id": "DE227",
+  "title": "Fruit market stall",
+  "tags": "healthy eating, food, market, breadth expansion",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 9,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_09/assets/decorations/sFruitMarketStallDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_09.zip",
+  "sourceSha256": "1c7afe7cd670ffc4621857c5432c0b6eccaf5ad256a747a4cfdc1e3031333103",
+  "frames": 1
+}

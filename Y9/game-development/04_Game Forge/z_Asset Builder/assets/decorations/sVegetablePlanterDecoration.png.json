@@ -1,0 +1,24 @@
+{
+  "id": "DE143",
+  "title": "Vegetable planter",
+  "tags": "climate action, repair, food, reuse, scenario review",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 11,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_11/assets/decorations/sVegetablePlanterDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_11.zip",
+  "sourceSha256": "ec33043ed20d60bd3912ebdf547a44cbe742e1338b276ba1293fea233579e6c2",
+  "frames": 1
+}

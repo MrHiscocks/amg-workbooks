@@ -1,0 +1,31 @@
+{
+  "id": "EN028",
+  "title": "Tiny storm cloud",
+  "tags": "flying, floating",
+  "category": "enemies",
+  "variant": "movement",
+  "batch": 20,
+  "origin": [
+    32,
+    32
+  ],
+  "mask": {
+    "left": 14,
+    "top": 21,
+    "right": 49,
+    "bottom": 46
+  },
+  "fps": 6,
+  "placement": "Use one fixed rectangular mask for every animation frame. PNG does not store origin, playback speed or mask metadata.",
+  "repeatHorizontal": false,
+  "form": "float",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_20/assets/enemies/sTinyStormCloudMove_strip4.png",
+  "sourceBatch": "Game_Forge_Batch_20.zip",
+  "sourceSha256": "d9d537674f54934d011f157f4b8302bcf956399c6d83ff463af92e2165e77b5f",
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 4
+}

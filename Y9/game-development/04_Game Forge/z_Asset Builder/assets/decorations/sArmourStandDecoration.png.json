@@ -1,0 +1,24 @@
+{
+  "id": "DE186",
+  "title": "Armour stand",
+  "tags": "historical-inspired, castle, breadth expansion",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 5,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": null,
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_05/assets/decorations/sArmourStandDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_05.zip",
+  "sourceSha256": "83f2e4c6684658ff1baf76eabdb94dfcd52bcb3d815612d29351068383cb5f29",
+  "frames": 1
+}

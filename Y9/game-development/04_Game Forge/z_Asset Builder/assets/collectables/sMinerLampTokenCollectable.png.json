@@ -1,0 +1,24 @@
+{
+  "id": "CO137",
+  "title": "Miner lamp token",
+  "tags": "historical-inspired, medieval, heritage, breadth expansion",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 11,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_11/assets/collectables/sMinerLampTokenCollectable.png",
+  "sourceBatch": "Game_Forge_Batch_11.zip",
+  "sourceSha256": "89228060e2e882367b66279a092ca3d9095bbd778adfd0d09917ed8501ea1ad3",
+  "frames": 1
+}

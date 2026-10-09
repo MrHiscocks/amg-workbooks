@@ -1,0 +1,24 @@
+{
+  "id": "EX101",
+  "title": "Basalt-ring portal",
+  "tags": "volcanic, geological landscape, portal, environment expansion",
+  "category": "endpoints",
+  "variant": "primary",
+  "batch": 3,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork; endpoint trigger, not solid ground",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_03/assets/portals/sBasaltPortal.png",
+  "sourceBatch": "Game_Forge_Batch_03.zip",
+  "sourceSha256": "ef37faeeb0fe9b2900fcbf540cbc234a70a3884af5701967a025db6a9957de71",
+  "frames": 1
+}

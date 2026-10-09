@@ -1,0 +1,24 @@
+{
+  "id": "CO013",
+  "title": "Acorn",
+  "tags": "nature, food",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 2,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_02/assets/collectables/sAcornCollectable.png",
+  "sourceBatch": "Game_Forge_Batch_02.zip",
+  "sourceSha256": "9b47f9dcfebc614f9969d455c2e9ee7cb64f7740c8cff6f96850700da7699a96",
+  "frames": 1
+}

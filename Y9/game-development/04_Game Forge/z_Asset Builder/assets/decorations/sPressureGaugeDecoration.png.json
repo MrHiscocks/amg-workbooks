@@ -1,0 +1,24 @@
+{
+  "id": "DE127",
+  "title": "Pressure gauge",
+  "tags": "cycling, repair, visibility, community, scenario review",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 10,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_10/assets/decorations/sPressureGaugeDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_10.zip",
+  "sourceSha256": "82dcd0ced707d8a0b438c5b09d2a87ed3b33f2a08e913ba5268256cde37ad8d5",
+  "frames": 1
+}

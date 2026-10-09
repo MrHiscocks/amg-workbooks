@@ -1,0 +1,24 @@
+{
+  "id": "DE031",
+  "title": "Broken column",
+  "tags": "ruins, fantasy",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 9,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_09/assets/decorations/sBrokenColumnDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_09.zip",
+  "sourceSha256": "8869a31c5cc9d6cd828e255b969a161bbc042cd6736b81d0aa179c28de553e4c",
+  "frames": 1
+}

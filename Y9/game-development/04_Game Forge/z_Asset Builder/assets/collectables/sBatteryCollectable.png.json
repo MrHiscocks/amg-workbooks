@@ -1,0 +1,24 @@
+{
+  "id": "CO021",
+  "title": "Battery",
+  "tags": "technology, resources",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 4,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_04/assets/collectables/sBatteryCollectable.png",
+  "sourceBatch": "Game_Forge_Batch_04.zip",
+  "sourceSha256": "83f3135dfe2e93c6d530dbc014764985fc0ef1523da5c1717472593d0872e7bf",
+  "frames": 1
+}

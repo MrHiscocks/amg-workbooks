@@ -1,0 +1,24 @@
+{
+  "id": "CO229",
+  "title": "Robot arm part",
+  "tags": "water saving, science, engineering, breadth expansion",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 4,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_04/assets/collectables/sRobotArmPartCollectable.png",
+  "sourceBatch": "Game_Forge_Batch_04.zip",
+  "sourceSha256": "8f8ee694c9f898c7feb987dc1814e78028323a8ac8856e482cdcb47018e4a8f0",
+  "frames": 1
+}

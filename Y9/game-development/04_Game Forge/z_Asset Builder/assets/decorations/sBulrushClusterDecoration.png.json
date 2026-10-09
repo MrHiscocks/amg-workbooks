@@ -1,0 +1,24 @@
+{
+  "id": "DE326",
+  "title": "Bulrush cluster",
+  "tags": "wetland, freshwater, multiple climates, environment expansion",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 8,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_08/assets/decorations/sBulrushClusterDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_08.zip",
+  "sourceSha256": "96b796f569b50fccb5452aa35ef45e0751be6a98914371fc562a57fd1d4d2fa2",
+  "frames": 1
+}

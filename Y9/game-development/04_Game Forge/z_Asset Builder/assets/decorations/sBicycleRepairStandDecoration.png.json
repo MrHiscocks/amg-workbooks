@@ -1,0 +1,24 @@
+{
+  "id": "DE116",
+  "title": "Bicycle repair stand",
+  "tags": "cycling, repair, visibility, community, scenario review",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 10,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_10/assets/decorations/sBicycleRepairStandDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_10.zip",
+  "sourceSha256": "285fa9dea778107e18d12eadb926ed4b508fd04217bd2514d23dc5e5b78b1277",
+  "frames": 1
+}

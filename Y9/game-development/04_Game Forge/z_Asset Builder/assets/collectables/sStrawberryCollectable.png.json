@@ -1,0 +1,24 @@
+{
+  "id": "CO166",
+  "title": "Strawberry",
+  "tags": "healthy eating, food choices, breadth expansion",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 8,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_08/assets/collectables/sStrawberryCollectable.png",
+  "sourceBatch": "Game_Forge_Batch_08.zip",
+  "sourceSha256": "010c3ae29d4c3b9b69b36c73ab76b02d51e09c987606d1b1ce2706297ed6885a",
+  "frames": 1
+}

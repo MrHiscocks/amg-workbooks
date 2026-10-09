@@ -1,0 +1,31 @@
+{
+  "id": "PL006",
+  "title": "Hedgehog traveller",
+  "tags": "nature, woodland",
+  "category": "players",
+  "variant": "static",
+  "batch": 15,
+  "origin": [
+    32,
+    96
+  ],
+  "mask": {
+    "left": 20,
+    "top": 26,
+    "right": 43,
+    "bottom": 95
+  },
+  "fps": 8,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_15/assets/players/sHedgehogTravellerStatic.png",
+  "sourceBatch": "Game_Forge_Batch_15.zip",
+  "sourceSha256": "60b314f8cc5caae6025c68e4a996f5431766d9a80b8efe635db52c3e427c0523",
+  "frameWidth": 64,
+  "frameHeight": 96,
+  "frames": 1
+}

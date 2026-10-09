@@ -1,0 +1,23 @@
+{
+  "id": "AU044",
+  "title": "Original harp-led Welsh landscape loop",
+  "tags": "audio, historical-inspired, fantasy, Wales, breadth expansion",
+  "category": "audio",
+  "variant": "primary",
+  "batch": 21,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": null,
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": true,
+  "duration": 31.304354166666666,
+  "description": "Original lilting harp-led landscape piece in triple metre, with quiet flute answers and warm strings; no traditional melody quotation.",
+  "sourceFile": "Game_Forge_Batch_21/assets/audio/music/sndOriginalHarpLedWelshLandscapeLoop.ogg",
+  "sourceBatch": "Game_Forge_Batch_21.zip",
+  "sourceSha256": "6236742f12ec5ce93a3739d0e62088ef5cee53a6cdb750874a1fd390ec93b43f"
+}

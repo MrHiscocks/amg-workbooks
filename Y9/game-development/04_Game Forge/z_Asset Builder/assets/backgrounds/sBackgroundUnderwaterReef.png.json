@@ -1,0 +1,24 @@
+{
+  "id": "BG009",
+  "title": "Underwater reef",
+  "tags": "coast, water",
+  "category": "backgrounds",
+  "variant": "primary",
+  "batch": 16,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": null,
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": true,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_16/assets/backgrounds/sBackgroundUnderwaterReef.png",
+  "sourceBatch": "Game_Forge_Batch_16.zip",
+  "sourceSha256": "367c44cec8a96600c74771879da3c79542ee09af694a22d0cbfb02eefaa2c73b",
+  "frames": 1
+}

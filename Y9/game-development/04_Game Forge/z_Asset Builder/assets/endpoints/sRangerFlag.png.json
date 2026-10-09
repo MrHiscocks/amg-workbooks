@@ -1,0 +1,24 @@
+{
+  "id": "EX067",
+  "title": "Ranger flag",
+  "tags": "flag, outdoor activity, cycling, wilderness, community, scenario review",
+  "category": "endpoints",
+  "variant": "primary",
+  "batch": 3,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork; endpoint trigger, not solid ground",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_03/assets/flags/sRangerFlag.png",
+  "sourceBatch": "Game_Forge_Batch_03.zip",
+  "sourceSha256": "745600422b83b9d16f92a95319b8a14a67a3e2a1c61c05023993efe8e000e3ea",
+  "frames": 1
+}

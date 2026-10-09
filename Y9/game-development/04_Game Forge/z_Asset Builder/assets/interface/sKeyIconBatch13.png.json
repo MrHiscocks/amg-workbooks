@@ -1,0 +1,24 @@
+{
+  "id": "UI005",
+  "title": "Key icon",
+  "tags": "icon",
+  "category": "interface",
+  "variant": "primary",
+  "batch": 13,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Interface artwork; draw in GUI space, no room collision.",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_13/assets/interface/sKeyIconBatch13.png",
+  "sourceBatch": "Game_Forge_Batch_13.zip",
+  "sourceSha256": "6b0fc682058be8537d3b40b052d4e7905e1f6d06afdc47ebc2646b0da1b24b12",
+  "frames": 1
+}

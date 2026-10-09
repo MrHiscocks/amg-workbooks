@@ -1,0 +1,31 @@
+{
+  "id": "PL023",
+  "title": "Pebble golem",
+  "tags": "fantasy, adaptable",
+  "category": "players",
+  "variant": "movement",
+  "batch": 20,
+  "origin": [
+    32,
+    96
+  ],
+  "mask": {
+    "left": 18,
+    "top": 33,
+    "right": 45,
+    "bottom": 95
+  },
+  "fps": 6,
+  "placement": "Use one fixed rectangular mask for every animation frame. PNG does not store origin, playback speed or mask metadata.",
+  "repeatHorizontal": false,
+  "form": "walk",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_20/assets/players/sPebbleGolemMove_strip4.png",
+  "sourceBatch": "Game_Forge_Batch_20.zip",
+  "sourceSha256": "da07e12ab5a0eda97e04952e4fa002866cff974790598a75a7709f3c91126c15",
+  "frameWidth": 64,
+  "frameHeight": 96,
+  "frames": 4
+}

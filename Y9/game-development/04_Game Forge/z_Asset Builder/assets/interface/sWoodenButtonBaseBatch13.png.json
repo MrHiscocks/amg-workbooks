@@ -1,0 +1,24 @@
+{
+  "id": "UI015",
+  "title": "Wooden button base",
+  "tags": "button, blank-base",
+  "category": "interface",
+  "variant": "primary",
+  "batch": 13,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Interface artwork; draw in GUI space, no room collision.",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_13/assets/interface/sWoodenButtonBaseBatch13.png",
+  "sourceBatch": "Game_Forge_Batch_13.zip",
+  "sourceSha256": "59c4c589c955548950cdae91143d8c58211e0bf0f6f908f2a0279fcc7b81330f",
+  "frames": 1
+}

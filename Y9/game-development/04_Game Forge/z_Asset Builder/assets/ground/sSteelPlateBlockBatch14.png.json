@@ -1,0 +1,30 @@
+{
+  "id": "GR031",
+  "title": "Steel plate block",
+  "tags": "industrial, space, urban",
+  "category": "ground",
+  "variant": "primary",
+  "batch": 14,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": {
+    "type": "Rectangle",
+    "left": 0,
+    "top": 0,
+    "right": 63,
+    "bottom": 63
+  },
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_14/assets/ground/sSteelPlateBlockBatch14.png",
+  "sourceBatch": "Game_Forge_Batch_14.zip",
+  "sourceSha256": "c8b353d4b68e5254d89e6a055e86ecd57beba7e7b2ebc3b4c3f510ec25e89446",
+  "frames": 1
+}

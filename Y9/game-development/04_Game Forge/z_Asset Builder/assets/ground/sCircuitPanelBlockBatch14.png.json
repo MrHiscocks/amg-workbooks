@@ -1,0 +1,30 @@
+{
+  "id": "GR038",
+  "title": "Circuit panel block",
+  "tags": "industrial, space, urban",
+  "category": "ground",
+  "variant": "primary",
+  "batch": 14,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": {
+    "type": "Rectangle",
+    "left": 0,
+    "top": 0,
+    "right": 63,
+    "bottom": 63
+  },
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_14/assets/ground/sCircuitPanelBlockBatch14.png",
+  "sourceBatch": "Game_Forge_Batch_14.zip",
+  "sourceSha256": "0f25d80742f9146605ab70963581ca926dc547f75bdd986e4d4af7aa31efc9f5",
+  "frames": 1
+}

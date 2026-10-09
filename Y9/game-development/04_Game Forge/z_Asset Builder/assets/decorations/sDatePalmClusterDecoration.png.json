@@ -1,0 +1,24 @@
+{
+  "id": "DE297",
+  "title": "Date-palm cluster",
+  "tags": "hot desert, arid, environment expansion",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 8,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_08/assets/decorations/sDatePalmClusterDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_08.zip",
+  "sourceSha256": "0afda3067dcee5e45ef42f9b971bb9619161ceb438f2cfee506a39bb0e2a4d66",
+  "frames": 1
+}

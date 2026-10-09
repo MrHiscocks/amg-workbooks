@@ -1,0 +1,24 @@
+{
+  "id": "BG120",
+  "title": "Welsh mountain lake",
+  "tags": "Wales, heritage, tourism, breadth expansion",
+  "category": "backgrounds",
+  "variant": "primary",
+  "batch": 19,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": null,
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": true,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_19/assets/backgrounds/sBackgroundWelshMountainLake.png",
+  "sourceBatch": "Game_Forge_Batch_19.zip",
+  "sourceSha256": "2ae99cce8ed66f370a8556db3a7add7602fe3bf9a9c6e63d299476679c438b99",
+  "frames": 1
+}

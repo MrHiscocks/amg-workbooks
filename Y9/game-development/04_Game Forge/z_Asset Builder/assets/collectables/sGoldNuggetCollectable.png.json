@@ -1,0 +1,24 @@
+{
+  "id": "CO008",
+  "title": "Gold nugget",
+  "tags": "reward, treasure",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 9,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_09/assets/collectables/sGoldNuggetCollectable.png",
+  "sourceBatch": "Game_Forge_Batch_09.zip",
+  "sourceSha256": "fa6d8434bae90ac52bc73fa543054967e67c15b5c257457e8cd13c035658bed5",
+  "frames": 1
+}

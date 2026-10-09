@@ -1,0 +1,24 @@
+{
+  "id": "UI036",
+  "title": "Neutral loss-screen backdrop",
+  "tags": "shared interface, outcome, scenario review",
+  "category": "interface",
+  "variant": "primary",
+  "batch": 13,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Interface artwork; draw in GUI space, no room collision.",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_13/assets/interface/sNeutralLossScreenBackdropBatch13.png",
+  "sourceBatch": "Game_Forge_Batch_13.zip",
+  "sourceSha256": "6085f8d7b0f92ae1f77f3797b513d312b1d4575549b264aeece627669c5fa1d5",
+  "frames": 1
+}

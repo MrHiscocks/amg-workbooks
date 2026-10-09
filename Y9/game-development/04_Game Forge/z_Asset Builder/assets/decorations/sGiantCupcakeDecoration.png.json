@@ -1,0 +1,24 @@
+{
+  "id": "DE091",
+  "title": "Giant cupcake",
+  "tags": "playful, food, events",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 10,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_10/assets/decorations/sGiantCupcakeDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_10.zip",
+  "sourceSha256": "0f4ed9cfb508b38189108529b3f1055e46b04f63cfb6d8cbd3349540984a918a",
+  "frames": 1
+}

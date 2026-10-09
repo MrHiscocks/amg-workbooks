@@ -1,0 +1,24 @@
+{
+  "id": "EX002",
+  "title": "Skeleton key",
+  "tags": "access, key",
+  "category": "endpoints",
+  "variant": "primary",
+  "batch": 12,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Pickup artwork; use your existing pickup logic.",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_12/assets/keys/sSkeletonKey.png",
+  "sourceBatch": "Game_Forge_Batch_12.zip",
+  "sourceSha256": "399ebe3fc4905f6f40f3e7606df655ffe21b5005860f15b1a099f34b68108b8c",
+  "frames": 1
+}

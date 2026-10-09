@@ -1,0 +1,31 @@
+{
+  "id": "PL057",
+  "title": "Fox knight",
+  "tags": "historical-inspired, medieval, non-human, breadth expansion",
+  "category": "players",
+  "variant": "static",
+  "batch": 17,
+  "origin": [
+    32,
+    96
+  ],
+  "mask": {
+    "left": 20,
+    "top": 30,
+    "right": 43,
+    "bottom": 95
+  },
+  "fps": 8,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_17/assets/players/sFoxKnightStatic.png",
+  "sourceBatch": "Game_Forge_Batch_17.zip",
+  "sourceSha256": "d6f1cbc2fba9d2749826cc65ec12e2262943a169e5b95c706ae4291ec06b1407",
+  "frameWidth": 64,
+  "frameHeight": 96,
+  "frames": 1
+}

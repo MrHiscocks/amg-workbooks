@@ -1,0 +1,24 @@
+{
+  "id": "CO050",
+  "title": "Ticket",
+  "tags": "community, sport, environment",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 9,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_09/assets/collectables/sTicketCollectable.png",
+  "sourceBatch": "Game_Forge_Batch_09.zip",
+  "sourceSha256": "97489bdc906ab0ef5a2a63b8b1cc73f539617543866ff23180fa6f0cd5b37216",
+  "frames": 1
+}

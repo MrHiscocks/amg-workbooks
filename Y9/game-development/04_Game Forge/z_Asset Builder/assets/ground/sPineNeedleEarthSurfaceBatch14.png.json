@@ -1,0 +1,30 @@
+{
+  "id": "GR140",
+  "title": "Pine-needle earth surface",
+  "tags": "cold continental, boreal, taiga, environment expansion",
+  "category": "ground",
+  "variant": "primary",
+  "batch": 14,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": {
+    "type": "Rectangle",
+    "left": 0,
+    "top": 0,
+    "right": 63,
+    "bottom": 63
+  },
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_14/assets/ground/sPineNeedleEarthSurfaceBatch14.png",
+  "sourceBatch": "Game_Forge_Batch_14.zip",
+  "sourceSha256": "f8a3c1fe3314054b9723a9a74a2747fb5e34dea81ff172e8b6eb3d9b73e9bc1a",
+  "frames": 1
+}

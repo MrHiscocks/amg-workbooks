@@ -1,0 +1,24 @@
+{
+  "id": "CO163",
+  "title": "Banana",
+  "tags": "healthy eating, food choices, breadth expansion",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 4,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_04/assets/collectables/sBananaCollectable.png",
+  "sourceBatch": "Game_Forge_Batch_04.zip",
+  "sourceSha256": "7002112603f29e0f0b615e79bad3394dacbad62366ae2d58599f101d78017fad",
+  "frames": 1
+}

@@ -1,0 +1,29 @@
+{
+  "id": "GR001",
+  "title": "Grass-topped soil",
+  "tags": "woodland, natural",
+  "category": "ground",
+  "variant": "primary",
+  "batch": 1,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": {
+    "type": "Rectangle",
+    "left": 0,
+    "top": 0,
+    "right": 63,
+    "bottom": 63
+  },
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_01/assets/sGrassSurface.png",
+  "sourceBatch": "Game_Forge_Batch_01.zip",
+  "sourceSha256": "ae20f532a170e14db513964f49b79c4ddf0bd2d0b7cb16e8f18307db08d051a7"
+}

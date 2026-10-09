@@ -1,0 +1,24 @@
+{
+  "id": "DE026",
+  "title": "Stalagmite",
+  "tags": "landscape, exploration",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 11,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_11/assets/decorations/sStalagmiteDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_11.zip",
+  "sourceSha256": "035683871499335139e53df9c6279d6c46b159e5b5e6b1c7f57f653c9c5a969c",
+  "frames": 1
+}

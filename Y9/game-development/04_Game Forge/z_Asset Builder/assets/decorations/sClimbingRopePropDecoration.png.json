@@ -1,0 +1,24 @@
+{
+  "id": "DE101",
+  "title": "Climbing rope prop",
+  "tags": "outdoor activity, climbing, paddling, scenario review",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 10,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_10/assets/decorations/sClimbingRopePropDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_10.zip",
+  "sourceSha256": "2d81e4de5bc867d123b2e5819011b948db73bcf49e0c3cd84a575eef14dda558",
+  "frames": 1
+}

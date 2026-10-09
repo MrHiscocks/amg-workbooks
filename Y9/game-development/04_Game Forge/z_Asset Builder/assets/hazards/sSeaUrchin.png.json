@@ -1,0 +1,31 @@
+{
+  "id": "HZ048",
+  "title": "Sea urchin",
+  "tags": "swimming, aquatic fantasy, obstacle, scenario review",
+  "category": "hazards",
+  "variant": "primary",
+  "batch": 20,
+  "origin": [
+    32,
+    64
+  ],
+  "mask": {
+    "left": 2,
+    "top": 3,
+    "right": 60,
+    "bottom": 63
+  },
+  "fps": 0,
+  "placement": "Use one fixed rectangular mask for every animation frame. PNG does not store origin, playback speed or mask metadata.",
+  "repeatHorizontal": false,
+  "form": "ground",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_20/assets/hazards/sSeaUrchin.png",
+  "sourceBatch": "Game_Forge_Batch_20.zip",
+  "sourceSha256": "f2e7663c61fb7079e4c5412b762f8331df974bc0918746f9ee33fceb205045e5",
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 1
+}

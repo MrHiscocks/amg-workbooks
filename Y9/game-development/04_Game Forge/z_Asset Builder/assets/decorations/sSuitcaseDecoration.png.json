@@ -1,0 +1,24 @@
+{
+  "id": "DE082",
+  "title": "Suitcase",
+  "tags": "travel, everyday, stories",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 11,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_11/assets/decorations/sSuitcaseDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_11.zip",
+  "sourceSha256": "8f2d9d5b069958764a8eefcaf87ed27af24be138f70c78f3708b2f40d5d79e1f",
+  "frames": 1
+}

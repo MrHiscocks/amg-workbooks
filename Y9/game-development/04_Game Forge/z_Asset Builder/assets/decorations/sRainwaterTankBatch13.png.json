@@ -1,0 +1,24 @@
+{
+  "id": "DE279",
+  "title": "Rainwater tank",
+  "tags": "wildlife, coastal, resources, breadth expansion",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 13,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative scenery only. No solid collision or damage by default.",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_13/assets/decorations/sRainwaterTankBatch13.png",
+  "sourceBatch": "Game_Forge_Batch_13.zip",
+  "sourceSha256": "4a1e0b8f09771561a448ffe9a5fb1220757758828f6e8d8f1f0ef8b58da841d2",
+  "frames": 1
+}

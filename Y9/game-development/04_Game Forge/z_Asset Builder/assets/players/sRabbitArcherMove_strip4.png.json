@@ -1,0 +1,31 @@
+{
+  "id": "PL060",
+  "title": "Rabbit archer",
+  "tags": "historical-inspired, medieval, non-human, breadth expansion",
+  "category": "players",
+  "variant": "movement",
+  "batch": 17,
+  "origin": [
+    32,
+    96
+  ],
+  "mask": {
+    "left": 20,
+    "top": 30,
+    "right": 43,
+    "bottom": 95
+  },
+  "fps": 8,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_17/assets/players/sRabbitArcherMove_strip4.png",
+  "sourceBatch": "Game_Forge_Batch_17.zip",
+  "sourceSha256": "9b734d2b8fd0725b1bc3de499f26843fed1126baa23632cc89aa1d1e73f29f97",
+  "frameWidth": 64,
+  "frameHeight": 96,
+  "frames": 4
+}

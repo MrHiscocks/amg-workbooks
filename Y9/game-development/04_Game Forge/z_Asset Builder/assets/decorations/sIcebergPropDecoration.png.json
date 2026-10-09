@@ -1,0 +1,24 @@
+{
+  "id": "DE305",
+  "title": "Iceberg prop",
+  "tags": "polar, ice cap, environment expansion",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 5,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": null,
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_05/assets/decorations/sIcebergPropDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_05.zip",
+  "sourceSha256": "b33f9338177cd7a825bdf961da5d222a387eebc8d09400b8ae29a1e9fc824e3c",
+  "frames": 1
+}

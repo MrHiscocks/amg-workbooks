@@ -1,0 +1,30 @@
+{
+  "id": "GR141",
+  "title": "Boreal soil fill",
+  "tags": "cold continental, boreal, taiga, environment expansion",
+  "category": "ground",
+  "variant": "primary",
+  "batch": 14,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": {
+    "type": "Rectangle",
+    "left": 0,
+    "top": 0,
+    "right": 63,
+    "bottom": 63
+  },
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_14/assets/ground/sBorealSoilFillBatch14.png",
+  "sourceBatch": "Game_Forge_Batch_14.zip",
+  "sourceSha256": "eb4d1ef775c9642bad83608094a7fb5d6c7650e1e1d7e62678d616854a268670",
+  "frames": 1
+}

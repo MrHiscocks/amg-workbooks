@@ -1,0 +1,24 @@
+{
+  "id": "DE077",
+  "title": "Buoy",
+  "tags": "water, swimming, rescue",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 5,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": null,
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_05/assets/decorations/sBuoyDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_05.zip",
+  "sourceSha256": "875ea3bd3d6acf9876135890eeafa01efe006963f37d9ac5ac73e26a85453f90",
+  "frames": 1
+}

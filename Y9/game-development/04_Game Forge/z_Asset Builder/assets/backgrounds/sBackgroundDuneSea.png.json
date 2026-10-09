@@ -1,0 +1,24 @@
+{
+  "id": "BG160",
+  "title": "Dune sea",
+  "tags": "hot desert, arid, environment expansion",
+  "category": "backgrounds",
+  "variant": "primary",
+  "batch": 16,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": null,
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": true,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_16/assets/backgrounds/sBackgroundDuneSea.png",
+  "sourceBatch": "Game_Forge_Batch_16.zip",
+  "sourceSha256": "754e0caef292335ee90184d88d9d28c598b07c9ec7f3961eccc0bb248cf874bf",
+  "frames": 1
+}

@@ -1,0 +1,24 @@
+{
+  "id": "DE320",
+  "title": "Flat-topped acacia",
+  "tags": "tropical wet-dry, savanna, environment expansion",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 5,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": null,
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_05/assets/decorations/sAcaciaTreeDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_05.zip",
+  "sourceSha256": "e1789194e5fa0e7c3850fff3e851da3fcddea28f75eaa3e6e78308de817b87e7",
+  "frames": 1
+}

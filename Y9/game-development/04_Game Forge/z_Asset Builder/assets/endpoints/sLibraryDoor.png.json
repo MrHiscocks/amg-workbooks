@@ -1,0 +1,24 @@
+{
+  "id": "EX076",
+  "title": "Library door",
+  "tags": "door, community, sport, arts, resources, breadth expansion",
+  "category": "endpoints",
+  "variant": "primary",
+  "batch": 3,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork; endpoint trigger, not solid ground",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_03/assets/doors/sLibraryDoor.png",
+  "sourceBatch": "Game_Forge_Batch_03.zip",
+  "sourceSha256": "a127168301028a1fd07557ff094cc7dc1364f92ea701e29e6a2141f3d5507adf",
+  "frames": 1
+}

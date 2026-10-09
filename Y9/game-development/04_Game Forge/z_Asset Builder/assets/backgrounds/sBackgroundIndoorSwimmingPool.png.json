@@ -1,0 +1,23 @@
+{
+  "id": "BG028",
+  "title": "Indoor swimming pool",
+  "tags": "swimming, sport",
+  "category": "backgrounds",
+  "variant": "primary",
+  "batch": 21,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": null,
+  "fps": 6,
+  "placement": "Background layer; horizontal repeat only; decorative, no collision.",
+  "repeatHorizontal": true,
+  "form": "",
+  "loop": "",
+  "duration": "",
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_21/assets/backgrounds/sBackgroundIndoorSwimmingPool.png",
+  "sourceBatch": "Game_Forge_Batch_21.zip",
+  "sourceSha256": "9224eaf4d1f2013488233c6e78b2d199252cf199f55a70f7769bbbd8a0e5c1be"
+}

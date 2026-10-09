@@ -1,0 +1,24 @@
+{
+  "id": "BG175",
+  "title": "Boreal lake forest",
+  "tags": "cold continental, boreal, taiga, environment expansion",
+  "category": "backgrounds",
+  "variant": "primary",
+  "batch": 16,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": null,
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": true,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_16/assets/backgrounds/sBackgroundBorealLakeForest.png",
+  "sourceBatch": "Game_Forge_Batch_16.zip",
+  "sourceSha256": "c5b5a29295abc6d5054082409b2b086f5c0ff02fb6b3af3c1ba8869d4866e3e9",
+  "frames": 1
+}

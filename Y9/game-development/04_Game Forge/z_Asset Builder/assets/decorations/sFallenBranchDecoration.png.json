@@ -1,0 +1,24 @@
+{
+  "id": "DE030",
+  "title": "Fallen branch",
+  "tags": "landscape, exploration",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 8,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_08/assets/decorations/sFallenBranchDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_08.zip",
+  "sourceSha256": "6a7f47263f8357b968e9a5ddfad6cf9c48ab9de1a6d76fd34a4fe97a66f98755",
+  "frames": 1
+}

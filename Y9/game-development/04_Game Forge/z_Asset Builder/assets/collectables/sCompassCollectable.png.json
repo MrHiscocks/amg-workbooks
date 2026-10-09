@@ -1,0 +1,24 @@
+{
+  "id": "CO032",
+  "title": "Compass",
+  "tags": "exploration, discovery",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 2,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_02/assets/collectables/sCompassCollectable.png",
+  "sourceBatch": "Game_Forge_Batch_02.zip",
+  "sourceSha256": "e8cc0dc7411709408641576aaaa2b938a426730a386548db9d32c78ea5cd7fca",
+  "frames": 1
+}

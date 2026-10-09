@@ -1,0 +1,24 @@
+{
+  "id": "DE117",
+  "title": "Bicycle-parts shelf",
+  "tags": "cycling, repair, visibility, community, scenario review",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 10,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_10/assets/decorations/sBicyclePartsShelfDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_10.zip",
+  "sourceSha256": "6e00859b6982c39bcddc246ea7ef00398cac2a4707e5c32096986ccdb3ad34f9",
+  "frames": 1
+}

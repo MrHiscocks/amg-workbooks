@@ -1,0 +1,24 @@
+{
+  "id": "EX009",
+  "title": "Star-shaped key",
+  "tags": "access, key",
+  "category": "endpoints",
+  "variant": "primary",
+  "batch": 12,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Pickup artwork; use your existing pickup logic.",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_12/assets/keys/sStarShapedKey.png",
+  "sourceBatch": "Game_Forge_Batch_12.zip",
+  "sourceSha256": "2d6bb63b7b26ee69bd79a13e68db1ed0c0fc7e48a1b3e4270cb502f9f780103a",
+  "frames": 1
+}

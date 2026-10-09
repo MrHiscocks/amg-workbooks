@@ -1,0 +1,24 @@
+{
+  "id": "DE229",
+  "title": "Bread basket",
+  "tags": "healthy eating, food, market, breadth expansion",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 9,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_09/assets/decorations/sBreadBasketDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_09.zip",
+  "sourceSha256": "fb733d18bbb47716102a2715e1c40d590fec03502e149a8f3f59f6561640c8da",
+  "frames": 1
+}

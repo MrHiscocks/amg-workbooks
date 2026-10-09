@@ -1,0 +1,24 @@
+{
+  "id": "HZ005",
+  "title": "Thorns",
+  "tags": "sharp, static",
+  "category": "hazards",
+  "variant": "primary",
+  "batch": 2,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Precise silhouette; confirm against classroom collision code",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_02/assets/hazards/sThornHazard.png",
+  "sourceBatch": "Game_Forge_Batch_02.zip",
+  "sourceSha256": "6c80d08e9c0425996c7066eb131ed208952c98f1141f9e15d22249f10e81bbe6",
+  "frames": 1
+}

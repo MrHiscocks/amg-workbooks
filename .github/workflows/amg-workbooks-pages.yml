@@ -1,0 +1,75 @@
+name: Publish workbooks and Game Forge
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: amg-workbooks-pages
+  cancel-in-progress: true
+
+env:
+  GAME_FORGE_DIR: Y9/game-development/04_Game Forge/z_Asset Builder
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check library location
+        run: |
+          if [ ! -f "$GAME_FORGE_DIR/package.json" ]; then
+            echo 'Copy the CONTENTS of Game_Forge_Asset_Library into Y9/game-development/04_Game Forge/z_Asset Builder.'
+            exit 1
+          fi
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: Y9/game-development/04_Game Forge/z_Asset Builder/package-lock.json
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install library dependencies
+        working-directory: ${{ env.GAME_FORGE_DIR }}
+        run: |
+          npm ci
+          python -m pip install -r requirements.txt
+      - name: Validate assets and build library
+        working-directory: ${{ env.GAME_FORGE_DIR }}
+        env:
+          ASSET_BASE_URL: https://raw.githubusercontent.com/${{ github.repository }}/${{ github.sha }}/Y9/game-development/04_Game%20Forge/z_Asset%20Builder/assets/
+        run: |
+          npm test
+          npm run build:external
+      - name: Stage the existing workbooks
+        id: stage
+        run: python .github/scripts/assemble-amg-pages.py stage
+      - name: Build the existing workbook site with GitHub Pages Jekyll
+        if: steps.stage.outputs.static != 'true'
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./_pages_source
+          destination: ./_site
+      - name: Assemble and check the complete website
+        run: python .github/scripts/assemble-amg-pages.py assemble
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/deploy-pages@v4
+        id: deployment

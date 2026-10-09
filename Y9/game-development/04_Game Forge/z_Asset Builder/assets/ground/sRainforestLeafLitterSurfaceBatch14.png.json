@@ -1,0 +1,30 @@
+{
+  "id": "GR146",
+  "title": "Rainforest leaf-litter surface",
+  "tags": "tropical wet, rainforest, environment expansion",
+  "category": "ground",
+  "variant": "primary",
+  "batch": 14,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": {
+    "type": "Rectangle",
+    "left": 0,
+    "top": 0,
+    "right": 63,
+    "bottom": 63
+  },
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_14/assets/ground/sRainforestLeafLitterSurfaceBatch14.png",
+  "sourceBatch": "Game_Forge_Batch_14.zip",
+  "sourceSha256": "c5879e07a263dd3da05e9552d795fd35e3a09bc1f502c49932cd47d0e0ae8cb2",
+  "frames": 1
+}

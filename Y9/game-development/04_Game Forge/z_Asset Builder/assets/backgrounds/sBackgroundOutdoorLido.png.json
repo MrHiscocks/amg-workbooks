@@ -1,0 +1,23 @@
+{
+  "id": "BG029",
+  "title": "Outdoor lido",
+  "tags": "swimming, sport",
+  "category": "backgrounds",
+  "variant": "primary",
+  "batch": 21,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": null,
+  "fps": 6,
+  "placement": "Background layer; horizontal repeat only; decorative, no collision.",
+  "repeatHorizontal": true,
+  "form": "",
+  "loop": "",
+  "duration": "",
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_21/assets/backgrounds/sBackgroundOutdoorLido.png",
+  "sourceBatch": "Game_Forge_Batch_21.zip",
+  "sourceSha256": "52fafaa677ea0c126772554ad01caa039b75d76fa1fa44fff4d0ef4ea92d6985"
+}

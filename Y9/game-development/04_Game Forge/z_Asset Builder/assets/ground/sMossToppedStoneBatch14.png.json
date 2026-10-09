@@ -1,0 +1,30 @@
+{
+  "id": "GR003",
+  "title": "Moss-topped stone",
+  "tags": "woodland, natural",
+  "category": "ground",
+  "variant": "primary",
+  "batch": 14,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": {
+    "type": "Rectangle",
+    "left": 0,
+    "top": 0,
+    "right": 63,
+    "bottom": 63
+  },
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_14/assets/ground/sMossToppedStoneBatch14.png",
+  "sourceBatch": "Game_Forge_Batch_14.zip",
+  "sourceSha256": "51a98f58ce9c78241e6a2f68fb991fff4daecaa1b401fa6d52451f7b89acdd1e",
+  "frames": 1
+}

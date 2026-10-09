@@ -1,0 +1,24 @@
+{
+  "id": "CO217",
+  "title": "Clothing donation",
+  "tags": "volunteering, charity, responsible consumption, breadth expansion",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 9,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_09/assets/collectables/sClothingDonationCollectable.png",
+  "sourceBatch": "Game_Forge_Batch_09.zip",
+  "sourceSha256": "d15caca540526da4937f7f5299ada140816868584a569e0cacf186108518095e",
+  "frames": 1
+}

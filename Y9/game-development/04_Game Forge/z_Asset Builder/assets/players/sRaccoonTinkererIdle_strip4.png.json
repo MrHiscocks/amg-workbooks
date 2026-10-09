@@ -1,0 +1,31 @@
+{
+  "id": "PL007",
+  "title": "Raccoon tinkerer",
+  "tags": "nature, woodland",
+  "category": "players",
+  "variant": "idle",
+  "batch": 15,
+  "origin": [
+    32,
+    96
+  ],
+  "mask": {
+    "left": 20,
+    "top": 38,
+    "right": 43,
+    "bottom": 95
+  },
+  "fps": 4,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_15/assets/players/sRaccoonTinkererIdle_strip4.png",
+  "sourceBatch": "Game_Forge_Batch_15.zip",
+  "sourceSha256": "6b0177cf1d483c3489a6ddf0d378e557b8dc7df8a1984548f7af385102b9f60f",
+  "frameWidth": 64,
+  "frameHeight": 96,
+  "frames": 4
+}

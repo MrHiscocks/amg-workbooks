@@ -1,0 +1,24 @@
+{
+  "id": "EX017",
+  "title": "Garden gate",
+  "tags": "exit, door",
+  "category": "endpoints",
+  "variant": "primary",
+  "batch": 12,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Goal artwork; add your own overlap event. No solid collision required.",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_12/assets/endpoints/sGardenGate.png",
+  "sourceBatch": "Game_Forge_Batch_12.zip",
+  "sourceSha256": "48bec74b8519e25d1869f700bb48957b80f2b8fdaddefc2c5f59c627d71a7b6e",
+  "frames": 1
+}

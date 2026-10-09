@@ -1,0 +1,24 @@
+{
+  "id": "CO132",
+  "title": "Pottery shard",
+  "tags": "historical-inspired, medieval, heritage, breadth expansion",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 7,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_07/assets/collectables/sPotteryShardCollectable.png",
+  "sourceBatch": "Game_Forge_Batch_07.zip",
+  "sourceSha256": "51c760c4fd4042e37d96b3d183c4e214d06f386d42e74c1e99040c3c6463f9f9",
+  "frames": 1
+}

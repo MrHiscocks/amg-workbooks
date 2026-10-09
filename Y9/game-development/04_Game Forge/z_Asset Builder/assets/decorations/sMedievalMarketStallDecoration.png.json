@@ -1,0 +1,24 @@
+{
+  "id": "DE190",
+  "title": "Medieval market stall",
+  "tags": "historical-inspired, castle, breadth expansion",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 9,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_09/assets/decorations/sMedievalMarketStallDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_09.zip",
+  "sourceSha256": "1d436c87cfb9c134e9048614513eaa8eacb16b07d6bfbbde67fb64aebdfdcae0",
+  "frames": 1
+}

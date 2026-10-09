@@ -1,0 +1,24 @@
+{
+  "id": "DE296",
+  "title": "Desert scrub",
+  "tags": "hot desert, arid, environment expansion",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 8,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_08/assets/decorations/sDesertScrubDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_08.zip",
+  "sourceSha256": "7ac647c2405c898189cc4e6229336b094c41ee090813775445190f356fa5ff90",
+  "frames": 1
+}

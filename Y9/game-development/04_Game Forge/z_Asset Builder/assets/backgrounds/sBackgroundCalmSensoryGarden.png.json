@@ -1,0 +1,23 @@
+{
+  "id": "BG138",
+  "title": "Calm sensory garden",
+  "tags": "wellbeing, arts, learning, community, breadth expansion",
+  "category": "backgrounds",
+  "variant": "primary",
+  "batch": 21,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": null,
+  "fps": 6,
+  "placement": "Background layer; horizontal repeat only; decorative, no collision.",
+  "repeatHorizontal": true,
+  "form": "",
+  "loop": "",
+  "duration": "",
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_21/assets/backgrounds/sBackgroundCalmSensoryGarden.png",
+  "sourceBatch": "Game_Forge_Batch_21.zip",
+  "sourceSha256": "b5bf53a4c79147f1c347aaa8671f00ed62aed00de178c5920c5905935ba00bab"
+}

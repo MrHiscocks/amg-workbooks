@@ -1,0 +1,24 @@
+{
+  "id": "DE314",
+  "title": "Bluebell patch",
+  "tags": "temperate oceanic, woodland, moorland, environment expansion",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 8,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_08/assets/decorations/sBluebellPatchDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_08.zip",
+  "sourceSha256": "01b05de85f307b5aece475b9c1ca5a37cf41ac6fc37e9c3a77493a9199652311",
+  "frames": 1
+}

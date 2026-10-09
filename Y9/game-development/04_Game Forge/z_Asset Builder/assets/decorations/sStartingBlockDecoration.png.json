@@ -1,0 +1,24 @@
+{
+  "id": "DE076",
+  "title": "Starting block",
+  "tags": "water, swimming, rescue",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 5,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": null,
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_05/assets/decorations/sStartingBlockDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_05.zip",
+  "sourceSha256": "938cdfece2160de69804a6de5f7bd6260158d0d164e145b3b16451524878aaf9",
+  "frames": 1
+}

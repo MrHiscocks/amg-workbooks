@@ -1,0 +1,24 @@
+{
+  "id": "CO224",
+  "title": "Tap washer",
+  "tags": "water saving, science, engineering, breadth expansion",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 8,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_08/assets/collectables/sTapWasherCollectable.png",
+  "sourceBatch": "Game_Forge_Batch_08.zip",
+  "sourceSha256": "1006d926b4bbd9657df4995781b4e94ae34ec17d8ae7758971814324c86f8c53",
+  "frames": 1
+}

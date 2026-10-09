@@ -1,0 +1,24 @@
+{
+  "id": "DE089",
+  "title": "Camera tripod",
+  "tags": "travel, everyday, stories",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 7,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_07/assets/decorations/sCameraTripodDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_07.zip",
+  "sourceSha256": "13032859aac75bd455c0c3809b5f5d6fdaaa7035ee7ca792e95370e13b7cbaf8",
+  "frames": 1
+}

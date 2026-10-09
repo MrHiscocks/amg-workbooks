@@ -1,0 +1,24 @@
+{
+  "id": "CO206",
+  "title": "Secure-message envelope",
+  "tags": "online safety, digital wellbeing, breadth expansion",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 7,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_07/assets/collectables/sSecureMessageEnvelopeCollectable.png",
+  "sourceBatch": "Game_Forge_Batch_07.zip",
+  "sourceSha256": "0f926eba7567ca3936156233fa3a5447351f32193ebe8f385c78bf48ba13bf30",
+  "frames": 1
+}

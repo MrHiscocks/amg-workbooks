@@ -1,0 +1,23 @@
+{
+  "id": "AU001",
+  "title": "Curious woodland",
+  "tags": "music, instrumental-loop",
+  "category": "audio",
+  "variant": "primary",
+  "batch": 21,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": null,
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": true,
+  "duration": 40.0,
+  "description": "Curious flute phrases, wooden mallets, warm bass and soft hand percussion.",
+  "sourceFile": "Game_Forge_Batch_21/assets/audio/music/sndCuriousWoodland.ogg",
+  "sourceBatch": "Game_Forge_Batch_21.zip",
+  "sourceSha256": "c1c3054d4a91996786513f8a7507e82948f9a2ddb06c0602b89d710fcbe75000"
+}

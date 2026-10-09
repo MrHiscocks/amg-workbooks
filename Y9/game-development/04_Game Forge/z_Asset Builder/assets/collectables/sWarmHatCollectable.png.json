@@ -1,0 +1,24 @@
+{
+  "id": "CO100",
+  "title": "Warm hat",
+  "tags": "outdoor learning, wilderness, preparation, environment, scenario review",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 2,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_02/assets/collectables/sWarmHatCollectable.png",
+  "sourceBatch": "Game_Forge_Batch_02.zip",
+  "sourceSha256": "a18285456fc5079f0c8cf820365dfea019eece21c74720b29ed2c1aabb8b83a1",
+  "frames": 1
+}

@@ -1,0 +1,24 @@
+{
+  "id": "DE006",
+  "title": "Sapling",
+  "tags": "woodland, vegetation",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 8,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_08/assets/decorations/sSaplingDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_08.zip",
+  "sourceSha256": "7922eebeb780022dd84fca994800ec0a0d659e4da36f861a71578a6ec56c2e5b",
+  "frames": 1
+}

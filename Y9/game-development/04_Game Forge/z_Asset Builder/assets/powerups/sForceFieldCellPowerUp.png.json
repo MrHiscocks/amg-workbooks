@@ -1,0 +1,24 @@
+{
+  "id": "PU010",
+  "title": "Force-field cell",
+  "tags": "shield",
+  "category": "powerups",
+  "variant": "primary",
+  "batch": 6,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_06/assets/powerups/sForceFieldCellPowerUp.png",
+  "sourceBatch": "Game_Forge_Batch_06.zip",
+  "sourceSha256": "ed7a39ca3d565be6a6dce50559c0d092d3d28b715ca4ca020bd25327229622aa",
+  "frames": 1
+}

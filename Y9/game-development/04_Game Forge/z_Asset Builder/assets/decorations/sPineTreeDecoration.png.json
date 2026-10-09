@@ -1,0 +1,24 @@
+{
+  "id": "DE002",
+  "title": "Pine tree",
+  "tags": "woodland, vegetation",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 5,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": null,
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_05/assets/decorations/sPineTreeDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_05.zip",
+  "sourceSha256": "ee354432a9771daf24a01d2241bbdef9fb1c385c41230649640eb3544fca5b06",
+  "frames": 1
+}

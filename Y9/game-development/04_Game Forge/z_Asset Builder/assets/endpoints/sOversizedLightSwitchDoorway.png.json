@@ -1,0 +1,24 @@
+{
+  "id": "EX056",
+  "title": "Oversized light-switch doorway",
+  "tags": "portal, outdoor activity, cycling, climate action, swimming, scenario review",
+  "category": "endpoints",
+  "variant": "primary",
+  "batch": 12,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Goal artwork; add your own overlap event. No solid collision required.",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_12/assets/endpoints/sOversizedLightSwitchDoorway.png",
+  "sourceBatch": "Game_Forge_Batch_12.zip",
+  "sourceSha256": "cb669e567d0335d8c1a3bb5b7e462fdd149bd3f3d175bf4839d880521070e534",
+  "frames": 1
+}

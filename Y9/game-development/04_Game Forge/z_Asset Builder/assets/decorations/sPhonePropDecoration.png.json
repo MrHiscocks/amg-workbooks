@@ -1,0 +1,24 @@
+{
+  "id": "DE257",
+  "title": "Phone prop",
+  "tags": "digital wellbeing, online safety, breadth expansion",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 7,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_07/assets/decorations/sPhonePropDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_07.zip",
+  "sourceSha256": "67c4a85f4a01b29723beb9935d12786fc6ef9582acad778d2c97136d852e0399",
+  "frames": 1
+}

@@ -1,0 +1,24 @@
+{
+  "id": "CO045",
+  "title": "Parcel",
+  "tags": "community, sport, environment",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 4,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_04/assets/collectables/sParcelCollectable.png",
+  "sourceBatch": "Game_Forge_Batch_04.zip",
+  "sourceSha256": "85d00acf3afbfbf85ab93bdf6a9391e738d0986da8567b3d1dce5503215e9293",
+  "frames": 1
+}

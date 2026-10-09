@@ -1,0 +1,24 @@
+{
+  "id": "EX051",
+  "title": "Cave-exit arch",
+  "tags": "portal, outdoor activity, cycling, climate action, swimming, scenario review",
+  "category": "endpoints",
+  "variant": "primary",
+  "batch": 12,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Goal artwork; add your own overlap event. No solid collision required.",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_12/assets/endpoints/sCaveExitArch.png",
+  "sourceBatch": "Game_Forge_Batch_12.zip",
+  "sourceSha256": "b299b6907abee54b0ed880ff9cbc808ee8a88ac9a5f7940d1cd7e375ad298c3c",
+  "frames": 1
+}

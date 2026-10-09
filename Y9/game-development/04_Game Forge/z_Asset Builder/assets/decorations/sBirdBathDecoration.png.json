@@ -1,0 +1,24 @@
+{
+  "id": "DE267",
+  "title": "Bird bath",
+  "tags": "wildlife, coastal, resources, breadth expansion",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 10,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_10/assets/decorations/sBirdBathDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_10.zip",
+  "sourceSha256": "2c4d31f9c6264f8210ed90599abfef6867255d29e625f58a4693f7573c363078",
+  "frames": 1
+}

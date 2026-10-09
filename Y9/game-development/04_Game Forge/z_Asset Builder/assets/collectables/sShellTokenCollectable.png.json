@@ -1,0 +1,24 @@
+{
+  "id": "CO115",
+  "title": "Shell token",
+  "tags": "swimming, confidence, participation, water awareness, scenario review",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 7,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_07/assets/collectables/sShellTokenCollectable.png",
+  "sourceBatch": "Game_Forge_Batch_07.zip",
+  "sourceSha256": "0e4972ab8769200f6ade2233c4e5eaab3f3ddd3de2894f68e4c6d71b3dc75311",
+  "frames": 1
+}

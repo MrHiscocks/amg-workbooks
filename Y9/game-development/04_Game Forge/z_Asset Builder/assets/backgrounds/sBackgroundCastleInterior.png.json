@@ -1,0 +1,24 @@
+{
+  "id": "BG017",
+  "title": "Castle interior",
+  "tags": "castle, fantasy",
+  "category": "backgrounds",
+  "variant": "primary",
+  "batch": 19,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": null,
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": true,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_19/assets/backgrounds/sBackgroundCastleInterior.png",
+  "sourceBatch": "Game_Forge_Batch_19.zip",
+  "sourceSha256": "ffc187e34fc83bd71ad82ea97d0fd7054aad363518ca6f294a709ee5ce00caf6",
+  "frames": 1
+}

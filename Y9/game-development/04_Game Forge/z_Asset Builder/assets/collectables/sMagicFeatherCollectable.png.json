@@ -1,0 +1,24 @@
+{
+  "id": "CO152",
+  "title": "Magic feather",
+  "tags": "fantasy, reading, learning, breadth expansion",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 9,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_09/assets/collectables/sMagicFeatherCollectable.png",
+  "sourceBatch": "Game_Forge_Batch_09.zip",
+  "sourceSha256": "a172bf33a222ac022c74214939f9b100ddf6418add48c37db78e1bef4ba051a1",
+  "frames": 1
+}

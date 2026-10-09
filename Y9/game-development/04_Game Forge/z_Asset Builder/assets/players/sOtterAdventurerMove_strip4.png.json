@@ -1,0 +1,31 @@
+{
+  "id": "PL002",
+  "title": "Otter adventurer",
+  "tags": "nature, woodland",
+  "category": "players",
+  "variant": "movement",
+  "batch": 15,
+  "origin": [
+    32,
+    96
+  ],
+  "mask": {
+    "left": 20,
+    "top": 29,
+    "right": 43,
+    "bottom": 95
+  },
+  "fps": 8,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_15/assets/players/sOtterAdventurerMove_strip4.png",
+  "sourceBatch": "Game_Forge_Batch_15.zip",
+  "sourceSha256": "0e8b7b5d65e36a987fb27344a372af6bcf949eadd6049944ca3000c6f5c26b4b",
+  "frameWidth": 64,
+  "frameHeight": 96,
+  "frames": 4
+}

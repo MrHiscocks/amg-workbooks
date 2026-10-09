@@ -1,0 +1,24 @@
+{
+  "id": "DE234",
+  "title": "Greenhouse",
+  "tags": "healthy eating, food, market, breadth expansion",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 11,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_11/assets/decorations/sGreenhouseDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_11.zip",
+  "sourceSha256": "457bfdff395a25c82e504ef9222b72aff902ddbbe3d7815b5a2207d26d16579c",
+  "frames": 1
+}

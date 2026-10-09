@@ -1,0 +1,24 @@
+{
+  "id": "CO241",
+  "title": "Woodland leaf-survey token",
+  "tags": "temperate oceanic, woodland, moorland, environment expansion",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 11,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_11/assets/collectables/sWoodlandLeafSurveyTokenCollectable.png",
+  "sourceBatch": "Game_Forge_Batch_11.zip",
+  "sourceSha256": "1528b1f13a2b60f88ac01a3a55db4b016c0f63acdfb0149abb7d9408fc7215b9",
+  "frames": 1
+}

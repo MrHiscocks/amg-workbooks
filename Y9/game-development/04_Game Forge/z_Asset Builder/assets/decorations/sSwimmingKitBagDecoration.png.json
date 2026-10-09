@@ -1,0 +1,24 @@
+{
+  "id": "DE176",
+  "title": "Swimming-kit bag",
+  "tags": "swimming, access, participation, aquatic fantasy, scenario review",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 9,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_09/assets/decorations/sSwimmingKitBagDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_09.zip",
+  "sourceSha256": "4874965fff0d849db2ea8d2020f89498ff36668cecbce0c2f7b2f55264f547dc",
+  "frames": 1
+}

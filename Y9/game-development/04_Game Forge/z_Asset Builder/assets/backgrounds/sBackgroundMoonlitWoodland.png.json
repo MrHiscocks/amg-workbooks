@@ -1,0 +1,24 @@
+{
+  "id": "BG003",
+  "title": "Moonlit woodland",
+  "tags": "woodland",
+  "category": "backgrounds",
+  "variant": "primary",
+  "batch": 16,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": null,
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": true,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_16/assets/backgrounds/sBackgroundMoonlitWoodland.png",
+  "sourceBatch": "Game_Forge_Batch_16.zip",
+  "sourceSha256": "53c267f04d47203cc92f39e720bbc6f1b442473a606cb75ea030465104758b0f",
+  "frames": 1
+}

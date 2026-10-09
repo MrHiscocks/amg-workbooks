@@ -1,0 +1,23 @@
+{
+  "id": "AU033",
+  "title": "Projectile launch",
+  "tags": "effect",
+  "category": "audio",
+  "variant": "primary",
+  "batch": 21,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": null,
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": 0.165,
+  "description": "Short non-realistic cartoon projectile zap.",
+  "sourceFile": "Game_Forge_Batch_21/assets/audio/effects/sndProjectileLaunch.wav",
+  "sourceBatch": "Game_Forge_Batch_21.zip",
+  "sourceSha256": "6ee95511fb260fde18bc00bd96603127aafc2cc4036f0b64c17d5589ba8af22c"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "DE214",
+  "title": "Festival performance chair",
+  "tags": "Wales, heritage, culture, breadth expansion",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 10,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_10/assets/decorations/sFestivalPerformanceChairDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_10.zip",
+  "sourceSha256": "6754118d16ec31c7a77f5b8cbb1f5b3cdcdbd4c257959a50f5ae30cf4a51f3cd",
+  "frames": 1
+}

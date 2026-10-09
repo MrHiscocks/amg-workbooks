@@ -1,0 +1,24 @@
+{
+  "id": "DE114",
+  "title": "Fossil display prop",
+  "tags": "outdoor activity, climbing, paddling, scenario review",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 11,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_11/assets/decorations/sFossilDisplayDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_11.zip",
+  "sourceSha256": "89c320176f2c1e74b1785c0096e4927d947dde7e17d20f0249a2eb5e7a3d6e25",
+  "frames": 1
+}

@@ -1,0 +1,24 @@
+{
+  "id": "CO056",
+  "title": "Buoyancy-aid token",
+  "tags": "outdoor activity, navigation, preparation, scenario review",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 9,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_09/assets/collectables/sBuoyancyAidTokenCollectable.png",
+  "sourceBatch": "Game_Forge_Batch_09.zip",
+  "sourceSha256": "632e4e23db475ae1b03bf63e7fbec22fd6ca47258392536bdf528630da8eceac",
+  "frames": 1
+}

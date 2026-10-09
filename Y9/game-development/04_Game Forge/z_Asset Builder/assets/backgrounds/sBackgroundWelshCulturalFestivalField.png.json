@@ -1,0 +1,24 @@
+{
+  "id": "BG119",
+  "title": "Welsh cultural festival field",
+  "tags": "Wales, heritage, tourism, breadth expansion",
+  "category": "backgrounds",
+  "variant": "primary",
+  "batch": 19,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": null,
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": true,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_19/assets/backgrounds/sBackgroundWelshCulturalFestivalField.png",
+  "sourceBatch": "Game_Forge_Batch_19.zip",
+  "sourceSha256": "9e5fd4faa2d18aba58932265195dc00296b74c276d4a543094fa645e57a211a0",
+  "frames": 1
+}

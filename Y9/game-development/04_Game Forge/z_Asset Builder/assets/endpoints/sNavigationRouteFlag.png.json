@@ -1,0 +1,24 @@
+{
+  "id": "EX066",
+  "title": "Navigation route flag",
+  "tags": "flag, outdoor activity, cycling, wilderness, community, scenario review",
+  "category": "endpoints",
+  "variant": "primary",
+  "batch": 12,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Goal artwork; add your own overlap event. No solid collision required.",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_12/assets/flags/sNavigationRouteFlag.png",
+  "sourceBatch": "Game_Forge_Batch_12.zip",
+  "sourceSha256": "ba2b7a1e643b5436a9a69120ea62d112133f881a7cd7e9a77f7ea7476e91de2b",
+  "frames": 1
+}

@@ -1,0 +1,30 @@
+{
+  "id": "GR060",
+  "title": "Pontoon platform",
+  "tags": "moving-platform, compatible",
+  "category": "ground",
+  "variant": "primary",
+  "batch": 14,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": {
+    "type": "Rectangle",
+    "left": 0,
+    "top": 0,
+    "right": 127,
+    "bottom": 63
+  },
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_14/assets/ground/sPontoonPlatformBatch14.png",
+  "sourceBatch": "Game_Forge_Batch_14.zip",
+  "sourceSha256": "e3d01e2c18994a4a2d250478d0188b6857072fad5ed17c27ce9393a182015cc2",
+  "frames": 1
+}

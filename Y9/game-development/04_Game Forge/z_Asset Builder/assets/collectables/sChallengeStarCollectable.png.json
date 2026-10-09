@@ -1,0 +1,24 @@
+{
+  "id": "CO058",
+  "title": "Challenge star",
+  "tags": "outdoor activity, navigation, preparation, scenario review",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 12,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Pickup artwork; use your existing pickup logic.",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_12/assets/collectables/sChallengeStarCollectable.png",
+  "sourceBatch": "Game_Forge_Batch_12.zip",
+  "sourceSha256": "105f69b41ff08dbdc3b84dd946b57893602d75e66aedf0d1f14714bb797039b9",
+  "frames": 1
+}

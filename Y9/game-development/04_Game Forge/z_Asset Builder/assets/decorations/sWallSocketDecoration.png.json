@@ -1,0 +1,24 @@
+{
+  "id": "DE134",
+  "title": "Wall socket",
+  "tags": "climate action, household, energy, scenario review",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 10,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_10/assets/decorations/sWallSocketDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_10.zip",
+  "sourceSha256": "0763761edd4f89f7821d97e5388964284e8932eda1b5021feb45c569ee498bf0",
+  "frames": 1
+}

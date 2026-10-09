@@ -1,0 +1,24 @@
+{
+  "id": "CO170",
+  "title": "Peas",
+  "tags": "healthy eating, food choices, breadth expansion",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 8,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_08/assets/collectables/sPeasCollectable.png",
+  "sourceBatch": "Game_Forge_Batch_08.zip",
+  "sourceSha256": "1f64c15ca68f230c6cc9d4fc0b1cd89fb6fbc8a4f5b7cf2474c2763bf2126c0a",
+  "frames": 1
+}

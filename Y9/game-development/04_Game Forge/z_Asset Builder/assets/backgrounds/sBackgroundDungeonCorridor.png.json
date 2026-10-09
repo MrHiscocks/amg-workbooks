@@ -1,0 +1,24 @@
+{
+  "id": "BG108",
+  "title": "Dungeon corridor",
+  "tags": "historical-inspired, castle, breadth expansion",
+  "category": "backgrounds",
+  "variant": "primary",
+  "batch": 19,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": null,
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": true,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_19/assets/backgrounds/sBackgroundDungeonCorridor.png",
+  "sourceBatch": "Game_Forge_Batch_19.zip",
+  "sourceSha256": "eee7e341c8ef4598bc4adb30faf85cac7ff42d6abc5766472b4c7be5c2d280a7",
+  "frames": 1
+}

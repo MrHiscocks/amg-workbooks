@@ -1,0 +1,24 @@
+{
+  "id": "DE248",
+  "title": "Art easel",
+  "tags": "wellbeing, creativity, community, breadth expansion",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 7,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_07/assets/decorations/sArtEaselDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_07.zip",
+  "sourceSha256": "627c8ddacbfa2e9f0e5e341bd5246cdc1e19400533cba4fec3a2771fab43dc49",
+  "frames": 1
+}

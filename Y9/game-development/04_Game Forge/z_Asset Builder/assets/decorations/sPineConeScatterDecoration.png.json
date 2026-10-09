@@ -1,0 +1,24 @@
+{
+  "id": "DE313",
+  "title": "Pine-cone scatter",
+  "tags": "cold continental, boreal, taiga, environment expansion",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 8,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_08/assets/decorations/sPineConeScatterDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_08.zip",
+  "sourceSha256": "c0a5a3fd4916ba0e7c7ca4472bde7bc105e61125a873b84484edef588d412e20",
+  "frames": 1
+}

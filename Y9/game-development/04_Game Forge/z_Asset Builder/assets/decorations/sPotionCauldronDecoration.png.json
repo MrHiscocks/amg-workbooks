@@ -1,0 +1,24 @@
+{
+  "id": "DE215",
+  "title": "Potion cauldron",
+  "tags": "fantasy, books, breadth expansion",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 5,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": null,
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_05/assets/decorations/sPotionCauldronDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_05.zip",
+  "sourceSha256": "fc948f56611e49a26dea891662872710a8a07b4b58e63f731346b52b0ab487ae",
+  "frames": 1
+}

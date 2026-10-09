@@ -1,0 +1,24 @@
+{
+  "id": "CO239",
+  "title": "Lichen survey token",
+  "tags": "polar, tundra, environment expansion",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 10,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_10/assets/collectables/sLichenSurveyTokenCollectable.png",
+  "sourceBatch": "Game_Forge_Batch_10.zip",
+  "sourceSha256": "9693b3754bdf3912cf463a0fb52232b380f91cf7ce4dd3e54e50825047f23492",
+  "frames": 1
+}

@@ -1,0 +1,31 @@
+{
+  "id": "EN063",
+  "title": "Spam-envelope creature",
+  "tags": "digital safety, fantasy metaphor, breadth expansion",
+  "category": "enemies",
+  "variant": "movement",
+  "batch": 20,
+  "origin": [
+    32,
+    32
+  ],
+  "mask": {
+    "left": 14,
+    "top": 29,
+    "right": 49,
+    "bottom": 54
+  },
+  "fps": 8,
+  "placement": "Use one fixed rectangular mask for every animation frame. PNG does not store origin, playback speed or mask metadata.",
+  "repeatHorizontal": false,
+  "form": "fly",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_20/assets/enemies/sSpamEnvelopeCreatureMove_strip4.png",
+  "sourceBatch": "Game_Forge_Batch_20.zip",
+  "sourceSha256": "108f63b9c6fde1e2ce3ff5da4bf3aeb7c0b1cf71de830222a0c56bb988e49819",
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 4
+}

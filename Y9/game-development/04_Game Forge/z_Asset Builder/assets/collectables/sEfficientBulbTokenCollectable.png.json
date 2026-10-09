@@ -1,0 +1,24 @@
+{
+  "id": "CO078",
+  "title": "Efficient-bulb token",
+  "tags": "climate action, energy, repair, food, travel, scenario review",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 10,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_10/assets/collectables/sEfficientBulbTokenCollectable.png",
+  "sourceBatch": "Game_Forge_Batch_10.zip",
+  "sourceSha256": "01145e4deb20ad9cb71ae526bae2b11931b1b6419b3443be813319b9f2391b47",
+  "frames": 1
+}

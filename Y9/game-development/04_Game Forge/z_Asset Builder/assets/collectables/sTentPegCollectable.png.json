@@ -1,0 +1,24 @@
+{
+  "id": "CO096",
+  "title": "Tent peg",
+  "tags": "outdoor learning, wilderness, preparation, environment, scenario review",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 8,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_08/assets/collectables/sTentPegCollectable.png",
+  "sourceBatch": "Game_Forge_Batch_08.zip",
+  "sourceSha256": "e92ce30fcca4903e19c3b45ac31ac51328770d39b3fb805a6a88aa62f134bdb3",
+  "frames": 1
+}

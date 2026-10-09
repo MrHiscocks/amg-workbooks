@@ -1,0 +1,24 @@
+{
+  "id": "CO142",
+  "title": "Harp token",
+  "tags": "Wales, culture, tourism, breadth expansion",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 4,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_04/assets/collectables/sHarpTokenCollectable.png",
+  "sourceBatch": "Game_Forge_Batch_04.zip",
+  "sourceSha256": "d8448dd9507d9987d40d70a138c66da529db6498d31575ae8daf593c33b8576b",
+  "frames": 1
+}

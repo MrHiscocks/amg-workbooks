@@ -1,0 +1,24 @@
+{
+  "id": "CO221",
+  "title": "Sewing needle token",
+  "tags": "volunteering, charity, responsible consumption, breadth expansion",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 10,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_10/assets/collectables/sSewingNeedleTokenCollectable.png",
+  "sourceBatch": "Game_Forge_Batch_10.zip",
+  "sourceSha256": "03e64b266deb041a9829058685883199d45dcd0a3d49c60d7a50d94799aa2f75",
+  "frames": 1
+}

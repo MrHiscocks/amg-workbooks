@@ -1,0 +1,31 @@
+{
+  "id": "EN020",
+  "title": "Magma crawler",
+  "tags": "walking, technology, fantasy",
+  "category": "enemies",
+  "variant": "movement",
+  "batch": 20,
+  "origin": [
+    32,
+    64
+  ],
+  "mask": {
+    "left": 14,
+    "top": 37,
+    "right": 49,
+    "bottom": 63
+  },
+  "fps": 6,
+  "placement": "Use one fixed rectangular mask for every animation frame. PNG does not store origin, playback speed or mask metadata.",
+  "repeatHorizontal": false,
+  "form": "crawl",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_20/assets/enemies/sMagmaCrawlerMove_strip4.png",
+  "sourceBatch": "Game_Forge_Batch_20.zip",
+  "sourceSha256": "0bb558dccc5ae5febdff6f395f0d429cb86ff20d3dda28d14425ee99cf5563d4",
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 4
+}

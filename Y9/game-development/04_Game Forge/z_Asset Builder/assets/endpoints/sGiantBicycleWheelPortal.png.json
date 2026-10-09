@@ -1,0 +1,24 @@
+{
+  "id": "EX052",
+  "title": "Giant bicycle-wheel portal",
+  "tags": "portal, outdoor activity, cycling, climate action, swimming, scenario review",
+  "category": "endpoints",
+  "variant": "primary",
+  "batch": 12,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Goal artwork; add your own overlap event. No solid collision required.",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_12/assets/endpoints/sGiantBicycleWheelPortal.png",
+  "sourceBatch": "Game_Forge_Batch_12.zip",
+  "sourceSha256": "bed5c8a241a15ccc2da7f34fcde33ff52843c4e1a4b2f72a8c72f74c4653bb72",
+  "frames": 1
+}

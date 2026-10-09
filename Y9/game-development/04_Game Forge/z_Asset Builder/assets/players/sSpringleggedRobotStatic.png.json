@@ -1,0 +1,31 @@
+{
+  "id": "PL013",
+  "title": "Spring-legged robot",
+  "tags": "technology, space",
+  "category": "players",
+  "variant": "static",
+  "batch": 15,
+  "origin": [
+    32,
+    96
+  ],
+  "mask": {
+    "left": 20,
+    "top": 28,
+    "right": 43,
+    "bottom": 95
+  },
+  "fps": 8,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_15/assets/players/sSpringleggedRobotStatic.png",
+  "sourceBatch": "Game_Forge_Batch_15.zip",
+  "sourceSha256": "2069eb1a4ea9e7ccc647b711aa675a1c4016419343148a15062ffddfbe1b51f4",
+  "frameWidth": 64,
+  "frameHeight": 96,
+  "frames": 1
+}

@@ -1,0 +1,24 @@
+{
+  "id": "CO237",
+  "title": "Summit stamp",
+  "tags": "alpine, highland, environment expansion",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 10,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_10/assets/collectables/sSummitStampCollectable.png",
+  "sourceBatch": "Game_Forge_Batch_10.zip",
+  "sourceSha256": "3d45b235b331d66fbaca3a54cbf7a491abd67501a1a51b52f4eb6e8da20ec541",
+  "frames": 1
+}

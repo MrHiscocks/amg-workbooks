@@ -1,0 +1,31 @@
+{
+  "id": "PL009",
+  "title": "Frog ranger",
+  "tags": "nature, woodland",
+  "category": "players",
+  "variant": "static",
+  "batch": 15,
+  "origin": [
+    32,
+    96
+  ],
+  "mask": {
+    "left": 20,
+    "top": 28,
+    "right": 43,
+    "bottom": 95
+  },
+  "fps": 8,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_15/assets/players/sFrogRangerStatic.png",
+  "sourceBatch": "Game_Forge_Batch_15.zip",
+  "sourceSha256": "156b432c6822a14524bc4741a2242d05d5b7fca1edf4bb0f86c9039f6c355dd5",
+  "frameWidth": 64,
+  "frameHeight": 96,
+  "frames": 1
+}

@@ -1,0 +1,30 @@
+{
+  "id": "GR150",
+  "title": "Savanna red-earth fill",
+  "tags": "tropical wet-dry, savanna, environment expansion",
+  "category": "ground",
+  "variant": "primary",
+  "batch": 14,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": {
+    "type": "Rectangle",
+    "left": 0,
+    "top": 0,
+    "right": 63,
+    "bottom": 63
+  },
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_14/assets/ground/sSavannaRedEarthFillBatch14.png",
+  "sourceBatch": "Game_Forge_Batch_14.zip",
+  "sourceSha256": "f7827f7432aa332e182240de6d65e7d3dc3d2884b9e91e5f4b6581f3fa7250ee",
+  "frames": 1
+}

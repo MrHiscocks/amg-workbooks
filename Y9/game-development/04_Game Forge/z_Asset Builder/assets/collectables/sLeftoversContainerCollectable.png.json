@@ -1,0 +1,24 @@
+{
+  "id": "CO086",
+  "title": "Leftovers container",
+  "tags": "climate action, energy, repair, food, travel, scenario review",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 9,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_09/assets/collectables/sLeftoversContainerCollectable.png",
+  "sourceBatch": "Game_Forge_Batch_09.zip",
+  "sourceSha256": "6c3c5f995e96a0822b29a9545c1c17b0c30a5e601695a5f42f2195451e0493c0",
+  "frames": 1
+}

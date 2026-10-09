@@ -1,0 +1,24 @@
+{
+  "id": "CO214",
+  "title": "Discarded fishing line",
+  "tags": "wildlife, biodiversity, waterways, breadth expansion",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 8,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_08/assets/collectables/sDiscardedFishingLineCollectable.png",
+  "sourceBatch": "Game_Forge_Batch_08.zip",
+  "sourceSha256": "2704f01175b884b58a756a9c4f1d3ad02b2870796b1852685628a5bb52049e9a",
+  "frames": 1
+}

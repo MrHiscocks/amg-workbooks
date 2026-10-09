@@ -1,0 +1,31 @@
+{
+  "id": "PL020",
+  "title": "Salvage robot",
+  "tags": "technology, space",
+  "category": "players",
+  "variant": "movement",
+  "batch": 15,
+  "origin": [
+    32,
+    96
+  ],
+  "mask": {
+    "left": 20,
+    "top": 23,
+    "right": 43,
+    "bottom": 95
+  },
+  "fps": 8,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_15/assets/players/sSalvageRobotMove_strip4.png",
+  "sourceBatch": "Game_Forge_Batch_15.zip",
+  "sourceSha256": "14fcd82399026e8e36c5643f0bb38ba7e3e285b39843d46ee26e846ed80db87a",
+  "frameWidth": 64,
+  "frameHeight": 96,
+  "frames": 4
+}

@@ -1,0 +1,24 @@
+{
+  "id": "DE251",
+  "title": "Quiet-space sign",
+  "tags": "wellbeing, creativity, community, breadth expansion",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 13,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative scenery only. No solid collision or damage by default.",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_13/assets/decorations/sQuietSpaceSignBatch13.png",
+  "sourceBatch": "Game_Forge_Batch_13.zip",
+  "sourceSha256": "bff81fdc3ab4becc6e63f0d89b1030bcca1b4579d9e2de4ee922ea29f9e5832d",
+  "frames": 1
+}

@@ -1,0 +1,24 @@
+{
+  "id": "EX015",
+  "title": "Space airlock",
+  "tags": "exit, door",
+  "category": "endpoints",
+  "variant": "primary",
+  "batch": 3,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork; endpoint trigger, not solid ground",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_03/assets/doors/sSpaceAirlock.png",
+  "sourceBatch": "Game_Forge_Batch_03.zip",
+  "sourceSha256": "b38c0aa92d90ca736c0a3b1b3ef87fd4c004ff97b452469112fb2a6ab57b0e47",
+  "frames": 1
+}

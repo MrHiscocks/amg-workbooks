@@ -1,0 +1,31 @@
+{
+  "id": "PL002",
+  "title": "Otter adventurer",
+  "tags": "nature, woodland",
+  "category": "players",
+  "variant": "idle",
+  "batch": 15,
+  "origin": [
+    32,
+    96
+  ],
+  "mask": {
+    "left": 20,
+    "top": 29,
+    "right": 43,
+    "bottom": 95
+  },
+  "fps": 4,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_15/assets/players/sOtterAdventurerIdle_strip4.png",
+  "sourceBatch": "Game_Forge_Batch_15.zip",
+  "sourceSha256": "115088bedb76a38f3bdc9463e18b30cd75cb649f14c05d6820367c6419b87818",
+  "frameWidth": 64,
+  "frameHeight": 96,
+  "frames": 4
+}

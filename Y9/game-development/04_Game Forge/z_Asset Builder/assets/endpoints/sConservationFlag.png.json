@@ -1,0 +1,24 @@
+{
+  "id": "EX098",
+  "title": "Conservation flag goal",
+  "tags": "flag, heritage, Wales, sport, community, breadth expansion",
+  "category": "endpoints",
+  "variant": "primary",
+  "batch": 3,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork; endpoint trigger, not solid ground",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_03/assets/flags/sConservationFlag.png",
+  "sourceBatch": "Game_Forge_Batch_03.zip",
+  "sourceSha256": "c9629f2e2d072580af36cebcf9e0d5458a7c1794f095aacfcac876b500720c89",
+  "frames": 1
+}

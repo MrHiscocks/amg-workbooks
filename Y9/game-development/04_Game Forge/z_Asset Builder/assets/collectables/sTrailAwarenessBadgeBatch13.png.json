@@ -1,0 +1,24 @@
+{
+  "id": "CO067",
+  "title": "Trail-awareness badge",
+  "tags": "cycling, visibility, participation, repair, scenario review",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 13,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Pickup artwork; use existing pickup logic.",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_13/assets/collectables/sTrailAwarenessBadgeBatch13.png",
+  "sourceBatch": "Game_Forge_Batch_13.zip",
+  "sourceSha256": "3b79c0dbe49b50d0a7c146a9cac63c4d2f78e69747dc644e619fe326b361bf7d",
+  "frames": 1
+}

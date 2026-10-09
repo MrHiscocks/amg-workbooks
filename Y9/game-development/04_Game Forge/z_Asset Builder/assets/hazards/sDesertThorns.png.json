@@ -1,0 +1,24 @@
+{
+  "id": "HZ067",
+  "title": "Desert thorn patch",
+  "tags": "hot desert, arid, environment expansion",
+  "category": "hazards",
+  "variant": "primary",
+  "batch": 2,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Precise silhouette; confirm against classroom collision code",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_02/assets/hazards/sDesertThorns.png",
+  "sourceBatch": "Game_Forge_Batch_02.zip",
+  "sourceSha256": "13961ded87b38df864c3d3620a8f02393f3ff0d70c0eaeb1a65fdb4070a5e9fd",
+  "frames": 1
+}

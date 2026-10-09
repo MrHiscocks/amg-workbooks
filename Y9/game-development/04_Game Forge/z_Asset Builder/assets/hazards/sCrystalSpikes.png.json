@@ -1,0 +1,31 @@
+{
+  "id": "HZ004",
+  "title": "Crystal spikes",
+  "tags": "sharp, static",
+  "category": "hazards",
+  "variant": "primary",
+  "batch": 20,
+  "origin": [
+    32,
+    64
+  ],
+  "mask": {
+    "left": 7,
+    "top": 3,
+    "right": 55,
+    "bottom": 63
+  },
+  "fps": 0,
+  "placement": "Use one fixed rectangular mask for every animation frame. PNG does not store origin, playback speed or mask metadata.",
+  "repeatHorizontal": false,
+  "form": "ground",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_20/assets/hazards/sCrystalSpikes.png",
+  "sourceBatch": "Game_Forge_Batch_20.zip",
+  "sourceSha256": "682580c5cd383cbca39ebba0a0302671cf7011a9edbc87fde1ef0d9e9ce3aea4",
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 1
+}

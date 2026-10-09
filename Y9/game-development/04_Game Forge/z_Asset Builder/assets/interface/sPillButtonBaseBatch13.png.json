@@ -1,0 +1,24 @@
+{
+  "id": "UI013",
+  "title": "Pill button base",
+  "tags": "button, blank-base",
+  "category": "interface",
+  "variant": "primary",
+  "batch": 13,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Interface artwork; draw in GUI space, no room collision.",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_13/assets/interface/sPillButtonBaseBatch13.png",
+  "sourceBatch": "Game_Forge_Batch_13.zip",
+  "sourceSha256": "27f78d8227347561ade09248dcaf8e7bcf431f194d8cfebfba0ff702af69ae12",
+  "frames": 1
+}

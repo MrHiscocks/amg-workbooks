@@ -1,0 +1,24 @@
+{
+  "id": "UI007",
+  "title": "Sound-on icon",
+  "tags": "icon",
+  "category": "interface",
+  "variant": "primary",
+  "batch": 13,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Interface artwork; draw in GUI space, no room collision.",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_13/assets/interface/sSoundOnIconBatch13.png",
+  "sourceBatch": "Game_Forge_Batch_13.zip",
+  "sourceSha256": "1061c8b5d6d646a8a4e0efcbc841e3094de0d551d755c94a04e949ea752d162b",
+  "frames": 1
+}

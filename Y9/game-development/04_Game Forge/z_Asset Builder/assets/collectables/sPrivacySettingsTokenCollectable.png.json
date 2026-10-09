@@ -1,0 +1,24 @@
+{
+  "id": "CO202",
+  "title": "Privacy-settings token",
+  "tags": "online safety, digital wellbeing, breadth expansion",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 7,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_07/assets/collectables/sPrivacySettingsTokenCollectable.png",
+  "sourceBatch": "Game_Forge_Batch_07.zip",
+  "sourceSha256": "d9a37e042f6de1af5a2233645e773e3d13840fd9b1ff04f4d72905f1c911523f",
+  "frames": 1
+}

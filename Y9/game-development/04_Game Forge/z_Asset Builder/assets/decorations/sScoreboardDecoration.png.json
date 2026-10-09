@@ -1,0 +1,24 @@
+{
+  "id": "DE244",
+  "title": "Scoreboard",
+  "tags": "physical activity, sport, breadth expansion",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 9,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_09/assets/decorations/sScoreboardDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_09.zip",
+  "sourceSha256": "dd065f3b25e47262b79fdee9447fd11b81f5b7dc5edd6243e1f031d840a2fc79",
+  "frames": 1
+}

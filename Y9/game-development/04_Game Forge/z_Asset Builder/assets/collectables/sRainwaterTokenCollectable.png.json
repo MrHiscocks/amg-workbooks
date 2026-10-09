@@ -1,0 +1,24 @@
+{
+  "id": "CO227",
+  "title": "Rainwater token",
+  "tags": "water saving, science, engineering, breadth expansion",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 11,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_11/assets/collectables/sRainwaterTokenCollectable.png",
+  "sourceBatch": "Game_Forge_Batch_11.zip",
+  "sourceSha256": "7c8d7f56cedcdad6978d687515a683552e8ae44e700c9d19b21d4f37dae65b7f",
+  "frames": 1
+}

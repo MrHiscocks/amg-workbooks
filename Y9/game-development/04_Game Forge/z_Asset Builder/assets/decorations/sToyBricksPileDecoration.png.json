@@ -1,0 +1,24 @@
+{
+  "id": "DE095",
+  "title": "Toy bricks pile",
+  "tags": "playful, food, events",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 10,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_10/assets/decorations/sToyBricksPileDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_10.zip",
+  "sourceSha256": "d1c7650820fdfcb6355bee17357bf984f9116a374373c76bd1a73fed144bfda4",
+  "frames": 1
+}

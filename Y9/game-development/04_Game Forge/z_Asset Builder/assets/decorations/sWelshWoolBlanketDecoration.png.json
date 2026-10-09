@@ -1,0 +1,24 @@
+{
+  "id": "DE201",
+  "title": "Welsh wool blanket",
+  "tags": "Wales, heritage, culture, breadth expansion",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 9,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_09/assets/decorations/sWelshWoolBlanketDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_09.zip",
+  "sourceSha256": "33d7d10af46678033d2ee03b6dd0be48ca06d68b65d775defabe861aa614ff8f",
+  "frames": 1
+}

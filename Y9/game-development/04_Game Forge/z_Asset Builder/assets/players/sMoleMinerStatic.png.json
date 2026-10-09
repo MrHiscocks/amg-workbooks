@@ -1,0 +1,31 @@
+{
+  "id": "PL064",
+  "title": "Mole miner",
+  "tags": "historical-inspired, medieval, non-human, breadth expansion",
+  "category": "players",
+  "variant": "static",
+  "batch": 17,
+  "origin": [
+    32,
+    96
+  ],
+  "mask": {
+    "left": 20,
+    "top": 30,
+    "right": 43,
+    "bottom": 95
+  },
+  "fps": 8,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_17/assets/players/sMoleMinerStatic.png",
+  "sourceBatch": "Game_Forge_Batch_17.zip",
+  "sourceSha256": "0f53c17193a4ad19290dc3adfa1390a7c7a1589289aa00923fca0cfb0aeb0ae7",
+  "frameWidth": 64,
+  "frameHeight": 96,
+  "frames": 1
+}

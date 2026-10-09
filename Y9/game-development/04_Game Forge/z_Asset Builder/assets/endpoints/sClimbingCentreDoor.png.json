@@ -1,0 +1,24 @@
+{
+  "id": "EX031",
+  "title": "Climbing-centre door",
+  "tags": "door, outdoor activity, wilderness, scenario review",
+  "category": "endpoints",
+  "variant": "primary",
+  "batch": 12,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Goal artwork; add your own overlap event. No solid collision required.",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_12/assets/endpoints/sClimbingCentreDoor.png",
+  "sourceBatch": "Game_Forge_Batch_12.zip",
+  "sourceSha256": "916797339c45d7a86c9d69835481f0b8ac39951bf104686713fa0c8e5c283816",
+  "frames": 1
+}

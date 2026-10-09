@@ -1,0 +1,24 @@
+{
+  "id": "DE223",
+  "title": "Quill and inkpot",
+  "tags": "fantasy, books, breadth expansion",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 9,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_09/assets/decorations/sQuillAndInkpotDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_09.zip",
+  "sourceSha256": "7087204752e38a0fe24a6328a42984112702be5db8d4ee633fb593bedfa60e25",
+  "frames": 1
+}

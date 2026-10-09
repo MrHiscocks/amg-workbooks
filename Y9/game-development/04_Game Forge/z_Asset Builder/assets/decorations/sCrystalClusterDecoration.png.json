@@ -1,0 +1,24 @@
+{
+  "id": "DE024",
+  "title": "Crystal cluster",
+  "tags": "landscape, exploration",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 11,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_11/assets/decorations/sCrystalClusterDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_11.zip",
+  "sourceSha256": "a904c876d97f7aa6e966b58eb32a090724fb990b02d044fb16ca8713601ca895",
+  "frames": 1
+}

@@ -1,0 +1,24 @@
+{
+  "id": "CO026",
+  "title": "Scrap-metal bundle",
+  "tags": "technology, resources",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 8,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_08/assets/collectables/sScrapMetalBundleCollectable.png",
+  "sourceBatch": "Game_Forge_Batch_08.zip",
+  "sourceSha256": "20351d4bb2a425975038333d1370fa59b53f8140e8a3fce45a98d0595bcaff66",
+  "frames": 1
+}

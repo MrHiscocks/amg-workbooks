@@ -1,0 +1,24 @@
+{
+  "id": "DE253",
+  "title": "Community picnic table",
+  "tags": "wellbeing, creativity, community, breadth expansion",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 13,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative scenery only. No solid collision or damage by default.",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_13/assets/decorations/sCommunityPicnicTableBatch13.png",
+  "sourceBatch": "Game_Forge_Batch_13.zip",
+  "sourceSha256": "ae30043c7f6423371f77709288a2e06db30bdd06298b3c874077f86a90ad39f4",
+  "frames": 1
+}

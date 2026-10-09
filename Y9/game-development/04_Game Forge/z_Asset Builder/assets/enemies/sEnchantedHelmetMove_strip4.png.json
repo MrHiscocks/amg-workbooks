@@ -1,0 +1,31 @@
+{
+  "id": "EN052",
+  "title": "Enchanted helmet",
+  "tags": "fantasy, castle, breadth expansion",
+  "category": "enemies",
+  "variant": "movement",
+  "batch": 20,
+  "origin": [
+    32,
+    32
+  ],
+  "mask": {
+    "left": 14,
+    "top": 29,
+    "right": 49,
+    "bottom": 54
+  },
+  "fps": 6,
+  "placement": "Use one fixed rectangular mask for every animation frame. PNG does not store origin, playback speed or mask metadata.",
+  "repeatHorizontal": false,
+  "form": "float",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_20/assets/enemies/sEnchantedHelmetMove_strip4.png",
+  "sourceBatch": "Game_Forge_Batch_20.zip",
+  "sourceSha256": "7f5aee04b351d6d44271e604bc4d6e1ec3fffd39c1f93df9e080c50f08e61740",
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 4
+}

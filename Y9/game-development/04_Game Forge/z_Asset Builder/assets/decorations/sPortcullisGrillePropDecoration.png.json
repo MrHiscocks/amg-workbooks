@@ -1,0 +1,24 @@
+{
+  "id": "DE183",
+  "title": "Portcullis grille prop",
+  "tags": "historical-inspired, castle, breadth expansion",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 9,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_09/assets/decorations/sPortcullisGrillePropDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_09.zip",
+  "sourceSha256": "efe20c8004bdbc195f98ae90b2430442dfc562ace2fcd748270c9551378db2ae",
+  "frames": 1
+}

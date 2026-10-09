@@ -1,0 +1,24 @@
+{
+  "id": "PU023",
+  "title": "Winged feather speed power-up",
+  "tags": "fantasy, shield, speed, health, breadth expansion",
+  "category": "powerups",
+  "variant": "primary",
+  "batch": 6,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_06/assets/powerups/sWingedFeatherPowerUp.png",
+  "sourceBatch": "Game_Forge_Batch_06.zip",
+  "sourceSha256": "26406c0b1efe6511e17459b2136e7d529751a39cf160d7986c15966d643984aa",
+  "frames": 1
+}

@@ -1,0 +1,24 @@
+{
+  "id": "CO208",
+  "title": "Habitat badge",
+  "tags": "wildlife, biodiversity, waterways, breadth expansion",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 13,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Pickup artwork; use existing pickup logic.",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_13/assets/collectables/sHabitatBadgeBatch13.png",
+  "sourceBatch": "Game_Forge_Batch_13.zip",
+  "sourceSha256": "2e13bd793ec65345d431898776b3018870c4bd939fc9e92c082211d926dde068",
+  "frames": 1
+}

@@ -1,0 +1,24 @@
+{
+  "id": "DE041",
+  "title": "Wooden crate",
+  "tags": "industrial, repair",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 5,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": null,
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_05/assets/decorations/sWoodenCrateDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_05.zip",
+  "sourceSha256": "e9e3f39f5aa898471a824c3d34ad4f5f824679336fdd482946003a543f4cdffc",
+  "frames": 1
+}

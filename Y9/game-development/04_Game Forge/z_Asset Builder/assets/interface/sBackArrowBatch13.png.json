@@ -1,0 +1,24 @@
+{
+  "id": "UI029",
+  "title": "Back arrow",
+  "tags": "panel, navigation",
+  "category": "interface",
+  "variant": "primary",
+  "batch": 13,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Interface artwork; draw in GUI space, no room collision.",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_13/assets/interface/sBackArrowBatch13.png",
+  "sourceBatch": "Game_Forge_Batch_13.zip",
+  "sourceSha256": "25c3dbd573431640834d65e93f1f2c247ee3b568bd1a30c31152e37d53c03283",
+  "frames": 1
+}

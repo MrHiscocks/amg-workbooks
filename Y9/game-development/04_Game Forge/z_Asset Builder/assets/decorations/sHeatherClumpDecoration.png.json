@@ -1,0 +1,24 @@
+{
+  "id": "DE315",
+  "title": "Heather clump",
+  "tags": "temperate oceanic, woodland, moorland, environment expansion",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 8,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_08/assets/decorations/sHeatherClumpDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_08.zip",
+  "sourceSha256": "9bf8747a9354a2879f99bf0eb17bccb4d14b057e9bb5ab7a057800d8f7866c58",
+  "frames": 1
+}

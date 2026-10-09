@@ -1,0 +1,31 @@
+{
+  "id": "EN049",
+  "title": "Cartoon mould creature",
+  "tags": "cycling, repair, climate action, scenario review",
+  "category": "enemies",
+  "variant": "movement",
+  "batch": 20,
+  "origin": [
+    32,
+    64
+  ],
+  "mask": {
+    "left": 14,
+    "top": 39,
+    "right": 49,
+    "bottom": 63
+  },
+  "fps": 6,
+  "placement": "Use one fixed rectangular mask for every animation frame. PNG does not store origin, playback speed or mask metadata.",
+  "repeatHorizontal": false,
+  "form": "slither",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_20/assets/enemies/sCartoonMouldCreatureMove_strip4.png",
+  "sourceBatch": "Game_Forge_Batch_20.zip",
+  "sourceSha256": "70b7cd5461cb897c97343da4861d7905fc2ef07c9e7a97e088637ab76667f52c",
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 4
+}

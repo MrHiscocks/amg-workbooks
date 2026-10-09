@@ -1,0 +1,24 @@
+{
+  "id": "DE140",
+  "title": "Fridge",
+  "tags": "climate action, repair, food, reuse, scenario review",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 11,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_11/assets/decorations/sFridgeDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_11.zip",
+  "sourceSha256": "e23fecb0206cf4a2230063462a012f21aa4542f0287ce3584ede3bc1ad27084c",
+  "frames": 1
+}

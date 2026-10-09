@@ -1,0 +1,24 @@
+{
+  "id": "UI026",
+  "title": "Progress-bar frame",
+  "tags": "panel, navigation",
+  "category": "interface",
+  "variant": "primary",
+  "batch": 13,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Interface artwork; draw in GUI space, no room collision.",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_13/assets/interface/sProgressBarFrameBatch13.png",
+  "sourceBatch": "Game_Forge_Batch_13.zip",
+  "sourceSha256": "b41676ca1a15cd953db8dfab99ccdb619f05d6e1bfe05b0e68cb18558e706cc7",
+  "frames": 1
+}

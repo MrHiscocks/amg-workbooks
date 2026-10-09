@@ -1,0 +1,31 @@
+{
+  "id": "PL068",
+  "title": "Owl sorcerer",
+  "tags": "fantasy, non-human, breadth expansion",
+  "category": "players",
+  "variant": "movement",
+  "batch": 17,
+  "origin": [
+    32,
+    96
+  ],
+  "mask": {
+    "left": 20,
+    "top": 30,
+    "right": 43,
+    "bottom": 95
+  },
+  "fps": 8,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_17/assets/players/sOwlSorcererMove_strip4.png",
+  "sourceBatch": "Game_Forge_Batch_17.zip",
+  "sourceSha256": "59133008e1e62af6fc62b0c1e2f44dae12110590fb988423e020f0953ed220d3",
+  "frameWidth": 64,
+  "frameHeight": 96,
+  "frames": 4
+}

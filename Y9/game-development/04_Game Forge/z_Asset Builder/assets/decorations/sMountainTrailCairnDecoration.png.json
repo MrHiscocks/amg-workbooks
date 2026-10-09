@@ -1,0 +1,24 @@
+{
+  "id": "DE304",
+  "title": "Mountain trail cairn",
+  "tags": "alpine, highland, environment expansion",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 5,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": null,
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_05/assets/decorations/sMountainTrailCairnDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_05.zip",
+  "sourceSha256": "8033ae39cbf6605098ca4f12e67368b47e76fa8642507536a81764da7a76ea53",
+  "frames": 1
+}

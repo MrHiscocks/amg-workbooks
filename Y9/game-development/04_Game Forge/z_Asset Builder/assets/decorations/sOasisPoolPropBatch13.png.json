@@ -1,0 +1,24 @@
+{
+  "id": "DE298",
+  "title": "Oasis pool prop",
+  "tags": "hot desert, arid, environment expansion",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 13,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative scenery only. No solid collision or damage by default.",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_13/assets/decorations/sOasisPoolPropBatch13.png",
+  "sourceBatch": "Game_Forge_Batch_13.zip",
+  "sourceSha256": "35f6d7c74aed9f9043e688cdc3188fde1fc82e4069de1991848a2d28f8d74a41",
+  "frames": 1
+}

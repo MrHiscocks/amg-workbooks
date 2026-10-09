@@ -1,0 +1,24 @@
+{
+  "id": "DE328",
+  "title": "Wetland observation hide",
+  "tags": "wetland, freshwater, multiple climates, environment expansion",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 10,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_10/assets/decorations/sWetlandObservationHideDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_10.zip",
+  "sourceSha256": "b948a203b67dfc77372a41134200404dc67b1c46a5add2f2f24540be1a166efd",
+  "frames": 1
+}

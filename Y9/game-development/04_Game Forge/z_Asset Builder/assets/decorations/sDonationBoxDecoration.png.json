@@ -1,0 +1,24 @@
+{
+  "id": "DE255",
+  "title": "Donation box",
+  "tags": "wellbeing, creativity, community, breadth expansion",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 5,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": null,
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_05/assets/decorations/sDonationBoxDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_05.zip",
+  "sourceSha256": "bf95dd9436bf4d393fc3bb0d0f0ee9f78a5711b928eac9b6c5bc1fdb87698c79",
+  "frames": 1
+}

@@ -1,0 +1,24 @@
+{
+  "id": "PR010",
+  "title": "Water globule",
+  "tags": "nature",
+  "category": "projectiles",
+  "variant": "primary",
+  "batch": 6,
+  "origin": [
+    16,
+    16
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_06/assets/projectiles/sWaterGlobuleProjectile.png",
+  "sourceBatch": "Game_Forge_Batch_06.zip",
+  "sourceSha256": "a05716c5b2022bcf2038a0ba6c8a7de35a8fc1feebe82e1d5f906d5011612539",
+  "frames": 1
+}

@@ -1,0 +1,24 @@
+{
+  "id": "DE232",
+  "title": "Cooking pan",
+  "tags": "healthy eating, food, market, breadth expansion",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 11,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_11/assets/decorations/sCookingPanDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_11.zip",
+  "sourceSha256": "9c0691fa9d69fc3562c1bf6bbd6ada7e9ac1d1198b7be4afba13cb9b75169e4a",
+  "frames": 1
+}

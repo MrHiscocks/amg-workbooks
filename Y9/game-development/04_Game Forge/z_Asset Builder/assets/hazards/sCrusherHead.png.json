@@ -1,0 +1,31 @@
+{
+  "id": "HZ022",
+  "title": "Crusher head",
+  "tags": "mechanical, obstacle",
+  "category": "hazards",
+  "variant": "primary",
+  "batch": 20,
+  "origin": [
+    32,
+    64
+  ],
+  "mask": {
+    "left": 1,
+    "top": 7,
+    "right": 62,
+    "bottom": 63
+  },
+  "fps": 0,
+  "placement": "Use one fixed rectangular mask for every animation frame. PNG does not store origin, playback speed or mask metadata.",
+  "repeatHorizontal": false,
+  "form": "ground",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_20/assets/hazards/sCrusherHead.png",
+  "sourceBatch": "Game_Forge_Batch_20.zip",
+  "sourceSha256": "a072e2cfebfb62efe0a14563de6b06e8f2c53be14dc4eb76a46bb8cece697037",
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 1
+}

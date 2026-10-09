@@ -1,0 +1,29 @@
+{
+  "id": "GR041",
+  "title": "Castle masonry",
+  "tags": "fantasy, food, constructed",
+  "category": "ground",
+  "variant": "primary",
+  "batch": 1,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": {
+    "type": "Rectangle",
+    "left": 0,
+    "top": 0,
+    "right": 63,
+    "bottom": 63
+  },
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_01/assets/sCastleFill.png",
+  "sourceBatch": "Game_Forge_Batch_01.zip",
+  "sourceSha256": "0217485b02c5966a5f876e809c1a77072603a4f343d37aadaf27c64757a7c6a3"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "DE221",
+  "title": "Oversized open book",
+  "tags": "fantasy, books, breadth expansion",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 9,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_09/assets/decorations/sOversizedOpenBookDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_09.zip",
+  "sourceSha256": "f243c0f4c512f9a5b28bcc7492ba060dad4059b0a390c5df9f46f885ae2266b2",
+  "frames": 1
+}

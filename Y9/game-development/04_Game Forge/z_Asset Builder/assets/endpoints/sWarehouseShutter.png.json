@@ -1,0 +1,24 @@
+{
+  "id": "EX019",
+  "title": "Warehouse shutter",
+  "tags": "exit, door",
+  "category": "endpoints",
+  "variant": "primary",
+  "batch": 12,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Goal artwork; add your own overlap event. No solid collision required.",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_12/assets/endpoints/sWarehouseShutter.png",
+  "sourceBatch": "Game_Forge_Batch_12.zip",
+  "sourceSha256": "639b9c577d15b3b79203735b761a97c958b9d0069e8fcefe1aabed599cedc302",
+  "frames": 1
+}

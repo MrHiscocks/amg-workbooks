@@ -1,0 +1,23 @@
+{
+  "id": "BG020",
+  "title": "Scrapyard",
+  "tags": "industrial",
+  "category": "backgrounds",
+  "variant": "primary",
+  "batch": 21,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": null,
+  "fps": 6,
+  "placement": "Background layer; horizontal repeat only; decorative, no collision.",
+  "repeatHorizontal": true,
+  "form": "",
+  "loop": "",
+  "duration": "",
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_21/assets/backgrounds/sBackgroundScrapyard.png",
+  "sourceBatch": "Game_Forge_Batch_21.zip",
+  "sourceSha256": "10565ffacec16e165a930add19fdc21ef6dfd4a1308a21d20bc692d8e478afae"
+}

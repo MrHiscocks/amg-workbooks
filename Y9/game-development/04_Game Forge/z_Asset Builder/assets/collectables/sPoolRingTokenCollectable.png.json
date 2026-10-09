@@ -1,0 +1,24 @@
+{
+  "id": "CO048",
+  "title": "Pool ring token",
+  "tags": "community, sport, environment",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 7,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_07/assets/collectables/sPoolRingTokenCollectable.png",
+  "sourceBatch": "Game_Forge_Batch_07.zip",
+  "sourceSha256": "552ea2fc1c67f83cea0e48506910634bba7c99a6cf2d9b0ab10bde9b3e2a9b7f",
+  "frames": 1
+}

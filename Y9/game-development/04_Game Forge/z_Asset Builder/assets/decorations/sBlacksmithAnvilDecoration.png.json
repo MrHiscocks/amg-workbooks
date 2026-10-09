@@ -1,0 +1,24 @@
+{
+  "id": "DE188",
+  "title": "Blacksmith anvil",
+  "tags": "historical-inspired, castle, breadth expansion",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 5,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": null,
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_05/assets/decorations/sBlacksmithAnvilDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_05.zip",
+  "sourceSha256": "45f42f5394bb67bc44d7cb894cf4aea57a20c8c9cbebc3f91457ad9f038062c1",
+  "frames": 1
+}

@@ -1,0 +1,24 @@
+{
+  "id": "UI028",
+  "title": "Selection arrow",
+  "tags": "panel, navigation",
+  "category": "interface",
+  "variant": "primary",
+  "batch": 13,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Interface artwork; draw in GUI space, no room collision.",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_13/assets/interface/sSelectionArrowBatch13.png",
+  "sourceBatch": "Game_Forge_Batch_13.zip",
+  "sourceSha256": "8650be92ab9e4e46674be292a953639e9c969e9611c7e9ad466562c7e899fa0a",
+  "frames": 1
+}

@@ -1,0 +1,23 @@
+{
+  "id": "BG147",
+  "title": "Server hall",
+  "tags": "digital, wildlife, coastal, science, resources, breadth expansion",
+  "category": "backgrounds",
+  "variant": "primary",
+  "batch": 21,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": null,
+  "fps": 6,
+  "placement": "Background layer; horizontal repeat only; decorative, no collision.",
+  "repeatHorizontal": true,
+  "form": "",
+  "loop": "",
+  "duration": "",
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_21/assets/backgrounds/sBackgroundServerHall.png",
+  "sourceBatch": "Game_Forge_Batch_21.zip",
+  "sourceSha256": "940af68d2de88b9c4efab77c99dbb81c67b84e76332c33179442902e686e047d"
+}

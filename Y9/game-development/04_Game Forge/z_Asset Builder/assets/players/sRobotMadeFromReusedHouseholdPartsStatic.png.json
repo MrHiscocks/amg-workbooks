@@ -1,0 +1,31 @@
+{
+  "id": "PL042",
+  "title": "Robot made from reused household parts",
+  "tags": "climate action, energy, reuse, food, scenario review",
+  "category": "players",
+  "variant": "static",
+  "batch": 20,
+  "origin": [
+    32,
+    96
+  ],
+  "mask": {
+    "left": 18,
+    "top": 40,
+    "right": 45,
+    "bottom": 95
+  },
+  "fps": 6,
+  "placement": "Use one fixed rectangular mask for every animation frame. PNG does not store origin, playback speed or mask metadata.",
+  "repeatHorizontal": false,
+  "form": "walk",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_20/assets/players/sRobotMadeFromReusedHouseholdPartsStatic.png",
+  "sourceBatch": "Game_Forge_Batch_20.zip",
+  "sourceSha256": "d342a6a9f5716b834cf8489287214c455b1cc59de95cd36df3b5148acbe7e7e2",
+  "frameWidth": 64,
+  "frameHeight": 96,
+  "frames": 1
+}

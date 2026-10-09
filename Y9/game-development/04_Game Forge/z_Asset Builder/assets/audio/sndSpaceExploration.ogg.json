@@ -1,0 +1,23 @@
+{
+  "id": "AU011",
+  "title": "Space exploration",
+  "tags": "music, instrumental-loop",
+  "category": "audio",
+  "variant": "primary",
+  "batch": 21,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": null,
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": true,
+  "duration": 42.666666666666664,
+  "description": "Floating glass bells, wide soft pads and a restrained orbital pulse.",
+  "sourceFile": "Game_Forge_Batch_21/assets/audio/music/sndSpaceExploration.ogg",
+  "sourceBatch": "Game_Forge_Batch_21.zip",
+  "sourceSha256": "d84faabe4414723e35ede57b45bebe08be6b821fc89be209f7d5c34c928828ca"
+}

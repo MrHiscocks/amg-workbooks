@@ -1,0 +1,24 @@
+{
+  "id": "EX100",
+  "title": "Library quest flag goal",
+  "tags": "flag, heritage, Wales, sport, community, breadth expansion",
+  "category": "endpoints",
+  "variant": "primary",
+  "batch": 12,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Goal artwork; add your own overlap event. No solid collision required.",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_12/assets/flags/sLibraryQuestFlagGoal.png",
+  "sourceBatch": "Game_Forge_Batch_12.zip",
+  "sourceSha256": "dec5e7431c4d1d82e30360d8b5c3bbde5c2df4b3738a488dc5b092255e1a2c49",
+  "frames": 1
+}

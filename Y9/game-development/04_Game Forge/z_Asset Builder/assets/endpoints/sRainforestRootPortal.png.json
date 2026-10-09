@@ -1,0 +1,24 @@
+{
+  "id": "EX109",
+  "title": "Rainforest root portal",
+  "tags": "tropical wet, rainforest, portal, environment expansion",
+  "category": "endpoints",
+  "variant": "primary",
+  "batch": 12,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Goal artwork; add your own overlap event. No solid collision required.",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_12/assets/endpoints/sRainforestRootPortal.png",
+  "sourceBatch": "Game_Forge_Batch_12.zip",
+  "sourceSha256": "0489c19353ae45cf18dbc26972fa7c9d88b6ecd1a3a1c05080221b14bdbda1dc",
+  "frames": 1
+}

@@ -1,0 +1,24 @@
+{
+  "id": "EX099",
+  "title": "Volunteer flag goal",
+  "tags": "flag, heritage, Wales, sport, community, breadth expansion",
+  "category": "endpoints",
+  "variant": "primary",
+  "batch": 12,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Goal artwork; add your own overlap event. No solid collision required.",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_12/assets/flags/sVolunteerFlagGoal.png",
+  "sourceBatch": "Game_Forge_Batch_12.zip",
+  "sourceSha256": "2e25664866224342ecb6d2b7eab3e41226511ed88cd320af1500d2f7534ce4d5",
+  "frames": 1
+}

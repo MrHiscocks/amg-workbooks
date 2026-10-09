@@ -1,0 +1,24 @@
+{
+  "id": "PU017",
+  "title": "Seed ammo pouch",
+  "tags": "ammunition",
+  "category": "powerups",
+  "variant": "primary",
+  "batch": 6,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_06/assets/powerups/sSeedAmmoPouchPowerUp.png",
+  "sourceBatch": "Game_Forge_Batch_06.zip",
+  "sourceSha256": "76379ec29d51be16eb7f9f7319694d408af7bd4bfbe6d5459b8fd7066e7c5b76",
+  "frames": 1
+}

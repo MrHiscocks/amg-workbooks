@@ -1,0 +1,24 @@
+{
+  "id": "CO046",
+  "title": "Supply crate",
+  "tags": "community, sport, environment",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 9,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_09/assets/collectables/sSupplyCrateCollectable.png",
+  "sourceBatch": "Game_Forge_Batch_09.zip",
+  "sourceSha256": "944cea7bda7b636b0932ad4776aa21154a35512b7ac10c64f507d887daffaf93",
+  "frames": 1
+}

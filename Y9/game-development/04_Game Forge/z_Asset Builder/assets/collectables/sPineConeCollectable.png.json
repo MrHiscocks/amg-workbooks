@@ -1,0 +1,24 @@
+{
+  "id": "CO014",
+  "title": "Pine cone",
+  "tags": "nature, food",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 4,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_04/assets/collectables/sPineConeCollectable.png",
+  "sourceBatch": "Game_Forge_Batch_04.zip",
+  "sourceSha256": "b9a3b96c7c57f4c9ed450100dfaf1265fb7211a3a86f81a7f98079343aaed3f6",
+  "frames": 1
+}

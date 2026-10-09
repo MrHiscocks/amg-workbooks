@@ -1,0 +1,24 @@
+{
+  "id": "DE099",
+  "title": "Trophy plinth",
+  "tags": "playful, food, events",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 10,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_10/assets/decorations/sTrophyPlinthDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_10.zip",
+  "sourceSha256": "39bfb4c4c3fe13ad0062d59057efa72526a17e5083b2bf7cb0e56d178d8ad938",
+  "frames": 1
+}

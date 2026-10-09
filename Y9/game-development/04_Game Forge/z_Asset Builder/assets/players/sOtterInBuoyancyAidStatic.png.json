@@ -1,0 +1,31 @@
+{
+  "id": "PL032",
+  "title": "Otter in buoyancy aid",
+  "tags": "watersports, preparation, equipped variant, scenario review",
+  "category": "players",
+  "variant": "static",
+  "batch": 20,
+  "origin": [
+    32,
+    96
+  ],
+  "mask": {
+    "left": 18,
+    "top": 27,
+    "right": 45,
+    "bottom": 95
+  },
+  "fps": 6,
+  "placement": "Use one fixed rectangular mask for every animation frame. PNG does not store origin, playback speed or mask metadata.",
+  "repeatHorizontal": false,
+  "form": "walk",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_20/assets/players/sOtterInBuoyancyAidStatic.png",
+  "sourceBatch": "Game_Forge_Batch_20.zip",
+  "sourceSha256": "5c01a56040e4691afb625feae010316745d5ae4e25c00a19f2b3ab2d00401f66",
+  "frameWidth": 64,
+  "frameHeight": 96,
+  "frames": 1
+}

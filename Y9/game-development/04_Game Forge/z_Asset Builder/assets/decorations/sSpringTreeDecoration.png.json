@@ -1,0 +1,24 @@
+{
+  "id": "DE177",
+  "title": "Spring tree",
+  "tags": "swimming, access, participation, aquatic fantasy, scenario review",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 8,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_08/assets/decorations/sSpringTreeDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_08.zip",
+  "sourceSha256": "2e54d5f4c91f15cbe25db2ce015cb9139df62284cb22db917f0eaef938727b39",
+  "frames": 1
+}

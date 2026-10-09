@@ -1,0 +1,24 @@
+{
+  "id": "DE273",
+  "title": "Harbour fishing-net prop",
+  "tags": "wildlife, coastal, resources, breadth expansion",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 10,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_10/assets/decorations/sHarbourFishingNetPropDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_10.zip",
+  "sourceSha256": "5c0c159e76d1876dbf945fb73530a13c58c316f5963dbbd95d639ae3c34078c3",
+  "frames": 1
+}

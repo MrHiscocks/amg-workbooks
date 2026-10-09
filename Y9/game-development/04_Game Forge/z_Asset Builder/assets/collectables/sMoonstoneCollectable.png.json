@@ -1,0 +1,24 @@
+{
+  "id": "CO153",
+  "title": "Moonstone",
+  "tags": "fantasy, reading, learning, breadth expansion",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 9,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_09/assets/collectables/sMoonstoneCollectable.png",
+  "sourceBatch": "Game_Forge_Batch_09.zip",
+  "sourceSha256": "92c19cc643d0fabe9fce282011a074102eeb79cddc138d1455da3bc7d54da620",
+  "frames": 1
+}

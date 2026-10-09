@@ -1,0 +1,31 @@
+{
+  "id": "EN007",
+  "title": "Scorpion",
+  "tags": "walking, nature",
+  "category": "enemies",
+  "variant": "static",
+  "batch": 20,
+  "origin": [
+    32,
+    64
+  ],
+  "mask": {
+    "left": 14,
+    "top": 33,
+    "right": 49,
+    "bottom": 63
+  },
+  "fps": 6,
+  "placement": "Use one fixed rectangular mask for every animation frame. PNG does not store origin, playback speed or mask metadata.",
+  "repeatHorizontal": false,
+  "form": "crawl",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_20/assets/enemies/sScorpionStatic.png",
+  "sourceBatch": "Game_Forge_Batch_20.zip",
+  "sourceSha256": "5d47fb7d7719c84029601213ba8481fece11cb38c884932d38905772ae87f7ac",
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 1
+}

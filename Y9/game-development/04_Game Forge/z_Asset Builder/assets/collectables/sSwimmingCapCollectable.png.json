@@ -1,0 +1,24 @@
+{
+  "id": "CO110",
+  "title": "Swimming cap",
+  "tags": "swimming, confidence, participation, water awareness, scenario review",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 7,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_07/assets/collectables/sSwimmingCapCollectable.png",
+  "sourceBatch": "Game_Forge_Batch_07.zip",
+  "sourceSha256": "8098c94378ebf5337d46066f16e30525483c4a52d0533e5226b33f90787bf0b8",
+  "frames": 1
+}

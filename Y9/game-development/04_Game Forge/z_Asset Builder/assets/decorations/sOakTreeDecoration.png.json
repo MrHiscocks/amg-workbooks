@@ -1,0 +1,24 @@
+{
+  "id": "DE001",
+  "title": "Oak tree",
+  "tags": "woodland, vegetation",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 5,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": null,
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_05/assets/decorations/sOakTreeDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_05.zip",
+  "sourceSha256": "2b822b86ed4b3962a3133b4e540064837cd5104fcf06460283841030960da2d7",
+  "frames": 1
+}

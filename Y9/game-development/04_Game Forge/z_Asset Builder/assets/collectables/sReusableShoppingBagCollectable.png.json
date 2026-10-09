@@ -1,0 +1,24 @@
+{
+  "id": "CO222",
+  "title": "Reusable shopping bag",
+  "tags": "volunteering, charity, responsible consumption, breadth expansion",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 4,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_04/assets/collectables/sReusableShoppingBagCollectable.png",
+  "sourceBatch": "Game_Forge_Batch_04.zip",
+  "sourceSha256": "ca98eaae22a2b9ac2230a196b012046264c90984272edb10ade07d49a69cee75",
+  "frames": 1
+}

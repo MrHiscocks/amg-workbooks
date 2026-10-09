@@ -1,0 +1,31 @@
+{
+  "id": "EN062",
+  "title": "Computer-bug creature",
+  "tags": "digital safety, fantasy metaphor, breadth expansion",
+  "category": "enemies",
+  "variant": "movement",
+  "batch": 20,
+  "origin": [
+    32,
+    64
+  ],
+  "mask": {
+    "left": 14,
+    "top": 32,
+    "right": 49,
+    "bottom": 63
+  },
+  "fps": 6,
+  "placement": "Use one fixed rectangular mask for every animation frame. PNG does not store origin, playback speed or mask metadata.",
+  "repeatHorizontal": false,
+  "form": "crawl",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_20/assets/enemies/sComputerBugCreatureMove_strip4.png",
+  "sourceBatch": "Game_Forge_Batch_20.zip",
+  "sourceSha256": "16e5aea2de979be525da926173ba1106bb59a23cdcd44a4b21b2506d048d7dab",
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 4
+}

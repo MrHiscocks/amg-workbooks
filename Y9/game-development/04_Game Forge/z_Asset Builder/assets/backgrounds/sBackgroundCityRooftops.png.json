@@ -1,0 +1,23 @@
+{
+  "id": "BG026",
+  "title": "City rooftops",
+  "tags": "urban, community",
+  "category": "backgrounds",
+  "variant": "primary",
+  "batch": 21,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": null,
+  "fps": 6,
+  "placement": "Background layer; horizontal repeat only; decorative, no collision.",
+  "repeatHorizontal": true,
+  "form": "",
+  "loop": "",
+  "duration": "",
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_21/assets/backgrounds/sBackgroundCityRooftops.png",
+  "sourceBatch": "Game_Forge_Batch_21.zip",
+  "sourceSha256": "98bdf552c714b663e02a104fdfa0338c24d00bdd9adab98a331b92565bf7709c"
+}

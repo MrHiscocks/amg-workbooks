@@ -1,0 +1,31 @@
+{
+  "id": "PL067",
+  "title": "Frog wizard",
+  "tags": "fantasy, non-human, breadth expansion",
+  "category": "players",
+  "variant": "movement",
+  "batch": 17,
+  "origin": [
+    32,
+    96
+  ],
+  "mask": {
+    "left": 20,
+    "top": 30,
+    "right": 43,
+    "bottom": 95
+  },
+  "fps": 8,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_17/assets/players/sFrogWizardMove_strip4.png",
+  "sourceBatch": "Game_Forge_Batch_17.zip",
+  "sourceSha256": "c75b1139e5f6e341e9e4a56d00018c55c452a2d80b872b81a35178882f5d7c52",
+  "frameWidth": 64,
+  "frameHeight": 96,
+  "frames": 4
+}

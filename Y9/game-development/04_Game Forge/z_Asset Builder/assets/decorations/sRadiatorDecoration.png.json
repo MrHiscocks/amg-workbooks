@@ -1,0 +1,24 @@
+{
+  "id": "DE133",
+  "title": "Radiator",
+  "tags": "climate action, household, energy, scenario review",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 11,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_11/assets/decorations/sRadiatorDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_11.zip",
+  "sourceSha256": "2e5e9772213b00c392d99675cd759929ce80e696854aa76535ff330a6aa9c47f",
+  "frames": 1
+}

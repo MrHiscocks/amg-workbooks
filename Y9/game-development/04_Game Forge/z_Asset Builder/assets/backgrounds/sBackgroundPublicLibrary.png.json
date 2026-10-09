@@ -1,0 +1,23 @@
+{
+  "id": "BG140",
+  "title": "Public library",
+  "tags": "wellbeing, arts, learning, community, breadth expansion",
+  "category": "backgrounds",
+  "variant": "primary",
+  "batch": 21,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": null,
+  "fps": 6,
+  "placement": "Background layer; horizontal repeat only; decorative, no collision.",
+  "repeatHorizontal": true,
+  "form": "",
+  "loop": "",
+  "duration": "",
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_21/assets/backgrounds/sBackgroundPublicLibrary.png",
+  "sourceBatch": "Game_Forge_Batch_21.zip",
+  "sourceSha256": "7930782c40a2d12f3d7ed5ff06d308f73a68fc2d2af0d6c1fedab5e3dba9f8e1"
+}

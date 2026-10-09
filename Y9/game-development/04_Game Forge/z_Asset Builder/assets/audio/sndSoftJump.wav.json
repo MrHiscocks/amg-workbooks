@@ -1,0 +1,23 @@
+{
+  "id": "AU021",
+  "title": "Soft jump",
+  "tags": "effect",
+  "category": "audio",
+  "variant": "primary",
+  "batch": 21,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": null,
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": 0.215,
+  "description": "Soft upward rounded jump chirp.",
+  "sourceFile": "Game_Forge_Batch_21/assets/audio/effects/sndSoftJump.wav",
+  "sourceBatch": "Game_Forge_Batch_21.zip",
+  "sourceSha256": "204fa4d824727c1f79628a6967cf03808c6e57913935f84ea9016fa2ee7b9cb5"
+}

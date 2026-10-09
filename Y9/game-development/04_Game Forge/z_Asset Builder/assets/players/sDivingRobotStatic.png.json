@@ -1,0 +1,31 @@
+{
+  "id": "PL015",
+  "title": "Diving robot",
+  "tags": "technology, space",
+  "category": "players",
+  "variant": "static",
+  "batch": 20,
+  "origin": [
+    32,
+    96
+  ],
+  "mask": {
+    "left": 18,
+    "top": 42,
+    "right": 45,
+    "bottom": 95
+  },
+  "fps": 6,
+  "placement": "Use one fixed rectangular mask for every animation frame. PNG does not store origin, playback speed or mask metadata.",
+  "repeatHorizontal": false,
+  "form": "walk",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_20/assets/players/sDivingRobotStatic.png",
+  "sourceBatch": "Game_Forge_Batch_20.zip",
+  "sourceSha256": "6138c83cc9e636e7ea0584f9ac229ba426c3ebd679c74601ea1d017561db015f",
+  "frameWidth": 64,
+  "frameHeight": 96,
+  "frames": 1
+}

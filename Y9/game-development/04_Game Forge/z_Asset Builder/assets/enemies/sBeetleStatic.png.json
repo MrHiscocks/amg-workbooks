@@ -1,0 +1,31 @@
+{
+  "id": "EN001",
+  "title": "Beetle",
+  "tags": "walking, nature",
+  "category": "enemies",
+  "variant": "static",
+  "batch": 20,
+  "origin": [
+    32,
+    64
+  ],
+  "mask": {
+    "left": 14,
+    "top": 34,
+    "right": 49,
+    "bottom": 63
+  },
+  "fps": 6,
+  "placement": "Use one fixed rectangular mask for every animation frame. PNG does not store origin, playback speed or mask metadata.",
+  "repeatHorizontal": false,
+  "form": "crawl",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_20/assets/enemies/sBeetleStatic.png",
+  "sourceBatch": "Game_Forge_Batch_20.zip",
+  "sourceSha256": "cc6e32098a34c0ecfb775a0ca6c67f69595db8e5ea82a92dd68dd7bf76e872f6",
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 1
+}

@@ -1,0 +1,23 @@
+{
+  "id": "HZ033",
+  "title": "Swinging padded obstacle",
+  "tags": "outdoor activity, wilderness, obstacle, scenario review",
+  "category": "hazards",
+  "variant": "primary",
+  "batch": 21,
+  "origin": [
+    32,
+    32
+  ],
+  "mask": null,
+  "fps": 6,
+  "placement": "Centred moving hazard. Swing motion and optional rope are controlled by the game object; no animation strip.",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": "",
+  "duration": "",
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_21/assets/hazards/sSwingingPaddedObstacle.png",
+  "sourceBatch": "Game_Forge_Batch_21.zip",
+  "sourceSha256": "41c83e4abc583bf70c04733fe91db70183a6595dcb594d62c77c4caf13863239"
+}

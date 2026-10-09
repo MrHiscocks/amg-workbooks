@@ -1,0 +1,24 @@
+{
+  "id": "DE154",
+  "title": "Windsock",
+  "tags": "wilderness, navigation, preparation, scenario review",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 11,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_11/assets/decorations/sWindsockDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_11.zip",
+  "sourceSha256": "989a39f34209212e3aefe8d47b8aa0c0186cf07f2226b83a5fafed68b2876cb8",
+  "frames": 1
+}

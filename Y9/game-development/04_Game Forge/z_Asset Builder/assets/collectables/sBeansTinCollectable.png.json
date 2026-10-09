@@ -1,0 +1,24 @@
+{
+  "id": "CO173",
+  "title": "Beans tin",
+  "tags": "healthy eating, food choices, breadth expansion",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 8,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_08/assets/collectables/sBeansTinCollectable.png",
+  "sourceBatch": "Game_Forge_Batch_08.zip",
+  "sourceSha256": "dbb784af5b9e41b0ca5cccc7f9447da34403b55de2fdc6e0b60162e5f96ad13a",
+  "frames": 1
+}

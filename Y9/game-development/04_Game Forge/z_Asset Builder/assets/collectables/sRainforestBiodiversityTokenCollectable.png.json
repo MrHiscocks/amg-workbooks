@@ -1,0 +1,24 @@
+{
+  "id": "CO242",
+  "title": "Rainforest biodiversity token",
+  "tags": "tropical wet, rainforest, environment expansion",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 11,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_11/assets/collectables/sRainforestBiodiversityTokenCollectable.png",
+  "sourceBatch": "Game_Forge_Batch_11.zip",
+  "sourceSha256": "db40b93a494046b0fe0fae1af8f40e3b140b273adf4820aa26f324f49d01f16d",
+  "frames": 1
+}

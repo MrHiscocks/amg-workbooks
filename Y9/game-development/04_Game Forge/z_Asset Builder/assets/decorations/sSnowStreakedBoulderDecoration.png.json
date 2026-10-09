@@ -1,0 +1,24 @@
+{
+  "id": "DE303",
+  "title": "Snow-streaked boulder",
+  "tags": "alpine, highland, environment expansion",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 5,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": null,
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_05/assets/decorations/sSnowStreakedBoulderDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_05.zip",
+  "sourceSha256": "945eb26c674f3cde60f27c05f60dc6b9bfeea2811d69e0811d803364dbde4ca8",
+  "frames": 1
+}

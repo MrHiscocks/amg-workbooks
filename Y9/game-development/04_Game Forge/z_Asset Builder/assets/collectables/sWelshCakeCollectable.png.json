@@ -1,0 +1,24 @@
+{
+  "id": "CO144",
+  "title": "Welsh cake",
+  "tags": "Wales, culture, tourism, breadth expansion",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 4,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_04/assets/collectables/sWelshCakeCollectable.png",
+  "sourceBatch": "Game_Forge_Batch_04.zip",
+  "sourceSha256": "c3797133bab3dc4a3dac294d83df29ab2af0a03c615205257444a7c3f8c8f064",
+  "frames": 1
+}

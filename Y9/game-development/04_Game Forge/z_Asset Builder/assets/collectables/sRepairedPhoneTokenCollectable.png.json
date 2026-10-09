@@ -1,0 +1,24 @@
+{
+  "id": "CO223",
+  "title": "Repaired phone token",
+  "tags": "volunteering, charity, responsible consumption, breadth expansion",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 10,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_10/assets/collectables/sRepairedPhoneTokenCollectable.png",
+  "sourceBatch": "Game_Forge_Batch_10.zip",
+  "sourceSha256": "d9d79ff69426b33c1d6835bb6ae36fc11337cd8ae9d4da66754fad5e74fdf83b",
+  "frames": 1
+}

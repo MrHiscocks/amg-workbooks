@@ -1,0 +1,24 @@
+{
+  "id": "DE044",
+  "title": "Pipe elbow",
+  "tags": "industrial, repair",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 9,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_09/assets/decorations/sPipeElbowDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_09.zip",
+  "sourceSha256": "f75feaeef877ba9a8a8962e5988063852495bbb6217fde2e67695bb52315e0a7",
+  "frames": 1
+}

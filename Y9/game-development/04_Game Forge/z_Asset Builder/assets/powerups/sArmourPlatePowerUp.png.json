@@ -1,0 +1,24 @@
+{
+  "id": "PU008",
+  "title": "Armour plate",
+  "tags": "shield",
+  "category": "powerups",
+  "variant": "primary",
+  "batch": 6,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_06/assets/powerups/sArmourPlatePowerUp.png",
+  "sourceBatch": "Game_Forge_Batch_06.zip",
+  "sourceSha256": "aeedd1ef82fb05b48c6945d230a201bb8587b2808109c42242f38ef98d520472",
+  "frames": 1
+}

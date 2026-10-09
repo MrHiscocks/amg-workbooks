@@ -1,0 +1,24 @@
+{
+  "id": "UI019",
+  "title": "Arcade button base",
+  "tags": "button, blank-base",
+  "category": "interface",
+  "variant": "primary",
+  "batch": 13,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Interface artwork; draw in GUI space, no room collision.",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_13/assets/interface/sArcadeButtonBaseBatch13.png",
+  "sourceBatch": "Game_Forge_Batch_13.zip",
+  "sourceSha256": "ffb2e322e149956baa67fd23320e6cedad754cb2a6d4a8e2ab88d5f6c5cb7bb7",
+  "frames": 1
+}

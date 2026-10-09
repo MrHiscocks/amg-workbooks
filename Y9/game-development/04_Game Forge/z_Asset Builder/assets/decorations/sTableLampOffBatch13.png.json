@@ -1,0 +1,24 @@
+{
+  "id": "DE130",
+  "title": "Table lamp, off",
+  "tags": "climate action, household, energy, scenario review",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 13,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative scenery only. No solid collision or damage by default.",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_13/assets/decorations/sTableLampOffBatch13.png",
+  "sourceBatch": "Game_Forge_Batch_13.zip",
+  "sourceSha256": "04947bad9a352a26529aedbc3f0577210d267b2cf2c6e3732b988b7b914dbf6d",
+  "frames": 1
+}

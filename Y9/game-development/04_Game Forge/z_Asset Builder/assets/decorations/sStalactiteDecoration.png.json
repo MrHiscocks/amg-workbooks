@@ -1,0 +1,24 @@
+{
+  "id": "DE025",
+  "title": "Stalactite",
+  "tags": "landscape, exploration",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 11,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_11/assets/decorations/sStalactiteDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_11.zip",
+  "sourceSha256": "125553debd3e3dd00bdf646a961d37303c1606dade04ebad3bdf2dc2e5e27709",
+  "frames": 1
+}

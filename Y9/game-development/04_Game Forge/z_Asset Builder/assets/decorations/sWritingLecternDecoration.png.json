@@ -1,0 +1,24 @@
+{
+  "id": "DE195",
+  "title": "Writing lectern",
+  "tags": "historical-inspired, castle, breadth expansion",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 5,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": null,
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_05/assets/decorations/sWritingLecternDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_05.zip",
+  "sourceSha256": "af6a492b5ce5ad773f0189f219699e6b64e68c889460563d35e00662d2614ee0",
+  "frames": 1
+}

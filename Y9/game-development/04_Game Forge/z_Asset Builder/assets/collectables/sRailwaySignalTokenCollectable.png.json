@@ -1,0 +1,24 @@
+{
+  "id": "CO138",
+  "title": "Railway signal token",
+  "tags": "historical-inspired, medieval, heritage, breadth expansion",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 11,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_11/assets/collectables/sRailwaySignalTokenCollectable.png",
+  "sourceBatch": "Game_Forge_Batch_11.zip",
+  "sourceSha256": "415abc9c841de5f1d5e51dac33811309c34f5b9b69dcb42442ed45a3e6b4ede3",
+  "frames": 1
+}

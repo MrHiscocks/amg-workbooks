@@ -1,0 +1,24 @@
+{
+  "id": "DE160",
+  "title": "Wildlife sign",
+  "tags": "wilderness, navigation, preparation, scenario review",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 11,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_11/assets/decorations/sWildlifeSignDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_11.zip",
+  "sourceSha256": "025578657b739bdf1f5e72fd1debb94fd8ad0f1e7515b70ed42fca45f294f30e",
+  "frames": 1
+}

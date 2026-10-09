@@ -1,0 +1,24 @@
+{
+  "id": "UI025",
+  "title": "Instruction panel",
+  "tags": "panel, navigation",
+  "category": "interface",
+  "variant": "primary",
+  "batch": 13,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Interface artwork; draw in GUI space, no room collision.",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_13/assets/interface/sInstructionPanelBatch13.png",
+  "sourceBatch": "Game_Forge_Batch_13.zip",
+  "sourceSha256": "aed66d1783de67de9e1972861bcd1bd1ca325e3c883b03b3dd6fee3c7d3aa3d2",
+  "frames": 1
+}

@@ -1,0 +1,31 @@
+{
+  "id": "PL078",
+  "title": "Puffin coastal explorer",
+  "tags": "Wales, culture, non-human, breadth expansion, flying, movement-only",
+  "category": "players",
+  "variant": "static",
+  "batch": 18,
+  "origin": [
+    32,
+    96
+  ],
+  "mask": {
+    "left": 20,
+    "top": 35,
+    "right": 43,
+    "bottom": 95
+  },
+  "fps": 8,
+  "placement": "Fixed mask excludes changing tails/wings; bottom 95 is the virtual platform contact for hovering sprites. Does not supply free-flight physics.",
+  "repeatHorizontal": false,
+  "form": "flying",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_18/assets/players/sPuffinCoastalExplorerStatic.png",
+  "sourceBatch": "Game_Forge_Batch_18.zip",
+  "sourceSha256": "4295ccd9cf1b4faab12fc590a74d9f290a30870bcaf2168d1ee6e1237b9acd76",
+  "frameWidth": 64,
+  "frameHeight": 96,
+  "frames": 1
+}

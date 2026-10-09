@@ -1,0 +1,24 @@
+{
+  "id": "CO083",
+  "title": "Reusable bottle pickup",
+  "tags": "climate action, energy, repair, food, travel, scenario review",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 9,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_09/assets/collectables/sReusableBottlePickupCollectable.png",
+  "sourceBatch": "Game_Forge_Batch_09.zip",
+  "sourceSha256": "4e93cca11235e9d9f74228b57f8e85056650eb1c285240528f08495bdedc9f6b",
+  "frames": 1
+}

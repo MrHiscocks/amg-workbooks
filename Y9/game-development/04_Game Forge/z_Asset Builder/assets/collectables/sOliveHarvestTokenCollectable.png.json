@@ -1,0 +1,24 @@
+{
+  "id": "CO244",
+  "title": "Olive harvest token",
+  "tags": "Mediterranean, dry summer, scrubland, environment expansion",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 11,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_11/assets/collectables/sOliveHarvestTokenCollectable.png",
+  "sourceBatch": "Game_Forge_Batch_11.zip",
+  "sourceSha256": "7ef889a03b556e55ca0112303c2f30f7e193ec77a66a0e14a458d1dfea3a26b1",
+  "frames": 1
+}

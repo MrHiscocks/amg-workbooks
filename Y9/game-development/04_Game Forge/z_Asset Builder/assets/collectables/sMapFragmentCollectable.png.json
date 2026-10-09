@@ -1,0 +1,24 @@
+{
+  "id": "CO031",
+  "title": "Map fragment",
+  "tags": "exploration, discovery",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 7,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_07/assets/collectables/sMapFragmentCollectable.png",
+  "sourceBatch": "Game_Forge_Batch_07.zip",
+  "sourceSha256": "53e83667cc63fb3c984e3ae8e0a10d1cd755a4815fa93b5f08943e65e3286fb0",
+  "frames": 1
+}

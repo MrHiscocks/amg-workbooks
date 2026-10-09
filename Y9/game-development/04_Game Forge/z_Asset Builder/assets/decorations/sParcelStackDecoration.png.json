@@ -1,0 +1,24 @@
+{
+  "id": "DE066",
+  "title": "Parcel stack",
+  "tags": "urban, community",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 11,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_11/assets/decorations/sParcelStackDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_11.zip",
+  "sourceSha256": "35ddacd8012f7efe3e45380629556dbd815596b38190273e3cf544ce299bde36",
+  "frames": 1
+}

@@ -1,0 +1,23 @@
+{
+  "id": "AU009",
+  "title": "Factory rhythm",
+  "tags": "music, instrumental-loop",
+  "category": "audio",
+  "variant": "primary",
+  "batch": 21,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": null,
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": true,
+  "duration": 34.28570833333333,
+  "description": "Clockwork marimba and soft electronic pulses over a precise mechanical beat.",
+  "sourceFile": "Game_Forge_Batch_21/assets/audio/music/sndFactoryRhythm.ogg",
+  "sourceBatch": "Game_Forge_Batch_21.zip",
+  "sourceSha256": "57c6c944d15ec4ae84b2cb725477103de4b0e20b07a0b75f4f55561b69f6c47b"
+}

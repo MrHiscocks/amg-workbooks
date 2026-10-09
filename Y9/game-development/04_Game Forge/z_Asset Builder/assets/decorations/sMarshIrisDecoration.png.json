@@ -1,0 +1,24 @@
+{
+  "id": "DE327",
+  "title": "Marsh iris",
+  "tags": "wetland, freshwater, multiple climates, environment expansion",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 8,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_08/assets/decorations/sMarshIrisDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_08.zip",
+  "sourceSha256": "8e5061cd7fc66a1b0dc23e9d533988aec4aa2823299d0bac23020649619a4c3d",
+  "frames": 1
+}

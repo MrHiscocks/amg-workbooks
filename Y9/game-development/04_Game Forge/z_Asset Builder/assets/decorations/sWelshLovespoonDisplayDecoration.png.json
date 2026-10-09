@@ -1,0 +1,24 @@
+{
+  "id": "DE200",
+  "title": "Welsh lovespoon display",
+  "tags": "Wales, heritage, culture, breadth expansion",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 7,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_07/assets/decorations/sWelshLovespoonDisplayDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_07.zip",
+  "sourceSha256": "0155a3ef8e01accddfff5bf59601da9a1c8174467ded4948b04c6cbfedc4c2a8",
+  "frames": 1
+}

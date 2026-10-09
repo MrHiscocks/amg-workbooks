@@ -1,0 +1,24 @@
+{
+  "id": "EX007",
+  "title": "Gear key",
+  "tags": "access, key",
+  "category": "endpoints",
+  "variant": "primary",
+  "batch": 12,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Pickup artwork; use your existing pickup logic.",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_12/assets/keys/sGearKey.png",
+  "sourceBatch": "Game_Forge_Batch_12.zip",
+  "sourceSha256": "dd5d31040ec4738d2ba6b18d1c45a6074e506cebf4a114b47f6454c5a6f38368",
+  "frames": 1
+}

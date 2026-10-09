@@ -1,0 +1,24 @@
+{
+  "id": "DE016",
+  "title": "Cactus",
+  "tags": "plants, garden",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 5,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": null,
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_05/assets/decorations/sCactusPropDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_05.zip",
+  "sourceSha256": "4afc9df2f38de6cd9a3fe3f2882f5c808b0516feac69964effeab65c90fd5925",
+  "frames": 1
+}

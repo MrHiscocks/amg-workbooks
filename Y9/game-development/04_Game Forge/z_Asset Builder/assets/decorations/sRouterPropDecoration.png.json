@@ -1,0 +1,24 @@
+{
+  "id": "DE260",
+  "title": "Router prop",
+  "tags": "digital wellbeing, online safety, breadth expansion",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 10,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_10/assets/decorations/sRouterPropDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_10.zip",
+  "sourceSha256": "bbac503fc3937cec6bc47b307b467a8d89d34addecf1698520c88ef2a2229d45",
+  "frames": 1
+}

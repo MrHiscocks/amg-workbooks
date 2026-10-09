@@ -1,0 +1,24 @@
+{
+  "id": "DE009",
+  "title": "Tall grass",
+  "tags": "woodland, vegetation",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 11,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_11/assets/decorations/sTallGrassDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_11.zip",
+  "sourceSha256": "681168a02584c9df94b2e77bbf982e252dd02b40831d76d3b1e1d2454cbee983",
+  "frames": 1
+}

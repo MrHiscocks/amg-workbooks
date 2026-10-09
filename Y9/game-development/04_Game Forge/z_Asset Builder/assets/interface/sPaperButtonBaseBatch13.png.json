@@ -1,0 +1,24 @@
+{
+  "id": "UI018",
+  "title": "Paper button base",
+  "tags": "button, blank-base",
+  "category": "interface",
+  "variant": "primary",
+  "batch": 13,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Interface artwork; draw in GUI space, no room collision.",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_13/assets/interface/sPaperButtonBaseBatch13.png",
+  "sourceBatch": "Game_Forge_Batch_13.zip",
+  "sourceSha256": "449445c484a9c2635ab13128ef68104d71f0c82c61768d7e42ba3b93098628fd",
+  "frames": 1
+}

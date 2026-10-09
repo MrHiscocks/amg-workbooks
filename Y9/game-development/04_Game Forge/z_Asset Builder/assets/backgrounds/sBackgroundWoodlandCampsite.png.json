@@ -1,0 +1,24 @@
+{
+  "id": "BG088",
+  "title": "Woodland campsite",
+  "tags": "wilderness, preparation, navigation, scenario review",
+  "category": "backgrounds",
+  "variant": "primary",
+  "batch": 19,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": null,
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": true,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_19/assets/backgrounds/sBackgroundWoodlandCampsite.png",
+  "sourceBatch": "Game_Forge_Batch_19.zip",
+  "sourceSha256": "f53b709939d352d8e66cafbb7e47c764aebd468fcfa0a8e0d9b1dfd4d0c9b1fe",
+  "frames": 1
+}

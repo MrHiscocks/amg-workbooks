@@ -1,0 +1,24 @@
+{
+  "id": "BG114",
+  "title": "Welsh coal-mining heritage site",
+  "tags": "Wales, heritage, tourism, breadth expansion",
+  "category": "backgrounds",
+  "variant": "primary",
+  "batch": 19,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": null,
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": true,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_19/assets/backgrounds/sBackgroundWelshCoalMiningHeritageSite.png",
+  "sourceBatch": "Game_Forge_Batch_19.zip",
+  "sourceSha256": "48fc0bfe137683052ddd13ae44e790c6f93c5911097da67d449d21211ad22f67",
+  "frames": 1
+}

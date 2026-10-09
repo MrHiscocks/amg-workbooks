@@ -1,0 +1,24 @@
+{
+  "id": "DE017",
+  "title": "Succulent",
+  "tags": "plants, garden",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 8,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_08/assets/decorations/sSucculentDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_08.zip",
+  "sourceSha256": "72addce53efabf604693f768a110c04dd96470651b2f1242de153467b22bc00c",
+  "frames": 1
+}

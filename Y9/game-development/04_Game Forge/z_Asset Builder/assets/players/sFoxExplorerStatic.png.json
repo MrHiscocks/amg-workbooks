@@ -1,0 +1,31 @@
+{
+  "id": "PL001",
+  "title": "Fox explorer",
+  "tags": "nature, woodland",
+  "category": "players",
+  "variant": "static",
+  "batch": 15,
+  "origin": [
+    32,
+    96
+  ],
+  "mask": {
+    "left": 20,
+    "top": 30,
+    "right": 43,
+    "bottom": 95
+  },
+  "fps": 8,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_15/assets/players/sFoxExplorerStatic.png",
+  "sourceBatch": "Game_Forge_Batch_15.zip",
+  "sourceSha256": "1aab357b410ee110c97957a1968656aff54c8863864621b5a1cc8f449590518e",
+  "frameWidth": 64,
+  "frameHeight": 96,
+  "frames": 1
+}

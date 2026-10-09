@@ -1,0 +1,24 @@
+{
+  "id": "DE141",
+  "title": "Food-storage tub",
+  "tags": "climate action, repair, food, reuse, scenario review",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 11,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_11/assets/decorations/sFoodStorageTubDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_11.zip",
+  "sourceSha256": "3398bf4a6b58df7eb4ed7445e1e1cb1cc905228e15f41fdccf8b99640a98c8ec",
+  "frames": 1
+}

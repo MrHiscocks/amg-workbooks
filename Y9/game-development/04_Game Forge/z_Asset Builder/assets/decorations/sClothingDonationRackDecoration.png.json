@@ -1,0 +1,24 @@
+{
+  "id": "DE256",
+  "title": "Clothing donation rack",
+  "tags": "wellbeing, creativity, community, breadth expansion",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 10,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_10/assets/decorations/sClothingDonationRackDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_10.zip",
+  "sourceSha256": "12ff75e0bd5ee9972282a49ff2d05d7fa0f8d407f5982d267061c0ca48091f00",
+  "frames": 1
+}

@@ -1,0 +1,30 @@
+{
+  "id": "GR004",
+  "title": "Plain rough stone fill",
+  "tags": "woodland, natural",
+  "category": "ground",
+  "variant": "primary",
+  "batch": 14,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": {
+    "type": "Rectangle",
+    "left": 0,
+    "top": 0,
+    "right": 63,
+    "bottom": 63
+  },
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_14/assets/ground/sPlainRoughStoneFillBatch14.png",
+  "sourceBatch": "Game_Forge_Batch_14.zip",
+  "sourceSha256": "6fd289cf3f1b717589b809250d1679277f65dd27f754f009ed62c6495735b71d",
+  "frames": 1
+}

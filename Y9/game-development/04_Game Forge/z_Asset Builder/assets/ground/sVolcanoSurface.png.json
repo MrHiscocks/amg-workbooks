@@ -1,0 +1,29 @@
+{
+  "id": "GR122",
+  "title": "Cooled basalt surface",
+  "tags": "volcanic, geological landscape, environment expansion",
+  "category": "ground",
+  "variant": "primary",
+  "batch": 1,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": {
+    "type": "Rectangle",
+    "left": 0,
+    "top": 0,
+    "right": 63,
+    "bottom": 63
+  },
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_01/assets/sVolcanoSurface.png",
+  "sourceBatch": "Game_Forge_Batch_01.zip",
+  "sourceSha256": "1a1b93d3296fa2ca506b3f48f999d1fa4cf2b3a3254123d46b749aef0ab2dda3"
+}

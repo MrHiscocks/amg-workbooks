@@ -1,0 +1,24 @@
+{
+  "id": "CO204",
+  "title": "Trusted-adult help token",
+  "tags": "online safety, digital wellbeing, breadth expansion",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 7,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_07/assets/collectables/sTrustedAdultHelpTokenCollectable.png",
+  "sourceBatch": "Game_Forge_Batch_07.zip",
+  "sourceSha256": "6f7dfbcc096f9fd74045ba9ff6dec0de0b495f5e972f7096695765bfdb581152",
+  "frames": 1
+}

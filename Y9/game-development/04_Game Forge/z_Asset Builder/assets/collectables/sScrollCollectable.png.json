@@ -1,0 +1,24 @@
+{
+  "id": "CO035",
+  "title": "Scroll",
+  "tags": "exploration, discovery",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 7,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_07/assets/collectables/sScrollCollectable.png",
+  "sourceBatch": "Game_Forge_Batch_07.zip",
+  "sourceSha256": "c5d102daa746c4cc3c37bb643c8acca02d68959688945e87795674403c72347e",
+  "frames": 1
+}

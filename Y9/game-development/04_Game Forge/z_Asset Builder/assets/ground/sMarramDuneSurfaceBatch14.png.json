@@ -1,0 +1,30 @@
+{
+  "id": "GR161",
+  "title": "Marram dune surface",
+  "tags": "temperate coast, dune, multiple climates, environment expansion",
+  "category": "ground",
+  "variant": "primary",
+  "batch": 14,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": {
+    "type": "Rectangle",
+    "left": 0,
+    "top": 0,
+    "right": 63,
+    "bottom": 63
+  },
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_14/assets/ground/sMarramDuneSurfaceBatch14.png",
+  "sourceBatch": "Game_Forge_Batch_14.zip",
+  "sourceSha256": "3510531506fde7cc2c9cd99ea660541e48e3c60f46664ad6f3b09301c586e9c8",
+  "frames": 1
+}

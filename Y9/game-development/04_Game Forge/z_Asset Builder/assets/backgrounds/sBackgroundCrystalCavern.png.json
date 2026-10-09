@@ -1,0 +1,24 @@
+{
+  "id": "BG011",
+  "title": "Crystal cavern",
+  "tags": "cave",
+  "category": "backgrounds",
+  "variant": "primary",
+  "batch": 16,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": null,
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": true,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_16/assets/backgrounds/sBackgroundCrystalCavern.png",
+  "sourceBatch": "Game_Forge_Batch_16.zip",
+  "sourceSha256": "845808af60c793edb30dba2f91151d2c5ec8410f17de941cbaafca561aa96a30",
+  "frames": 1
+}

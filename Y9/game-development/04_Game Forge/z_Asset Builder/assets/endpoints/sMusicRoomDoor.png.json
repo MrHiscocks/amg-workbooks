@@ -1,0 +1,24 @@
+{
+  "id": "EX079",
+  "title": "Music-room door",
+  "tags": "door, community, sport, arts, resources, breadth expansion",
+  "category": "endpoints",
+  "variant": "primary",
+  "batch": 12,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Goal artwork; add your own overlap event. No solid collision required.",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_12/assets/endpoints/sMusicRoomDoor.png",
+  "sourceBatch": "Game_Forge_Batch_12.zip",
+  "sourceSha256": "37cc1d0ee8ff001c6160b3c45517f73065edbe0ee0a699a96c8811df3cab7819",
+  "frames": 1
+}

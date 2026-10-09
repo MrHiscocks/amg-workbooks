@@ -1,0 +1,31 @@
+{
+  "id": "PL028",
+  "title": "Little dragon",
+  "tags": "fantasy, adaptable, quadruped, movement-only",
+  "category": "players",
+  "variant": "movement",
+  "batch": 18,
+  "origin": [
+    32,
+    96
+  ],
+  "mask": {
+    "left": 20,
+    "top": 57,
+    "right": 43,
+    "bottom": 95
+  },
+  "fps": 6,
+  "placement": "Fixed mask excludes changing tails/wings; bottom 95 is the virtual platform contact for hovering sprites. Does not supply free-flight physics.",
+  "repeatHorizontal": false,
+  "form": "quadruped",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_18/assets/players/sLittleDragonMove_strip4.png",
+  "sourceBatch": "Game_Forge_Batch_18.zip",
+  "sourceSha256": "cff4469a806eaac08710386efa62f460b64a21d8915445b6d19311c65f0bd6c8",
+  "frameWidth": 64,
+  "frameHeight": 96,
+  "frames": 4
+}

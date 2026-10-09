@@ -1,0 +1,24 @@
+{
+  "id": "DE286",
+  "title": "Stage spotlight",
+  "tags": "music, arts, events, science, breadth expansion",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 7,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_07/assets/decorations/sStageSpotlightDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_07.zip",
+  "sourceSha256": "2974d2b68b794434e98efbf2008c315104b896111df0024a5159a925cd1425eb",
+  "frames": 1
+}

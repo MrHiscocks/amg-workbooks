@@ -1,0 +1,31 @@
+{
+  "id": "PL084",
+  "title": "Bee conservation helper",
+  "tags": "sport, wellbeing, community, non-human, breadth expansion, flying, movement-only",
+  "category": "players",
+  "variant": "static",
+  "batch": 18,
+  "origin": [
+    32,
+    96
+  ],
+  "mask": {
+    "left": 20,
+    "top": 40,
+    "right": 43,
+    "bottom": 95
+  },
+  "fps": 8,
+  "placement": "Fixed mask excludes changing tails/wings; bottom 95 is the virtual platform contact for hovering sprites. Does not supply free-flight physics.",
+  "repeatHorizontal": false,
+  "form": "flying",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_18/assets/players/sBeeConservationHelperStatic.png",
+  "sourceBatch": "Game_Forge_Batch_18.zip",
+  "sourceSha256": "bfc356c0af31f3421ca375838bfb51b12d0a48c7020ddca485b8045de79d451b",
+  "frameWidth": 64,
+  "frameHeight": 96,
+  "frames": 1
+}

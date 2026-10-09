@@ -1,0 +1,24 @@
+{
+  "id": "EX060",
+  "title": "Expedition flag",
+  "tags": "flag, outdoor activity, cycling, wilderness, community, scenario review",
+  "category": "endpoints",
+  "variant": "primary",
+  "batch": 3,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork; endpoint trigger, not solid ground",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_03/assets/flags/sExpeditionFlag.png",
+  "sourceBatch": "Game_Forge_Batch_03.zip",
+  "sourceSha256": "6249534308ccf78cdeb93e5335b96f9806e601af8eae24691e8d4360dab4cb4e",
+  "frames": 1
+}

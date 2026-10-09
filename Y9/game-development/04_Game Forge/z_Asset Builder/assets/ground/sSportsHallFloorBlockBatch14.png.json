@@ -1,0 +1,30 @@
+{
+  "id": "GR108",
+  "title": "Sports-hall floor block",
+  "tags": "sport, arts, resources, community, breadth expansion",
+  "category": "ground",
+  "variant": "primary",
+  "batch": 14,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": {
+    "type": "Rectangle",
+    "left": 0,
+    "top": 0,
+    "right": 63,
+    "bottom": 63
+  },
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_14/assets/ground/sSportsHallFloorBlockBatch14.png",
+  "sourceBatch": "Game_Forge_Batch_14.zip",
+  "sourceSha256": "a23285de26083a6773dd011ebe39cb3915d45f53b1f6209393fd1008f92a4d0c",
+  "frames": 1
+}

@@ -1,0 +1,24 @@
+{
+  "id": "DE174",
+  "title": "Lookout hut with staff-presence symbol",
+  "tags": "swimming, access, participation, aquatic fantasy, scenario review",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 13,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative scenery only. No solid collision or damage by default.",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_13/assets/decorations/sLookoutHutWithStaffPresenceSymbolBatch13.png",
+  "sourceBatch": "Game_Forge_Batch_13.zip",
+  "sourceSha256": "7ce45bf772c76438ac57c31af2333aa2d2b67b2f2de357099527bbccca5e597d",
+  "frames": 1
+}

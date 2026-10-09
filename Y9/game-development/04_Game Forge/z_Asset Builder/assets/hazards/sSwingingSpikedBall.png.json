@@ -1,0 +1,23 @@
+{
+  "id": "HZ027",
+  "title": "Swinging spiked ball",
+  "tags": "mechanical, obstacle",
+  "category": "hazards",
+  "variant": "primary",
+  "batch": 21,
+  "origin": [
+    32,
+    32
+  ],
+  "mask": null,
+  "fps": 6,
+  "placement": "Centred moving hazard. Swing motion and optional rope are controlled by the game object; no animation strip.",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": "",
+  "duration": "",
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_21/assets/hazards/sSwingingSpikedBall.png",
+  "sourceBatch": "Game_Forge_Batch_21.zip",
+  "sourceSha256": "cc0490f5b100ba99f1eb0e01107902954710ce8e8e85152e9ff814d6775d7b51"
+}

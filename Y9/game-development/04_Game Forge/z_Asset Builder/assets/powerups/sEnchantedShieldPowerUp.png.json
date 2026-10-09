@@ -1,0 +1,24 @@
+{
+  "id": "PU021",
+  "title": "Enchanted shield power-up",
+  "tags": "fantasy, shield, speed, health, breadth expansion",
+  "category": "powerups",
+  "variant": "primary",
+  "batch": 6,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_06/assets/powerups/sEnchantedShieldPowerUp.png",
+  "sourceBatch": "Game_Forge_Batch_06.zip",
+  "sourceSha256": "ccdc82620def51757dff04ddc50d42865d2f92bca68a8fb152d312ade9b7dda1",
+  "frames": 1
+}

@@ -1,0 +1,24 @@
+{
+  "id": "CO159",
+  "title": "Bookmark",
+  "tags": "fantasy, reading, learning, breadth expansion",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 7,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_07/assets/collectables/sBookmarkCollectable.png",
+  "sourceBatch": "Game_Forge_Batch_07.zip",
+  "sourceSha256": "7dab3ce7676e66af8dd7e523a7fd449640e849ab899a2c37bdf16f02fa659e07",
+  "frames": 1
+}

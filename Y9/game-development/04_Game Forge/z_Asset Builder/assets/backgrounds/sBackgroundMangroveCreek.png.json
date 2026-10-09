@@ -1,0 +1,24 @@
+{
+  "id": "BG193",
+  "title": "Mangrove creek",
+  "tags": "tropical coast, mangrove, brackish wetland, environment expansion",
+  "category": "backgrounds",
+  "variant": "primary",
+  "batch": 16,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": null,
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": true,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_16/assets/backgrounds/sBackgroundMangroveCreek.png",
+  "sourceBatch": "Game_Forge_Batch_16.zip",
+  "sourceSha256": "606326e1c00f08a99ec6bb337f7be2892fda349754318884993346d07801e0e4",
+  "frames": 1
+}

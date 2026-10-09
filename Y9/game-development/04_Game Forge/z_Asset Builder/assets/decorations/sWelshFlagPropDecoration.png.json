@@ -1,0 +1,24 @@
+{
+  "id": "DE196",
+  "title": "Welsh flag prop",
+  "tags": "Wales, heritage, culture, breadth expansion",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 11,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_11/assets/decorations/sWelshFlagPropDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_11.zip",
+  "sourceSha256": "9485651cdbebac9f85d756ac18aab7f126298ca3c1e66b14b34fadc0190f6fd4",
+  "frames": 1
+}

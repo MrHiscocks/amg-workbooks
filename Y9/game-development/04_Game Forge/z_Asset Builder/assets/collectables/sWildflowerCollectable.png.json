@@ -1,0 +1,24 @@
+{
+  "id": "CO017",
+  "title": "Flower",
+  "tags": "nature, food",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 4,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_04/assets/collectables/sWildflowerCollectable.png",
+  "sourceBatch": "Game_Forge_Batch_04.zip",
+  "sourceSha256": "02da5369891a866d5382edaa078034e2f6cf584c84aff077f8e2594b0f7b7333",
+  "frames": 1
+}

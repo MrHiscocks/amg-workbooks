@@ -1,0 +1,24 @@
+{
+  "id": "EX032",
+  "title": "Boathouse door",
+  "tags": "door, outdoor activity, wilderness, scenario review",
+  "category": "endpoints",
+  "variant": "primary",
+  "batch": 12,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Goal artwork; add your own overlap event. No solid collision required.",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_12/assets/endpoints/sBoathouseDoor.png",
+  "sourceBatch": "Game_Forge_Batch_12.zip",
+  "sourceSha256": "8b1a042f32e545d4878a5eaab8f4198ee5706e5df3a9ebe983d4fa14e2d1aba8",
+  "frames": 1
+}

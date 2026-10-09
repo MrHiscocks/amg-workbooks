@@ -1,0 +1,24 @@
+{
+  "id": "CO073",
+  "title": "Route card",
+  "tags": "cycling, visibility, participation, repair, scenario review",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 10,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_10/assets/collectables/sRouteCardCollectable.png",
+  "sourceBatch": "Game_Forge_Batch_10.zip",
+  "sourceSha256": "2c354ac2423ee13897fc558d45a7cefdfc0b590a9ba13134524f91274b2e59b9",
+  "frames": 1
+}

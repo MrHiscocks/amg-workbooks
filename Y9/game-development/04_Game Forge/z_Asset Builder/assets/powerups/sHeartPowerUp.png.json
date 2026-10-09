@@ -1,0 +1,24 @@
+{
+  "id": "PU001",
+  "title": "Heart",
+  "tags": "health",
+  "category": "powerups",
+  "variant": "primary",
+  "batch": 6,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_06/assets/powerups/sHeartPowerUp.png",
+  "sourceBatch": "Game_Forge_Batch_06.zip",
+  "sourceSha256": "852a1f4845bb3b47c2aff0469434197342b2c4f4c54af68aadcc80ad7153a696",
+  "frames": 1
+}

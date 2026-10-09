@@ -1,0 +1,24 @@
+{
+  "id": "CO070",
+  "title": "Reflector",
+  "tags": "cycling, visibility, participation, repair, scenario review",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 7,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_07/assets/collectables/sReflectorCollectable.png",
+  "sourceBatch": "Game_Forge_Batch_07.zip",
+  "sourceSha256": "b46adb6cab5187dc54ea781ae0cae7dffbd54183257c30e5a7580887eecb7ea8",
+  "frames": 1
+}

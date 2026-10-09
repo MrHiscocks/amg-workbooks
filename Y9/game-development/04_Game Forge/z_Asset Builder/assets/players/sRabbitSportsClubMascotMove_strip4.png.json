@@ -1,0 +1,31 @@
+{
+  "id": "PL082",
+  "title": "Rabbit sports-club mascot",
+  "tags": "sport, wellbeing, community, non-human, breadth expansion",
+  "category": "players",
+  "variant": "movement",
+  "batch": 20,
+  "origin": [
+    32,
+    96
+  ],
+  "mask": {
+    "left": 18,
+    "top": 30,
+    "right": 45,
+    "bottom": 95
+  },
+  "fps": 6,
+  "placement": "Use one fixed rectangular mask for every animation frame. PNG does not store origin, playback speed or mask metadata.",
+  "repeatHorizontal": false,
+  "form": "walk",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_20/assets/players/sRabbitSportsClubMascotMove_strip4.png",
+  "sourceBatch": "Game_Forge_Batch_20.zip",
+  "sourceSha256": "1588537ac4ffa330e7cc0621e7331325a804e1ebed1a5f486699555ec5a79108",
+  "frameWidth": 64,
+  "frameHeight": 96,
+  "frames": 4
+}

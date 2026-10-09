@@ -1,0 +1,24 @@
+{
+  "id": "EX093",
+  "title": "Castle pennant goal",
+  "tags": "flag, heritage, Wales, sport, community, breadth expansion",
+  "category": "endpoints",
+  "variant": "primary",
+  "batch": 3,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork; endpoint trigger, not solid ground",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_03/assets/flags/sCastlePennant.png",
+  "sourceBatch": "Game_Forge_Batch_03.zip",
+  "sourceSha256": "3833cb5debb81743cc9b09c60636a6944fd23ade05a17ff7f38fe368192d3376",
+  "frames": 1
+}

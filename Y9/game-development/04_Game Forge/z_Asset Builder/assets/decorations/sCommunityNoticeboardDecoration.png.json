@@ -1,0 +1,24 @@
+{
+  "id": "DE122",
+  "title": "Community noticeboard",
+  "tags": "cycling, repair, visibility, community, scenario review",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 7,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_07/assets/decorations/sCommunityNoticeboardDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_07.zip",
+  "sourceSha256": "7c3a3a4b8e536e90c251490f814e5e2080737ba77e3079214fc3ec77c95505ef",
+  "frames": 1
+}

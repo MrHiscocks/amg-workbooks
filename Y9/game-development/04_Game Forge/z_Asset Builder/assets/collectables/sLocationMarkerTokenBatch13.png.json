@@ -1,0 +1,24 @@
+{
+  "id": "CO121",
+  "title": "Location-marker token",
+  "tags": "swimming, confidence, participation, water awareness, scenario review",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 13,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Pickup artwork; use existing pickup logic.",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_13/assets/collectables/sLocationMarkerTokenBatch13.png",
+  "sourceBatch": "Game_Forge_Batch_13.zip",
+  "sourceSha256": "24d30727ad47e25f12ca33fa9133833209f1edc10c01198d471a0a280f84e407",
+  "frames": 1
+}

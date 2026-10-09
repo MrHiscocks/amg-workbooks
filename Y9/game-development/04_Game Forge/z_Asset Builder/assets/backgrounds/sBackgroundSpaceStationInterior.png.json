@@ -1,0 +1,23 @@
+{
+  "id": "BG024",
+  "title": "Space-station interior",
+  "tags": "space",
+  "category": "backgrounds",
+  "variant": "primary",
+  "batch": 21,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": null,
+  "fps": 6,
+  "placement": "Background layer; horizontal repeat only; decorative, no collision.",
+  "repeatHorizontal": true,
+  "form": "",
+  "loop": "",
+  "duration": "",
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_21/assets/backgrounds/sBackgroundSpaceStationInterior.png",
+  "sourceBatch": "Game_Forge_Batch_21.zip",
+  "sourceSha256": "be59ab883f05609bf9f64bf71b5f95ba91688a4123985f75a3ef8d73791685c8"
+}

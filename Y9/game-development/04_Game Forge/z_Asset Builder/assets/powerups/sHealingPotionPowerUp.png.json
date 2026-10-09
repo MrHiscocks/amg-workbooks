@@ -1,0 +1,24 @@
+{
+  "id": "PU003",
+  "title": "Healing potion",
+  "tags": "health",
+  "category": "powerups",
+  "variant": "primary",
+  "batch": 6,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_06/assets/powerups/sHealingPotionPowerUp.png",
+  "sourceBatch": "Game_Forge_Batch_06.zip",
+  "sourceSha256": "b43d2adb01a3152ac19989bacb57a85a46bf021763f3cab5806f05833b5b16da",
+  "frames": 1
+}

@@ -1,0 +1,24 @@
+{
+  "id": "CO148",
+  "title": "Visitor pass",
+  "tags": "Wales, culture, tourism, breadth expansion",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 7,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_07/assets/collectables/sVisitorPassCollectable.png",
+  "sourceBatch": "Game_Forge_Batch_07.zip",
+  "sourceSha256": "f211c2753ffe1db9cef27e8e2a6fcc119f52af8c8a0aeee3c25bd7616202c588",
+  "frames": 1
+}

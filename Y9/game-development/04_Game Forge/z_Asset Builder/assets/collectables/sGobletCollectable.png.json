@@ -1,0 +1,24 @@
+{
+  "id": "CO131",
+  "title": "Goblet",
+  "tags": "historical-inspired, medieval, heritage, breadth expansion",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 9,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_09/assets/collectables/sGobletCollectable.png",
+  "sourceBatch": "Game_Forge_Batch_09.zip",
+  "sourceSha256": "1f9373c9820b48f763ed30d35834b872ad9202a4e2e21b1b606e72f88bbc5e34",
+  "frames": 1
+}

@@ -1,0 +1,24 @@
+{
+  "id": "HZ011",
+  "title": "Lava surface",
+  "tags": "environment, static",
+  "category": "hazards",
+  "variant": "primary",
+  "batch": 2,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Manual rectangle (0,8)-(63,63); hazard collision, not solid ground",
+  "fps": 6,
+  "placement": "Same grid row as adjacent ground; surface 8 px below bank",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_02/assets/hazards/sLavaHazard.png",
+  "sourceBatch": "Game_Forge_Batch_02.zip",
+  "sourceSha256": "2ede344b5dc10923dc886a3200d862def9306a2cfc4f057504d670781f436d21",
+  "frames": 1
+}

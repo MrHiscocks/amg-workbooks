@@ -1,0 +1,24 @@
+{
+  "id": "CO024",
+  "title": "Circuit board",
+  "tags": "technology, resources",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 4,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_04/assets/collectables/sCircuitBoardCollectable.png",
+  "sourceBatch": "Game_Forge_Batch_04.zip",
+  "sourceSha256": "d28dd5f842e24114ecbd49526d232c0905c6b88d76d6f57f74b5b15a66ae7f10",
+  "frames": 1
+}

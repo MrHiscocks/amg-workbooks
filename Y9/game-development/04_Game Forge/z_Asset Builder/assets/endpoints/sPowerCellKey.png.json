@@ -1,0 +1,24 @@
+{
+  "id": "EX010",
+  "title": "Power-cell key",
+  "tags": "access, key",
+  "category": "endpoints",
+  "variant": "primary",
+  "batch": 12,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Pickup artwork; use your existing pickup logic.",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_12/assets/keys/sPowerCellKey.png",
+  "sourceBatch": "Game_Forge_Batch_12.zip",
+  "sourceSha256": "ed71568b94480d8e170d62274162d23d9d012adbb35c390d7c4f85ede36887f9",
+  "frames": 1
+}

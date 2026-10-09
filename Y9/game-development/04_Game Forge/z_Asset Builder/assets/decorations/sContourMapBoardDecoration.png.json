@@ -1,0 +1,24 @@
+{
+  "id": "DE152",
+  "title": "Contour-map board",
+  "tags": "wilderness, navigation, preparation, scenario review",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 11,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_11/assets/decorations/sContourMapBoardDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_11.zip",
+  "sourceSha256": "d0bfdb45b4da80a00bae812e1abec0fcbf1b1516fb3e9a267d6267be020118ed",
+  "frames": 1
+}

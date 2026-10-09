@@ -1,0 +1,31 @@
+{
+  "id": "PL045",
+  "title": "Leaf creature in trainers",
+  "tags": "climate action, energy, reuse, food, scenario review",
+  "category": "players",
+  "variant": "static",
+  "batch": 20,
+  "origin": [
+    32,
+    96
+  ],
+  "mask": {
+    "left": 18,
+    "top": 41,
+    "right": 45,
+    "bottom": 95
+  },
+  "fps": 6,
+  "placement": "Use one fixed rectangular mask for every animation frame. PNG does not store origin, playback speed or mask metadata.",
+  "repeatHorizontal": false,
+  "form": "walk",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_20/assets/players/sLeafCreatureInTrainersStatic.png",
+  "sourceBatch": "Game_Forge_Batch_20.zip",
+  "sourceSha256": "16248cb500d6224c0b3872ed664ffb3e12ef5ca3ae5db943c7f14ae4e6d4cd75",
+  "frameWidth": 64,
+  "frameHeight": 96,
+  "frames": 1
+}

@@ -1,0 +1,30 @@
+{
+  "id": "GR_BATCH22_04",
+  "title": "Welsh dry-stone",
+  "category": "ground",
+  "tags": [
+    "Welsh",
+    "heritage",
+    "mountain",
+    "countryside",
+    "slate"
+  ],
+  "variant": "primary",
+  "batch": 22,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": {
+    "type": "Rectangle",
+    "left": 0,
+    "top": 0,
+    "right": 63,
+    "bottom": 63
+  },
+  "fps": 0,
+  "frames": 1,
+  "placement": "Solid 64 \u00d7 64 block. Top-left origin (0, 0). Place at multiples of 64 with scale 1. Use a full rectangular collision mask.",
+  "description": "Full opaque square ground material; no transparent border or inset.",
+  "sourceSha256": "da1cbc42f0f8830116eed10fdb6e73dec0582b2d44ad9ad23eb2521466998039"
+}

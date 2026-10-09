@@ -1,0 +1,24 @@
+{
+  "id": "PU012",
+  "title": "Lightning badge",
+  "tags": "speed",
+  "category": "powerups",
+  "variant": "primary",
+  "batch": 6,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_06/assets/powerups/sLightningBadgePowerUp.png",
+  "sourceBatch": "Game_Forge_Batch_06.zip",
+  "sourceSha256": "88e37e9f3877043b58404afb7d8dfd549b44877296ad986efef049a4dc77b3c8",
+  "frames": 1
+}

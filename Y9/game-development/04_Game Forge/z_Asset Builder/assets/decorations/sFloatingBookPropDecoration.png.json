@@ -1,0 +1,24 @@
+{
+  "id": "DE222",
+  "title": "Floating book prop",
+  "tags": "fantasy, books, breadth expansion",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 9,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_09/assets/decorations/sFloatingBookPropDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_09.zip",
+  "sourceSha256": "4cc19a357f90fddbcb378b09f1deca1a1aefb04f5acb3dafd99918a4c68d3d50",
+  "frames": 1
+}

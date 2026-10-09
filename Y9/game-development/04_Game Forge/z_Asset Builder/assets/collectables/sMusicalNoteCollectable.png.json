@@ -1,0 +1,24 @@
+{
+  "id": "CO190",
+  "title": "Musical note",
+  "tags": "wellbeing, arts, positive habits, breadth expansion",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 7,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_07/assets/collectables/sMusicalNoteCollectable.png",
+  "sourceBatch": "Game_Forge_Batch_07.zip",
+  "sourceSha256": "da120bdbb9a9f6d0f55fa308786265ce3ed99eb94d045b9fd24674d690415848",
+  "frames": 1
+}

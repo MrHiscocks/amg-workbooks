@@ -1,0 +1,31 @@
+{
+  "id": "PL017",
+  "title": "Alien scout",
+  "tags": "technology, space",
+  "category": "players",
+  "variant": "movement",
+  "batch": 15,
+  "origin": [
+    32,
+    96
+  ],
+  "mask": {
+    "left": 20,
+    "top": 16,
+    "right": 43,
+    "bottom": 95
+  },
+  "fps": 8,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_15/assets/players/sAlienScoutMove_strip4.png",
+  "sourceBatch": "Game_Forge_Batch_15.zip",
+  "sourceSha256": "eec1dcffecc9dd87b592450df56639bf93797bf303052e45ec38daa6fe4de13c",
+  "frameWidth": 64,
+  "frameHeight": 96,
+  "frames": 4
+}

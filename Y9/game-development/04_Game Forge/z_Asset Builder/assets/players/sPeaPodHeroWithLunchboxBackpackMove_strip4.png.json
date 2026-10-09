@@ -1,0 +1,31 @@
+{
+  "id": "PL043",
+  "title": "Pea-pod hero with lunchbox backpack",
+  "tags": "climate action, energy, reuse, food, scenario review",
+  "category": "players",
+  "variant": "movement",
+  "batch": 20,
+  "origin": [
+    32,
+    96
+  ],
+  "mask": {
+    "left": 18,
+    "top": 24,
+    "right": 45,
+    "bottom": 95
+  },
+  "fps": 6,
+  "placement": "Use one fixed rectangular mask for every animation frame. PNG does not store origin, playback speed or mask metadata.",
+  "repeatHorizontal": false,
+  "form": "walk",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_20/assets/players/sPeaPodHeroWithLunchboxBackpackMove_strip4.png",
+  "sourceBatch": "Game_Forge_Batch_20.zip",
+  "sourceSha256": "de78751fc7fd5377b9acf88c6f5a6863fd7d4fa13ba94e35e3c95d275c4cd0af",
+  "frameWidth": 64,
+  "frameHeight": 96,
+  "frames": 4
+}

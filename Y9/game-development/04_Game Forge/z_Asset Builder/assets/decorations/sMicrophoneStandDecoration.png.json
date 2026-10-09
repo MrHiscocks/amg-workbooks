@@ -1,0 +1,24 @@
+{
+  "id": "DE284",
+  "title": "Microphone stand",
+  "tags": "music, arts, events, science, breadth expansion",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 7,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_07/assets/decorations/sMicrophoneStandDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_07.zip",
+  "sourceSha256": "826c55c27dbf358515b5032add6935301990e5177a5b8e8f0446c70388a1954f",
+  "frames": 1
+}

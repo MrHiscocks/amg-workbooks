@@ -1,0 +1,30 @@
+{
+  "id": "GR026",
+  "title": "Crystal-veined stone",
+  "tags": "snow, cave, volcanic",
+  "category": "ground",
+  "variant": "primary",
+  "batch": 14,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": {
+    "type": "Rectangle",
+    "left": 0,
+    "top": 0,
+    "right": 63,
+    "bottom": 63
+  },
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_14/assets/ground/sCrystalVeinedStoneBatch14.png",
+  "sourceBatch": "Game_Forge_Batch_14.zip",
+  "sourceSha256": "0e5bdd7043b23dd43c9443120714075db955971ef60026251080b5bd44c9263c",
+  "frames": 1
+}

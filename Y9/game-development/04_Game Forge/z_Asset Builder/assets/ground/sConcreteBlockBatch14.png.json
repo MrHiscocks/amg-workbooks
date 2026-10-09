@@ -1,0 +1,30 @@
+{
+  "id": "GR034",
+  "title": "Concrete block",
+  "tags": "industrial, space, urban",
+  "category": "ground",
+  "variant": "primary",
+  "batch": 14,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": {
+    "type": "Rectangle",
+    "left": 0,
+    "top": 0,
+    "right": 63,
+    "bottom": 63
+  },
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_14/assets/ground/sConcreteBlockBatch14.png",
+  "sourceBatch": "Game_Forge_Batch_14.zip",
+  "sourceSha256": "7fbccef7fffb1afc9b743a1058c4e96511cdb6ae71597a63e5b05cf9d52747a5",
+  "frames": 1
+}

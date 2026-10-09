@@ -1,0 +1,24 @@
+{
+  "id": "EX029",
+  "title": "Lift entrance",
+  "tags": "exit, goal",
+  "category": "endpoints",
+  "variant": "primary",
+  "batch": 12,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Goal artwork; add your own overlap event. No solid collision required.",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_12/assets/endpoints/sLiftEntrance.png",
+  "sourceBatch": "Game_Forge_Batch_12.zip",
+  "sourceSha256": "451f4ec848a7a68ffe35b099b9d25dcd7e23b342266fd196bf07dbf8af66d4de",
+  "frames": 1
+}

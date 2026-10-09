@@ -1,0 +1,30 @@
+{
+  "id": "GR052",
+  "title": "Stone slab platform",
+  "tags": "moving-platform, compatible",
+  "category": "ground",
+  "variant": "primary",
+  "batch": 14,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": {
+    "type": "Rectangle",
+    "left": 0,
+    "top": 0,
+    "right": 127,
+    "bottom": 63
+  },
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_14/assets/ground/sStoneSlabPlatformBatch14.png",
+  "sourceBatch": "Game_Forge_Batch_14.zip",
+  "sourceSha256": "15dfef53bfd261df4b9cc7524e600de300bcfb9e269072cb0bdff62967632e37",
+  "frames": 1
+}

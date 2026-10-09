@@ -1,0 +1,24 @@
+{
+  "id": "CO093",
+  "title": "Active-travel badge",
+  "tags": "climate action, energy, repair, food, travel, scenario review",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 13,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Pickup artwork; use existing pickup logic.",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_13/assets/collectables/sActiveTravelBadgeBatch13.png",
+  "sourceBatch": "Game_Forge_Batch_13.zip",
+  "sourceSha256": "5c0c699284bf3fe10f45727aea573104e124b0e1fda2e68fe9a0b9cd106e0603",
+  "frames": 1
+}

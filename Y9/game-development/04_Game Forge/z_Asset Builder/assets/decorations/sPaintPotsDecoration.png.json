@@ -1,0 +1,24 @@
+{
+  "id": "DE287",
+  "title": "Paint pots",
+  "tags": "music, arts, events, science, breadth expansion",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 7,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_07/assets/decorations/sPaintPotsDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_07.zip",
+  "sourceSha256": "7406f497c9180ad75547c1874a5e36a4043eb27a11391a7b14a94ceced7a7be8",
+  "frames": 1
+}

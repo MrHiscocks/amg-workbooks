@@ -1,0 +1,31 @@
+{
+  "id": "PL026",
+  "title": "Ice creature",
+  "tags": "fantasy, adaptable, floating, movement-only",
+  "category": "players",
+  "variant": "movement",
+  "batch": 18,
+  "origin": [
+    32,
+    96
+  ],
+  "mask": {
+    "left": 20,
+    "top": 44,
+    "right": 43,
+    "bottom": 95
+  },
+  "fps": 6,
+  "placement": "Fixed mask excludes changing tails/wings; bottom 95 is the virtual platform contact for hovering sprites. Does not supply free-flight physics.",
+  "repeatHorizontal": false,
+  "form": "floating",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_18/assets/players/sIceCreatureMove_strip4.png",
+  "sourceBatch": "Game_Forge_Batch_18.zip",
+  "sourceSha256": "a1dfa13f9e5e2342ebf74d7b829eccd44c184e03b9d4b708da402c595ef10ba6",
+  "frameWidth": 64,
+  "frameHeight": 96,
+  "frames": 4
+}

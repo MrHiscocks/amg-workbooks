@@ -1,0 +1,24 @@
+{
+  "id": "EX108",
+  "title": "Oak arch portal",
+  "tags": "temperate oceanic, woodland, moorland, portal, environment expansion",
+  "category": "endpoints",
+  "variant": "primary",
+  "batch": 12,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Goal artwork; add your own overlap event. No solid collision required.",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_12/assets/endpoints/sOakArchPortal.png",
+  "sourceBatch": "Game_Forge_Batch_12.zip",
+  "sourceSha256": "8b306c09a6d7cc1a19195497c62d5851fa7bfa63be1b09d17d79fb2459326f8e",
+  "frames": 1
+}

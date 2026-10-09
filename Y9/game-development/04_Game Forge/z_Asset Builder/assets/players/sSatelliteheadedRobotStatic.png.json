@@ -1,0 +1,31 @@
+{
+  "id": "PL019",
+  "title": "Satellite-headed robot",
+  "tags": "technology, space",
+  "category": "players",
+  "variant": "static",
+  "batch": 15,
+  "origin": [
+    32,
+    96
+  ],
+  "mask": {
+    "left": 20,
+    "top": 16,
+    "right": 43,
+    "bottom": 95
+  },
+  "fps": 8,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_15/assets/players/sSatelliteheadedRobotStatic.png",
+  "sourceBatch": "Game_Forge_Batch_15.zip",
+  "sourceSha256": "5417af41b9c0e0e1054bb5c0f70091443c7095d5b019e12b761f7a4c6b97d7fe",
+  "frameWidth": 64,
+  "frameHeight": 96,
+  "frames": 1
+}

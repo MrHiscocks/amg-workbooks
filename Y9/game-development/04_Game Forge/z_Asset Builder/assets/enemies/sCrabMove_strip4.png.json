@@ -1,0 +1,31 @@
+{
+  "id": "EN003",
+  "title": "Crab",
+  "tags": "walking, nature",
+  "category": "enemies",
+  "variant": "movement",
+  "batch": 20,
+  "origin": [
+    32,
+    64
+  ],
+  "mask": {
+    "left": 14,
+    "top": 31,
+    "right": 49,
+    "bottom": 63
+  },
+  "fps": 6,
+  "placement": "Use one fixed rectangular mask for every animation frame. PNG does not store origin, playback speed or mask metadata.",
+  "repeatHorizontal": false,
+  "form": "crawl",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_20/assets/enemies/sCrabMove_strip4.png",
+  "sourceBatch": "Game_Forge_Batch_20.zip",
+  "sourceSha256": "a3ddaafd3044b764204ab8d0552ca660bbceca01c3aeff7676e8184136bea89d",
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 4
+}

@@ -1,0 +1,24 @@
+{
+  "id": "CO089",
+  "title": "Bus ticket",
+  "tags": "climate action, energy, repair, food, travel, scenario review",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 10,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_10/assets/collectables/sBusTicketCollectable.png",
+  "sourceBatch": "Game_Forge_Batch_10.zip",
+  "sourceSha256": "0fa4c0e87f1067b690e9794187a21d3854437f9e1aae915c70f7d01dd40700ac",
+  "frames": 1
+}

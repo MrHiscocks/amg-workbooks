@@ -1,0 +1,24 @@
+{
+  "id": "DE203",
+  "title": "Mine cart",
+  "tags": "Wales, heritage, culture, breadth expansion",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 5,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": null,
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_05/assets/decorations/sMineCartDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_05.zip",
+  "sourceSha256": "eb83b11a1842e2d2bdfd3221b2b71073471552d906e81ec6a5a51f3ade0c2744",
+  "frames": 1
+}

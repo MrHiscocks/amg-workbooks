@@ -1,0 +1,24 @@
+{
+  "id": "EX073",
+  "title": "Welsh cultural-centre entrance",
+  "tags": "door, heritage, Wales, breadth expansion",
+  "category": "endpoints",
+  "variant": "primary",
+  "batch": 12,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Goal artwork; add your own overlap event. No solid collision required.",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_12/assets/endpoints/sWelshCulturalCentreEntrance.png",
+  "sourceBatch": "Game_Forge_Batch_12.zip",
+  "sourceSha256": "6e6b5dc5dcc38e1dd3d6f6daf38f765bc621a504e97063f46e83d7d6e8914696",
+  "frames": 1
+}

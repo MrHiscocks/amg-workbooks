@@ -1,0 +1,24 @@
+{
+  "id": "CO114",
+  "title": "Swimming skill badge",
+  "tags": "swimming, confidence, participation, water awareness, scenario review",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 7,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_07/assets/collectables/sSwimmingSkillBadgeCollectable.png",
+  "sourceBatch": "Game_Forge_Batch_07.zip",
+  "sourceSha256": "e9042cf9ff9ca5eb3721ae8158ab0e679f233b461cabfbdbad6ad7ffcd353742",
+  "frames": 1
+}

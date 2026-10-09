@@ -1,0 +1,24 @@
+{
+  "id": "DE098",
+  "title": "Festival banner",
+  "tags": "playful, food, events",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 11,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_11/assets/decorations/sFestivalBannerDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_11.zip",
+  "sourceSha256": "87ece24c0b27510b3f780056ac94d92af220b72cc82af53c6d3fe0cc95952c9c",
+  "frames": 1
+}

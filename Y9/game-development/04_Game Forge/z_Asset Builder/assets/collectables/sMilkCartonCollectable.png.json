@@ -1,0 +1,24 @@
+{
+  "id": "CO174",
+  "title": "Milk carton",
+  "tags": "healthy eating, food choices, breadth expansion",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 4,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_04/assets/collectables/sMilkCartonCollectable.png",
+  "sourceBatch": "Game_Forge_Batch_04.zip",
+  "sourceSha256": "a5b60a40428298f0d33c937b17b4334fe31f6359f7dc8d1f975edd83a3672fd7",
+  "frames": 1
+}

@@ -1,0 +1,31 @@
+{
+  "id": "PL016",
+  "title": "Repair robot",
+  "tags": "technology, space",
+  "category": "players",
+  "variant": "static",
+  "batch": 15,
+  "origin": [
+    32,
+    96
+  ],
+  "mask": {
+    "left": 20,
+    "top": 16,
+    "right": 43,
+    "bottom": 95
+  },
+  "fps": 8,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_15/assets/players/sRepairRobotStatic.png",
+  "sourceBatch": "Game_Forge_Batch_15.zip",
+  "sourceSha256": "805615733f9098de12b64bf1f1c41382c8eccd89f4ea2f4d316e74bd799b3f1a",
+  "frameWidth": 64,
+  "frameHeight": 96,
+  "frames": 1
+}

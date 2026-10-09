@@ -1,0 +1,30 @@
+{
+  "id": "GR155",
+  "title": "Reed-bank surface",
+  "tags": "wetland, freshwater, multiple climates, environment expansion",
+  "category": "ground",
+  "variant": "primary",
+  "batch": 14,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": {
+    "type": "Rectangle",
+    "left": 0,
+    "top": 0,
+    "right": 63,
+    "bottom": 63
+  },
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_14/assets/ground/sReedBankSurfaceBatch14.png",
+  "sourceBatch": "Game_Forge_Batch_14.zip",
+  "sourceSha256": "f33918cf07a09ad1a51a87aec77fc707808c9b858f86ae25a5b98235436fa2ef",
+  "frames": 1
+}

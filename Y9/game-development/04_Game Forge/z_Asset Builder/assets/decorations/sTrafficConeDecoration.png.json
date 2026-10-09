@@ -1,0 +1,24 @@
+{
+  "id": "DE069",
+  "title": "Traffic cone",
+  "tags": "urban, community",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 11,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_11/assets/decorations/sTrafficConeDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_11.zip",
+  "sourceSha256": "8a26ae17916e1e3f7380d400a91109a5122a215648ce1f81a0aa59756219a29c",
+  "frames": 1
+}

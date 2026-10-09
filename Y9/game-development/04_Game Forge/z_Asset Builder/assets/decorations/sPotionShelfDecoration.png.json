@@ -1,0 +1,24 @@
+{
+  "id": "DE216",
+  "title": "Potion shelf",
+  "tags": "fantasy, books, breadth expansion",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 9,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_09/assets/decorations/sPotionShelfDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_09.zip",
+  "sourceSha256": "ea335cc4b290257c6693cc7f953afb09a3e24c03f1fa2444dd55510f94255ca6",
+  "frames": 1
+}

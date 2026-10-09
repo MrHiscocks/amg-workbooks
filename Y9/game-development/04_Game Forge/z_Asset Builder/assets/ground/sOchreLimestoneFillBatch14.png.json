@@ -1,0 +1,30 @@
+{
+  "id": "GR153",
+  "title": "Ochre limestone fill",
+  "tags": "Mediterranean, dry summer, scrubland, environment expansion",
+  "category": "ground",
+  "variant": "primary",
+  "batch": 14,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": {
+    "type": "Rectangle",
+    "left": 0,
+    "top": 0,
+    "right": 63,
+    "bottom": 63
+  },
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_14/assets/ground/sOchreLimestoneFillBatch14.png",
+  "sourceBatch": "Game_Forge_Batch_14.zip",
+  "sourceSha256": "db2769a224d9c2e558c1f38b264ac7acce6d4c0672e1df6056bdcea706306386",
+  "frames": 1
+}

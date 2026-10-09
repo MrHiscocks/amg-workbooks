@@ -1,0 +1,24 @@
+{
+  "id": "CO124",
+  "title": "Summer sun badge",
+  "tags": "swimming, confidence, participation, water awareness, scenario review",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 11,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_11/assets/collectables/sSummerSunBadgeCollectable.png",
+  "sourceBatch": "Game_Forge_Batch_11.zip",
+  "sourceSha256": "5de3913c5f0d0dc9fef9c4ac6c5d77770d39e60eea41e90b33126e393e823a21",
+  "frames": 1
+}

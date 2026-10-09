@@ -1,0 +1,23 @@
+{
+  "id": "BG070",
+  "title": "Community garden",
+  "tags": "climate action, household, repair, food, scenario review",
+  "category": "backgrounds",
+  "variant": "primary",
+  "batch": 21,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": null,
+  "fps": 6,
+  "placement": "Background layer; horizontal repeat only; decorative, no collision.",
+  "repeatHorizontal": true,
+  "form": "",
+  "loop": "",
+  "duration": "",
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_21/assets/backgrounds/sBackgroundCommunityGarden.png",
+  "sourceBatch": "Game_Forge_Batch_21.zip",
+  "sourceSha256": "42ec76637fb4317f4e9f2360db9b41ed84f74b21471d8bbaeec5412edde5d3c4"
+}

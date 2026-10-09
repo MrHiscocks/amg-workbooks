@@ -1,0 +1,24 @@
+{
+  "id": "CO216",
+  "title": "Food parcel",
+  "tags": "volunteering, charity, responsible consumption, breadth expansion",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 4,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_04/assets/collectables/sFoodParcelCollectable.png",
+  "sourceBatch": "Game_Forge_Batch_04.zip",
+  "sourceSha256": "39714590f244e584d9a09d6567905e7d4d7c78094520db062073b2179756dfc2",
+  "frames": 1
+}

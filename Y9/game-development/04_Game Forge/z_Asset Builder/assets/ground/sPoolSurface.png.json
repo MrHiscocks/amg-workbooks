@@ -1,0 +1,29 @@
+{
+  "id": "GR075",
+  "title": "Bright pool-tile block",
+  "tags": "swimming, aquatic fantasy, terrain, scenario review",
+  "category": "ground",
+  "variant": "primary",
+  "batch": 1,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": {
+    "type": "Rectangle",
+    "left": 0,
+    "top": 0,
+    "right": 63,
+    "bottom": 63
+  },
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_01/assets/sPoolSurface.png",
+  "sourceBatch": "Game_Forge_Batch_01.zip",
+  "sourceSha256": "5332b402535c04369690a9523b72b261130d3326544e3fc3b9518a77258d432a"
+}

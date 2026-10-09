@@ -1,0 +1,24 @@
+{
+  "id": "EX106",
+  "title": "Tundra stone arch",
+  "tags": "polar, tundra, portal, environment expansion",
+  "category": "endpoints",
+  "variant": "primary",
+  "batch": 12,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Goal artwork; add your own overlap event. No solid collision required.",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_12/assets/endpoints/sTundraStoneArch.png",
+  "sourceBatch": "Game_Forge_Batch_12.zip",
+  "sourceSha256": "285637e8e0da4f7bd0048895305dd5bd57dc5402e259fd5b96749be647cbc7ed",
+  "frames": 1
+}

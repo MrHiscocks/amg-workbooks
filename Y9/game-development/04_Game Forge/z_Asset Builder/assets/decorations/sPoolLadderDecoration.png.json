@@ -1,0 +1,24 @@
+{
+  "id": "DE073",
+  "title": "Pool ladder",
+  "tags": "water, swimming, rescue",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 5,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": null,
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_05/assets/decorations/sPoolLadderDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_05.zip",
+  "sourceSha256": "c054f99200cd34dffd7c8f5f1e7477ada18d03aeef68da468520a19ec6b2fa1f",
+  "frames": 1
+}

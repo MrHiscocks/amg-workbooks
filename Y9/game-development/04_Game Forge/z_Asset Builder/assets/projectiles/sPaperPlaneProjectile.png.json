@@ -1,0 +1,24 @@
+{
+  "id": "PR023",
+  "title": "Paper-plane projectile",
+  "tags": "fantasy, playful, breadth expansion",
+  "category": "projectiles",
+  "variant": "primary",
+  "batch": 6,
+  "origin": [
+    16,
+    16
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_06/assets/projectiles/sPaperPlaneProjectile.png",
+  "sourceBatch": "Game_Forge_Batch_06.zip",
+  "sourceSha256": "b1a63804730aa8a3f3753f40a7592c01cd17f15c49a14f221a3cd06911817006",
+  "frames": 1
+}

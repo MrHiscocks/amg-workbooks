@@ -1,0 +1,24 @@
+{
+  "id": "CO211",
+  "title": "Conservation supply token",
+  "tags": "wildlife, biodiversity, waterways, breadth expansion",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 13,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Pickup artwork; use existing pickup logic.",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_13/assets/collectables/sConservationSupplyTokenBatch13.png",
+  "sourceBatch": "Game_Forge_Batch_13.zip",
+  "sourceSha256": "b7231e39b40d3a66a72fcb1a92d74ed345286a2f3d75c8bda9849f16644404ef",
+  "frames": 1
+}

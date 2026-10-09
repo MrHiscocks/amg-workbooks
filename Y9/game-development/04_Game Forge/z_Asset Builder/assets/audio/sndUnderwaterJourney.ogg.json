@@ -1,0 +1,23 @@
+{
+  "id": "AU013",
+  "title": "Underwater journey",
+  "tags": "music, instrumental-loop",
+  "category": "audio",
+  "variant": "primary",
+  "batch": 21,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": null,
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": true,
+  "duration": 45.71429166666667,
+  "description": "Gentle flowing flute, rounded bell bubbles and slow undulating accompaniment.",
+  "sourceFile": "Game_Forge_Batch_21/assets/audio/music/sndUnderwaterJourney.ogg",
+  "sourceBatch": "Game_Forge_Batch_21.zip",
+  "sourceSha256": "8c5a4b20185b40d4c1ae322d6c9b74a7c45f34410606ccd607104cf9626ed7a6"
+}

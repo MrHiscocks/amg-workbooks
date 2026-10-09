@@ -1,0 +1,24 @@
+{
+  "id": "CO141",
+  "title": "Red dragon emblem",
+  "tags": "Wales, culture, tourism, breadth expansion",
+  "category": "collectables",
+  "variant": "primary",
+  "batch": 9,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_09/assets/collectables/sRedDragonEmblemCollectable.png",
+  "sourceBatch": "Game_Forge_Batch_09.zip",
+  "sourceSha256": "95bc06f2706838152f66a9eda6586d0955430982adf11f43dc5f7d7a1e4eb3b9",
+  "frames": 1
+}

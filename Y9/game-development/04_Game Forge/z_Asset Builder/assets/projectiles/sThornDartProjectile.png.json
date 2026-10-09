@@ -1,0 +1,24 @@
+{
+  "id": "PR008",
+  "title": "Thorn dart",
+  "tags": "nature",
+  "category": "projectiles",
+  "variant": "primary",
+  "batch": 6,
+  "origin": [
+    16,
+    16
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_06/assets/projectiles/sThornDartProjectile.png",
+  "sourceBatch": "Game_Forge_Batch_06.zip",
+  "sourceSha256": "f43cd7304859643f9e99870056802782cc9cf2af948169be8e7d5abc34e694cf",
+  "frames": 1
+}

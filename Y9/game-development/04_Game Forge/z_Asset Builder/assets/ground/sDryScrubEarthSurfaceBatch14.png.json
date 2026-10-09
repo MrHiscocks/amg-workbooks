@@ -1,0 +1,30 @@
+{
+  "id": "GR152",
+  "title": "Dry scrub-earth surface",
+  "tags": "Mediterranean, dry summer, scrubland, environment expansion",
+  "category": "ground",
+  "variant": "primary",
+  "batch": 14,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": {
+    "type": "Rectangle",
+    "left": 0,
+    "top": 0,
+    "right": 63,
+    "bottom": 63
+  },
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_14/assets/ground/sDryScrubEarthSurfaceBatch14.png",
+  "sourceBatch": "Game_Forge_Batch_14.zip",
+  "sourceSha256": "e09868cf8bd89608ece2977ff2ba9c5b21091cba9a3af91264881ab42d94a796",
+  "frames": 1
+}

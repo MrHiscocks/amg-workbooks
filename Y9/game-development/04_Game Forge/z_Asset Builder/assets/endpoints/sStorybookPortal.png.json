@@ -1,0 +1,24 @@
+{
+  "id": "EX086",
+  "title": "Storybook portal",
+  "tags": "portal, fantasy, reading, digital, breadth expansion",
+  "category": "endpoints",
+  "variant": "primary",
+  "batch": 3,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork; endpoint trigger, not solid ground",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_03/assets/portals/sStorybookPortal.png",
+  "sourceBatch": "Game_Forge_Batch_03.zip",
+  "sourceSha256": "988106117a4d17915cacb180563e4d9d71c25bdc5797abb08e56bbab89c5010c",
+  "frames": 1
+}

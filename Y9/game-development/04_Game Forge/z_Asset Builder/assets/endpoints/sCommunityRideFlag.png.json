@@ -1,0 +1,24 @@
+{
+  "id": "EX063",
+  "title": "Community ride flag",
+  "tags": "flag, outdoor activity, cycling, wilderness, community, scenario review",
+  "category": "endpoints",
+  "variant": "primary",
+  "batch": 12,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Goal artwork; add your own overlap event. No solid collision required.",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_12/assets/flags/sCommunityRideFlag.png",
+  "sourceBatch": "Game_Forge_Batch_12.zip",
+  "sourceSha256": "38514720cc29d117857bcb8ea08d5f8875931bebd0e898ba3b6a32c61df22d41",
+  "frames": 1
+}

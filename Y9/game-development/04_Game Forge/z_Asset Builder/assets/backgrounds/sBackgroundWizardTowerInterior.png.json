@@ -1,0 +1,24 @@
+{
+  "id": "BG125",
+  "title": "Wizard tower interior",
+  "tags": "fantasy, reading, breadth expansion",
+  "category": "backgrounds",
+  "variant": "primary",
+  "batch": 19,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": null,
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": true,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_19/assets/backgrounds/sBackgroundWizardTowerInterior.png",
+  "sourceBatch": "Game_Forge_Batch_19.zip",
+  "sourceSha256": "c448dcffd77c62acfede57121f1b67a0d860d91c57c061516417badcbf4afb87",
+  "frames": 1
+}

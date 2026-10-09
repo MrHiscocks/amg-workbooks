@@ -1,0 +1,24 @@
+{
+  "id": "DE316",
+  "title": "Gorse bush",
+  "tags": "temperate oceanic, woodland, moorland, environment expansion",
+  "category": "decorations",
+  "variant": "primary",
+  "batch": 8,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Decorative only; no solid collision",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_08/assets/decorations/sGorseBushDecoration.png",
+  "sourceBatch": "Game_Forge_Batch_08.zip",
+  "sourceSha256": "ed12db8f215e16447445195aa81ae09241daed9dde7fb39d606253af0428c87a",
+  "frames": 1
+}

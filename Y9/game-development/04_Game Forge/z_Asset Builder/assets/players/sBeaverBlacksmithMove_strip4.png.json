@@ -1,0 +1,31 @@
+{
+  "id": "PL062",
+  "title": "Beaver blacksmith",
+  "tags": "historical-inspired, medieval, non-human, breadth expansion",
+  "category": "players",
+  "variant": "movement",
+  "batch": 17,
+  "origin": [
+    32,
+    96
+  ],
+  "mask": {
+    "left": 20,
+    "top": 30,
+    "right": 43,
+    "bottom": 95
+  },
+  "fps": 8,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_17/assets/players/sBeaverBlacksmithMove_strip4.png",
+  "sourceBatch": "Game_Forge_Batch_17.zip",
+  "sourceSha256": "e72ce331dcb902eb5e77a08cc1ca6add08def1e59fb18f6bd71869b3891a5b75",
+  "frameWidth": 64,
+  "frameHeight": 96,
+  "frames": 4
+}

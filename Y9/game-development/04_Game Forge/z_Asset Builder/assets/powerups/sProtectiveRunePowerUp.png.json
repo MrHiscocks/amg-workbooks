@@ -1,0 +1,24 @@
+{
+  "id": "PU009",
+  "title": "Protective rune",
+  "tags": "shield",
+  "category": "powerups",
+  "variant": "primary",
+  "batch": 6,
+  "origin": [
+    0,
+    0
+  ],
+  "mask": "Automatic rectangle around visible artwork",
+  "fps": 6,
+  "placement": "",
+  "repeatHorizontal": false,
+  "form": "",
+  "loop": false,
+  "duration": null,
+  "description": "",
+  "sourceFile": "Game_Forge_Batch_06/assets/powerups/sProtectiveRunePowerUp.png",
+  "sourceBatch": "Game_Forge_Batch_06.zip",
+  "sourceSha256": "925810cf4f9991d1d00f40bc4debb65509445461a1389a2256ed8bf34be8ba45",
+  "frames": 1
+}
