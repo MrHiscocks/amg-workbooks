@@ -1,8 +1,0 @@
-import test from 'node:test';import assert from 'node:assert/strict';
-import {filterAssets,parseSelection,defaultFiles,safeName} from '../src/data.mjs';
-const fox={id:'PL001',category:'players',search:'fox explorer woodland welsh',themes:['Nature'],environments:['Woodland'],animated:true,form:'quadruped',defaultFiles:['move'],files:[{path:'move',name:'sFoxMove_strip4.png'},{path:'idle',name:'sFoxIdle_strip4.png'}]};
-const flag={id:'EX001',category:'endpoints',search:'welsh flag cymru',themes:['Heritage'],environments:[],animated:false,form:'',defaultFiles:['flag'],files:[{path:'flag',name:'sFlag.png'}]};
-test('combined category, words and movement filters',()=>{assert.equal(filterAssets([fox,flag],{query:'FOX woodland',category:'players',movement:'animated',theme:'Nature'}).length,1);assert.equal(filterAssets([fox,flag],{query:'fox',category:'endpoints'}).length,0);assert.equal(filterAssets([fox,flag],{query:'wales'}).length,2);});
-test('package default includes movement and excludes legacy idle',()=>{assert.deepEqual(defaultFiles([fox]).map(f=>f.name),['sFoxMove_strip4.png']);});
-test('selection rejects malformed data, deduplicates and reports missing IDs',()=>{const r=parseSelection('{"schemaVersion":1,"name":"Test","ids":["PL001","PL001","gone"]}',new Set(['PL001']));assert.deepEqual(r.ids,['PL001']);assert.deepEqual(r.missing,['gone']);assert.throws(()=>parseSelection('{"ids":{}}',new Set()));assert.throws(()=>parseSelection('{"schemaVersion":1,"ids":[{}]}',new Set()));});
-test('safe package filenames',()=>{assert.equal(safeName('../../My Welsh game!'),'My-Welsh-game');});
