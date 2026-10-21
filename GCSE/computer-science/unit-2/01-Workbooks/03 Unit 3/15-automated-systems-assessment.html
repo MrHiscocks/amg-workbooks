@@ -1430,28 +1430,14 @@ Sk.builtinFiles={"files":{"src/builtin/sys.js":"var $builtinmodule=function(){va
   <script>window.LAB_CHALLENGES={"modify":{"id":"modify","level":"Practical 01","title":"Practical 01 \u00b7 Modify a delivery tracker","brief":"A courier program currently records three parcel times. Modify it so the dispatcher chooses the number of parcels and the final report includes an average.","requirements":["Run and inspect the supplied program","Ask for parcel count from 1 to 20","Use that value to control the for loop","Maintain the delivery-time total","Calculate the average after the loop","Display parcel count, total and average","Preserve and improve the existing annotation"],"starter":"# Delivery Tracker - supplied program\ntotalMinutes = 0\n\nfor parcelNumber in range(1, 4):\n    minutes = int(input(f\"Minutes for parcel {parcelNumber}: \"))\n    totalMinutes = totalMinutes + minutes\n\nprint(f\"Total minutes: {totalMinutes}\")\n","filename":"delivery_tracker_modify.py","sample":"DELIVERY REPORT\nParcels: 5\nTotal minutes: 142\nAverage: 28.40 minutes","extension":"Count deliveries that took more than 30 minutes."},"repair":{"id":"repair","level":"Practical 02","title":"Practical 02 \u00b7 Repair a password validator","brief":"Repair the supplied validator so it repeatedly requests a password until it is at least eight characters long, then confirms that the user can enter the same password again.","requirements":["Run the faulty starter","Repeat while the password is shorter than eight characters","Update the password inside the loop","Count rejected passwords","After validation, ask the user to confirm the password","Display PASSWORD ACCEPTED or PASSWORDS DO NOT MATCH","Add comments for validation and confirmation"],"starter":"# Password Validator - faulty version\npassword = input(\"Choose password: \")\nrejected = 0\n\nwhile len(password) >= 8:\n    print(\"Password needs at least 8 characters\")\n    rejected = rejected + 1\n\nconfirmation = input(\"Confirm password: \")\nif confirmation == password:\n    print(\"PASSWORD ACCEPTED\")\nelse:\n    print(\"PASSWORDS DO NOT MATCH\")\nprint(f\"Rejected passwords: {rejected}\")\n","filename":"password_validator_repair.py","sample":"Choose password: dragon\nPASSWORD NEEDS AT LEAST 8 CHARACTERS\nChoose password: dragon72\nConfirm password: dragon72\nPASSWORD ACCEPTED\nRejected passwords: 1","extension":"Repeat confirmation until it matches the validated password."},"interest":{"id":"interest","level":"Practical 03","title":"Practical 03 \u00b7 Savings forecast upgrade","brief":"Upgrade a simple compound-interest program so it records yearly balances and stops safely when the target is reached.","requirements":["Validate starting balance and target as positive values","Require target to be greater than starting balance","Use a while loop to apply annual compound interest","Count the years","Display each year number and new balance","Display the final number of years","Use purposeful comments without narrating every line"],"starter":"# Savings Forecast\nbalance = float(input(\"Starting balance: \u00a3\"))\nrate = float(input(\"Annual rate: \"))\ntarget = float(input(\"Target: \u00a3\"))\nyears = 0\n\n# Add validation and the yearly growth loop.\n","filename":"savings_forecast_upgrade.py","sample":"YEAR 1: \u00a3525.00\nYEAR 2: \u00a3551.25\n...\nTARGET REACHED IN 6 YEARS","extension":"Stop after 50 years and display TARGET NOT REACHED if growth is too slow."},"commission":{"id":"commission","level":"Independent","title":"Practical 04 \u00b7 Digital wallet spending monitor","brief":"Build a wallet system that processes an unknown number of purchases until the user chooses to finish, rejecting any purchase the balance cannot cover.","requirements":["Ask for owner name and starting balance","Validate a positive starting balance","Use a sentinel value of 0 to finish","Reject negative purchases","Reject purchases greater than the current balance","Subtract approved purchases and count them","Maintain the total spent","Display a final wallet statement","Plan and annotate independently"],"starter":"# Digital Wallet Spending Monitor\n# Plan validation, sentinel repetition, transaction decisions and output.\n\n","filename":"wallet_monitor.py","sample":"Purchase: \u00a312.50\nAPPROVED - BALANCE \u00a337.50\nPurchase: \u00a350\nDECLINED - INSUFFICIENT FUNDS\nPurchase: \u00a30\nWALLET STATEMENT\nApproved purchases: 1\nTotal spent: \u00a312.50\nRemaining balance: \u00a337.50","extension":"Count declined purchases and report the largest approved purchase."}};</script>
   <script>
 
-// Waiting for a student's input is not Python execution time.
+// No automatic time limit: timed loops and student input may take as long as needed.
+// Keep execution checks compiled in so the Stop buttons can cancel with execLimit = 1.
 (() => {
-  if (Sk.__amgInputTiming) return;
-  Sk.__amgInputTiming = true;
+  if (Sk.__amgUnlimitedRuntime) return;
+  Sk.__amgUnlimitedRuntime = true;
   const configure = Sk.configure;
   Sk.configure = function(options) {
-    if (typeof options.inputfun === 'function') {
-      const input = options.inputfun;
-      options = {...options, inputfun: function(...args) {
-        const started = Date.now();
-        const resume = value => {
-          // Stop uses a limit of 1; never undo its cancellation request.
-          if (Sk.execLimit > 1) Sk.execStart += Date.now() - started;
-          return value;
-        };
-        const result = input.apply(this, args);
-        return result && typeof result.then === 'function'
-          ? Promise.resolve(result).then(resume, error => { resume(); throw error; })
-          : resume(result);
-      }};
-    }
-    return configure.call(this, options);
+    return configure.call(this, {...options, execLimit: Infinity});
   };
 })();
 
@@ -1593,11 +1579,11 @@ Sk.builtinFiles={"files":{"src/builtin/sys.js":"var $builtinmodule=function(){va
     running=true;stopRequested=false;$('#runCode').disabled=true;$('#stopCode').disabled=false;$('#engineStatus').classList.add('running');$('#engineStatus').lastChild.textContent=' Running';
     clearConsole();output('— New run —\n','console-run');
     try{
-      Sk.configure({output:t=>output(t),read:builtinRead,inputfun:consoleInput,inputfunTakesPrompt:true,__future__:Sk.python3,execLimit:8000,yieldLimit:100,killableWhile:true,killableFor:true});
+      Sk.configure({output:t=>output(t),read:builtinRead,inputfun:consoleInput,inputfunTakesPrompt:true,__future__:Sk.python3,execLimit:Infinity,yieldLimit:100,killableWhile:true,killableFor:true});
       await Sk.misceval.asyncToPromise(()=>Sk.importMainWithBody('<stdin>',false,editor.getValue(),true));
       if(!stopRequested) output('\n— Program finished —\n','console-run');
     }catch(err){if(stopRequested)output('\n— Program stopped —\n','console-error');else output('\n'+String(err)+'\n','console-error');}
-    finally{running=false;Sk.execLimit=8000;$('#runCode').disabled=false;$('#stopCode').disabled=true;$('#engineStatus').classList.remove('running');$('#engineStatus').lastChild.textContent=' Python ready';codeByChallenge[activeChallenge]=editor.getValue();saveLocal();}
+    finally{running=false;Sk.execLimit=Infinity;$('#runCode').disabled=false;$('#stopCode').disabled=true;$('#engineStatus').classList.remove('running');$('#engineStatus').lastChild.textContent=' Python ready';codeByChallenge[activeChallenge]=editor.getValue();saveLocal();}
   }
   $('#runCode').addEventListener('click',runCode);
   $('#stopCode').addEventListener('click',()=>{if(!running)return;stopRequested=true;Sk.execLimit=1;if(activeInputResolve)activeInputResolve();output('\nStopping…\n','console-error');});
@@ -1741,7 +1727,7 @@ Sk.builtinFiles={"files":{"src/builtin/sys.js":"var $builtinmodule=function(){va
     runbar.innerHTML='<button class="button debug-run" type="button">Run code</button><button class="button debug-stop" type="button" disabled>Stop</button><button class="button secondary debug-reset" type="button">Reset</button><button class="button secondary debug-clear" type="button">Clear output</button><span class="debug-status">Ready</span>';
     const shell=document.createElement('div');shell.className='debug-console-shell';shell.hidden=true;shell.innerHTML='<div class="debug-console-head">Output</div><div class="debug-console" role="log" aria-live="polite"></div>';codePanel.append(runbar,shell);
     const consoleEl=shell.querySelector('.debug-console');const runButton=runbar.querySelector('.debug-run');const stopButton=runbar.querySelector('.debug-stop');const status=runbar.querySelector('.debug-status');
-    async function run(){if(activeRun)return;const runState={editor,inputResolve:null,stopped:false};activeRun=runState;setAllRunButtons(true);stopButton.disabled=false;status.textContent='Running';shell.hidden=false;consoleEl.innerHTML='';appendOutput(consoleEl,'New run\n','console-run');try{Sk.configure({output:text=>appendOutput(consoleEl,text),read:builtinRead,inputfun:prompt=>requestInput(consoleEl,prompt,runState),inputfunTakesPrompt:true,__future__:Sk.python3,execLimit:3500,yieldLimit:100,killableWhile:true,killableFor:true});await Sk.misceval.asyncToPromise(()=>Sk.importMainWithBody('<debug-'+(index+1)+'>',false,editor.value,true));if(!runState.stopped)appendOutput(consoleEl,'\nProgram finished\n','console-run');}catch(error){appendOutput(consoleEl,runState.stopped?'\nProgram stopped\n':'\n'+String(error)+'\n','console-error');}finally{Sk.execLimit=8000;activeRun=null;setAllRunButtons(false);stopButton.disabled=true;status.textContent='Ready';window.updateWorkbookProgress?.();}}
+    async function run(){if(activeRun)return;const runState={editor,inputResolve:null,stopped:false};activeRun=runState;setAllRunButtons(true);stopButton.disabled=false;status.textContent='Running';shell.hidden=false;consoleEl.innerHTML='';appendOutput(consoleEl,'New run\n','console-run');try{Sk.configure({output:text=>appendOutput(consoleEl,text),read:builtinRead,inputfun:prompt=>requestInput(consoleEl,prompt,runState),inputfunTakesPrompt:true,__future__:Sk.python3,execLimit:Infinity,yieldLimit:100,killableWhile:true,killableFor:true});await Sk.misceval.asyncToPromise(()=>Sk.importMainWithBody('<debug-'+(index+1)+'>',false,editor.value,true));if(!runState.stopped)appendOutput(consoleEl,'\nProgram finished\n','console-run');}catch(error){appendOutput(consoleEl,runState.stopped?'\nProgram stopped\n':'\n'+String(error)+'\n','console-error');}finally{Sk.execLimit=Infinity;activeRun=null;setAllRunButtons(false);stopButton.disabled=true;status.textContent='Ready';window.updateWorkbookProgress?.();}}
     runButton.addEventListener('click',run);
     stopButton.addEventListener('click',()=>{if(activeRun?.editor!==editor)return;activeRun.stopped=true;Sk.execLimit=1;activeRun.inputResolve?.();status.textContent='Stopping';});
     runbar.querySelector('.debug-reset').addEventListener('click',()=>{if(activeRun)return;editor.value=starter;editor.dispatchEvent(new Event('input',{bubbles:true}));consoleEl.innerHTML='';shell.hidden=true;status.textContent='Ready';});

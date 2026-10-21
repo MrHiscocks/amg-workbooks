@@ -1432,28 +1432,14 @@ Sk.builtinFiles={"files":{"src/builtin/sys.js":"var $builtinmodule=function(){va
   <script>window.LAB_CHALLENGES={"guessing":{"id":"guessing","level":"Stretch 01","title":"Challenge 01 · Precision number guessing game","brief":"Create a polished guessing game with a random secret, limited attempts and distance-based feedback that becomes more informative as the player gets closer.","requirements":["Import random and generate a secret from 1 to 100","Give the player at most eight attempts","Use a while loop controlled by both correctness and remaining attempts","Use abs(secret - guess) to calculate distance","Display HOT, WARM or COLD plus higher-or-lower guidance","Reject guesses outside 1 to 100 without consuming an attempt","Display a win report or reveal the secret","Offer a play-again loop","Plan and annotate independently"],"starter":"# NEW SKILLS\n# import random\n# secret = random.randint(1, 100)\n# distance = abs(secret - guess)\n\n# Precision Number Guessing Game\n","filename":"precision_guessing_game.py","sample":"Guess: 42\nWARM - GO HIGHER\nGuess: 51\nHOT - GO LOWER\nCORRECT IN 3 VALID GUESSES","hints":["Use an outer while loop for play again and an inner loop for one game.","Only increment attempts after a guess passes range validation.","Classify distance before giving the direction."],"extension":"Create Easy and Hard modes with different ranges and attempt limits."},"rps":{"id":"rps","level":"Stretch 02","title":"Challenge 02 · Rock paper scissors championship","brief":"Build a best-of championship against the computer. Rounds continue until either side reaches three points, with draws replayed without awarding a point.","requirements":["Import random and use random.choice() with a supplied tuple","Validate the player choice","Use a while loop until playerScore or computerScore reaches 3","Apply all win, loss and draw combinations","Do not award points for a draw","Display each round result and live score","Count completed rounds","Announce the championship winner","Plan and annotate independently"],"starter":"# NEW SKILL: random.choice() selects one value\nimport random\nchoices = (\"rock\", \"paper\", \"scissors\")\n# computerChoice = random.choice(choices)\n\n# Rock Paper Scissors Championship\n","filename":"rps_championship.py","sample":"Choose rock, paper or scissors: rock\nComputer: scissors\nYOU WIN THE ROUND\nScore: Player 1 - Computer 0\n...\nCHAMPIONSHIP WON IN 6 ROUNDS","hints":["The game loop continues while both scores are below 3.","A draw is playerChoice == computerChoice.","Group the three player-winning combinations with or."],"extension":"Add a sudden-death mode where the first non-draw round wins."},"league":{"id":"league","level":"Stretch 03","title":"Challenge 03 · Fantasy league season simulator","brief":"Simulate a short fantasy league season for several teams, generating match points and identifying the champion after repeated rounds.","requirements":["Import random","Ask for 3 to 6 teams and validate the value","Use an outer for loop for five rounds","Use an inner for loop to process every team each round","Generate 0 to 5 points using random.randint()","Maintain a separate named total for each supported team position","Display each round result","Identify the highest total after all rounds","Handle a tied championship","Plan and annotate the nested system independently"],"starter":"# NEW SKILL: NESTED LOOPS\n# One complete inner loop runs during every outer-loop repetition.\n# random.randint(0, 5) can generate each team score.\n\n# Fantasy League Season Simulator\n","filename":"fantasy_league_simulator.py","sample":"ROUND 1\nTeam 1 earns 4 points\nTeam 2 earns 2 points\nTeam 3 earns 5 points\n...\nFINAL TABLE\nTeam 1: 17\nTeam 2: 14\nTeam 3: 17\nCHAMPIONSHIP TIED","hints":["Because lists are not yet assumed, support up to six teams with total1 to total6 variables and only update those in use.","The outer loop controls rounds; the inner loop controls teams.","After simulation, compare valid team totals to find the highest and count ties."],"extension":"Introduce team names and produce a ranked table using a list of name-and-score pairs."}};</script>
   <script>
 
-// Waiting for a student's input is not Python execution time.
+// No automatic time limit: timed loops and student input may take as long as needed.
+// Keep execution checks compiled in so the Stop buttons can cancel with execLimit = 1.
 (() => {
-  if (Sk.__amgInputTiming) return;
-  Sk.__amgInputTiming = true;
+  if (Sk.__amgUnlimitedRuntime) return;
+  Sk.__amgUnlimitedRuntime = true;
   const configure = Sk.configure;
   Sk.configure = function(options) {
-    if (typeof options.inputfun === 'function') {
-      const input = options.inputfun;
-      options = {...options, inputfun: function(...args) {
-        const started = Date.now();
-        const resume = value => {
-          // Stop uses a limit of 1; never undo its cancellation request.
-          if (Sk.execLimit > 1) Sk.execStart += Date.now() - started;
-          return value;
-        };
-        const result = input.apply(this, args);
-        return result && typeof result.then === 'function'
-          ? Promise.resolve(result).then(resume, error => { resume(); throw error; })
-          : resume(result);
-      }};
-    }
-    return configure.call(this, options);
+    return configure.call(this, {...options, execLimit: Infinity});
   };
 })();
 
@@ -1595,11 +1581,11 @@ Sk.builtinFiles={"files":{"src/builtin/sys.js":"var $builtinmodule=function(){va
     running=true;stopRequested=false;$('#runCode').disabled=true;$('#stopCode').disabled=false;$('#engineStatus').classList.add('running');$('#engineStatus').lastChild.textContent=' Running';
     clearConsole();output('— New run —\n','console-run');
     try{
-      Sk.configure({output:t=>output(t),read:builtinRead,inputfun:consoleInput,inputfunTakesPrompt:true,__future__:Sk.python3,execLimit:8000,yieldLimit:100,killableWhile:true,killableFor:true});
+      Sk.configure({output:t=>output(t),read:builtinRead,inputfun:consoleInput,inputfunTakesPrompt:true,__future__:Sk.python3,execLimit:Infinity,yieldLimit:100,killableWhile:true,killableFor:true});
       await Sk.misceval.asyncToPromise(()=>Sk.importMainWithBody('<stdin>',false,editor.getValue(),true));
       if(!stopRequested) output('\n— Program finished —\n','console-run');
     }catch(err){if(stopRequested)output('\n— Program stopped —\n','console-error');else output('\n'+String(err)+'\n','console-error');}
-    finally{running=false;Sk.execLimit=8000;$('#runCode').disabled=false;$('#stopCode').disabled=true;$('#engineStatus').classList.remove('running');$('#engineStatus').lastChild.textContent=' Python ready';codeByChallenge[activeChallenge]=editor.getValue();saveLocal();}
+    finally{running=false;Sk.execLimit=Infinity;$('#runCode').disabled=false;$('#stopCode').disabled=true;$('#engineStatus').classList.remove('running');$('#engineStatus').lastChild.textContent=' Python ready';codeByChallenge[activeChallenge]=editor.getValue();saveLocal();}
   }
   $('#runCode').addEventListener('click',runCode);
   $('#stopCode').addEventListener('click',()=>{if(!running)return;stopRequested=true;Sk.execLimit=1;if(activeInputResolve)activeInputResolve();output('\nStopping…\n','console-error');});

@@ -1431,28 +1431,14 @@ Sk.builtinFiles={"files":{"src/builtin/sys.js":"var $builtinmodule=function(){va
   <script>window.LAB_CHALLENGES={"character":{"id":"character","level":"Challenge","title":"Challenge 01 · Random character studio","brief":"Build a replayable character generator from stored names, roles and abilities.","requirements":["Store at least four names, roles and abilities in lists","Create choose_random_item(items)","Create create_codename(name, role)","Create calculate_power(role, level)","Create display_character(characterData)","Generate another character until the user exits","Document and test every function"],"starter":"# Random Character Studio\nimport random\n\nnames = [\"Nova\", \"Echo\", \"Mira\", \"Flux\"]\nroles = [\"Pilot\", \"Medic\", \"Scout\", \"Engineer\"]\nabilities = [\"Shield\", \"Pulse\", \"Repair\", \"Stealth\"]\n\ndef choose_random_item(items):\n    pass\n\ndef create_codename(name, role):\n    pass\n\ndef calculate_power(role, level):\n    pass\n\ndef display_character(name, role, ability, codename, power):\n    pass\n\n# BUILD THE REPLAY LOOP\n","filename":"random_character_studio.py","sample":"CODENAME: NOV-PILOT\nName: Nova\nRole: Pilot\nAbility: Stealth\nPower: 42\nGenerate another? y","hints":["Use random.choice(items).","Build the codename from cleaned string slices.","Return values from processing functions."],"extension":"Prevent the same role and ability combination appearing twice in a row."},"quiz":{"id":"quiz","level":"Challenge","title":"Challenge 02 · Revision quiz engine","brief":"Build a reusable quiz system from coordinated question and answer lists.","requirements":["Store at least five questions and answers in coordinated lists","Create ask_question(question, answer)","Create run_quiz(questions, answers)","Normalise typed answers before comparing","Return and display the final score","Offer another attempt","Include a function test record in comments"],"starter":"# Revision Quiz Engine\nquestions = [\n    \"Which keyword returns a value?\",\n    \"Which method adds to a list?\",\n    \"What index selects the first item?\"\n]\nanswers = [\"return\", \"append\", \"0\"]\n\ndef normalise_answer(answer):\n    pass\n\ndef ask_question(question, answer):\n    pass\n\ndef run_quiz(question_list, answer_list):\n    pass\n\n# BUILD THE REPLAY LOOP\n","filename":"revision_quiz_engine.py","sample":"Which keyword returns a value? return\nCorrect\nFinal score: 3/3\nTry again? n","hints":["Use the same index for matching questions and answers.","Return True or False from ask_question().","Accumulate the score inside run_quiz()."],"extension":"Randomise question order without breaking the question-answer pairing."},"events":{"id":"events","level":"Advanced","title":"Challenge 03 · Community event planner","brief":"Create a larger menu-controlled system for event names and available spaces.","requirements":["Store event names and spaces in coordinated lists","Create functions to view, add, search, book and cancel events","Normalise event names consistently","Keep matching data at the same index","Validate every menu choice and booking quantity","Prevent duplicate events and overbooking","Document functions and record typical, boundary and erroneous tests"],"starter":"# Community Event Planner\neventNames = []\neventSpaces = []\n\ndef show_menu():\n    pass\n\ndef view_events(names, spaces):\n    pass\n\ndef add_event(names, spaces):\n    pass\n\ndef find_event(names, target):\n    pass\n\ndef book_spaces(names, spaces):\n    pass\n\ndef cancel_event(names, spaces):\n    pass\n\n# MAIN PROGRAM\nchoice = \"\"\nwhile choice != \"6\":\n    show_menu()\n    choice = input(\"Choice: \")\n    # CALL THE CORRECT FUNCTION\n","filename":"community_event_planner.py","sample":"1. View  2. Add  3. Search  4. Book  5. Cancel  6. Exit\nChoice: 2\nEvent: Coding Club\nSpaces: 20\nEvent added","hints":["Return an index or -1 from find_event().","Pass both lists to functions that need matched data.","Change available spaces only after validation succeeds."],"extension":"Move reusable search and validation functions into a second module and import them in the main file."}};</script>
   <script>
 
-// Waiting for a student's input is not Python execution time.
+// No automatic time limit: timed loops and student input may take as long as needed.
+// Keep execution checks compiled in so the Stop buttons can cancel with execLimit = 1.
 (() => {
-  if (Sk.__amgInputTiming) return;
-  Sk.__amgInputTiming = true;
+  if (Sk.__amgUnlimitedRuntime) return;
+  Sk.__amgUnlimitedRuntime = true;
   const configure = Sk.configure;
   Sk.configure = function(options) {
-    if (typeof options.inputfun === 'function') {
-      const input = options.inputfun;
-      options = {...options, inputfun: function(...args) {
-        const started = Date.now();
-        const resume = value => {
-          // Stop uses a limit of 1; never undo its cancellation request.
-          if (Sk.execLimit > 1) Sk.execStart += Date.now() - started;
-          return value;
-        };
-        const result = input.apply(this, args);
-        return result && typeof result.then === 'function'
-          ? Promise.resolve(result).then(resume, error => { resume(); throw error; })
-          : resume(result);
-      }};
-    }
-    return configure.call(this, options);
+    return configure.call(this, {...options, execLimit: Infinity});
   };
 })();
 
@@ -1594,11 +1580,11 @@ Sk.builtinFiles={"files":{"src/builtin/sys.js":"var $builtinmodule=function(){va
     running=true;stopRequested=false;$('#runCode').disabled=true;$('#stopCode').disabled=false;$('#engineStatus').classList.add('running');$('#engineStatus').lastChild.textContent=' Running';
     clearConsole();output('— New run —\n','console-run');
     try{
-      Sk.configure({output:t=>output(t),read:builtinRead,inputfun:consoleInput,inputfunTakesPrompt:true,__future__:Sk.python3,execLimit:8000,yieldLimit:100,killableWhile:true,killableFor:true});
+      Sk.configure({output:t=>output(t),read:builtinRead,inputfun:consoleInput,inputfunTakesPrompt:true,__future__:Sk.python3,execLimit:Infinity,yieldLimit:100,killableWhile:true,killableFor:true});
       await Sk.misceval.asyncToPromise(()=>Sk.importMainWithBody('<stdin>',false,editor.getValue(),true));
       if(!stopRequested) output('\n— Program finished —\n','console-run');
     }catch(err){if(stopRequested)output('\n— Program stopped —\n','console-error');else output('\n'+String(err)+'\n','console-error');}
-    finally{running=false;Sk.execLimit=8000;$('#runCode').disabled=false;$('#stopCode').disabled=true;$('#engineStatus').classList.remove('running');$('#engineStatus').lastChild.textContent=' Python ready';codeByChallenge[activeChallenge]=editor.getValue();saveLocal();}
+    finally{running=false;Sk.execLimit=Infinity;$('#runCode').disabled=false;$('#stopCode').disabled=true;$('#engineStatus').classList.remove('running');$('#engineStatus').lastChild.textContent=' Python ready';codeByChallenge[activeChallenge]=editor.getValue();saveLocal();}
   }
   $('#runCode').addEventListener('click',runCode);
   $('#stopCode').addEventListener('click',()=>{if(!running)return;stopRequested=true;Sk.execLimit=1;if(activeInputResolve)activeInputResolve();output('\nStopping…\n','console-error');});

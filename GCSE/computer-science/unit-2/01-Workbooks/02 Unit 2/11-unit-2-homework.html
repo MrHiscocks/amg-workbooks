@@ -1421,28 +1421,14 @@ Sk.builtinFiles={"files":{"src/builtin/sys.js":"var $builtinmodule=function(){va
   <script>window.LAB_CHALLENGES={"repair":{"id":"repair","level":"Warm-up","title":"Task 01 · Repair a test score band","brief":"A revision app should classify a percentage as Distinction, Merit, Pass or Revisit. Repair the input type and route order.","requirements":["Cast percentage to integer","Check the routes in the correct order","Use Distinction at 80 or above","Use Merit at 65 to 79","Use Pass at 50 to 64","Use Revisit below 50","Display exactly one band"],"starter":"# Test Score Band - faulty version\npercentage = input(\"Percentage: \")\n\nif percentage >= 50:\n    band = \"Pass\"\nelif percentage >= 80:\n    band = \"Distinction\"\nelif percentage >= 65:\n    band = \"Merit\"\nelse:\n    band = \"Revisit\"\n\nprint(\"Band: \" + band)\n","filename":"test_band_repair.py","sample":"Percentage: 72\nBand: Merit","hints":["Cast the input with int().","Check the highest boundary first, followed by the next highest.","Each lower route handles values that failed the routes above it."],"extension":"Reject percentages below 0 or above 100 before assigning a band."},"main":{"id":"main","level":"Main task","title":"Task 02 · Online order checkout","brief":"Build a realistic checkout that validates quantity, calculates a product subtotal, applies a discount code and chooses the correct delivery charge.","requirements":["Ask for customer name, product name, quantity and unit price","Reject quantities outside 1 to 20","For a valid order, ask for discount code","Apply 10% off only when the code is SAVE10 and subtotal is at least £40","Use free delivery at £60 or above after discount, otherwise use £4.99","Display subtotal, discount, delivery and final total","Format money to two decimal places","Add purposeful comments for input, validation, discount, delivery and output","Run exact boundary tests for quantity, discount and delivery"],"starter":"# Online Order Checkout\n# Plan the input, validation, calculations, discount, delivery and output sections.\n\n","filename":"validated_checkout.py","sample":"CHECKOUT SUMMARY\nCustomer: Morgan\nProduct: Wireless mouse\nQuantity: 3\nSubtotal: £59.97\nDiscount: £6.00\nDelivery: £4.99\nFinal total: £58.96","hints":["Validate quantity before doing any calculations.","Calculate subtotal before testing the discount code and minimum spend.","Choose delivery after subtracting the discount, then add it to the final total."],"extension":"Ask whether the customer has premium delivery. If yes, remove the delivery charge from any valid order."}};</script>
   <script>
 
-// Waiting for a student's input is not Python execution time.
+// No automatic time limit: timed loops and student input may take as long as needed.
+// Keep execution checks compiled in so the Stop buttons can cancel with execLimit = 1.
 (() => {
-  if (Sk.__amgInputTiming) return;
-  Sk.__amgInputTiming = true;
+  if (Sk.__amgUnlimitedRuntime) return;
+  Sk.__amgUnlimitedRuntime = true;
   const configure = Sk.configure;
   Sk.configure = function(options) {
-    if (typeof options.inputfun === 'function') {
-      const input = options.inputfun;
-      options = {...options, inputfun: function(...args) {
-        const started = Date.now();
-        const resume = value => {
-          // Stop uses a limit of 1; never undo its cancellation request.
-          if (Sk.execLimit > 1) Sk.execStart += Date.now() - started;
-          return value;
-        };
-        const result = input.apply(this, args);
-        return result && typeof result.then === 'function'
-          ? Promise.resolve(result).then(resume, error => { resume(); throw error; })
-          : resume(result);
-      }};
-    }
-    return configure.call(this, options);
+    return configure.call(this, {...options, execLimit: Infinity});
   };
 })();
 
@@ -1584,11 +1570,11 @@ Sk.builtinFiles={"files":{"src/builtin/sys.js":"var $builtinmodule=function(){va
     running=true;stopRequested=false;$('#runCode').disabled=true;$('#stopCode').disabled=false;$('#engineStatus').classList.add('running');$('#engineStatus').lastChild.textContent=' Running';
     clearConsole();output('— New run —\n','console-run');
     try{
-      Sk.configure({output:t=>output(t),read:builtinRead,inputfun:consoleInput,inputfunTakesPrompt:true,__future__:Sk.python3,execLimit:8000,yieldLimit:100,killableWhile:true,killableFor:true});
+      Sk.configure({output:t=>output(t),read:builtinRead,inputfun:consoleInput,inputfunTakesPrompt:true,__future__:Sk.python3,execLimit:Infinity,yieldLimit:100,killableWhile:true,killableFor:true});
       await Sk.misceval.asyncToPromise(()=>Sk.importMainWithBody('<stdin>',false,editor.getValue(),true));
       if(!stopRequested) output('\n— Program finished —\n','console-run');
     }catch(err){if(stopRequested)output('\n— Program stopped —\n','console-error');else output('\n'+String(err)+'\n','console-error');}
-    finally{running=false;Sk.execLimit=8000;$('#runCode').disabled=false;$('#stopCode').disabled=true;$('#engineStatus').classList.remove('running');$('#engineStatus').lastChild.textContent=' Python ready';codeByChallenge[activeChallenge]=editor.getValue();saveLocal();}
+    finally{running=false;Sk.execLimit=Infinity;$('#runCode').disabled=false;$('#stopCode').disabled=true;$('#engineStatus').classList.remove('running');$('#engineStatus').lastChild.textContent=' Python ready';codeByChallenge[activeChallenge]=editor.getValue();saveLocal();}
   }
   $('#runCode').addEventListener('click',runCode);
   $('#stopCode').addEventListener('click',()=>{if(!running)return;stopRequested=true;Sk.execLimit=1;if(activeInputResolve)activeInputResolve();output('\nStopping…\n','console-error');});
@@ -1745,7 +1731,7 @@ Sk.builtinFiles={"files":{"src/builtin/sys.js":"var $builtinmodule=function(){va
     runbar.innerHTML='<button class="button debug-run" type="button">Run code</button><button class="button debug-stop" type="button" disabled>Stop</button><button class="button secondary debug-reset" type="button">Reset</button><button class="button secondary debug-clear" type="button">Clear output</button><span class="debug-status">Ready</span>';
     const shell=document.createElement('div');shell.className='debug-console-shell';shell.hidden=true;shell.innerHTML='<div class="debug-console-head">Output</div><div class="debug-console" role="log" aria-live="polite"></div>';codePanel.append(runbar,shell);
     const consoleEl=shell.querySelector('.debug-console');const runButton=runbar.querySelector('.debug-run');const stopButton=runbar.querySelector('.debug-stop');const status=runbar.querySelector('.debug-status');
-    async function run(){if(activeRun)return;const runState={editor,inputResolve:null,stopped:false};activeRun=runState;setAllRunButtons(true);stopButton.disabled=false;status.textContent='Running';shell.hidden=false;consoleEl.innerHTML='';appendOutput(consoleEl,'New run\n','console-run');try{Sk.configure({output:text=>appendOutput(consoleEl,text),read:builtinRead,inputfun:prompt=>requestInput(consoleEl,prompt,runState),inputfunTakesPrompt:true,__future__:Sk.python3,execLimit:3500,yieldLimit:100,killableWhile:true,killableFor:true});await Sk.misceval.asyncToPromise(()=>Sk.importMainWithBody('<debug-'+(index+1)+'>',false,editor.value,true));if(!runState.stopped)appendOutput(consoleEl,'\nProgram finished\n','console-run');}catch(error){appendOutput(consoleEl,runState.stopped?'\nProgram stopped\n':'\n'+String(error)+'\n','console-error');}finally{Sk.execLimit=8000;activeRun=null;setAllRunButtons(false);stopButton.disabled=true;status.textContent='Ready';window.updateWorkbookProgress?.();}}
+    async function run(){if(activeRun)return;const runState={editor,inputResolve:null,stopped:false};activeRun=runState;setAllRunButtons(true);stopButton.disabled=false;status.textContent='Running';shell.hidden=false;consoleEl.innerHTML='';appendOutput(consoleEl,'New run\n','console-run');try{Sk.configure({output:text=>appendOutput(consoleEl,text),read:builtinRead,inputfun:prompt=>requestInput(consoleEl,prompt,runState),inputfunTakesPrompt:true,__future__:Sk.python3,execLimit:Infinity,yieldLimit:100,killableWhile:true,killableFor:true});await Sk.misceval.asyncToPromise(()=>Sk.importMainWithBody('<debug-'+(index+1)+'>',false,editor.value,true));if(!runState.stopped)appendOutput(consoleEl,'\nProgram finished\n','console-run');}catch(error){appendOutput(consoleEl,runState.stopped?'\nProgram stopped\n':'\n'+String(error)+'\n','console-error');}finally{Sk.execLimit=Infinity;activeRun=null;setAllRunButtons(false);stopButton.disabled=true;status.textContent='Ready';window.updateWorkbookProgress?.();}}
     runButton.addEventListener('click',run);
     stopButton.addEventListener('click',()=>{if(activeRun?.editor!==editor)return;activeRun.stopped=true;Sk.execLimit=1;activeRun.inputResolve?.();status.textContent='Stopping';});
     runbar.querySelector('.debug-reset').addEventListener('click',()=>{if(activeRun)return;editor.value=starter;editor.dispatchEvent(new Event('input',{bubbles:true}));consoleEl.innerHTML='';shell.hidden=true;status.textContent='Ready';});

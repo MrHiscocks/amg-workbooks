@@ -1407,28 +1407,14 @@ Sk.builtinFiles={"files":{"src/builtin/sys.js":"var $builtinmodule=function(){va
   <script>window.LAB_CHALLENGES={"order":{"id":"order","level":"Assessment","title":"Practical 01 \u00b7 Gaming merchandise order","brief":"Create a checkout summary for a customer ordering official gaming merchandise.","requirements":["Ask for the customer and product names","Ask for quantity as an integer","Ask for unit price as a float","Calculate the subtotal and add \u00a32.50 delivery","Display a complete order with money to two decimal places","Add useful section comments"],"starter":"# Gaming Merchandise Order\n\n","filename":"gaming_merch_order.py","sample":"MERCHANDISE ORDER\nCustomer: Lewis Morgan\nProduct: Team hoodie\nQuantity: 2\nSubtotal: \u00a370.00\nDelivery: \u00a32.50\nTotal: \u00a372.50","extension":"Add a custom name-printing charge per item and include it in the total."},"upgrade":{"id":"upgrade","level":"Assessment","title":"Practical 02 \u00b7 Priority delivery upgrade","brief":"Modify the supplied order program so customers can pay a fixed priority-delivery charge and receive a clearer summary.","requirements":["Keep the existing inputs and subtotal","Store a priority charge of \u00a36.00","Calculate an updated total","Display a PRIORITY ORDER heading","Display subtotal, delivery and total as money","Add one useful comment for the new section"],"starter":"# Priority Delivery Upgrade\nitemName = input(\"Item: \")\nquantity = int(input(\"Quantity: \"))\nunitPrice = float(input(\"Unit price: \u00a3\"))\nsubtotal = quantity * unitPrice\nprint(f\"Subtotal: \u00a3{subtotal:.2f}\")\n","filename":"priority_delivery.py","sample":"PRIORITY ORDER\nItem: Revision cards\nSubtotal: \u00a318.00\nPriority delivery: \u00a36.00\nTotal: \u00a324.00","extension":"Add a packaging charge per item and show it separately."},"repair":{"id":"repair","level":"Assessment","title":"Practical 03 \u00b7 Gaming lounge booking repair","brief":"Repair a booking calculator that should find the number of player seats and the total session price.","requirements":["Correct all numerical input types","Correct the seat calculation","Correct the price calculation","Repair the final outputs","Add useful comments","Run the program with two different sets of data"],"starter":"# Gaming Lounge Booking - faulty program\nteams = input(\"Number of teams: \")\nplayersPerTeam = input(\"Players per team: \")\npricePerPlayer = input(\"Price per player: \u00a3\")\nseatsNeeded = teams + playersPerTeam\ntotalPrice = seatsNeeded + pricePerPlayer\nprint(\"Seats: \" + seatsNeeded)\nprint(\"Total: \u00a3\" + totalPrice)\n","filename":"gaming_lounge_repair.py","sample":"Teams: 3\nPlayers per team: 4\nSeats: 12\nTotal: \u00a372.00","extension":"Add a fixed arena hire fee and display a grand total."},"commission":{"id":"commission","level":"Assessment","title":"Practical 04 \u00b7 Sports tournament budget","brief":"Build a complete budget for a weekend sports tournament, including player fees, officials and venue hire.","requirements":["Ask for tournament name, team count and players per team","Ask for entry price per player","Ask for venue hire and officials cost","Calculate player count, entry income and total costs","Calculate the expected surplus or shortfall","Display a complete budget summary","Format money and add purposeful comments"],"starter":"# Sports Tournament Budget\n# Plan, annotate, build and test independently.\n\n","filename":"tournament_budget.py","sample":"TOURNAMENT BUDGET\nTeams: 8\nPlayers: 48\nEntry income: \u00a3576.00\nTotal costs: \u00a3430.00\nExpected balance: \u00a3146.00","extension":"Add a sponsor contribution and calculate the revised balance."}};</script>
   <script>
 
-// Waiting for a student's input is not Python execution time.
+// No automatic time limit: timed loops and student input may take as long as needed.
+// Keep execution checks compiled in so the Stop buttons can cancel with execLimit = 1.
 (() => {
-  if (Sk.__amgInputTiming) return;
-  Sk.__amgInputTiming = true;
+  if (Sk.__amgUnlimitedRuntime) return;
+  Sk.__amgUnlimitedRuntime = true;
   const configure = Sk.configure;
   Sk.configure = function(options) {
-    if (typeof options.inputfun === 'function') {
-      const input = options.inputfun;
-      options = {...options, inputfun: function(...args) {
-        const started = Date.now();
-        const resume = value => {
-          // Stop uses a limit of 1; never undo its cancellation request.
-          if (Sk.execLimit > 1) Sk.execStart += Date.now() - started;
-          return value;
-        };
-        const result = input.apply(this, args);
-        return result && typeof result.then === 'function'
-          ? Promise.resolve(result).then(resume, error => { resume(); throw error; })
-          : resume(result);
-      }};
-    }
-    return configure.call(this, options);
+    return configure.call(this, {...options, execLimit: Infinity});
   };
 })();
 
@@ -1569,11 +1555,11 @@ Sk.builtinFiles={"files":{"src/builtin/sys.js":"var $builtinmodule=function(){va
     running=true;stopRequested=false;$('#runCode').disabled=true;$('#stopCode').disabled=false;$('#engineStatus').classList.add('running');$('#engineStatus').lastChild.textContent=' Running';
     clearConsole();output('— New run —\n','console-run');
     try{
-      Sk.configure({output:t=>output(t),read:builtinRead,inputfun:consoleInput,inputfunTakesPrompt:true,__future__:Sk.python3,execLimit:8000,yieldLimit:100,killableWhile:true,killableFor:true});
+      Sk.configure({output:t=>output(t),read:builtinRead,inputfun:consoleInput,inputfunTakesPrompt:true,__future__:Sk.python3,execLimit:Infinity,yieldLimit:100,killableWhile:true,killableFor:true});
       await Sk.misceval.asyncToPromise(()=>Sk.importMainWithBody('<stdin>',false,editor.getValue(),true));
       if(!stopRequested) output('\n— Program finished —\n','console-run');
     }catch(err){if(stopRequested)output('\n— Program stopped —\n','console-error');else output('\n'+String(err)+'\n','console-error');}
-    finally{running=false;Sk.execLimit=8000;$('#runCode').disabled=false;$('#stopCode').disabled=true;$('#engineStatus').classList.remove('running');$('#engineStatus').lastChild.textContent=' Python ready';codeByChallenge[activeChallenge]=editor.getValue();saveLocal();}
+    finally{running=false;Sk.execLimit=Infinity;$('#runCode').disabled=false;$('#stopCode').disabled=true;$('#engineStatus').classList.remove('running');$('#engineStatus').lastChild.textContent=' Python ready';codeByChallenge[activeChallenge]=editor.getValue();saveLocal();}
   }
   $('#runCode').addEventListener('click',runCode);
   $('#stopCode').addEventListener('click',()=>{if(!running)return;stopRequested=true;Sk.execLimit=1;if(activeInputResolve)activeInputResolve();output('\nStopping…\n','console-error');});
@@ -1716,7 +1702,7 @@ Sk.builtinFiles={"files":{"src/builtin/sys.js":"var $builtinmodule=function(){va
     runbar.innerHTML='<button class="button debug-run" type="button">Run code</button><button class="button debug-stop" type="button" disabled>Stop</button><button class="button secondary debug-reset" type="button">Reset</button><button class="button secondary debug-clear" type="button">Clear output</button><span class="debug-status">Ready</span>';
     const shell=document.createElement('div');shell.className='debug-console-shell';shell.hidden=true;shell.innerHTML='<div class="debug-console-head">Output</div><div class="debug-console" role="log" aria-live="polite"></div>';codePanel.append(runbar,shell);
     const consoleEl=shell.querySelector('.debug-console');const runButton=runbar.querySelector('.debug-run');const stopButton=runbar.querySelector('.debug-stop');const status=runbar.querySelector('.debug-status');
-    async function run(){if(activeRun)return;const runState={editor,inputResolve:null,stopped:false};activeRun=runState;setAllRunButtons(true);stopButton.disabled=false;status.textContent='Running';shell.hidden=false;consoleEl.innerHTML='';appendOutput(consoleEl,'New run\n','console-run');try{Sk.configure({output:text=>appendOutput(consoleEl,text),read:builtinRead,inputfun:prompt=>requestInput(consoleEl,prompt,runState),inputfunTakesPrompt:true,__future__:Sk.python3,execLimit:3500,yieldLimit:100,killableWhile:true,killableFor:true});await Sk.misceval.asyncToPromise(()=>Sk.importMainWithBody('<debug-'+(index+1)+'>',false,editor.value,true));if(!runState.stopped)appendOutput(consoleEl,'\nProgram finished\n','console-run');}catch(error){appendOutput(consoleEl,runState.stopped?'\nProgram stopped\n':'\n'+String(error)+'\n','console-error');}finally{Sk.execLimit=8000;activeRun=null;setAllRunButtons(false);stopButton.disabled=true;status.textContent='Ready';window.updateWorkbookProgress?.();}}
+    async function run(){if(activeRun)return;const runState={editor,inputResolve:null,stopped:false};activeRun=runState;setAllRunButtons(true);stopButton.disabled=false;status.textContent='Running';shell.hidden=false;consoleEl.innerHTML='';appendOutput(consoleEl,'New run\n','console-run');try{Sk.configure({output:text=>appendOutput(consoleEl,text),read:builtinRead,inputfun:prompt=>requestInput(consoleEl,prompt,runState),inputfunTakesPrompt:true,__future__:Sk.python3,execLimit:Infinity,yieldLimit:100,killableWhile:true,killableFor:true});await Sk.misceval.asyncToPromise(()=>Sk.importMainWithBody('<debug-'+(index+1)+'>',false,editor.value,true));if(!runState.stopped)appendOutput(consoleEl,'\nProgram finished\n','console-run');}catch(error){appendOutput(consoleEl,runState.stopped?'\nProgram stopped\n':'\n'+String(error)+'\n','console-error');}finally{Sk.execLimit=Infinity;activeRun=null;setAllRunButtons(false);stopButton.disabled=true;status.textContent='Ready';window.updateWorkbookProgress?.();}}
     runButton.addEventListener('click',run);
     stopButton.addEventListener('click',()=>{if(activeRun?.editor!==editor)return;activeRun.stopped=true;Sk.execLimit=1;activeRun.inputResolve?.();status.textContent='Stopping';});
     runbar.querySelector('.debug-reset').addEventListener('click',()=>{if(activeRun)return;editor.value=starter;editor.dispatchEvent(new Event('input',{bubbles:true}));consoleEl.innerHTML='';shell.hidden=true;status.textContent='Ready';});
