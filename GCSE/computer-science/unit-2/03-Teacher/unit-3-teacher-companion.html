@@ -596,16 +596,18 @@
     .idle-head h2 { margin: 0; font-size: clamp(21px, 2vw, 29px); letter-spacing: -.025em; }
     .idle-head p { margin: 2px 0 0; color: var(--muted); font-size: 13px; }
     .idle-body { min-height: 0; display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(340px, .7fr); gap: 16px; padding: 16px; }
-    .idle-panel { min-height: 0; display: flex; flex-direction: column; overflow: hidden; border: 1px solid var(--line); border-radius: 14px; background: white; box-shadow: 0 12px 36px rgba(7,27,50,.08); }
-    .idle-toolbar { min-height: 51px; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 0 15px; border-bottom: 1px solid var(--line); }
+    .idle-panel { min-width: 0; min-height: 0; display: flex; flex-direction: column; overflow: hidden; border: 1px solid var(--line); border-radius: 14px; background: white; box-shadow: 0 12px 36px rgba(7,27,50,.08); }
+    .idle-toolbar { flex-shrink: 0; min-height: 51px; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 0 15px; border-bottom: 1px solid var(--line); }
     .idle-toolbar strong { font-size: 14px; }
     .idle-actions { display: flex; align-items: center; gap: 9px; }
     .idle-small-btn { min-height: 36px; padding: 0 13px; border: 1px solid var(--line); border-radius: 8px; color: var(--ink); background: white; font-weight: 780; cursor: pointer; }
     .idle-small-btn.run { border-color: var(--cyan); background: var(--cyan); }
     .idle-small-btn:disabled { opacity: .45; cursor: wait; }
-    .idle-editor { flex: 1 1 auto; min-height: 150px; width: 100%; resize: none; border: 0; outline: 0; padding: 20px; color: #eaf6ff; background: #061b30; font: 16px/1.7 var(--mono); tab-size: 4; }
-    .idle-panel .CodeMirror { flex: 1 1 auto; width: 100%; height: auto; min-height: 150px; color: #edf8ff; background: #061b30; font: 16px/1.65 var(--mono); }
-    .idle-panel .CodeMirror-scroll { min-height: 150px; }
+    .idle-editor { flex: 1 1 0; min-height: 0; overflow: auto; width: 100%; resize: none; border: 0; outline: 0; padding: 20px; color: #eaf6ff; background: #061b30; font: 16px/1.7 var(--mono); tab-size: 4; }
+    .idle-panel .CodeMirror { flex: 1 1 0; width: 100%; height: auto; min-height: 0; color: #edf8ff; background: #061b30; font: 16px/1.65 var(--mono); }
+    .idle-panel .CodeMirror-scroll { min-height: 0; }
+    .idle-panel .CodeMirror-lines { padding: 12px 0; }
+    .idle-panel .CodeMirror pre.CodeMirror-line, .idle-panel .CodeMirror pre.CodeMirror-line-like { padding: 0 12px; }
     .idle-panel .CodeMirror-gutters { border-right: 1px solid rgba(255,255,255,.09); background: #051629; }
     .idle-panel .CodeMirror-linenumber { color: #58718a; }
     .cm-s-pythonlab .CodeMirror-cursor { border-left-color: var(--cyan); }
@@ -621,7 +623,7 @@
     .cm-s-pythonlab .cm-comment { color: #7890a5; font-style: italic; }
     .cm-s-pythonlab .cm-operator { color: #c3d4df; }
     .cm-s-pythonlab .cm-error { color: #ff817b; }
-    .idle-input-wrap { border-top: 1px solid var(--line); background: white; }
+    .idle-input-wrap { flex-shrink: 0; border-top: 1px solid var(--line); background: white; }
     .idle-input-label { display: flex; align-items: center; justify-content: space-between; gap: 14px; padding: 10px 15px 0; color: var(--muted); font-size: 12px; }
     .idle-input { width: 100%; height: 84px; resize: none; border: 0; outline: 0; padding: 9px 15px 13px; color: var(--ink); background: white; font: 14px/1.45 var(--mono); }
     .idle-status { display: inline-flex; align-items: center; gap: 7px; color: var(--muted); font-size: 12px; font-weight: 760; }
@@ -630,7 +632,7 @@
     .idle-status.busy::before { background: var(--orange); }
     .idle-status.error::before { background: var(--red); }
     .idle-output { flex: 1 1 auto; min-height: 0; margin: 0; overflow: auto; padding: 20px; color: #79eda0; background: #071523; font: 15px/1.65 var(--mono); white-space: pre-wrap; }
-    .idle-note { margin: 0; padding: 10px 15px; border-top: 1px solid rgba(255,255,255,.1); color: #9fb2c1; background: #071523; font-size: 11px; line-height: 1.4; }
+    .idle-note { flex-shrink: 0; margin: 0; padding: 10px 15px; border-top: 1px solid rgba(255,255,255,.1); color: #9fb2c1; background: #071523; font-size: 11px; line-height: 1.4; }
 
     @keyframes reveal { from { opacity: 0; transform: translateY(-5px); } to { opacity: 1; transform: none; } }
     @media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; transition-duration: .01ms !important; } }
@@ -1578,6 +1580,7 @@ Shortcut: Ctrl + Enter or ⌘ + Enter.</pre>
     let pyodidePromise = null;
     let idleBusy = false;
     let codeEditor = null;
+    let editorRefreshFrame = null;
     const PYODIDE_BASE = "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/";
     const IDLE_EXAMPLE = 'total_minutes = 0\nfor session in range(1, 4):\n    minutes = int(input(f"Session {session}: "))\n    total_minutes += minutes\nprint(f"Total: {total_minutes} minutes")';
 
@@ -1960,6 +1963,16 @@ Shortcut: Ctrl + Enter or ⌘ + Enter.</pre>
       });
     }
 
+    // CodeMirror must measure a visible panel, then remeasure after layout changes.
+    function refreshIdleEditor() {
+      if (!codeEditor || !idleOverlay.classList.contains("open")) return;
+      if (editorRefreshFrame !== null) cancelAnimationFrame(editorRefreshFrame);
+      editorRefreshFrame = requestAnimationFrame(() => {
+        editorRefreshFrame = null;
+        if (idleOverlay.classList.contains("open")) codeEditor.refresh();
+      });
+    }
+
     function initialiseCodeEditor() {
       if (!window.CodeMirror || codeEditor) return;
       codeEditor = window.CodeMirror.fromTextArea(idleEditor, {
@@ -1973,7 +1986,7 @@ Shortcut: Ctrl + Enter or ⌘ + Enter.</pre>
         electricChars: true,
         matchBrackets: true,
         autoCloseBrackets: true,
-        lineWrapping: false,
+        lineWrapping: true,
         extraKeys: {
           Tab: editor => editor.somethingSelected() ? editor.indentSelection("add") : editor.execCommand("insertSoftTab"),
           "Shift-Tab": "indentLess",
@@ -1981,6 +1994,9 @@ Shortcut: Ctrl + Enter or ⌘ + Enter.</pre>
           "Cmd-Enter": runIdleCode
         }
       });
+      if (window.ResizeObserver) {
+        new ResizeObserver(refreshIdleEditor).observe(codeEditor.getWrapperElement());
+      }
     }
 
     function getIdleCode() {
@@ -2024,8 +2040,10 @@ Shortcut: Ctrl + Enter or ⌘ + Enter.</pre>
       idleOverlay.classList.add("open");
       idleOverlay.setAttribute("aria-hidden", "false");
       idleBtn.setAttribute("aria-expanded", "true");
+      initialiseCodeEditor();
       if (codeEditor) {
-        requestAnimationFrame(() => { codeEditor.refresh(); codeEditor.focus(); });
+        refreshIdleEditor();
+        codeEditor.focus();
       } else idleEditor.focus();
       ensurePyodide().catch(() => {});
     }
@@ -2057,6 +2075,7 @@ def __lesson_input(prompt=""):
     print(value)
     return value
 builtins.input = __lesson_input`;
+        // Let the program finish without an execution timer or deadline.
         await runtime.runPythonAsync(`${inputBridge}\n${getIdleCode()}`);
         setIdleStatus("Run complete", "ready");
         if (!idleOutput.textContent) idleOutput.textContent = "Program completed with no output.\n";
@@ -2104,7 +2123,10 @@ builtins.input = __lesson_input`;
     document.addEventListener("fullscreenchange", () => {
       presentBtn.querySelector("span").textContent = document.fullscreenElement ? "Exit" : "Present";
       presentBtn.title = document.fullscreenElement ? "Exit full screen" : "Enter full screen";
+      refreshIdleEditor();
     });
+    window.addEventListener("resize", refreshIdleEditor);
+    document.fonts?.ready.then(refreshIdleEditor);
 
     document.addEventListener("mouseover", event => {
       const target = event.target.closest?.(".vocab-term");
@@ -2139,7 +2161,6 @@ builtins.input = __lesson_input`;
       if (event.key === "Escape" && currentTopic && !document.fullscreenElement) goMenu();
     });
 
-    initialiseCodeEditor();
     renderMenu();
   </script>
 </body>
