@@ -1,5 +1,4 @@
 export const SCHOOLS = { maesteg: "Maesteg", ccyd: "CCYD", amg: "AMG" };
-export const ACCESS = { lead: "Course lead", maesteg: "Maesteg staff", ccyd: "CCYD staff" };
 // WJEC GCE Computer Science, Unit 5 assessment grids, Appendix B, pp. 39–47.
 export const MARK_SECTIONS = [
   { id: "discussion", title: "Discussion", max: 5 },
@@ -113,12 +112,6 @@ function canonical(data) {
 
 export const cleanData = input => canonical(input);
 
-export function dataForSchool(data, school) {
-  const learners = data.learners.filter(row => row.school === SCHOOLS[school]);
-  const ids = new Set(learners.map(row => row.id));
-  return { ...data, learners, records: data.records.filter(row => ids.has(row.learnerId)), marks: data.marks.filter(row => ids.has(row.learnerId)) };
-}
-
 export function marksFor(data, learner) {
   const marks = new Map(data.marks.filter(row => row.learnerId === learner.id).map(row => [row.section, row.mark]));
   const rows = MARK_SECTIONS.map(section => ({ ...section, mark: marks.get(section.id) ?? null }));
@@ -157,11 +150,8 @@ export function makePassphrase() {
 }
 
 export function checkPassphrases(input) {
-  const codes = Object.fromEntries(Object.keys(ACCESS).map(scope => [scope, input?.[scope]]));
-  const values = Object.values(codes);
-  requireValue(values.every(code => PASSES.test(code || "")) && new Set(values).size === values.length,
-    "This private backup is missing its three different passphrases.");
-  return codes;
+  requireValue(PASSES.test(input?.staff || ""), "The updater is missing its shared staff link.");
+  return { staff: input.staff };
 }
 
 async function keyFor(passphrase, salt, use) {
@@ -172,42 +162,11 @@ async function keyFor(passphrase, salt, use) {
   );
 }
 
-export function accessLinkFromHash(hash) {
-  const match = /^#access-(lead|maesteg|ccyd)-([A-Za-z\d_-]{91})$/.exec(hash);
-  return match ? { scope: match[1], token: match[2] } : null;
-}
-
-function accessLinkOptions(scope, iv) {
-  return { name: "AES-GCM", iv, additionalData: encode.encode("unit5-staff-pages:link-access:v1:" + scope) };
-}
-
-export async function sealLinkAccess({ scope, token }, passphrase) {
-  requireValue(accessLinkFromHash("#access-" + scope + "-" + token) && PASSES.test(passphrase), "Check the private access link.");
-  const salt = crypto.getRandomValues(new Uint8Array(16));
-  const iv = crypto.getRandomValues(new Uint8Array(12));
-  const key = await keyFor(token, salt, "encrypt");
-  const sealed = new Uint8Array(await crypto.subtle.encrypt(accessLinkOptions(scope, iv), key, encode.encode(passphrase)));
-  return { salt: base64(salt), iv: base64(iv), data: base64(sealed) };
-}
-
-export async function openLinkAccess({ scope, token }, access) {
-  const envelope = access?.version === 1 ? access.links?.[scope] : null;
-  requireValue(envelope, "This access link is unavailable.");
-  const salt = bytes64(envelope.salt, 16);
-  const iv = bytes64(envelope.iv, 12);
-  const key = await keyFor(token, salt, "decrypt");
-  const code = await crypto.subtle.decrypt(accessLinkOptions(scope, iv), key, bytes64(envelope.data, 40));
-  const passphrase = decode.decode(code);
-  requireValue(PASSES.test(passphrase), "This access link is invalid.");
-  return passphrase;
-}
-
-function cipherOptions(school, iv) {
-  return { name: "AES-GCM", iv, additionalData: encode.encode("unit5-staff-pages:v1:" + school) };
+function cipherOptions(scope, iv) {
+  return { name: "AES-GCM", iv, additionalData: encode.encode("unit5-staff-pages:v1:" + scope) };
 }
 
 async function encryptScope(data, scope, passphrase) {
-  requireValue(Object.hasOwn(ACCESS, scope) && PASSES.test(passphrase), "Choose a dashboard passphrase first.");
   const salt = crypto.getRandomValues(new Uint8Array(16));
   const iv = crypto.getRandomValues(new Uint8Array(12));
   const key = await keyFor(passphrase, salt, "encrypt");
@@ -222,8 +181,8 @@ async function encryptScope(data, scope, passphrase) {
 }
 
 export async function decryptScope(bundle, scope, passphrase) {
-  requireValue(Object.hasOwn(ACCESS, scope) && PASSES.test(passphrase), "Enter the passphrase supplied for the dashboard.");
-  const item = bundle?.version === 2 ? bundle.access?.[scope] : bundle?.version === 1 ? bundle.schools?.[scope] : null;
+  requireValue(scope === "staff" && PASSES.test(passphrase), "Open the shared staff link.");
+  const item = bundle?.version === 2 ? bundle.access?.[scope] : null;
   requireValue(item, "The published file is missing this view.");
   const salt = bytes64(item.salt, 16);
   const iv = bytes64(item.iv, 12);
@@ -232,19 +191,14 @@ export async function decryptScope(bundle, scope, passphrase) {
   try { plain = await crypto.subtle.decrypt(cipherOptions(scope, iv), key, bytes64(item.data)); }
   catch { throw new Error("That passphrase could not open these records."); }
   const payload = JSON.parse(decode.decode(plain));
-  const data = cleanData(bundle.version === 2 ? payload.data : payload);
-  requireValue(scope === "lead" || data.learners.every(row => row.school === SCHOOLS[scope]), "The published data has an invalid school scope.");
-  return { data, showMarks: scope === "lead" || payload.showMarks === true, scope };
+  const data = cleanData(payload.data);
+  return { data, showMarks: payload.showMarks === true };
 }
 
 export async function encryptedBundle(data, codes, shareMarks = false) {
   const clean = cleanData(data);
   const passes = checkPassphrases(codes);
-  const access = await Promise.all(Object.keys(ACCESS).map(async scope => {
-    const scoped = scope === "lead" ? clean : dataForSchool(clean, scope);
-    const showMarks = scope === "lead" || shareMarks === true;
-    const payload = { showMarks, data: showMarks ? scoped : { ...scoped, marks: [] } };
-    return [scope, await encryptScope(payload, scope, passes[scope])];
-  }));
-  return { version: 2, access: Object.fromEntries(access) };
+  const payload = { showMarks: shareMarks === true, data: shareMarks === true ? clean : { ...clean, marks: [] } };
+  const staff = await encryptScope(payload, "staff", passes.staff);
+  return { version: 2, access: { staff } };
 }

@@ -1,4 +1,4 @@
-import { SCHOOLS, STATUS, dateLabel, handed, indexRecords, measures, marksFor, decryptScope, accessLinkFromHash, openLinkAccess } from "./shared.js?v=private-link";
+import { SCHOOLS, STATUS, dateLabel, handed, indexRecords, measures, marksFor, decryptScope } from "./shared.js?v=shared-staff";
 import { el, field, input, select, button, message, showMessage } from "./dom.js";
 import { assignmentChart, countStatuses, group, learnerStrip, statusBar, submissionMix } from "./charts.js?v=nea-five";
 
@@ -6,10 +6,9 @@ const main = document.querySelector("#main");
 const lock = document.querySelector("#lock");
 const refresh = document.querySelector("#refresh");
 const refreshFeedback = message();
-const schoolParam = new URL(location.href).searchParams.get("school");
+const brand = document.querySelector(".brand");
 let data;
 let passphrase;
-let scope;
 let opening;
 let showMarks = false;
 let schoolFilter = "";
@@ -29,11 +28,11 @@ function heading(title, subtitle) {
     ...(data ? [el("div", "Data as at", { class: "date" }, el("time", dateLabel(data.asOf), { datetime: data.asOf }))] : []));
 }
 
-async function load(pass, previousScope) {
+async function load(pass) {
   const response = await fetch("./progress.json", { cache: "no-store", credentials: "omit" });
   if (!response.ok) throw new Error("The published progress file is unavailable.");
   const bundle = await response.json();
-  const provision = await decryptScope(bundle, previousScope, pass);
+  const provision = await decryptScope(bundle, "staff", pass);
   const encoder = new TextEncoder();
   const secret = await crypto.subtle.importKey("raw", encoder.encode(pass), { name: "HMAC", hash: "SHA-256" }, false, ["sign"]);
   const entries = await Promise.all(provision.data.learners.map(async learner => {
@@ -45,6 +44,7 @@ async function load(pass, previousScope) {
 }
 
 function gate(status, error = false) {
+  brand.href = "./";
   lock.hidden = true;
   refresh.hidden = true;
   refresh.disabled = false;
@@ -52,7 +52,7 @@ function gate(status, error = false) {
   showMessage(refreshFeedback, "");
   document.title = "Unit 5 · Staff progress";
   const panel = el("section", null, { class: "surface gate" },
-    heading("Unit 5 staff dashboard", status && !error ? "Opening learner records…" : "Open your private access link to view learner progress."));
+    heading("Unit 5 staff dashboard", status && !error ? "Opening learner records…" : "Open the shared staff link to view learner progress."));
   const feedback = message();
   if (error) {
     showMessage(feedback, status, true);
@@ -61,30 +61,26 @@ function gate(status, error = false) {
   main.replaceChildren(panel);
 }
 
-async function openInvitation(invitation) {
+const staffLink = () => "#staff-" + passphrase;
+
+async function openDashboard(candidate) {
   clearSession();
   const request = {};
   opening = request;
   gate("opening");
   try {
-    const response = await fetch("./link-access.json", { cache: "no-store", credentials: "omit" });
-    if (!response.ok) throw new Error("Could not load link access.");
-    const candidate = await openLinkAccess(invitation, await response.json());
-    const provision = await load(candidate, invitation.scope);
+    const provision = await load(candidate);
     if (opening !== request) return;
     opening = undefined;
     passphrase = candidate;
     data = provision.data;
-    scope = provision.scope;
     showMarks = provision.showMarks;
     persons = provision.links;
-    schoolFilter = scope === "lead" && Object.hasOwn(SCHOOLS, schoolParam) ? schoolParam : "";
-    history.replaceState(null, "", location.pathname + location.search);
     render(true);
   } catch {
     if (opening !== request) return;
     opening = undefined;
-    gate("This link could not open the dashboard. Reopen your private link or ask the course lead for help.", true);
+    gate("This link could not open the dashboard. Open the current shared staff link or ask the course lead for help.", true);
   }
 }
 
@@ -94,7 +90,7 @@ refresh.onclick = async () => {
   refresh.disabled = true;
   showMessage(refreshFeedback, "Refreshing learner records…");
   try {
-    const provision = await load(passphrase, scope);
+    const provision = await load(passphrase);
     if (refreshRequest !== request) return;
     data = provision.data;
     showMarks = provision.showMarks;
@@ -103,7 +99,7 @@ refresh.onclick = async () => {
     showMessage(refreshFeedback, "Updated progress loaded.");
   } catch {
     if (refreshRequest !== request) return;
-    showMessage(refreshFeedback, "Could not refresh. Reopen your private access link to try again.", true);
+    showMessage(refreshFeedback, "Could not refresh. Reopen the shared staff link to try again.", true);
   } finally {
     if (refreshRequest === request) refresh.disabled = false;
   }
@@ -123,8 +119,7 @@ function avatar(learner) {
 function list() {
   const find = input("search", term, { placeholder: "Name of learner" });
   const filter = select([["", "Any status"], ["past", "Has past-due work"], ["unknown", "Has unknown statuses"]], progressFilter);
-  const school = select(scope === "lead" ? [["", "All schools"], ...Object.entries(SCHOOLS)] : [[scope, SCHOOLS[scope]]],
-    scope === "lead" ? schoolFilter : scope);
+  const school = select([["", "All schools"], ...Object.entries(SCHOOLS)], schoolFilter);
   const focused = input("checkbox");
   focused.checked = focusOnly;
   const clear = button("Clear focus list");
@@ -227,7 +222,7 @@ function person(learner) {
       el("div", null, { class: "right" }, el("span", STATUS[record.status], { class: "pill " + statusClass }),
         ...(time ? [el("span", time, { class: "pill" + (item.overdue ? " late" : "") })] : []))));
   }
-  main.replaceChildren(el("a", "‹ Learners", { class: "back", href: "#" }), refreshFeedback,
+  main.replaceChildren(el("a", "‹ Learners", { class: "back", href: staffLink() }), refreshFeedback,
     el("section", null, { class: "surface learner-hero" }, avatar(learner),
       el("div", null, { class: "learner-overview" }, heading(learner.name, learner.school + " · Individual progress"), learnerStrip(work))),
     el("div", null, { class: "learner-columns" + (showMarks ? " with-marks" : "") },
@@ -250,6 +245,7 @@ function provisionalMarks(learner) {
 
 function render(moveFocus) {
   if (!data) { gate(); return; }
+  brand.href = staffLink();
   lock.hidden = refresh.hidden = false;
   if (!data.assignments.some(item => item.id === assignmentFilter)) assignmentFilter = "";
   document.title = "Unit 5 · Staff progress";
@@ -266,7 +262,6 @@ function render(moveFocus) {
 function clearSession() {
   opening = refreshRequest = undefined;
   data = passphrase = undefined;
-  scope = undefined;
   showMarks = false;
   persons.clear();
   focus.clear();
@@ -283,9 +278,9 @@ lock.onclick = () => {
   title.focus();
 };
 function openFromAddress() {
-  const invitation = accessLinkFromHash(location.hash);
-  if (invitation) {
-    openInvitation(invitation);
+  const token = /^#staff-([A-Za-z\d_-]{24})$/.exec(location.hash)?.[1];
+  if (token && token !== passphrase) {
+    openDashboard(token);
     return;
   }
   opening = undefined;
