@@ -2,11 +2,9 @@
 
 ## Open the dashboard
 
-Use the private access link for your school and enter the staff password. Keep each link within its intended school and share the password separately. Bookmark the original link so you can reopen it later.
+Open the private access link for your school. The dashboard opens without a password prompt. Keep each link within its intended school and bookmark the original link so you can reopen it later. The [dashboard landing page](https://mrhiscocks.github.io/amg-workbooks/unit-5-progress/) directs staff to their private link.
 
-You can also open the [Unit 5 Pages link](https://mrhiscocks.github.io/amg-workbooks/unit-5-progress/) with your original passphrase. Find passphrases in **Dashboard passphrases and backup import** in your private updater.
-
-The course lead can filter across AMG, Maesteg and CCYD. A school passphrase opens only that school’s learner records. Staff can search, filter by progress, choose a focus list for a session and open individual reports.
+The course-lead link opens all three schools. A school link opens only that school’s learner records. Staff can search, filter by progress, choose a focus list for a session and open individual reports.
 
 The tracker uses five assignments. Earlier discussion work is covered by the 1.2 final Discussion and existing-system work is covered by the Investigation. Older backups are filtered to the same assignment list when imported.
 
@@ -21,8 +19,8 @@ Keep a private backup of your changes. If you edited the previous version, impor
 
 ## Private files
 
-Only the public dashboard files belong on GitHub. Keep the private updater, backups and staff access links in an approved location. The published learner data is encrypted, and the credentials stay in the visitor’s browser. Use GitHub Pages for these encrypted records only if your school permits it. People who have retained an older file and its credentials can still decrypt that copy.
+Only the public dashboard files belong on GitHub. Keep the private updater, backups and staff access links in an approved location. The published learner data is encrypted. Anyone with a private access link can open that view. Use GitHub Pages for these encrypted records only if your school permits it. People who have retained an older file and its credentials can still decrypt that copy.
 
-Routine snapshot updates work with the existing private links. If you rotate a school’s passphrase in the updater, the affected school needs a replacement link.
+Routine snapshot updates work with the existing private links. To replace a private link, publish a new encrypted link access file alongside the snapshot encrypted with the rotated updater credential. Share the replacement link with the affected school.
 
 [GitHub Pages publishing setup](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) · [WJEC Unit 5 assessment grids, Appendix B](https://www.wjec.co.uk/media/wl4kj5l1/wjec-gce-computer-science-spec-from-2015.pdf)

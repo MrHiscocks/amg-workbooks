@@ -1,4 +1,4 @@
-import { ACCESS, SCHOOLS, STATUS, dateLabel, handed, indexRecords, measures, marksFor, decryptScope, accessLinkFromHash, openAccessLink } from "./shared.js?v=nea-five";
+import { SCHOOLS, STATUS, dateLabel, handed, indexRecords, measures, marksFor, decryptScope, accessLinkFromHash, openLinkAccess } from "./shared.js?v=private-link";
 import { el, field, input, select, button, message, showMessage } from "./dom.js";
 import { assignmentChart, countStatuses, group, learnerStrip, statusBar, submissionMix } from "./charts.js?v=nea-five";
 
@@ -7,10 +7,10 @@ const lock = document.querySelector("#lock");
 const refresh = document.querySelector("#refresh");
 const refreshFeedback = message();
 const schoolParam = new URL(location.href).searchParams.get("school");
-let accessLink = accessLinkFromHash(location.hash);
 let data;
 let passphrase;
 let scope;
+let opening;
 let showMarks = false;
 let schoolFilter = "";
 let persons = new Map();
@@ -33,11 +33,7 @@ async function load(pass, previousScope) {
   const response = await fetch("./progress.json", { cache: "no-store", credentials: "omit" });
   if (!response.ok) throw new Error("The published progress file is unavailable.");
   const bundle = await response.json();
-  let provision;
-  try {
-    provision = previousScope ? await decryptScope(bundle, previousScope, pass)
-      : await Promise.any(Object.keys(ACCESS).map(candidate => decryptScope(bundle, candidate, pass)));
-  } catch { throw new Error("That passphrase could not open the dashboard."); }
+  const provision = await decryptScope(bundle, previousScope, pass);
   const encoder = new TextEncoder();
   const secret = await crypto.subtle.importKey("raw", encoder.encode(pass), { name: "HMAC", hash: "SHA-256" }, false, ["sign"]);
   const entries = await Promise.all(provision.data.learners.map(async learner => {
@@ -48,47 +44,48 @@ async function load(pass, previousScope) {
   return { ...provision, links: new Map(entries) };
 }
 
-function gate() {
+function gate(status, error = false) {
   lock.hidden = true;
   refresh.hidden = true;
   refresh.disabled = false;
   refreshRequest = undefined;
   showMessage(refreshFeedback, "");
   document.title = "Unit 5 · Staff progress";
-  const prompt = accessLink ? "Enter the shared password to open the " + ACCESS[accessLink.scope] + " view."
-    : "Use your passphrase or open your private access link.";
   const panel = el("section", null, { class: "surface gate" },
-    heading("Unit 5 staff dashboard", prompt));
-  const control = input("password", "", { required: true, autocomplete: "off", maxlength: accessLink ? "128" : "24", spellcheck: "false" });
-  const unlock = button("Unlock dashboard", { class: "button primary", type: "submit" });
+    heading("Unit 5 staff dashboard", status && !error ? "Opening learner records…" : "Open your private access link to view learner progress."));
   const feedback = message();
-  const form = el("form", null, null, field(accessLink ? "Shared password" : "Dashboard passphrase", control),
-    el("div", null, { class: "actions" }, unlock), feedback);
-  form.addEventListener("submit", async event => {
-    event.preventDefault();
-    unlock.disabled = true;
-    showMessage(feedback, "Opening learner records…");
-    try {
-      if (!globalThis.crypto?.subtle) throw new Error("Open the GitHub Pages link over HTTPS to unlock the dashboard.");
-      const invitation = accessLink;
-      const candidate = invitation ? await openAccessLink(invitation, control.value) : control.value.trim();
-      const provision = await load(candidate, invitation?.scope);
-      if (!form.isConnected) return;
-      passphrase = candidate;
-      data = provision.data;
-      scope = provision.scope;
-      showMarks = provision.showMarks;
-      persons = provision.links;
-      schoolFilter = scope === "lead" && Object.hasOwn(SCHOOLS, schoolParam) ? schoolParam : "";
-      control.value = "";
-      if (accessLinkFromHash(location.hash)) history.replaceState(null, "", location.pathname + location.search);
-      render(true);
-    } catch (error) {
-      showMessage(feedback, error.message, true);
-    } finally { unlock.disabled = false; }
-  });
-  panel.append(form);
+  if (error) {
+    showMessage(feedback, status, true);
+    panel.append(feedback);
+  }
   main.replaceChildren(panel);
+}
+
+async function openInvitation(invitation) {
+  clearSession();
+  const request = {};
+  opening = request;
+  gate("opening");
+  try {
+    const response = await fetch("./link-access.json", { cache: "no-store", credentials: "omit" });
+    if (!response.ok) throw new Error("Could not load link access.");
+    const candidate = await openLinkAccess(invitation, await response.json());
+    const provision = await load(candidate, invitation.scope);
+    if (opening !== request) return;
+    opening = undefined;
+    passphrase = candidate;
+    data = provision.data;
+    scope = provision.scope;
+    showMarks = provision.showMarks;
+    persons = provision.links;
+    schoolFilter = scope === "lead" && Object.hasOwn(SCHOOLS, schoolParam) ? schoolParam : "";
+    history.replaceState(null, "", location.pathname + location.search);
+    render(true);
+  } catch {
+    if (opening !== request) return;
+    opening = undefined;
+    gate("This link could not open the dashboard. Reopen your private link or ask the course lead for help.", true);
+  }
 }
 
 refresh.onclick = async () => {
@@ -106,7 +103,7 @@ refresh.onclick = async () => {
     showMessage(refreshFeedback, "Updated progress loaded.");
   } catch {
     if (refreshRequest !== request) return;
-    showMessage(refreshFeedback, "Could not refresh. Reopen the dashboard with your current access link or passphrase.", true);
+    showMessage(refreshFeedback, "Could not refresh. Reopen your private access link to try again.", true);
   } finally {
     if (refreshRequest === request) refresh.disabled = false;
   }
@@ -267,6 +264,7 @@ function render(moveFocus) {
 }
 
 function clearSession() {
+  opening = refreshRequest = undefined;
   data = passphrase = undefined;
   scope = undefined;
   showMarks = false;
@@ -280,22 +278,23 @@ lock.onclick = () => {
   clearSession();
   history.replaceState(null, "", "./");
   gate();
-  main.querySelector("input")?.focus();
+  const title = main.querySelector("h1");
+  title.tabIndex = -1;
+  title.focus();
 };
-window.addEventListener("hashchange", () => {
+function openFromAddress() {
   const invitation = accessLinkFromHash(location.hash);
-  if (!invitation) { render(true); return; }
-  clearSession();
-  accessLink = invitation;
-  gate();
-  main.querySelector("input")?.focus();
-});
+  if (invitation) {
+    openInvitation(invitation);
+    return;
+  }
+  opening = undefined;
+  render(true);
+}
+window.addEventListener("hashchange", openFromAddress);
 window.addEventListener("pagehide", () => {
-  data = passphrase = undefined;
-  refreshRequest = undefined;
-  persons.clear();
-  focus.clear();
+  clearSession();
   main.replaceChildren();
 });
-window.addEventListener("pageshow", event => { if (event.persisted) gate(); });
-gate();
+window.addEventListener("pageshow", event => { if (event.persisted) openFromAddress(); });
+openFromAddress();
