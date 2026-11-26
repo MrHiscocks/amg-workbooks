@@ -169,6 +169,38 @@ async function keyFor(passphrase, salt, use) {
   );
 }
 
+export function accessLinkFromHash(hash) {
+  const match = /^#access-(lead|maesteg|ccyd)-([A-Za-z\d_-]{91})$/.exec(hash);
+  return match ? { scope: match[1], token: match[2] } : null;
+}
+
+function accessLinkOptions(scope, iv) {
+  return { name: "AES-GCM", iv, additionalData: encode.encode("unit5-staff-pages:access-link:v1:" + scope) };
+}
+
+export async function createAccessLink(scope, passphrase, password) {
+  requireValue(Object.hasOwn(ACCESS, scope) && PASSES.test(passphrase) && password.length > 0, "Choose valid staff access credentials.");
+  const salt = crypto.getRandomValues(new Uint8Array(16));
+  const iv = crypto.getRandomValues(new Uint8Array(12));
+  const key = await keyFor(password, salt, "encrypt");
+  const sealed = new Uint8Array(await crypto.subtle.encrypt(accessLinkOptions(scope, iv), key, encode.encode(passphrase)));
+  return "#access-" + scope + "-" + base64(new Uint8Array([...salt, ...iv, ...sealed]))
+    .replaceAll("+", "-").replaceAll("/", "_").replace(/=$/, "");
+}
+
+export async function openAccessLink({ scope, token }, password) {
+  const bytes = bytes64(token.replaceAll("-", "+").replaceAll("_", "/") + "=", 68);
+  const key = await keyFor(password, bytes.slice(0, 16), "decrypt");
+  try {
+    const code = await crypto.subtle.decrypt(accessLinkOptions(scope, bytes.slice(16, 28)), key, bytes.slice(28));
+    const passphrase = decode.decode(code);
+    requireValue(PASSES.test(passphrase), "Invalid access link.");
+    return passphrase;
+  } catch {
+    throw new Error("That shared password could not open this link.");
+  }
+}
+
 function cipherOptions(school, iv) {
   return { name: "AES-GCM", iv, additionalData: encode.encode("unit5-staff-pages:v1:" + school) };
 }

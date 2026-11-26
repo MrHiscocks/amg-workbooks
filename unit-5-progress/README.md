@@ -2,7 +2,9 @@
 
 ## Open the dashboard
 
-Use the [Unit 5 Pages link](https://mrhiscocks.github.io/amg-workbooks/unit-5-progress/) for both schools. Find the passphrases in **Dashboard passphrases and backup import** in your separate private updater. Give each school its own passphrase and keep the course-lead passphrase private.
+Use the private access link for your school and enter the staff password. Keep each link within its intended school and share the password separately. Bookmark the original link so you can reopen it later.
+
+You can also open the [Unit 5 Pages link](https://mrhiscocks.github.io/amg-workbooks/unit-5-progress/) with your original passphrase. Find passphrases in **Dashboard passphrases and backup import** in your private updater.
 
 The course lead can filter across AMG, Maesteg and CCYD. A school passphrase opens only that school’s learner records. Staff can search, filter by progress, choose a focus list for a session and open individual reports.
 
@@ -17,6 +19,8 @@ Keep a private backup of your changes. If you edited the previous version, impor
 
 ## Private files
 
-Only the ZIP contents belong on GitHub. The separate updater and private backups contain learner information and passphrases. Keep them in an approved location. The published learner data is encrypted, and the passphrases stay in the visitor’s browser. Use GitHub Pages for these encrypted records only if your school permits it. A shared passphrase can be forwarded. People who have retained an older file and passphrase can still decrypt that copy.
+Only the public dashboard files belong on GitHub. Keep the private updater, backups and staff access links in an approved location. The published learner data is encrypted, and the credentials stay in the visitor’s browser. Use GitHub Pages for these encrypted records only if your school permits it. People who have retained an older file and its credentials can still decrypt that copy.
+
+Routine snapshot updates work with the existing private links. If you rotate a school’s passphrase in the updater, the affected school needs a replacement link.
 
 [GitHub Pages publishing setup](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) · [WJEC Unit 5 assessment grids, Appendix B](https://www.wjec.co.uk/media/wl4kj5l1/wjec-gce-computer-science-spec-from-2015.pdf)

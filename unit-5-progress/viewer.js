@@ -1,4 +1,4 @@
-import { ACCESS, SCHOOLS, STATUS, dateLabel, handed, indexRecords, measures, marksFor, decryptScope } from "./shared.js";
+import { ACCESS, SCHOOLS, STATUS, dateLabel, handed, indexRecords, measures, marksFor, decryptScope, accessLinkFromHash, openAccessLink } from "./shared.js?v=staff-links";
 import { el, field, input, select, button, message, showMessage } from "./dom.js";
 import { assignmentChart, countStatuses, group, learnerStrip, statusBar, submissionMix } from "./charts.js";
 
@@ -7,6 +7,7 @@ const lock = document.querySelector("#lock");
 const refresh = document.querySelector("#refresh");
 const refreshFeedback = message();
 const schoolParam = new URL(location.href).searchParams.get("school");
+let accessLink = accessLinkFromHash(location.hash);
 let data;
 let passphrase;
 let scope;
@@ -54,20 +55,25 @@ function gate() {
   refreshRequest = undefined;
   showMessage(refreshFeedback, "");
   document.title = "Unit 5 · Staff progress";
+  const prompt = accessLink ? "Enter the shared password to open the " + ACCESS[accessLink.scope] + " view."
+    : "Use your passphrase or open your private access link.";
   const panel = el("section", null, { class: "surface gate" },
-    heading("Unit 5 staff dashboard", "Use your shared passphrase to open the learner records."));
-  const control = input("password", "", { required: true, autocomplete: "off", maxlength: "24", spellcheck: "false" });
+    heading("Unit 5 staff dashboard", prompt));
+  const control = input("password", "", { required: true, autocomplete: "off", maxlength: accessLink ? "128" : "24", spellcheck: "false" });
   const unlock = button("Unlock dashboard", { class: "button primary", type: "submit" });
   const feedback = message();
-  const form = el("form", null, null, field("Dashboard passphrase", control), el("div", null, { class: "actions" }, unlock), feedback);
+  const form = el("form", null, null, field(accessLink ? "Shared password" : "Dashboard passphrase", control),
+    el("div", null, { class: "actions" }, unlock), feedback);
   form.addEventListener("submit", async event => {
     event.preventDefault();
     unlock.disabled = true;
     showMessage(feedback, "Opening learner records…");
     try {
       if (!globalThis.crypto?.subtle) throw new Error("Open the GitHub Pages link over HTTPS to unlock the dashboard.");
-      const candidate = control.value.trim();
-      const provision = await load(candidate);
+      const invitation = accessLink;
+      const candidate = invitation ? await openAccessLink(invitation, control.value) : control.value.trim();
+      const provision = await load(candidate, invitation?.scope);
+      if (!form.isConnected) return;
       passphrase = candidate;
       data = provision.data;
       scope = provision.scope;
@@ -75,6 +81,7 @@ function gate() {
       persons = provision.links;
       schoolFilter = scope === "lead" && Object.hasOwn(SCHOOLS, schoolParam) ? schoolParam : "";
       control.value = "";
+      if (accessLinkFromHash(location.hash)) history.replaceState(null, "", location.pathname + location.search);
       render(true);
     } catch (error) {
       showMessage(feedback, error.message, true);
@@ -99,7 +106,7 @@ refresh.onclick = async () => {
     showMessage(refreshFeedback, "Updated progress loaded.");
   } catch {
     if (refreshRequest !== request) return;
-    showMessage(refreshFeedback, "Could not refresh. Reopen the dashboard if your school passphrase has changed.", true);
+    showMessage(refreshFeedback, "Could not refresh. Reopen the dashboard with your current access link or passphrase.", true);
   } finally {
     if (refreshRequest === request) refresh.disabled = false;
   }
@@ -259,7 +266,7 @@ function render(moveFocus) {
   }
 }
 
-lock.onclick = () => {
+function clearSession() {
   data = passphrase = undefined;
   scope = undefined;
   showMarks = false;
@@ -267,11 +274,22 @@ lock.onclick = () => {
   focus.clear();
   focusOnly = false;
   term = progressFilter = schoolFilter = assignmentFilter = "";
+}
+
+lock.onclick = () => {
+  clearSession();
   history.replaceState(null, "", "./");
   gate();
   main.querySelector("input")?.focus();
 };
-window.addEventListener("hashchange", () => render(true));
+window.addEventListener("hashchange", () => {
+  const invitation = accessLinkFromHash(location.hash);
+  if (!invitation) { render(true); return; }
+  clearSession();
+  accessLink = invitation;
+  gate();
+  main.querySelector("input")?.focus();
+});
 window.addEventListener("pagehide", () => {
   data = passphrase = undefined;
   refreshRequest = undefined;
