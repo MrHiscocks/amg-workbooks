@@ -8,6 +8,8 @@ You can also open the [Unit 5 Pages link](https://mrhiscocks.github.io/amg-workb
 
 The course lead can filter across AMG, Maesteg and CCYD. A school passphrase opens only that school’s learner records. Staff can search, filter by progress, choose a focus list for a session and open individual reports.
 
+The tracker uses five assignments. Earlier discussion work is covered by the 1.2 final Discussion and existing-system work is covered by the Investigation. Older backups are filtered to the same assignment list when imported.
+
 ## Update progress and marks
 
 1. Open **Unit 5 Private Updater – Combined** locally. Pick a school and learner and edit their assignment progress or the **Provisional NEA marks** section. Use **Save learner** before switching.

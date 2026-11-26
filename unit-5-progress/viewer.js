@@ -1,6 +1,6 @@
-import { ACCESS, SCHOOLS, STATUS, dateLabel, handed, indexRecords, measures, marksFor, decryptScope, accessLinkFromHash, openAccessLink } from "./shared.js?v=staff-links";
+import { ACCESS, SCHOOLS, STATUS, dateLabel, handed, indexRecords, measures, marksFor, decryptScope, accessLinkFromHash, openAccessLink } from "./shared.js?v=nea-five";
 import { el, field, input, select, button, message, showMessage } from "./dom.js";
-import { assignmentChart, countStatuses, group, learnerStrip, statusBar, submissionMix } from "./charts.js";
+import { assignmentChart, countStatuses, group, learnerStrip, statusBar, submissionMix } from "./charts.js?v=nea-five";
 
 const main = document.querySelector("#main");
 const lock = document.querySelector("#lock");

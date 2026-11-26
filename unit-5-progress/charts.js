@@ -14,8 +14,6 @@ const compactTitles = {
   "investigation-1": "Investigation Part 1",
   wireframes: "Wireframes & mockups",
   "discussion-final": "Final discussion",
-  "existing-system": "Existing system",
-  "discussion-original": "Original discussion",
 };
 
 export function group(status) {

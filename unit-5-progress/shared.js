@@ -19,6 +19,7 @@ export const STATUS = {
 };
 const ID = /^[a-z0-9][a-z0-9-]{0,79}$/;
 const DAY = 86_400_000;
+const MERGED_ASSIGNMENTS = new Set(["discussion-original", "existing-system"]);
 const PASSES = /^[A-Za-z\d_-]{24}$/;
 const ITERATIONS = 600000;
 const format = new Intl.DateTimeFormat("en-GB", { year: "numeric", month: "short", day: "numeric", timeZone: "UTC" });
@@ -73,8 +74,10 @@ function canonical(data) {
   for (const row of data.assignments) {
     const assignmentId = id(row?.id);
     const title = label(row.title, "assignment title");
-    if (/programming[\s-]+paradigms?/i.test(assignmentId) || /programming[\s-]+paradigms?/i.test(title)
-      || /programming[\s-]+paradigms?/i.test(row.label ?? "")) {
+    const titles = [title, row.label ?? ""];
+    if (MERGED_ASSIGNMENTS.has(assignmentId)
+      || /programming[\s-]+paradigms?/i.test(assignmentId)
+      || titles.some(name => /programming[\s-]+paradigms?|^1\.1\s+discussion\b|^existing[\s-]+system[\s-]+summary\b/i.test(name))) {
       excluded.add(assignmentId);
       continue;
     }
