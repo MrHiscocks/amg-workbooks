@@ -175,7 +175,7 @@ function list() {
       const progress = selected ? el("span", STATUS[activeWork[0].record.status], { class: "pill " + group(activeWork[0].record.status) })
         : el("div", null, { class: "mini-progress" }, statusBar(counts, "mini"), el("span", counts.submitted + "/" + activeWork.length + " handed in"));
       return el("tr", null, null, el("td", null, null, flag), el("th", null, { scope: "row" }, details), el("td", learner.school),
-        el("td", null, null, progress), el("td", null, null, el("span", overdue, { class: overdue ? "pill late" : null })),
+        el("td", null, null, progress), el("td", null, null, el("span", overdue, { class: overdue ? "pill late" : "pill no-overdue" })),
         el("td", null, null, el("span", counts.unknown, { class: counts.unknown ? "pill unknown" : null })));
     }));
     if (!visible.length) body.append(el("tr", null, null, el("td", "No learners match these filters.", { colspan: "6" })));

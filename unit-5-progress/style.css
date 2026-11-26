@@ -129,7 +129,7 @@ tbody tr:hover { background: #f6f8fd; }
 .assignment-card.late { border-left-color: #d15c69; }
 .assignment-card .right { display: flex; justify-content: flex-end; align-items: center; flex-wrap: wrap; gap: 5px; max-width: 206px; }
 .pill { display: inline-block; border-radius: 999px; padding: 3px 8px; background: #edf1f7; color: #425470; font-size: .81rem; font-weight: 700; white-space: nowrap; font-variant-numeric: tabular-nums; }
-.pill.submitted { background: #dff1e8; color: #155d44; }
+.pill.submitted,.pill.no-overdue { background: #dff1e8; color: #155d44; }
 .pill.viewed { background: #ece8fa; color: #443499; }
 .pill.missing { background: #eee5fa; color: #513577; }
 .pill.unknown { background: #e7edf5; color: #3c5069; }
