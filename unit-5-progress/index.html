@@ -7,15 +7,18 @@
   <meta name="robots" content="noindex, nofollow">
   <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; connect-src 'self'; form-action 'none'; base-uri 'none'; object-src 'none'">
   <title>Unit 5 · Staff progress</title>
-  <link rel="stylesheet" href="./style.css">
-  <script src="./viewer.js" type="module"></script>
+  <link rel="stylesheet" href="./style.css?v=visuals">
+  <script src="./viewer.js?v=visuals" type="module"></script>
 </head>
 <body>
   <header class="header">
     <div class="wrap header-inner">
       <a class="brand" href="./"><span class="mark" aria-hidden="true"><i></i><i></i><i></i></span>Unit 5 Progress</a>
       <span class="course">Y13 Computer Science</span>
-      <button type="button" id="lock" class="button on-dark" hidden>Lock dashboard</button>
+      <div class="header-actions">
+        <button type="button" id="refresh" class="button on-dark" hidden>Refresh progress</button>
+        <button type="button" id="lock" class="button on-dark" hidden>Lock dashboard</button>
+      </div>
     </div>
   </header>
   <main class="wrap main" id="main"></main>
